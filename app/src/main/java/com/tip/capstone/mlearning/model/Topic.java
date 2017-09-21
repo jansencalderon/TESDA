@@ -16,9 +16,7 @@ public class Topic extends RealmObject {
     @PrimaryKey
     private int id;
     private int sequence;
-    private String title;
-    private String description;
-    private String objective;
+    private String name;
     private String image;
     private String video;
     private RealmList<Lesson> lessons;
@@ -40,28 +38,12 @@ public class Topic extends RealmObject {
         this.sequence = sequence;
     }
 
-    public String getTitle() {
-        return title;
+    public String getName() {
+        return name;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    public String getObjective() {
-        return objective;
-    }
-
-    public void setObjective(String objective) {
-        this.objective = objective;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getImage() {

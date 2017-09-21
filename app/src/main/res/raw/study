@@ -1,382 +1,382 @@
 [
-  {
-    "id": 1,
-    "sequence": 1,
-    "code": "LO1",
-    "title": "Learning Objective 1",
-    "objective": "Lesson Details Lorem Ipsum Lorem Ipsum",
-    "topics": [
-      {
-        "id": 6,
-        "sequence": 2,
-        "title": "Introduction",
-        "description": "--",
-        "objective": "Objective of this lesson",
-        "image": "topic1_img",
-        "video": "gravimetric_analysis_of_an_unknown_chloride_salt.avi",
-        "term": 1,
-        "lessons": [
-          {
-            "id": 1,
-            "sequence": 1,
-            "topic": 6,
-            "title": "Lesson Title",
-            "description": "",
-            "lessondetails": [
-              {
-                "id": 164,
-                "sequence": 1,
-                "lesson": 1,
-                "body_type": 1,
-                "body": "Lorem ipsum dipsum Lorem ipsum dipsum Lorem ipsum dipsum Lorem ipsum dipsum Lorem ipsum dipsum",
-                "caption": ""
-              }
-            ]
-          }
-        ],
-        "questions": [
-          {
-            "id": 102,
-            "choices": [
-              {
-                "id": 362,
-                "body": "True",
-                "question": 102,
-                "choice_type": 1
-              },
-              {
-                "id": 363,
-                "body": "False",
-                "question": 102,
-                "choice_type": 1
-              },
-              {
-                "id": 364,
-                "body": "Maybe",
-                "question": 102,
-                "choice_type": 1
-              },
-              {
-                "id": 365,
-                "body": "None of The Above",
-                "question": 102,
-                "choice_type": 1
-              }
-            ],
-            "question": "The federal level drug-quality requirements are set through an organization known as the United States Pharmacopeia Convention, inc.",
-            "answer": "True",
-            "topic": 6,
-            "question_type": 1,
-            "lesson_detail": 167
-          },
-          {
-            "id": 103,
-            "choices": [
-              {
-                "id": 366,
-                "body": "Borid Acid",
-                "question": 103,
-                "choice_type": 1
-              },
-              {
-                "id": 367,
-                "body": "Assaying",
-                "question": 103,
-                "choice_type": 1
-              },
-              {
-                "id": 368,
-                "body": "alkaloidal assaying",
-                "question": 103,
-                "choice_type": 1
-              },
-              {
-                "id": 369,
-                "body": "Analysis Methods",
-                "question": 103,
-                "choice_type": 1
-              }
-            ],
-            "question": "Special methods are those which require a distinct type of technique, such as_?",
-            "answer": "alkaloidal assaying",
-            "topic": 6,
-            "question_type": 1,
-            "lesson_detail": 174
-          },
-          {
-            "id": 104,
-            "choices": [
-              {
-                "id": 370,
-                "body": "True",
-                "question": 104,
-                "choice_type": 1
-              },
-              {
-                "id": 371,
-                "body": "False",
-                "question": 104,
-                "choice_type": 1
-              },
-              {
-                "id": 372,
-                "body": "Maybe",
-                "question": 104,
-                "choice_type": 1
-              },
-              {
-                "id": 373,
-                "body": "None of The Above",
-                "question": 104,
-                "choice_type": 1
-              }
-            ],
-            "question": "The term “Control” as applied to a drug product has been defined as the sum of all factors which contribute directly or indirectly to the safety, effectiveness, and reliability of the product.",
-            "answer": "False",
-            "topic": 6,
-            "question_type": 1,
-            "lesson_detail": 165
-          },
-          {
-            "id": 105,
-            "choices": [
-              {
-                "id": 374,
-                "body": "Pharmacology",
-                "question": 105,
-                "choice_type": 1
-              },
-              {
-                "id": 375,
-                "body": "Gravimetric",
-                "question": 105,
-                "choice_type": 1
-              },
-              {
-                "id": 376,
-                "body": "Analysis Quantitative",
-                "question": 105,
-                "choice_type": 1
-              },
-              {
-                "id": 377,
-                "body": "Volumetric analysis",
-                "question": 105,
-                "choice_type": 1
-              }
-            ],
-            "question": "The determination of the volume of a solution of known concentration required to react with a given amount of the substance to be analyzed.",
-            "answer": "Volumetric analysis",
-            "topic": 6,
-            "question_type": 1,
-            "lesson_detail": 168
-          },
-          {
-            "id": 106,
-            "choices": [
-              {
-                "id": 378,
-                "body": "Quality",
-                "question": 106,
-                "choice_type": 1
-              },
-              {
-                "id": 379,
-                "body": "Quantitative Analysis",
-                "question": 106,
-                "choice_type": 1
-              },
-              {
-                "id": 380,
-                "body": "Quantity",
-                "question": 106,
-                "choice_type": 1
-              },
-              {
-                "id": 381,
-                "body": "Pharmaceutical",
-                "question": 106,
-                "choice_type": 1
-              }
-            ],
-            "question": "Defined as the sum of all factors which contribute directly or indirectly to the safety, effectiveness, and reliability of the product.",
-            "answer": "Quality",
-            "topic": 6,
-            "question_type": 1,
-            "lesson_detail": 165
-          },
-          {
-            "id": 107,
-            "choices": [
-              {
-                "id": 382,
-                "body": "True",
-                "question": 107,
-                "choice_type": 1
-              },
-              {
-                "id": 383,
-                "body": "False",
-                "question": 107,
-                "choice_type": 1
-              },
-              {
-                "id": 384,
-                "body": "Maybe",
-                "question": 107,
-                "choice_type": 1
-              },
-              {
-                "id": 385,
-                "body": "None of The Above",
-                "question": 107,
-                "choice_type": 1
-              }
-            ],
-            "question": "Methods of analysis in quantitative pharmaceutical chemistry may be appropriately subdivided according to the following procedures, each of which requires a special technique.",
-            "answer": "True",
-            "topic": 6,
-            "question_type": 1,
-            "lesson_detail": 167
-          },
-          {
-            "id": 108,
-            "choices": [
-              {
-                "id": 386,
-                "body": "Quality Assistant",
-                "question": 108,
-                "choice_type": 1
-              },
-              {
-                "id": 387,
-                "body": "Assistant",
-                "question": 108,
-                "choice_type": 1
-              },
-              {
-                "id": 388,
-                "body": "Neurology",
-                "question": 108,
-                "choice_type": 1
-              },
-              {
-                "id": 389,
-                "body": "Pharmacist",
-                "question": 108,
-                "choice_type": 1
-              }
-            ],
-            "question": "Many of the analytical techniques covered in this text may be used to analyze and monitor drug levels in clinical pharmacokinetic laboratories and should prove useful to students who will later engage in this activity as __?",
-            "answer": "Pharmacist",
-            "topic": 6,
-            "question_type": 1,
-            "lesson_detail": 167
-          },
-          {
-            "id": 109,
-            "choices": [
-              {
-                "id": 390,
-                "body": "United States Pharmacopeia Convention, inc.,",
-                "question": 109,
-                "choice_type": 1
-              },
-              {
-                "id": 391,
-                "body": "Pharmaceutical Federal Agencies",
-                "question": 109,
-                "choice_type": 1
-              },
-              {
-                "id": 392,
-                "body": "Standard Agencies Paccar",
-                "question": 109,
-                "choice_type": 1
-              },
-              {
-                "id": 393,
-                "body": "United States Pharmacopeia Methodology",
-                "question": 109,
-                "choice_type": 1
-              }
-            ],
-            "question": "Standards for drug quality are set by both state and federal agencies. At the federal level drug-quality requirements are set through an organization known as the_?",
-            "answer": "United States Pharmacopeia Convention, inc.,",
-            "topic": 6,
-            "question_type": 1,
-            "lesson_detail": 167
-          },
-          {
-            "id": 110,
-            "choices": [
-              {
-                "id": 394,
-                "body": "Pharmacist",
-                "question": 110,
-                "choice_type": 1
-              },
-              {
-                "id": 395,
-                "body": "Quality Control",
-                "question": 110,
-                "choice_type": 1
-              },
-              {
-                "id": 396,
-                "body": "Quantitative Pharmacopeia",
-                "question": 110,
-                "choice_type": 1
-              },
-              {
-                "id": 397,
-                "body": "Quantitative Pharmaceutical Chemistry",
-                "question": 110,
-                "choice_type": 1
-              }
-            ],
-            "question": "The application of the procedures analytical chemistry  to the analysis and determination of the purity and quality of drugs and chemicals used in pharmacy, and to the analysis of medicinal agents and their metabolites found in biological systems.",
-            "answer": "Quantitative Pharmaceutical Chemistry",
-            "topic": 6,
-            "question_type": 1,
-            "lesson_detail": 164
-          },
-          {
-            "id": 111,
-            "choices": [
-              {
-                "id": 398,
-                "body": "True",
-                "question": 111,
-                "choice_type": 1
-              },
-              {
-                "id": 399,
-                "body": "False",
-                "question": 111,
-                "choice_type": 1
-              },
-              {
-                "id": 400,
-                "body": "Maybe",
-                "question": 111,
-                "choice_type": 1
-              },
-              {
-                "id": 401,
-                "body": "None of The Above",
-                "question": 111,
-                "choice_type": 1
-              }
-            ],
-            "question": "The Quality as applied to a drug product has been defined as the sum of all factors which contribute directly or indirectly to the safety, effectiveness, and reliability of the product.",
-            "answer": "True",
-            "topic": 6,
-            "question_type": 1,
-            "lesson_detail": 165
-          }
-        ]
-      }
-    ]
-  }
-]
+   {
+     "id": 1,
+     "sequence": 1,
+     "code": "LO1",
+     "title": "Learning Objective 1",
+     "objective": "Lesson Details Lorem Ipsum Lorem Ipsum",
+     "topics": [
+       {
+         "id": 6,
+         "sequence": 2,
+         "title": "Introduction",
+         "description": "--",
+         "objective": "Objective of this lesson",
+         "image": "topic1_img",
+         "video": "gravimetric_analysis_of_an_unknown_chloride_salt.avi",
+         "difficulty": 1,
+         "lessons": [
+           {
+             "id": 1,
+             "sequence": 1,
+             "topic": 6,
+             "title": "Lesson Title",
+             "description": "",
+             "lessondetails": [
+               {
+                 "id": 164,
+                 "sequence": 1,
+                 "lesson": 1,
+                 "body_type": 1,
+                 "body": "Lorem ipsum dipsum Lorem ipsum dipsum Lorem ipsum dipsum Lorem ipsum dipsum Lorem ipsum dipsum",
+                 "caption": ""
+               }
+             ]
+           }
+         ],
+         "questions": [
+           {
+             "id": 102,
+             "choices": [
+               {
+                 "id": 362,
+                 "body": "True",
+                 "question": 102,
+                 "choice_type": 1
+               },
+               {
+                 "id": 363,
+                 "body": "False",
+                 "question": 102,
+                 "choice_type": 1
+               },
+               {
+                 "id": 364,
+                 "body": "Maybe",
+                 "question": 102,
+                 "choice_type": 1
+               },
+               {
+                 "id": 365,
+                 "body": "None of The Above",
+                 "question": 102,
+                 "choice_type": 1
+               }
+             ],
+             "question": "The federal level drug-quality requirements are set through an organization known as the United States Pharmacopeia Convention, inc.",
+             "answer": "True",
+             "topic": 6,
+             "question_type": 1,
+             "lesson_detail": 167
+           },
+           {
+             "id": 103,
+             "choices": [
+               {
+                 "id": 366,
+                 "body": "Borid Acid",
+                 "question": 103,
+                 "choice_type": 1
+               },
+               {
+                 "id": 367,
+                 "body": "Assaying",
+                 "question": 103,
+                 "choice_type": 1
+               },
+               {
+                 "id": 368,
+                 "body": "alkaloidal assaying",
+                 "question": 103,
+                 "choice_type": 1
+               },
+               {
+                 "id": 369,
+                 "body": "Analysis Methods",
+                 "question": 103,
+                 "choice_type": 1
+               }
+             ],
+             "question": "Special methods are those which require a distinct type of technique, such as_?",
+             "answer": "alkaloidal assaying",
+             "topic": 6,
+             "question_type": 1,
+             "lesson_detail": 174
+           },
+           {
+             "id": 104,
+             "choices": [
+               {
+                 "id": 370,
+                 "body": "True",
+                 "question": 104,
+                 "choice_type": 1
+               },
+               {
+                 "id": 371,
+                 "body": "False",
+                 "question": 104,
+                 "choice_type": 1
+               },
+               {
+                 "id": 372,
+                 "body": "Maybe",
+                 "question": 104,
+                 "choice_type": 1
+               },
+               {
+                 "id": 373,
+                 "body": "None of The Above",
+                 "question": 104,
+                 "choice_type": 1
+               }
+             ],
+             "question": "The difficulty “Control” as applied to a drug product has been defined as the sum of all factors which contribute directly or indirectly to the safety, effectiveness, and reliability of the product.",
+             "answer": "False",
+             "topic": 6,
+             "question_type": 1,
+             "lesson_detail": 165
+           },
+           {
+             "id": 105,
+             "choices": [
+               {
+                 "id": 374,
+                 "body": "Pharmacology",
+                 "question": 105,
+                 "choice_type": 1
+               },
+               {
+                 "id": 375,
+                 "body": "Gravimetric",
+                 "question": 105,
+                 "choice_type": 1
+               },
+               {
+                 "id": 376,
+                 "body": "Analysis Quantitative",
+                 "question": 105,
+                 "choice_type": 1
+               },
+               {
+                 "id": 377,
+                 "body": "Volumetric analysis",
+                 "question": 105,
+                 "choice_type": 1
+               }
+             ],
+             "question": "The determination of the volume of a solution of known concentration required to react with a given amount of the substance to be analyzed.",
+             "answer": "Volumetric analysis",
+             "topic": 6,
+             "question_type": 1,
+             "lesson_detail": 168
+           },
+           {
+             "id": 106,
+             "choices": [
+               {
+                 "id": 378,
+                 "body": "Quality",
+                 "question": 106,
+                 "choice_type": 1
+               },
+               {
+                 "id": 379,
+                 "body": "Quantitative Analysis",
+                 "question": 106,
+                 "choice_type": 1
+               },
+               {
+                 "id": 380,
+                 "body": "Quantity",
+                 "question": 106,
+                 "choice_type": 1
+               },
+               {
+                 "id": 381,
+                 "body": "Pharmaceutical",
+                 "question": 106,
+                 "choice_type": 1
+               }
+             ],
+             "question": "Defined as the sum of all factors which contribute directly or indirectly to the safety, effectiveness, and reliability of the product.",
+             "answer": "Quality",
+             "topic": 6,
+             "question_type": 1,
+             "lesson_detail": 165
+           },
+           {
+             "id": 107,
+             "choices": [
+               {
+                 "id": 382,
+                 "body": "True",
+                 "question": 107,
+                 "choice_type": 1
+               },
+               {
+                 "id": 383,
+                 "body": "False",
+                 "question": 107,
+                 "choice_type": 1
+               },
+               {
+                 "id": 384,
+                 "body": "Maybe",
+                 "question": 107,
+                 "choice_type": 1
+               },
+               {
+                 "id": 385,
+                 "body": "None of The Above",
+                 "question": 107,
+                 "choice_type": 1
+               }
+             ],
+             "question": "Methods of analysis in quantitative pharmaceutical chemistry may be appropriately subdivided according to the following procedures, each of which requires a special technique.",
+             "answer": "True",
+             "topic": 6,
+             "question_type": 1,
+             "lesson_detail": 167
+           },
+           {
+             "id": 108,
+             "choices": [
+               {
+                 "id": 386,
+                 "body": "Quality Assistant",
+                 "question": 108,
+                 "choice_type": 1
+               },
+               {
+                 "id": 387,
+                 "body": "Assistant",
+                 "question": 108,
+                 "choice_type": 1
+               },
+               {
+                 "id": 388,
+                 "body": "Neurology",
+                 "question": 108,
+                 "choice_type": 1
+               },
+               {
+                 "id": 389,
+                 "body": "Pharmacist",
+                 "question": 108,
+                 "choice_type": 1
+               }
+             ],
+             "question": "Many of the analytical techniques covered in this text may be used to analyze and monitor drug levels in clinical pharmacokinetic laboratories and should prove useful to students who will later engage in this activity as __?",
+             "answer": "Pharmacist",
+             "topic": 6,
+             "question_type": 1,
+             "lesson_detail": 167
+           },
+           {
+             "id": 109,
+             "choices": [
+               {
+                 "id": 390,
+                 "body": "United States Pharmacopeia Convention, inc.,",
+                 "question": 109,
+                 "choice_type": 1
+               },
+               {
+                 "id": 391,
+                 "body": "Pharmaceutical Federal Agencies",
+                 "question": 109,
+                 "choice_type": 1
+               },
+               {
+                 "id": 392,
+                 "body": "Standard Agencies Paccar",
+                 "question": 109,
+                 "choice_type": 1
+               },
+               {
+                 "id": 393,
+                 "body": "United States Pharmacopeia Methodology",
+                 "question": 109,
+                 "choice_type": 1
+               }
+             ],
+             "question": "Standards for drug quality are set by both state and federal agencies. At the federal level drug-quality requirements are set through an organization known as the_?",
+             "answer": "United States Pharmacopeia Convention, inc.,",
+             "topic": 6,
+             "question_type": 1,
+             "lesson_detail": 167
+           },
+           {
+             "id": 110,
+             "choices": [
+               {
+                 "id": 394,
+                 "body": "Pharmacist",
+                 "question": 110,
+                 "choice_type": 1
+               },
+               {
+                 "id": 395,
+                 "body": "Quality Control",
+                 "question": 110,
+                 "choice_type": 1
+               },
+               {
+                 "id": 396,
+                 "body": "Quantitative Pharmacopeia",
+                 "question": 110,
+                 "choice_type": 1
+               },
+               {
+                 "id": 397,
+                 "body": "Quantitative Pharmaceutical Chemistry",
+                 "question": 110,
+                 "choice_type": 1
+               }
+             ],
+             "question": "The application of the procedures analytical chemistry  to the analysis and determination of the purity and quality of drugs and chemicals used in pharmacy, and to the analysis of medicinal agents and their metabolites found in biological systems.",
+             "answer": "Quantitative Pharmaceutical Chemistry",
+             "topic": 6,
+             "question_type": 1,
+             "lesson_detail": 164
+           },
+           {
+             "id": 111,
+             "choices": [
+               {
+                 "id": 398,
+                 "body": "True",
+                 "question": 111,
+                 "choice_type": 1
+               },
+               {
+                 "id": 399,
+                 "body": "False",
+                 "question": 111,
+                 "choice_type": 1
+               },
+               {
+                 "id": 400,
+                 "body": "Maybe",
+                 "question": 111,
+                 "choice_type": 1
+               },
+               {
+                 "id": 401,
+                 "body": "None of The Above",
+                 "question": 111,
+                 "choice_type": 1
+               }
+             ],
+             "question": "The Quality as applied to a drug product has been defined as the sum of all factors which contribute directly or indirectly to the safety, effectiveness, and reliability of the product.",
+             "answer": "True",
+             "topic": 6,
+             "question_type": 1,
+             "lesson_detail": 165
+           }
+         ]
+       }
+     ]
+   }
+ ]

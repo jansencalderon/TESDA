@@ -219,7 +219,7 @@ public class QuizActivity extends MvpViewStateActivity<QuizView, QuizPresenter> 
      */
     private void onSetQuestion(Question question) {
         int counter = ((QuizViewState) getViewState()).getCounter();
-        String header = "Short Quiz for " + topic.getTitle();
+        String header = "Short Quiz for " + topic.getName();
         binding.txtHeader.setText(header);
         binding.txtQuestion.setText((counter + 1) + ".) " + question.getQuestion());
 

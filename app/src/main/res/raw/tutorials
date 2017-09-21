@@ -6,12 +6,12 @@
   },
   {
     "sequence": 2,
-    "string": "Tap the term to show the topics",
+    "string": "Tap the difficulty to show the topics",
     "drawable": "tutorial_2.jpg"
   },
   {
     "sequence": 3,
-    "string": "Tap the term to show the topics",
+    "string": "Tap the difficulty to show the topics",
     "drawable": "tutorial_3.jpg"
   },
   {
@@ -166,7 +166,7 @@
   },
   {
     "sequence": 34,
-    "string": "Choose what term you want to see",
+    "string": "Choose what difficulty you want to see",
     "drawable": "tutorial_34.jpg"
   },
   {
@@ -182,7 +182,7 @@
   ,
   {
     "sequence": 37,
-    "string": "Tap Reset to Reset the post assessment and Assessment per term",
+    "string": "Tap Reset to Reset the post assessment and Assessment per difficulty",
     "drawable": "tutorial_37.jpg"
   },
   {

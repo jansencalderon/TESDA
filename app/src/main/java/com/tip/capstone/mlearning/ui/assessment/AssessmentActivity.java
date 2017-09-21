@@ -70,7 +70,7 @@ public class AssessmentActivity extends MvpViewStateActivity<AssessmentView, Ass
         // retrieving data from Realm DB
         termId = getIntent().getIntExtra("term", -1);
         if (termId == -1) {
-            Toast.makeText(getApplicationContext(), "No Term ID Found", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), "No Difficulty ID Found", Toast.LENGTH_SHORT).show();
             finish();
         }
         assessmentRealmResults = realm.where(Assessment.class).equalTo("term", termId).findAll();

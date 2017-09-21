@@ -8,11 +8,11 @@ import com.tip.capstone.mlearning.helper.StringHelper;
 import com.tip.capstone.mlearning.model.Assessment;
 import com.tip.capstone.mlearning.model.AssessmentChoice;
 import com.tip.capstone.mlearning.model.Choice;
+import com.tip.capstone.mlearning.model.Difficulty;
 import com.tip.capstone.mlearning.model.Glossary;
 import com.tip.capstone.mlearning.model.Lesson;
 import com.tip.capstone.mlearning.model.LessonDetail;
 import com.tip.capstone.mlearning.model.Question;
-import com.tip.capstone.mlearning.model.Term;
 import com.tip.capstone.mlearning.model.Topic;
 import com.tip.capstone.mlearning.model.Tutorial;
 
@@ -45,7 +45,7 @@ public class App extends Application {
             public void execute(Realm realm) {
 
                 // delete all data excluding grades
-                realm.delete(Term.class);
+                realm.delete(Difficulty.class);
                 realm.delete(Topic.class);
                 realm.delete(Lesson.class);
                 realm.delete(LessonDetail.class);
@@ -57,7 +57,7 @@ public class App extends Application {
                 realm.delete(Tutorial.class);
 
                 // add data from raw files
-                realm.createAllFromJson(Term.class, StringHelper.readRawTextFile(getApplicationContext(), R.raw.study));
+                realm.createAllFromJson(Difficulty.class, StringHelper.readRawTextFile(getApplicationContext(), R.raw.difficulty));
                 realm.createAllFromJson(Assessment.class, StringHelper.readRawTextFile(getApplicationContext(), R.raw.assessment));
                 realm.createAllFromJson(Glossary.class, StringHelper.readRawTextFile(getApplicationContext(), R.raw.glossary));
                 realm.createAllFromJson(Tutorial.class, StringHelper.readRawTextFile(getApplicationContext(), R.raw.tutorials));

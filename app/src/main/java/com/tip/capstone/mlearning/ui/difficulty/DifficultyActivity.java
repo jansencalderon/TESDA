@@ -1,4 +1,4 @@
-package com.tip.capstone.mlearning.ui.term;
+package com.tip.capstone.mlearning.ui.difficulty;
 
 import android.content.Intent;
 import android.databinding.DataBindingUtil;
@@ -12,19 +12,19 @@ import android.view.MenuItem;
 import com.hannesdorfmann.mosby.mvp.MvpActivity;
 import com.tip.capstone.mlearning.R;
 import com.tip.capstone.mlearning.app.Constant;
-import com.tip.capstone.mlearning.databinding.ActivityTermBinding;
-import com.tip.capstone.mlearning.model.Term;
+import com.tip.capstone.mlearning.databinding.ActivityDifficultyBinding;
+import com.tip.capstone.mlearning.model.Difficulty;
 import com.tip.capstone.mlearning.ui.topics.TopicsListActivity;
 
 import io.realm.Realm;
 import io.realm.RealmChangeListener;
 import io.realm.RealmResults;
 
-public class TermActivity extends MvpActivity<TermView, TermPresenter> implements TermView {
+public class DifficultyActivity extends MvpActivity<DifficultyView, DifficultyPresenter> implements DifficultyView {
 
     private Realm realm;
-    private RealmResults<Term> termRealmResults;
-    private TermListAdapter termListAdapter;
+    private RealmResults<Difficulty> difficultyRealmResults;
+    private DifficultyListAdapter termListAdapter;
 
     @SuppressWarnings("ConstantConditions")
     @Override
@@ -32,36 +32,35 @@ public class TermActivity extends MvpActivity<TermView, TermPresenter> implement
         super.onCreate(savedInstanceState);
         realm = Realm.getDefaultInstance();
 
-        ActivityTermBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_term);
+        ActivityDifficultyBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_difficulty);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         binding.recyclerView.setLayoutManager(new LinearLayoutManager(this));
         binding.recyclerView.setItemAnimator(new DefaultItemAnimator());
-        binding.recyclerView.addItemDecoration(new DividerItemDecoration(this, DividerItemDecoration.VERTICAL));
 
-        termListAdapter = new TermListAdapter(getMvpView());
+        termListAdapter = new DifficultyListAdapter(getMvpView());
         binding.recyclerView.setAdapter(termListAdapter);
 
-        termRealmResults = realm.where(Term.class).findAllSortedAsync(Term.COL_SEQ);
-        termRealmResults.addChangeListener(new RealmChangeListener<RealmResults<Term>>() {
+        difficultyRealmResults = realm.where(Difficulty.class).findAllSortedAsync(Difficulty.COL_SEQ);
+        difficultyRealmResults.addChangeListener(new RealmChangeListener<RealmResults<Difficulty>>() {
             @Override
-            public void onChange(RealmResults<Term> element) {
-                termListAdapter.setTermList(realm.copyFromRealm(termRealmResults));
+            public void onChange(RealmResults<Difficulty> element) {
+                termListAdapter.setDifficultyList(realm.copyFromRealm(difficultyRealmResults));
             }
         });
     }
 
     @Override
     protected void onDestroy() {
-        termRealmResults.removeChangeListeners();
+        difficultyRealmResults.removeChangeListeners();
         realm.close();
         super.onDestroy();
     }
 
     @NonNull
     @Override
-    public TermPresenter createPresenter() {
-        return new TermPresenter();
+    public DifficultyPresenter createPresenter() {
+        return new DifficultyPresenter();
     }
 
     @Override
@@ -76,9 +75,9 @@ public class TermActivity extends MvpActivity<TermView, TermPresenter> implement
     }
 
     @Override
-    public void onTermClicked(Term term) {
+    public void onTermClicked(Difficulty difficulty) {
         Intent intent = new Intent(this, TopicsListActivity.class);
-        intent.putExtra(Constant.ID, term.getId());
+        intent.putExtra(Constant.ID, difficulty.getId());
         startActivity(intent);
     }
 

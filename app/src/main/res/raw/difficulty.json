@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "sequence": 1,
+    "code": "B",
+    "title": "BEGINNER",
+    "objective": "",
+    "topics": [
+      {
+        "id": 1,
+        "difficultyId": 1,
+        "sequence": 1,
+        "name": "Practice occupational health and safety procedures",
+        "image": "topic10"
+      },
+      {
+        "id": 2,
+        "difficultyId": 1,
+        "sequence": 2,
+        "name": "Use hand tools",
+        "image": "topic10"
+      },
+      {
+        "id": 3,
+        "difficultyId": 1,
+        "sequence": 3,
+        "name": "Perform mensuration and calculation",
+        "image": "topic10"
+      },
+      {
+        "id": 4,
+        "difficultyId": 1,
+        "sequence": 4,
+        "name": "Prepare and interpret technical drawings",
+        "image": "topic10"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "sequence": 2,
+    "code": "I",
+    "title": "INTERMIDIATE",
+    "objective": ""
+  },
+  {
+    "id": 3,
+    "sequence": 3,
+    "code": "A",
+    "title": "ADVANCED",
+    "objective": ""
+  }
+]

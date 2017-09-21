@@ -38,7 +38,7 @@ import com.tip.capstone.mlearning.model.AssessmentGrade;
 import com.tip.capstone.mlearning.model.Grades;
 import com.tip.capstone.mlearning.model.PreQuizGrade;
 import com.tip.capstone.mlearning.model.QuizGrade;
-import com.tip.capstone.mlearning.model.Term;
+import com.tip.capstone.mlearning.model.Difficulty;
 import com.tip.capstone.mlearning.model.Topic;
 import com.tip.capstone.mlearning.ui.adapter.AssessmentHistoryListAdapter;
 import com.tip.capstone.mlearning.ui.adapter.GradesHistoryListAdapter;
@@ -77,7 +77,7 @@ public class GradesDetailActivity extends MvpActivity<GradesDetailView, GradesDe
         adapter = new GradesDetailListAdapter(getMvpView());
 
         int is = getIntent().getIntExtra(Constant.ID, -1);
-        Term terms = realm.where(Term.class).equalTo("id", is).findFirst();
+        Difficulty terms = realm.where(Difficulty.class).equalTo("id", is).findFirst();
         if (terms != null) {
             binding.perTerm.setVisibility(View.VISIBLE);
             binding.activityGrades.setVisibility(View.GONE);
@@ -85,19 +85,19 @@ public class GradesDetailActivity extends MvpActivity<GradesDetailView, GradesDe
 
 
             List<Grades> gradesList = new ArrayList<>();
-            RealmResults<Term> termRealmResults = realm.where(Term.class).equalTo("id", is).findAllSorted(Term.COL_SEQ);
-            for (Term term : termRealmResults) {
+            RealmResults<Difficulty> difficultyRealmResults = realm.where(Difficulty.class).equalTo("id", is).findAllSorted(Difficulty.COL_SEQ);
+            for (Difficulty difficulty : difficultyRealmResults) {
                 //Grades headerTerm = new Grades();
                 //headerTerm.setHeader(true);
-                //headerTerm.setTitle(term.getTitle());
+                //headerTerm.setTitle(difficulty.getTitle());
                 //headerTerm.setSequence(gradesList.size() + 1);
                 // gradesList.add(headerTerm);
 
-                for (Topic topic : term.getTopics().sort(Topic.COL_SEQ)) {
+                for (Topic topic : difficulty.getTopics().sort(Topic.COL_SEQ)) {
                     // topic header
                     Grades topicHeader = new Grades();
                     topicHeader.setHeader(true);
-                    topicHeader.setTitle(topic.getTitle());
+                    topicHeader.setTitle(topic.getName());
                     topicHeader.setSequence(gradesList.size() + 1);
 
                     RealmResults<QuizGrade> quizGradeRealmResults = realm.where(QuizGrade.class)
@@ -113,7 +113,7 @@ public class GradesDetailActivity extends MvpActivity<GradesDetailView, GradesDe
                         topicHeader.setQuizGrade(quizGrade);
                         quizGrades.add(quizGrade);
                         topics.add(topic);
-                        Log.d("Quiz Grade", topic.getTitle() + " : " + quizGrade);
+                        Log.d("Quiz Grade", topic.getName() + " : " + quizGrade);
                     }
 
 
@@ -122,7 +122,7 @@ public class GradesDetailActivity extends MvpActivity<GradesDetailView, GradesDe
 
                 RealmResults<AssessmentGrade> assessmentGradeRealmResults = realm
                         .where(AssessmentGrade.class)
-                        .equalTo("term", term.getId())
+                        .equalTo("difficulty", difficulty.getId())
                         .findAllSorted("count", Sort.DESCENDING);
 
                 AssessmentGrade assessmentGrade = null;
@@ -131,7 +131,7 @@ public class GradesDetailActivity extends MvpActivity<GradesDetailView, GradesDe
                 }
 
                 Grades gradeAssessmentHeader = new Grades();
-                gradeAssessmentHeader.setTitle(term.getTitle() + " Assessment");
+                gradeAssessmentHeader.setTitle(difficulty.getTitle() + " Assessment");
                 gradeAssessmentHeader.setSequence(gradesList.size() + 1);
                 gradeAssessmentHeader.setAssessmentGrade(assessmentGrade != null ? realm.copyFromRealm(assessmentGrade) : new AssessmentGrade());
                 gradesList.add(gradeAssessmentHeader);
@@ -172,7 +172,7 @@ public class GradesDetailActivity extends MvpActivity<GradesDetailView, GradesDe
                 ArrayList<String> labels = new ArrayList<>();
                 for (int k = 0; k < topics.size(); k++) {
                     StringBuilder initials = new StringBuilder();
-                    for (String s : topics.get(k).getTitle().split(" ")) {
+                    for (String s : topics.get(k).getName().split(" ")) {
                         initials.append(s.charAt(0));
                     }
                   labels.add(initials.toString());
@@ -444,19 +444,19 @@ public class GradesDetailActivity extends MvpActivity<GradesDetailView, GradesDe
      */
     private void getData() {
         List<Grades> gradesList = new ArrayList<>();
-        RealmResults<Term> termRealmResults = realm.where(Term.class).findAllSorted(Term.COL_SEQ);
-        for (Term term : termRealmResults) {
+        RealmResults<Difficulty> difficultyRealmResults = realm.where(Difficulty.class).findAllSorted(Difficulty.COL_SEQ);
+        for (Difficulty difficulty : difficultyRealmResults) {
             Grades headerTerm = new Grades();
             headerTerm.setHeader(true);
-            headerTerm.setTitle(term.getTitle());
+            headerTerm.setTitle(difficulty.getTitle());
             headerTerm.setSequence(gradesList.size() + 1);
             gradesList.add(headerTerm);
 
-            for (Topic topic : term.getTopics().sort(Topic.COL_SEQ)) {
+            for (Topic topic : difficulty.getTopics().sort(Topic.COL_SEQ)) {
                 // topic header
                 Grades topicHeader = new Grades();
                 topicHeader.setHeader(true);
-                topicHeader.setTitle(topic.getTitle());
+                topicHeader.setTitle(topic.getName());
                 topicHeader.setSequence(gradesList.size() + 1);
                 gradesList.add(topicHeader);
 
@@ -500,7 +500,7 @@ public class GradesDetailActivity extends MvpActivity<GradesDetailView, GradesDe
 
             RealmResults<AssessmentGrade> assessmentGradeRealmResults = realm
                     .where(AssessmentGrade.class)
-                    .equalTo("term", term.getId())
+                    .equalTo("difficulty", difficulty.getId())
                     .findAllSorted("count", Sort.DESCENDING);
 
             AssessmentGrade assessmentGrade = null;
@@ -509,7 +509,7 @@ public class GradesDetailActivity extends MvpActivity<GradesDetailView, GradesDe
             }
 
             Grades gradeAssessmentHeader = new Grades();
-            gradeAssessmentHeader.setTitle(term.getTitle() + " Assessment");
+            gradeAssessmentHeader.setTitle(difficulty.getTitle() + " Assessment");
             gradeAssessmentHeader.setSequence(gradesList.size() + 1);
             gradeAssessmentHeader.setAssessmentGrade(assessmentGrade != null ? realm.copyFromRealm(assessmentGrade) : new AssessmentGrade());
             gradesList.add(gradeAssessmentHeader);

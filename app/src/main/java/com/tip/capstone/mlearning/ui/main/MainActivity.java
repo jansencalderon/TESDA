@@ -1,17 +1,14 @@
 package com.tip.capstone.mlearning.ui.main;
 
-import android.app.Dialog;
 import android.content.Intent;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
-import android.view.Menu;
-import android.view.MenuItem;
 
 import com.hannesdorfmann.mosby.mvp.MvpActivity;
 import com.tip.capstone.mlearning.R;
 import com.tip.capstone.mlearning.databinding.ActivityMainBinding;
-import com.tip.capstone.mlearning.ui.term.TermActivity;
+import com.tip.capstone.mlearning.ui.difficulty.DifficultyActivity;
 
 public class MainActivity extends MvpActivity<MainView, MainPresenter> implements MainView {
 
@@ -30,7 +27,7 @@ public class MainActivity extends MvpActivity<MainView, MainPresenter> implement
 
     @Override
     public void onStudyClicked() {
-        startActivity(new Intent(this, TermActivity.class));
+        startActivity(new Intent(this, DifficultyActivity.class));
     }
 /*
     @Override

@@ -84,7 +84,7 @@ public class LessonActivity extends MvpViewStateActivity<LessonView, LessonPrese
         }
 
 
-        getSupportActionBar().setTitle(topic.getTitle());
+        getSupportActionBar().setTitle(topic.getName());
 
         lessonPageAdapter = new LessonPageAdapter(getSupportFragmentManager(), topicId, topic.getVideo(), lessonDetailRefId);
         binding.container.addOnPageChangeListener(this);
@@ -95,7 +95,7 @@ public class LessonActivity extends MvpViewStateActivity<LessonView, LessonPrese
 
     private void showPreQuizPrompt() {
         new AlertDialog.Builder(this)
-                .setTitle(topic.getTitle())
+                .setTitle(topic.getName())
                 .setMessage("You have to take the Pre-Assessment Quiz")
                 .setCancelable(false)
                 .setPositiveButton("OK", new DialogInterface.OnClickListener() {
@@ -124,8 +124,8 @@ public class LessonActivity extends MvpViewStateActivity<LessonView, LessonPrese
      */
     private void showObjectives() {
         new AlertDialog.Builder(this)
-                .setTitle(topic.getTitle())
-                .setMessage("Objective:\n" + topic.getObjective())
+                .setTitle(topic.getName())
+                .setMessage("Objective:\n")
                 .setCancelable(false)
                 .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                     @Override

@@ -10,15 +10,14 @@ import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.util.Log;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.Toast;
 
 import com.hannesdorfmann.mosby.mvp.MvpActivity;
 import com.tip.capstone.mlearning.R;
 import com.tip.capstone.mlearning.app.Constant;
 import com.tip.capstone.mlearning.databinding.ActivityTopicsListBinding;
+import com.tip.capstone.mlearning.model.Difficulty;
 import com.tip.capstone.mlearning.model.QuizGrade;
-import com.tip.capstone.mlearning.model.Term;
 import com.tip.capstone.mlearning.model.Topic;
 import com.tip.capstone.mlearning.ui.assessment.AssessmentActivity;
 import com.tip.capstone.mlearning.ui.lesson.LessonActivity;
@@ -30,7 +29,7 @@ public class TopicsListActivity extends MvpActivity<TopicListView, TopicListPres
 
     private ActivityTopicsListBinding binding;
     private Realm realm;
-    private Term term;
+    private Difficulty difficulty;
 
     @SuppressWarnings("ConstantConditions")
     @Override
@@ -47,13 +46,13 @@ public class TopicsListActivity extends MvpActivity<TopicListView, TopicListPres
             finish();
         }
 
-        term = realm.where(Term.class).equalTo(Constant.ID, termId).findFirst();
-        if (term == null) {
-            Toast.makeText(this, "No Term Object Found", Toast.LENGTH_SHORT).show();
+        difficulty = realm.where(Difficulty.class).equalTo(Constant.ID, termId).findFirst();
+        if (difficulty == null) {
+            Toast.makeText(this, "No Difficulty Object Found", Toast.LENGTH_SHORT).show();
             finish();
         }
 
-        getSupportActionBar().setTitle(term.getTitle());
+        getSupportActionBar().setTitle(difficulty.getTitle());
 
         binding.recyclerView.setLayoutManager(new LinearLayoutManager(this));
         binding.recyclerView.setItemAnimator(new DefaultItemAnimator());
@@ -68,18 +67,18 @@ public class TopicsListActivity extends MvpActivity<TopicListView, TopicListPres
         TopicListAdapter topicListAdapter = new TopicListAdapter(this, getMvpView());
         binding.recyclerView.setAdapter(topicListAdapter);
 
-        topicListAdapter.setTopicList(term.getTopics().sort(Topic.COL_SEQ));
+        topicListAdapter.setTopicList(difficulty.getTopics().sort(Topic.COL_SEQ));
 
         boolean isAssessmentOkayToTake = true;
-        for (int i = 0; i < term.getTopics().size(); i++) {
+        for (int i = 0; i < difficulty.getTopics().size(); i++) {
             QuizGrade quizGrade = realm.where(QuizGrade.class)
-                    .equalTo("topic", term.getTopics().get(i).getId())
+                    .equalTo("topic", difficulty.getTopics().get(i).getId())
                     .findFirst();
             if (quizGrade == null) {
                 isAssessmentOkayToTake = false;
-                Log.d("Quiz", "Not Taken: " + term.getTopics().get(i).getTitle());
+                Log.d("Quiz", "Not Taken: " + difficulty.getTopics().get(i).getName());
             } else {
-                Log.d("Quiz", "Taken: " + term.getTopics().get(i).getTitle());
+                Log.d("Quiz", "Taken: " + difficulty.getTopics().get(i).getName());
             }
         }
         topicListAdapter.setAssessmentEnable(isAssessmentOkayToTake);
@@ -127,7 +126,7 @@ public class TopicsListActivity extends MvpActivity<TopicListView, TopicListPres
     @Override
     public void onTakeAssessment() {
         Intent intent = new Intent(this, AssessmentActivity.class);
-        intent.putExtra("term", term.getId());
+        intent.putExtra("difficulty", difficulty.getId());
         startActivity(intent);
     }
 }

@@ -9,7 +9,7 @@ import io.realm.annotations.PrimaryKey;
  * @since 18/11/2016
  */
 
-public class Term extends RealmObject {
+public class Difficulty extends RealmObject {
 
     public static final String COL_SEQ = "sequence";
 

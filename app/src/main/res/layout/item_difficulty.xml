@@ -6,11 +6,11 @@
 
         <variable
             name="view"
-            type="com.tip.capstone.mlearning.ui.term.TermView" />
+            type="com.tip.capstone.mlearning.ui.difficulty.DifficultyView" />
 
         <variable
-            name="term"
-            type="com.tip.capstone.mlearning.model.Term" />
+            name="difficulty"
+            type="com.tip.capstone.mlearning.model.Difficulty" />
     </data>
 
 
@@ -21,7 +21,7 @@
         android:foreground="?attr/selectableItemBackground"
         app:cardElevation="2dp"
         app:cardCornerRadius="2dp"
-        android:onClick="@{() -> view.onTermClicked(term)}">
+        android:onClick="@{() -> view.onTermClicked(difficulty)}">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -34,7 +34,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
-                android:text="@{term.title}"
+                android:text="@{difficulty.title}"
                 android:textColor="@color/gray"
                 android:textSize="20sp" />
 
@@ -42,7 +42,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="6dp"
-                android:text="@{term.objective}"
+                android:text="@{difficulty.objective}"
                 android:fontFamily="sans-serif-light"
                 android:textColor="@color/gray"
                 android:textSize="14sp" />
