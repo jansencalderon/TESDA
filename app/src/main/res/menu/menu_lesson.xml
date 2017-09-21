@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.tip.capstone.mlearning.ui.lesson.LessonActivity">
+
+    <item
+        android:id="@+id/action_search"
+        android:title="Search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_notes"
+        android:icon="@drawable/ic_create_white_24dp"
+        android:orderInCategory="200"
+        android:title="Take Notes"
+        app:showAsAction="ifRoom" />
+</menu>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="view"
+            type="com.tip.capstone.mlearning.ui.topics.TopicListView" />
+
+        <variable
+            name="topic"
+            type="com.tip.capstone.mlearning.model.Topic" />
+
+    </data>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:foreground="?attr/selectableItemBackground">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{() -> view.onTopicClicked(topic)}"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/image_topic"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                tools:ignore="ContentDescription"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/desc"
+                android:layout_alignBottom="@+id/image_topic"
+                android:padding="@dimen/activity_vertical_margin"
+                android:text="@{topic.title}"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:textColor="@color/gray" />
+
+            <TextView
+                android:id="@+id/desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/image_topic"
+                android:padding="@dimen/activity_vertical_margin"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</layout>
