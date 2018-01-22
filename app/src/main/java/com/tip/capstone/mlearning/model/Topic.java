@@ -15,8 +15,9 @@ public class Topic extends RealmObject {
 
     @PrimaryKey
     private int id;
+    private int difficultyId;
     private int sequence;
-    private String name;
+    private String title;
     private String image;
     private String video;
     private RealmList<Lesson> lessons;
@@ -39,11 +40,11 @@ public class Topic extends RealmObject {
     }
 
     public String getName() {
-        return name;
+        return title;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setName(String title) {
+        this.title = title;
     }
 
     public String getImage() {
@@ -76,5 +77,21 @@ public class Topic extends RealmObject {
 
     public void setQuestions(RealmList<Question> questions) {
         this.questions = questions;
+    }
+
+    public int getDifficultyId() {
+        return difficultyId;
+    }
+
+    public void setDifficultyId(int difficultyId) {
+        this.difficultyId = difficultyId;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
     }
 }

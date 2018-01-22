@@ -41,10 +41,10 @@ public class Choice extends RealmObject {
     }
 
     public String getBody() {
-        return body;
+        return body.trim();
     }
 
     public void setBody(String body) {
-        this.body = body;
+        this.body = body.trim();
     }
 }

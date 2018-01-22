@@ -25,7 +25,6 @@ import com.tip.capstone.mlearning.databinding.DialogNoteBinding;
 import com.tip.capstone.mlearning.model.Lesson;
 import com.tip.capstone.mlearning.model.LessonDetail;
 import com.tip.capstone.mlearning.model.Note;
-import com.tip.capstone.mlearning.model.PreQuizGrade;
 import com.tip.capstone.mlearning.model.Topic;
 import com.tip.capstone.mlearning.ui.quiz.QuizActivity;
 
@@ -51,6 +50,7 @@ public class LessonActivity extends MvpViewStateActivity<LessonView, LessonPrese
     private LessonPageAdapter lessonPageAdapter;
     private Topic topic;
     private List<Lesson> lessons;
+    private List<LessonDetail> lessonDetailList;
     private int lessonDetailRefId;
 
     @SuppressWarnings("ConstantConditions") // assumes that toolbar is setup
@@ -68,7 +68,9 @@ public class LessonActivity extends MvpViewStateActivity<LessonView, LessonPrese
         int topicId = getIntent().getIntExtra(Constant.ID, -1);
         lessonDetailRefId = getIntent().getIntExtra("lesson_detail_ref_id", -1);
         if (lessonDetailRefId != -1) {
-            topic = realm.where(Topic.class).equalTo("lessons.lessondetails.id", lessonDetailRefId).findFirst();
+            LessonDetail lessonDetail = realm.where(LessonDetail.class).equalTo("id",lessonDetailRefId).findFirst();
+            Lesson lesson = realm.where(Lesson.class).equalTo("id", lessonDetail.getLearningObjectiveId()).findFirst();
+            topic = realm.copyFromRealm(realm.where(Topic.class).equalTo("id", lesson.getId()).findFirst());
             if (topic != null)
                 topicId = topic.getId();
         }
@@ -77,7 +79,8 @@ public class LessonActivity extends MvpViewStateActivity<LessonView, LessonPrese
             finish();
         }
         //check if has data
-        topic = realm.where(Topic.class).equalTo(Constant.ID, topicId).findFirst();
+        topic = realm.copyFromRealm(realm.where(Topic.class).equalTo(Constant.ID, topicId).findFirst());
+
         if (topic == null) {
             Toast.makeText(getApplicationContext(), "No Topic Object Found", Toast.LENGTH_SHORT).show();
             finish();
@@ -157,11 +160,9 @@ public class LessonActivity extends MvpViewStateActivity<LessonView, LessonPrese
             public boolean onQueryTextSubmit(String query) {
                 Log.d(TAG, "onQueryTextSubmit: " + query);
                 try {
-                    RealmResults<Lesson> lessonRealmResults = topic.getLessons().where()
-                            .contains("lessondetails.body", query, Case.INSENSITIVE).findAllSorted(Lesson.COL_SEQ);
-                    RealmResults<LessonDetail> lessonDetail = lessonRealmResults.first()
-                            .getLessondetails().where().contains("body", query, Case.INSENSITIVE)
-                            .findAllSorted(LessonDetail.COL_SEQ);
+                    RealmResults<LessonDetail> lessonDetail = realm.where(LessonDetail.class).findAll()
+                            .where().contains("body", query, Case.INSENSITIVE)
+                            .findAllSorted("id");
                     lessonPageAdapter.setQuery(query, lessonDetail.first().getId());
 
                 } catch (IndexOutOfBoundsException e) {
@@ -189,9 +190,12 @@ public class LessonActivity extends MvpViewStateActivity<LessonView, LessonPrese
             case android.R.id.home:
                 onBackPressed();
                 return true;
-            case R.id.action_notes:
+
+
+           /*  TODO: Notes
+                case R.id.action_notes:
                 takeNote();
-                return true;
+                return true;*/
             default:
                 return super.onOptionsItemSelected(item);
         }
@@ -253,7 +257,7 @@ public class LessonActivity extends MvpViewStateActivity<LessonView, LessonPrese
 
     private void setUiPageViewController() {
         // setup view page controller specially the counter indicator
-        lessons = realm.copyFromRealm(topic.getLessons().sort(Lesson.COL_SEQ));
+        lessons = realm.where(Lesson.class).equalTo("topicId", topic.getId()).findAllSorted("id");
         lessonPageAdapter.setLessonList(lessons);
         dotsCount = lessonPageAdapter.getCount();
         if (dotsCount <= 0) return;
@@ -277,8 +281,9 @@ public class LessonActivity extends MvpViewStateActivity<LessonView, LessonPrese
         dots[0].setImageDrawable(ContextCompat.getDrawable(this, R.drawable.selected_item_dot));
 
         for (int i = 0; i < lessons.size(); i++) {
-            for (int j = 0; j < lessons.get(i).getLessondetails().size(); j++) {
-                if (lessons.get(i).getLessondetails().get(j).getId() == lessonDetailRefId) {
+            List<LessonDetail> lessonDetails = realm.where(LessonDetail.class).equalTo("learningObjectiveId", lessons.get(i).getId()).findAllSorted("id");
+            for (int j = 0; j < lessonDetails.size(); j++) {
+                if (lessonDetails.get(j).getId() == lessonDetailRefId) {
                     binding.container.setCurrentItem(i);
                     return;
                 }
@@ -302,6 +307,6 @@ public class LessonActivity extends MvpViewStateActivity<LessonView, LessonPrese
             showObjectives();
         }*/
 
-        showObjectives();
+        // showObjectives();
     }
 }

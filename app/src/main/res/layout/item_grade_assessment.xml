@@ -15,7 +15,6 @@
     <android.support.percent.PercentRelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#6cff8b02"
         android:foreground="?selectableItemBackground"
         android:onClick="@{()->view.showAssessmentHistory(grade)}"
         android:paddingBottom="6dp"
@@ -58,8 +57,9 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:text="@{grade.title}"
+            android:fontFamily="sans-serif-light"
             android:textAppearance="@style/TextAppearance.AppCompat.Title"
-            android:textSize="14sp"
+            android:textSize="16sp"
             app:layout_widthPercent="100%" />
 
     </android.support.percent.PercentRelativeLayout>

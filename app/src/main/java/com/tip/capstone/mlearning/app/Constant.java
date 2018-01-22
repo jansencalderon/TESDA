@@ -9,11 +9,17 @@ package com.tip.capstone.mlearning.app;
 public class Constant {
     public static final String ID = "id";
 
-    public static final int DETAIL_TYPE_TEXT = 1;
-    public static final int DETAIL_TYPE_IMAGE = 2;
+    public static final String DETAIL_TYPE_TEXT = "text";
+    public static final String DETAIL_TYPE_IMAGE = "image";
+    public static final String DETAIL_TYPE_DETAIL_HEADER = "header";
+
+    public static final int Q_TYPE_TEXT = 1;
+    public static final int Q_TYPE_IMAGE = 0;
 
     public static final int QUESTION_TYPE_MULTIPLE = 1;
     public static final int QUESTION_TYPE_IDENTIFICATION = 2;
+
+
 
     public static final String RES_ID = "res_id";
     public static final String RAW_NAME_WITHOUT_EXT = "raw_name_without_extension";
@@ -25,4 +31,6 @@ public class Constant {
     public static final String R_STRING = "Rosalic acid";
     public static final String L_STRING = "Lackmoid";
 
+    public static String QUESTION_TYPE_TEXT = "text";
+    public static String QUESTION_TYPE_IMAGE = "image";
 }

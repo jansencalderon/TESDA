@@ -14,51 +14,42 @@ import java.util.List;
 
 public class VideoListPresenter extends MvpNullObjectBasePresenter<VideoListView> {
 
- /*   private static final int[] VIDEO_RES_ID = {
-            R.raw.acidimetric,
-            R.raw.alkalimetric_titration,
-            R.raw.aqueous_solution_1_m_nacl,
-            R.raw.gravimetric_analysis_of_an_unknown_chloride_salt,
-            R.raw.non_aqueous,
-            R.raw.titrimetric_volumetric,
-            R.raw.complexometric_titration,
-            R.raw.how_to_prepare_standard_edta_solution,
-            R.raw.iodemetric_titration,
-            R.raw.iodometric_titration_of_copper,
-            R.raw.precipitation_titration_mohr_method,
-            R.raw.redox_titration_lab
-    };*/
+    private static final int[] VIDEO_RES_ID = {
+            R.raw.topic1,
+           /* R.raw.topic2,
+            R.raw.topic3,
+            R.raw.topic4,
+            R.raw.topic5_1,
+            R.raw.topic5_2,
+            R.raw.topic6,
+            R.raw.topic7_1,
+            R.raw.topic7_2*/
+    };
     private static final String[] VIDEO_NAME_WITHOUT_EXTENSION = {
-            "acidimetric",
-            "alkalimetric_titration",
-            "aqueous_solution_1_m_nacl",
-            "gravimetric_analysis_of_an_unknown_chloride_salt",
-            "non_aqueous",
-            "titrimetric_volumetric",
-            "complexometric_titration",
-            "how_to_prepare_standard_edta_solution",
-            "iodemetric_titration",
-            "iodometric_titration_of_copper",
-            "precipitation_titration_mohr_method",
-            "redox_titration_lab"
+            "topic1",
+            /*"topic2",
+            "topic3",
+            "topic4",
+            "topic5_1",
+            "topic5_2",
+            "topic6",
+            "topic7_1",
+            "topic7_2",*/
     };
     private static final String[] VIDEO_TITLE = {
-            "Acidimetric",
-            "Alkalimetric Titration",
-            "Aqueous solution 1 M NaCl",
-            "Gravimetric Analysis of an Unknown Chloride Salt",
-            "Non Aqueous",
-            "Titrimetric Volumetric",
-            "Complexometric Titration",
-            "How to prepare standard EDTA solution",
-            "Iodemetric Titration",
-            "Iodometric Titration of Copper",
-            "Precipitation Titration - Mohr Method",
-            "Redox titration lab - permanganate and iron (II) under acidic conditions"
+            "Basic Health and Safety Procedure",
+           /* "Basic Tools Required for Electronic PCB Repairs",
+            "Calculation and Mensturation",
+            "Prepare and Interpret Technical Drawings",
+            "Computer Operations 1",
+            "Computer Operations 2",
+            "Two Way Switching",
+            "Air Conditioner Assembly",
+            "Air Conditioner Disassembly"*/
     };
 
     public void loadVideoList(String query) {
-        /*List<Video> videoList = new ArrayList<>();
+        List<Video> videoList = new ArrayList<>();
         for (int i = 0; i < VIDEO_RES_ID.length; i++) {
             int resId = VIDEO_RES_ID[i];
             String nameWithoutExtension = i < VIDEO_NAME_WITHOUT_EXTENSION.length ?
@@ -73,6 +64,6 @@ public class VideoListPresenter extends MvpNullObjectBasePresenter<VideoListView
             }
 
         }
-        getView().setVideoList(videoList);*/
+        getView().setVideoList(videoList);
     }
 }

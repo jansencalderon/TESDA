@@ -1,0 +1,1802 @@
+[
+  {
+    "id": 1,
+    "questionId": 1,
+    "body": "Slotted screwdriver",
+    "choice_type": 1
+  },
+  {
+    "id": 2,
+    "questionId": 1,
+    "body": "Phillips screwdriver",
+    "choice_type": 1
+  },
+  {
+    "id": 3,
+    "questionId": 1,
+    "body": "Torx",
+    "choice_type": 1
+  },
+  {
+    "id": 4,
+    "questionId": 1,
+    "body": "Hexagon",
+    "choice_type": 1
+  },
+  {
+    "id": 5,
+    "questionId": 2,
+    "body": "Pliers",
+    "choice_type": 1
+  },
+  {
+    "id": 6,
+    "questionId": 2,
+    "body": "Wrench",
+    "choice_type": 1
+  },
+  {
+    "id": 7,
+    "questionId": 2,
+    "body": "Allen key",
+    "choice_type": 1
+  },
+  {
+    "id": 8,
+    "questionId": 2,
+    "body": "Utility knife",
+    "choice_type": 1
+  },
+  {
+    "id": 9,
+    "questionId": 3,
+    "body": "Pliers",
+    "choice_type": 1
+  },
+  {
+    "id": 10,
+    "questionId": 3,
+    "body": "Long nose pliers",
+    "choice_type": 1
+  },
+  {
+    "id": 11,
+    "questionId": 3,
+    "body": "Allen key",
+    "choice_type": 1
+  },
+  {
+    "id": 12,
+    "questionId": 3,
+    "body": "Utility knife",
+    "choice_type": 1
+  },
+  {
+    "id": 13,
+    "questionId": 4,
+    "body": "Pliers",
+    "choice_type": 1
+  },
+  {
+    "id": 14,
+    "questionId": 4,
+    "body": "Long nose pliers",
+    "choice_type": 1
+  },
+  {
+    "id": 15,
+    "questionId": 4,
+    "body": "Torx",
+    "choice_type": 1
+  },
+  {
+    "id": 16,
+    "questionId": 4,
+    "body": "Utility knife",
+    "choice_type": 1
+  },
+  {
+    "id": 17,
+    "questionId": 5,
+    "body": "Pliers",
+    "choice_type": 1
+  },
+  {
+    "id": 18,
+    "questionId": 5,
+    "body": "Long nose pliers",
+    "choice_type": 1
+  },
+  {
+    "id": 19,
+    "questionId": 5,
+    "body": "Torx",
+    "choice_type": 1
+  },
+  {
+    "id": 20,
+    "questionId": 5,
+    "body": "Utility knife",
+    "choice_type": 1
+  },
+  {
+    "id": 21,
+    "questionId": 6,
+    "body": "Pliers",
+    "choice_type": 1
+  },
+  {
+    "id": 22,
+    "questionId": 6,
+    "body": "Long nose pliers",
+    "choice_type": 1
+  },
+  {
+    "id": 23,
+    "questionId": 6,
+    "body": "Torx",
+    "choice_type": 1
+  },
+  {
+    "id": 24,
+    "questionId": 6,
+    "body": "Utility knife",
+    "choice_type": 1
+  },
+  {
+    "id": 25,
+    "questionId": 7,
+    "body": "Side cutting pliers",
+    "choice_type": 1
+  },
+  {
+    "id": 26,
+    "questionId": 7,
+    "body": "Long nose pliers",
+    "choice_type": 1
+  },
+  {
+    "id": 27,
+    "questionId": 7,
+    "body": "Torx",
+    "choice_type": 1
+  },
+  {
+    "id": 28,
+    "questionId": 7,
+    "body": "Utility knife",
+    "choice_type": 1
+  },
+  {
+    "id": 29,
+    "questionId": 8,
+    "body": "De soldering pump",
+    "choice_type": 1
+  },
+  {
+    "id": 30,
+    "questionId": 8,
+    "body": "Soldering",
+    "choice_type": 1
+  },
+  {
+    "id": 31,
+    "questionId": 8,
+    "body": "Oscilloscope",
+    "choice_type": 1
+  },
+  {
+    "id": 32,
+    "questionId": 8,
+    "body": "Tape measure",
+    "choice_type": 1
+  },
+  {
+    "id": 33,
+    "questionId": 9,
+    "body": "Micrometer",
+    "choice_type": 1
+  },
+  {
+    "id": 34,
+    "questionId": 9,
+    "body": "Multimeter",
+    "choice_type": 1
+  },
+  {
+    "id": 35,
+    "questionId": 9,
+    "body": "Watt meter",
+    "choice_type": 1
+  },
+  {
+    "id": 36,
+    "questionId": 9,
+    "body": "Ohm meter",
+    "choice_type": 1
+  },
+  {
+    "id": 37,
+    "questionId": 10,
+    "body": "Micrometer",
+    "choice_type": 1
+  },
+  {
+    "id": 38,
+    "questionId": 10,
+    "body": "Voltmeter",
+    "choice_type": 1
+  },
+  {
+    "id": 39,
+    "questionId": 10,
+    "body": "Oscilloscope",
+    "choice_type": 1
+  },
+  {
+    "id": 40,
+    "questionId": 10,
+    "body": "Generator",
+    "choice_type": 1
+  },
+  {
+    "id": 41,
+    "questionId": 11,
+    "body": "TV pattern generator",
+    "choice_type": 1
+  },
+  {
+    "id": 42,
+    "questionId": 11,
+    "body": "test jig",
+    "choice_type": 1
+  },
+  {
+    "id": 43,
+    "questionId": 11,
+    "body": "Oscilloscope",
+    "choice_type": 1
+  },
+  {
+    "id": 44,
+    "questionId": 11,
+    "body": "Function generator",
+    "choice_type": 1
+  },
+  {
+    "id": 45,
+    "questionId": 12,
+    "body": "Testlight",
+    "choice_type": 1
+  },
+  {
+    "id": 46,
+    "questionId": 12,
+    "body": "Flashlight",
+    "choice_type": 1
+  },
+  {
+    "id": 47,
+    "questionId": 12,
+    "body": "C..Magnifying Lamp",
+    "choice_type": 1
+  },
+  {
+    "id": 48,
+    "questionId": 12,
+    "body": "Lamp",
+    "choice_type": 1
+  },
+  {
+    "id": 49,
+    "questionId": 13,
+    "body": "Ammeter",
+    "choice_type": 1
+  },
+  {
+    "id": 50,
+    "questionId": 13,
+    "body": "Micrometer",
+    "choice_type": 1
+  },
+  {
+    "id": 51,
+    "questionId": 13,
+    "body": "Watt meter",
+    "choice_type": 1
+  },
+  {
+    "id": 52,
+    "questionId": 13,
+    "body": "Ohm meter",
+    "choice_type": 1
+  },
+  {
+    "id": 53,
+    "questionId": 14,
+    "body": "Wire gauge",
+    "choice_type": 1
+  },
+  {
+    "id": 54,
+    "questionId": 14,
+    "body": "Stranded wire",
+    "choice_type": 1
+  },
+  {
+    "id": 55,
+    "questionId": 14,
+    "body": "lead",
+    "choice_type": 1
+  },
+  {
+    "id": 56,
+    "questionId": 14,
+    "body": "none of the above",
+    "choice_type": 1
+  },
+  {
+    "id": 57,
+    "questionId": 15,
+    "body": "electric tape",
+    "choice_type": 1
+  },
+  {
+    "id": 58,
+    "questionId": 15,
+    "body": "Stranded wire",
+    "choice_type": 1
+  },
+  {
+    "id": 59,
+    "questionId": 15,
+    "body": "lead",
+    "choice_type": 1
+  },
+  {
+    "id": 60,
+    "questionId": 15,
+    "body": "Tape measure",
+    "choice_type": 1
+  },
+  {
+    "id": 61,
+    "questionId": 16,
+    "body": "Ammeter",
+    "choice_type": 1
+  },
+  {
+    "id": 62,
+    "questionId": 16,
+    "body": "Voltmeter",
+    "choice_type": 1
+  },
+  {
+    "id": 63,
+    "questionId": 16,
+    "body": "Watt meter",
+    "choice_type": 1
+  },
+  {
+    "id": 64,
+    "questionId": 16,
+    "body": "Ohm meter",
+    "choice_type": 1
+  },
+  {
+    "id": 65,
+    "questionId": 17,
+    "body": "Ammeter",
+    "choice_type": 1
+  },
+  {
+    "id": 66,
+    "questionId": 17,
+    "body": "Voltmeter",
+    "choice_type": 1
+  },
+  {
+    "id": 67,
+    "questionId": 17,
+    "body": "Watt meter",
+    "choice_type": 1
+  },
+  {
+    "id": 68,
+    "questionId": 17,
+    "body": "Ohm meter",
+    "choice_type": 1
+  },
+  {
+    "id": 69,
+    "questionId": 18,
+    "body": "Ammeter",
+    "choice_type": 1
+  },
+  {
+    "id": 70,
+    "questionId": 18,
+    "body": "Multimeter",
+    "choice_type": 1
+  },
+  {
+    "id": 71,
+    "questionId": 18,
+    "body": "Watt meter",
+    "choice_type": 1
+  },
+  {
+    "id": 72,
+    "questionId": 18,
+    "body": "Ohm meter",
+    "choice_type": 1
+  },
+  {
+    "id": 73,
+    "questionId": 19,
+    "body": "Ammeter",
+    "choice_type": 1
+  },
+  {
+    "id": 74,
+    "questionId": 19,
+    "body": "Micrometer",
+    "choice_type": 1
+  },
+  {
+    "id": 75,
+    "questionId": 19,
+    "body": "Watt meter",
+    "choice_type": 1
+  },
+  {
+    "id": 76,
+    "questionId": 19,
+    "body": "Ohm meter",
+    "choice_type": 1
+  },
+  {
+    "id": 77,
+    "questionId": 20,
+    "body": "Alternate resistor symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 78,
+    "questionId": 20,
+    "body": "Capacitor symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 79,
+    "questionId": 20,
+    "body": "Earth electrode symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 80,
+    "questionId": 20,
+    "body": "Potentiometer resistor symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 81,
+    "questionId": 21,
+    "body": "Alternate resistor symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 82,
+    "questionId": 21,
+    "body": "Capacitor symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 83,
+    "questionId": 21,
+    "body": "Cell symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 84,
+    "questionId": 21,
+    "body": "Potentiometer resistor symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 85,
+    "questionId": 22,
+    "body": "Accumulation symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 86,
+    "questionId": 22,
+    "body": "Antenna symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 87,
+    "questionId": 22,
+    "body": "Battery symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 88,
+    "questionId": 22,
+    "body": "Potentiometer resistor symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 89,
+    "questionId": 23,
+    "body": "Accumulation symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 90,
+    "questionId": 23,
+    "body": "Contact symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 91,
+    "questionId": 23,
+    "body": "Earth electrode symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 92,
+    "questionId": 23,
+    "body": "Source symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 93,
+    "questionId": 24,
+    "body": "Accumulation symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 94,
+    "questionId": 24,
+    "body": "Ideal source symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 95,
+    "questionId": 24,
+    "body": "Battery symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 96,
+    "questionId": 24,
+    "body": "Potentiometer resistor symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 97,
+    "questionId": 25,
+    "body": "Resistor symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 98,
+    "questionId": 25,
+    "body": "Antenna symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 99,
+    "questionId": 25,
+    "body": "Pre-set resistor symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 100,
+    "questionId": 25,
+    "body": "Crystal symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 101,
+    "questionId": 26,
+    "body": "Alternate resistor symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 102,
+    "questionId": 26,
+    "body": "Variable resistor symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 103,
+    "questionId": 26,
+    "body": "Capacitor with Step symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 104,
+    "questionId": 26,
+    "body": "Re-set potentiometer symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 105,
+    "questionId": 27,
+    "body": "Alternate resistor symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 106,
+    "questionId": 27,
+    "body": "Variable resistor symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 107,
+    "questionId": 27,
+    "body": "Capacitor with Step symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 108,
+    "questionId": 27,
+    "body": "Re-set potentiometer symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 109,
+    "questionId": 28,
+    "body": "Accumulation symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 110,
+    "questionId": 28,
+    "body": "Variable resistor symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 111,
+    "questionId": 28,
+    "body": "Pre-set resistor symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 112,
+    "questionId": 28,
+    "body": "Re-set potentiometer symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 113,
+    "questionId": 29,
+    "body": "Alternate resistor symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 114,
+    "questionId": 29,
+    "body": "Variable resistor symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 115,
+    "questionId": 29,
+    "body": "Pre-set resistor symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 116,
+    "questionId": 29,
+    "body": "Re-set potentiometer symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 117,
+    "questionId": 30,
+    "body": "Alternate resistor symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 118,
+    "questionId": 30,
+    "body": "Contact symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 119,
+    "questionId": 30,
+    "body": "Various connections symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 120,
+    "questionId": 30,
+    "body": "Potentiometer resistor symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 121,
+    "questionId": 31,
+    "body": "Attenuator",
+    "choice_type": 1
+  },
+  {
+    "id": 122,
+    "questionId": 31,
+    "body": "Wrench",
+    "choice_type": 1
+  },
+  {
+    "id": 123,
+    "questionId": 31,
+    "body": "Oscilloscope",
+    "choice_type": 1
+  },
+  {
+    "id": 124,
+    "questionId": 31,
+    "body": "Ohm meter",
+    "choice_type": 1
+  },
+  {
+    "id": 125,
+    "questionId": 32,
+    "body": "Accumulation symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 126,
+    "questionId": 32,
+    "body": "Contact symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 127,
+    "questionId": 32,
+    "body": "Cell symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 128,
+    "questionId": 32,
+    "body": "Crystal symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 129,
+    "questionId": 33,
+    "body": "Accumulation symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 130,
+    "questionId": 33,
+    "body": "Capacitor symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 131,
+    "questionId": 33,
+    "body": "Battery symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 132,
+    "questionId": 33,
+    "body": "Diode symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 133,
+    "questionId": 34,
+    "body": "Capacitor 2 symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 134,
+    "questionId": 34,
+    "body": "Capacitor symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 135,
+    "questionId": 34,
+    "body": "Battery symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 136,
+    "questionId": 34,
+    "body": "Crystal symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 137,
+    "questionId": 35,
+    "body": "Capacitor 2 symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 138,
+    "questionId": 35,
+    "body": "Capacitor symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 139,
+    "questionId": 35,
+    "body": "Capacitor with Step symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 140,
+    "questionId": 35,
+    "body": "Crystal symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 141,
+    "questionId": 36,
+    "body": "Capacitor 2 symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 142,
+    "questionId": 36,
+    "body": "Contact symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 143,
+    "questionId": 36,
+    "body": "Pre-set resistor symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 144,
+    "questionId": 36,
+    "body": "Switch 1P symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 145,
+    "questionId": 37,
+    "body": "Alternate resistor symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 146,
+    "questionId": 37,
+    "body": "Ideal source symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 147,
+    "questionId": 37,
+    "body": "Various connections symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 148,
+    "questionId": 37,
+    "body": "Re-set potentiometer symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 149,
+    "questionId": 38,
+    "body": "Accumulation symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 150,
+    "questionId": 38,
+    "body": "Capacitor symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 151,
+    "questionId": 38,
+    "body": "Cell symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 152,
+    "questionId": 38,
+    "body": "Potentiometer resistor symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 153,
+    "questionId": 39,
+    "body": "Loop antenna symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 154,
+    "questionId": 39,
+    "body": "Antenna symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 155,
+    "questionId": 39,
+    "body": "Amplifier symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 156,
+    "questionId": 39,
+    "body": "Mic symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 157,
+    "questionId": 40,
+    "body": "Tunnel diode symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 158,
+    "questionId": 40,
+    "body": "photodiode symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 159,
+    "questionId": 40,
+    "body": "LED symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 160,
+    "questionId": 40,
+    "body": "Diode symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 161,
+    "questionId": 41,
+    "body": "Tunnel diode symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 162,
+    "questionId": 41,
+    "body": "photodiode symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 163,
+    "questionId": 41,
+    "body": "Diode symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 164,
+    "questionId": 41,
+    "body": "Diode LED symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 165,
+    "questionId": 42,
+    "body": "Loop antenna symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 166,
+    "questionId": 42,
+    "body": "Antenna symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 167,
+    "questionId": 42,
+    "body": "Amplifier symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 168,
+    "questionId": 42,
+    "body": "Diode symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 169,
+    "questionId": 43,
+    "body": "Accumulation symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 170,
+    "questionId": 43,
+    "body": "Capacitor symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 171,
+    "questionId": 43,
+    "body": "Battery symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 172,
+    "questionId": 43,
+    "body": "Crystal symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 173,
+    "questionId": 44,
+    "body": "AND Gate",
+    "choice_type": 1
+  },
+  {
+    "id": 174,
+    "questionId": 44,
+    "body": "OR GATE",
+    "choice_type": 1
+  },
+  {
+    "id": 175,
+    "questionId": 44,
+    "body": "NOT Gate",
+    "choice_type": 1
+  },
+  {
+    "id": 176,
+    "questionId": 44,
+    "body": "NOR Gate",
+    "choice_type": 1
+  },
+  {
+    "id": 177,
+    "questionId": 45,
+    "body": "AND Gate",
+    "choice_type": 1
+  },
+  {
+    "id": 178,
+    "questionId": 45,
+    "body": "NOT Gate",
+    "choice_type": 1
+  },
+  {
+    "id": 179,
+    "questionId": 45,
+    "body": "OR Gate",
+    "choice_type": 1
+  },
+  {
+    "id": 180,
+    "questionId": 45,
+    "body": "NOR Gate",
+    "choice_type": 1
+  },
+  {
+    "id": 181,
+    "questionId": 46,
+    "body": "AND Gate",
+    "choice_type": 1
+  },
+  {
+    "id": 182,
+    "questionId": 46,
+    "body": "OR GATE",
+    "choice_type": 1
+  },
+  {
+    "id": 183,
+    "questionId": 46,
+    "body": "NAND Gate",
+    "choice_type": 1
+  },
+  {
+    "id": 184,
+    "questionId": 46,
+    "body": "NOR Gate",
+    "choice_type": 1
+  },
+  {
+    "id": 185,
+    "questionId": 47,
+    "body": "AND Gate",
+    "choice_type": 1
+  },
+  {
+    "id": 186,
+    "questionId": 47,
+    "body": "OR GATE",
+    "choice_type": 1
+  },
+  {
+    "id": 187,
+    "questionId": 47,
+    "body": "NOR Gate",
+    "choice_type": 1
+  },
+  {
+    "id": 188,
+    "questionId": 47,
+    "body": "NOT Gate",
+    "choice_type": 1
+  },
+  {
+    "id": 189,
+    "questionId": 48,
+    "body": "AND Gate",
+    "choice_type": 1
+  },
+  {
+    "id": 190,
+    "questionId": 48,
+    "body": "OR GATE",
+    "choice_type": 1
+  },
+  {
+    "id": 191,
+    "questionId": 48,
+    "body": "XOR Gate",
+    "choice_type": 1
+  },
+  {
+    "id": 192,
+    "questionId": 48,
+    "body": "NOR Gate",
+    "choice_type": 1
+  },
+  {
+    "id": 193,
+    "questionId": 49,
+    "body": "AND Gate",
+    "choice_type": 1
+  },
+  {
+    "id": 194,
+    "questionId": 49,
+    "body": "OR GATE",
+    "choice_type": 1
+  },
+  {
+    "id": 195,
+    "questionId": 49,
+    "body": "NOT Gate",
+    "choice_type": 1
+  },
+  {
+    "id": 196,
+    "questionId": 49,
+    "body": "NOR Gate",
+    "choice_type": 1
+  },
+  {
+    "id": 197,
+    "questionId": 50,
+    "body": "Capacitor 2 symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 198,
+    "questionId": 50,
+    "body": "Capacitor symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 199,
+    "questionId": 50,
+    "body": "Battery symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 200,
+    "questionId": 50,
+    "body": "Crystal symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 201,
+    "questionId": 51,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 202,
+    "questionId": 51,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 203,
+    "questionId": 52,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 204,
+    "questionId": 52,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 205,
+    "questionId": 53,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 206,
+    "questionId": 53,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 207,
+    "questionId": 54,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 208,
+    "questionId": 54,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 209,
+    "questionId": 55,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 210,
+    "questionId": 55,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 211,
+    "questionId": 56,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 212,
+    "questionId": 56,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 213,
+    "questionId": 57,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 214,
+    "questionId": 57,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 215,
+    "questionId": 58,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 216,
+    "questionId": 58,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 217,
+    "questionId": 59,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 218,
+    "questionId": 59,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 219,
+    "questionId": 60,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 220,
+    "questionId": 60,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 221,
+    "questionId": 61,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 222,
+    "questionId": 61,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 223,
+    "questionId": 62,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 224,
+    "questionId": 62,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 225,
+    "questionId": 63,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 226,
+    "questionId": 63,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 227,
+    "questionId": 64,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 228,
+    "questionId": 64,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 229,
+    "questionId": 65,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 230,
+    "questionId": 65,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 231,
+    "questionId": 66,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 232,
+    "questionId": 66,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 233,
+    "questionId": 67,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 234,
+    "questionId": 67,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 235,
+    "questionId": 68,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 236,
+    "questionId": 68,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 237,
+    "questionId": 69,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 238,
+    "questionId": 69,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 239,
+    "questionId": 70,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 240,
+    "questionId": 70,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 241,
+    "questionId": 71,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 242,
+    "questionId": 71,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 243,
+    "questionId": 72,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 244,
+    "questionId": 72,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 245,
+    "questionId": 73,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 246,
+    "questionId": 73,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 247,
+    "questionId": 74,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 248,
+    "questionId": 74,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 249,
+    "questionId": 75,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 250,
+    "questionId": 75,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 251,
+    "questionId": 76,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 252,
+    "questionId": 76,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 253,
+    "questionId": 77,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 254,
+    "questionId": 77,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 255,
+    "questionId": 78,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 256,
+    "questionId": 78,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 257,
+    "questionId": 79,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 258,
+    "questionId": 79,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 259,
+    "questionId": 80,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 260,
+    "questionId": 80,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 261,
+    "questionId": 81,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 262,
+    "questionId": 81,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 263,
+    "questionId": 82,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 264,
+    "questionId": 82,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 265,
+    "questionId": 83,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 266,
+    "questionId": 83,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 267,
+    "questionId": 84,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 268,
+    "questionId": 84,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 269,
+    "questionId": 85,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 270,
+    "questionId": 85,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 271,
+    "questionId": 86,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 272,
+    "questionId": 86,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 273,
+    "questionId": 87,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 274,
+    "questionId": 87,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 275,
+    "questionId": 88,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 276,
+    "questionId": 88,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 277,
+    "questionId": 89,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 278,
+    "questionId": 89,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 279,
+    "questionId": 90,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 280,
+    "questionId": 90,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 281,
+    "questionId": 91,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 282,
+    "questionId": 91,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 283,
+    "questionId": 92,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 284,
+    "questionId": 92,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 285,
+    "questionId": 93,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 286,
+    "questionId": 93,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 287,
+    "questionId": 94,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 288,
+    "questionId": 94,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 289,
+    "questionId": 95,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 290,
+    "questionId": 95,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 291,
+    "questionId": 96,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 292,
+    "questionId": 96,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 293,
+    "questionId": 97,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 294,
+    "questionId": 97,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 295,
+    "questionId": 98,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 296,
+    "questionId": 98,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 297,
+    "questionId": 99,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 298,
+    "questionId": 99,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 299,
+    "questionId": 100,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 300,
+    "questionId": 100,
+    "body": "FALSE",
+    "choice_type": 1
+  }
+]

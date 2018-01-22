@@ -11,7 +11,6 @@ import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.DefaultItemAnimator;
-import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -30,10 +29,10 @@ import com.tip.capstone.mlearning.ui.lesson.LessonView;
 import com.tip.capstone.mlearning.ui.quiz.QuizActivity;
 import com.tip.capstone.mlearning.ui.videos.play.VideoPlayActivity;
 
-import java.util.List;
 import java.util.Locale;
 
 import io.realm.Realm;
+import io.realm.RealmResults;
 
 /**
  * @author pocholomia
@@ -118,7 +117,6 @@ public class LessonDetailListFragment
         layoutManager = new LinearLayoutManager(getContext());
         binding.recyclerView.setLayoutManager(layoutManager);
         binding.recyclerView.setItemAnimator(new DefaultItemAnimator());
-        binding.recyclerView.addItemDecoration(new DividerItemDecoration(getContext(), DividerItemDecoration.VERTICAL));
 
         return binding.getRoot();
     }
@@ -129,12 +127,15 @@ public class LessonDetailListFragment
         // init data
         realm = Realm.getDefaultInstance();
         Lesson lesson = realm.where(Lesson.class).equalTo(Constant.ID, lessonId).findFirst();
+        RealmResults<LessonDetail> lessonDetails = realm.where(LessonDetail.class).equalTo("learningObjectiveId", lesson.getId()).findAll().sort("id");
         LessonDetailListAdapter lessonDetailListAdapter = new LessonDetailListAdapter(lesson, getMvpView(), isLastPage, query, lessonDetailRef);
         binding.recyclerView.setAdapter(lessonDetailListAdapter);
-        List<LessonDetail> lessonDetails = realm.copyFromRealm(lesson.getLessondetails().sort(LessonDetail.COL_SEQ));
-        lessonDetailListAdapter.setLessonDetails(lessonDetails);
+
+        lessonDetailListAdapter.setLessonDetails(realm.copyFromRealm(lessonDetails));
+
         textToSpeech = new TextToSpeech(getContext(), this);
         Log.d(TAG, "onStart: " + firstLessonId);
+        Log.d(TAG, "Lesson: "+lesson.getId()+" " + lesson.getTitle());
         for (int i = 0; i < lessonDetails.size(); i++) {
             if (lessonDetails.get(i).getId() == firstLessonId) {
                 binding.recyclerView.scrollToPosition(i);
@@ -145,13 +146,13 @@ public class LessonDetailListFragment
 
     @Override
     public void onStop() {
+        super.onStop();
         // Don't forget to shutdown textToSpeech!
         if (textToSpeech != null) {
             textToSpeech.stop();
             textToSpeech.shutdown();
         }
         realm.close(); // close realm
-        super.onStop();
     }
 
     @Override
@@ -179,6 +180,7 @@ public class LessonDetailListFragment
         Intent intent = new Intent(getContext(), QuizActivity.class);
         intent.putExtra(Constant.ID, topicId);
         startActivity(intent);
+        getActivity().finish();
     }
 
     @Override
@@ -197,6 +199,11 @@ public class LessonDetailListFragment
 
         startActivity(new Intent(getActivity(), ZoomActivity.class).putExtra("pic",lessonDetail.getBody()));
 
+    }
+
+    @Override
+    public void showAlert(String s) {
+        Toast.makeText(getActivity(), s, Toast.LENGTH_SHORT).show();
     }
 
 

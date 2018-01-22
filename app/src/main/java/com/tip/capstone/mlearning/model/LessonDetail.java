@@ -13,10 +13,9 @@ public class LessonDetail extends RealmObject {
     public static final String COL_SEQ = "sequence";
     @PrimaryKey
     private int id;
-    private int sequence;
+    private int learningObjectiveId;
     private String body;
-    private String caption;
-    private int body_type;
+    private String body_type;
 
     public int getId() {
         return id;
@@ -26,13 +25,6 @@ public class LessonDetail extends RealmObject {
         this.id = id;
     }
 
-    public int getSequence() {
-        return sequence;
-    }
-
-    public void setSequence(int sequence) {
-        this.sequence = sequence;
-    }
 
     public String getBody() {
         return body;
@@ -42,19 +34,23 @@ public class LessonDetail extends RealmObject {
         this.body = body;
     }
 
-    public String getCaption() {
-        return caption;
+    public static String getColSeq() {
+        return COL_SEQ;
     }
 
-    public void setCaption(String caption) {
-        this.caption = caption;
-    }
-
-    public int getBody_type() {
+    public String getBody_type() {
         return body_type;
     }
 
-    public void setBody_type(int body_type) {
+    public void setBody_type(String body_type) {
         this.body_type = body_type;
+    }
+
+    public int getLearningObjectiveId() {
+        return learningObjectiveId;
+    }
+
+    public void setLearningObjectiveId(int learningObjectiveId) {
+        this.learningObjectiveId = learningObjectiveId;
     }
 }

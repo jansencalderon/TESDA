@@ -5,8 +5,10 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
+import com.bumptech.glide.Glide;
 import com.tip.capstone.mlearning.R;
 import com.tip.capstone.mlearning.databinding.ItemDifficultyBinding;
+import com.tip.capstone.mlearning.helper.ResourceHelper;
 import com.tip.capstone.mlearning.model.Difficulty;
 
 import java.util.ArrayList;
@@ -41,6 +43,9 @@ public class DifficultyListAdapter extends RecyclerView.Adapter<DifficultyListAd
     public void onBindViewHolder(ViewHolder holder, int position) {
         holder.binding.setDifficulty(difficultyList.get(position));
         holder.binding.setView(difficultyView);
+        Glide.with(holder.itemView.getContext())
+                .load(ResourceHelper.getDrawableResourceId(holder.itemView.getContext(), difficultyList.get(position).getImg()))
+                .into(holder.binding.imageView);
     }
 
     public void setDifficultyList(List<Difficulty> difficultyList) {

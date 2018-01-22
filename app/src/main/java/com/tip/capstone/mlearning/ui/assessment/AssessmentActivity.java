@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.DefaultItemAnimator;
-import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.util.Log;
@@ -15,12 +14,14 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
+import com.bumptech.glide.Glide;
 import com.hannesdorfmann.mosby.mvp.viewstate.MvpViewStateActivity;
 import com.hannesdorfmann.mosby.mvp.viewstate.ViewState;
 import com.tip.capstone.mlearning.R;
 import com.tip.capstone.mlearning.app.Constant;
 import com.tip.capstone.mlearning.databinding.ActivityAssessmentBinding;
 import com.tip.capstone.mlearning.databinding.DialogQuizSummaryBinding;
+import com.tip.capstone.mlearning.helper.ResourceHelper;
 import com.tip.capstone.mlearning.model.Assessment;
 import com.tip.capstone.mlearning.model.AssessmentChoice;
 import com.tip.capstone.mlearning.model.AssessmentGrade;
@@ -46,7 +47,7 @@ public class AssessmentActivity extends MvpViewStateActivity<AssessmentView, Ass
 
     private static final String TAG = AssessmentActivity.class.getSimpleName();
 
-    private int termId;
+    private int type;
 
     private Realm realm;
     private RealmResults<Assessment> assessmentRealmResults;
@@ -68,25 +69,25 @@ public class AssessmentActivity extends MvpViewStateActivity<AssessmentView, Ass
         super.onCreate(savedInstanceState);
         realm = Realm.getDefaultInstance(); // init realm
         // retrieving data from Realm DB
-        termId = getIntent().getIntExtra("term", -1);
-        if (termId == -1) {
+        type = getIntent().getIntExtra("type", -1);
+        if (type == -1) {
             Toast.makeText(getApplicationContext(), "No Difficulty ID Found", Toast.LENGTH_SHORT).show();
             finish();
         }
-        assessmentRealmResults = realm.where(Assessment.class).equalTo("term", termId).findAll();
+        assessmentRealmResults = realm.where(Assessment.class).equalTo("type", type).findAll();
         if (assessmentRealmResults.size() <= 0) {
             // quit if no data
             Toast.makeText(getApplicationContext(), "No Assessment Data Found", Toast.LENGTH_SHORT).show();
             finish();
         }
         binding = DataBindingUtil.setContentView(this, R.layout.activity_assessment);
+        setSupportActionBar(binding.toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         // TODO: 24/11/2016 setup the toolbar title on manifest instead here
         getSupportActionBar().setTitle("Assessment");
         // setup RecyclerView
         binding.recyclerView.setLayoutManager(new LinearLayoutManager(this));
         binding.recyclerView.setItemAnimator(new DefaultItemAnimator());
-        binding.recyclerView.addItemDecoration(new DividerItemDecoration(this, DividerItemDecoration.VERTICAL));
         // setup adapter
         choiceAdapter = new AssessmentChoiceListAdapter();
         binding.recyclerView.setAdapter(choiceAdapter);
@@ -96,11 +97,6 @@ public class AssessmentActivity extends MvpViewStateActivity<AssessmentView, Ass
         binding.recyclerViewAnswer.setLayoutManager(new GridLayoutManager(this, 10));
         binding.recyclerViewAnswer.setItemAnimator(new DefaultItemAnimator());
         binding.recyclerViewAnswer.setAdapter(adapterLetterAnswer);
-        // recyclerview for identification letter choices
-        adapterLetterChoice = new LetterListAdapter(getMvpView(), true);
-        binding.recyclerViewLetterChoices.setLayoutManager(new GridLayoutManager(this, 10));
-        binding.recyclerViewLetterChoices.setItemAnimator(new DefaultItemAnimator());
-        binding.recyclerViewLetterChoices.setAdapter(adapterLetterChoice);
 
         // setup bind data
         String strNumItems = "Number of Items: " + assessmentRealmResults.size();
@@ -155,10 +151,10 @@ public class AssessmentActivity extends MvpViewStateActivity<AssessmentView, Ass
 
     @Override
     public void onNewViewStateInstance() {
-        /*// alert user if already taken the assessment
+        /*// alert user if already taken the assessment.json
         AssessmentGrade assessmentGrade = realm.where(AssessmentGrade.class).findFirst();
         if (assessmentGrade != null) {
-            // already taken the assessment
+            // already taken the assessment.json
             new AlertDialog.Builder(this)
                     .setTitle("Retake Assessment?")
                     .setMessage("If Submitted, it will overwrite previous grade!")
@@ -172,7 +168,7 @@ public class AssessmentActivity extends MvpViewStateActivity<AssessmentView, Ass
                     .setNegativeButton("Back", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialogInterface, int i) {
-                            AssessmentActivity.this.finish();
+                            GuessActivity.this.finish();
                         }
                     })
                     .show();
@@ -196,23 +192,42 @@ public class AssessmentActivity extends MvpViewStateActivity<AssessmentView, Ass
     /**
      * Setup the next Question
      *
-     * @param assessment the assessment question to display
+     * @param assessment the assessment.json question to display
      */
     private void onSetQuestion(Assessment assessment) {
         int counter = ((AssessmentViewState) getViewState()).getCounter();
-        binding.txtQuestion.setText((counter + 1) + ".) " + assessment.getQuestion());
+        String strNumItems = "Number of Items: " + (counter + 1) + "/" + assessmentRealmResults.size();
+        binding.txtNumItems.setText(strNumItems);
         UserAnswer userAnswer = null;
         if (userAnswerList.size() > counter)
             userAnswer = userAnswerList.get(counter);
         Log.d(TAG, "onSetQuestion: user answer: " + (userAnswer == null ? "null" : userAnswer.getUserAnswer()));
-        if (assessment.getQuestion_type() == Constant.QUESTION_TYPE_MULTIPLE) {
+        if (assessment.getQuestion_type().equals(Constant.QUESTION_TYPE_TEXT)) {
+            binding.txtQuestion.setText((counter + 1) + ". " + assessment.getQuestion());
+            binding.imageQuestion.setVisibility(View.GONE);
             binding.recyclerView.setVisibility(View.VISIBLE);
             binding.recyclerViewAnswer.setVisibility(View.GONE);
             binding.recyclerViewLetterChoices.setVisibility(View.GONE);
-            choiceAdapter.setChoiceList(assessment.getAssessmentchoices());
-            if (userAnswer != null) choiceAdapter.setAnswer(userAnswer.getUserAnswer());
-        } else if (assessment.getQuestion_type() == Constant.QUESTION_TYPE_IDENTIFICATION) {
-            binding.recyclerView.setVisibility(View.GONE);
+            List<AssessmentChoice> choices = realm.where(AssessmentChoice.class).equalTo("questionId", assessment.getId()).findAll();
+            //  Toast.makeText(this,"Size "+ choices.size(), Toast.LENGTH_SHORT).show();
+            choiceAdapter.setChoiceList(choices);
+            if (userAnswer != null)
+                choiceAdapter.setAnswer(userAnswer.getUserAnswer());
+        } else if (assessment.getQuestion_type().equals(Constant.QUESTION_TYPE_IMAGE)) {
+            Glide.with(this)
+                    .load(ResourceHelper.getDrawableResourceId(this, assessment.getQuestion()))
+                    .fitCenter()
+                    .into(binding.imageQuestion);
+            binding.txtQuestion.setVisibility(View.GONE);
+            binding.recyclerView.setVisibility(View.VISIBLE);
+            binding.recyclerViewAnswer.setVisibility(View.GONE);
+            binding.recyclerViewLetterChoices.setVisibility(View.GONE);
+            List<AssessmentChoice> choices = realm.where(AssessmentChoice.class).equalTo("questionId", assessment.getId()).findAll();
+            choiceAdapter.setChoiceList(choices);
+            if (userAnswer != null)
+                choiceAdapter.setAnswer(userAnswer.getUserAnswer());
+
+            /*binding.recyclerView.setVisibility(View.GONE);
             binding.recyclerViewAnswer.setVisibility(View.VISIBLE);
             binding.recyclerViewLetterChoices.setVisibility(View.VISIBLE);
             adapterLetterAnswer.setLetters(presenter.getAssessmentLetter(assessment.getAnswer()));
@@ -233,7 +248,7 @@ public class AssessmentActivity extends MvpViewStateActivity<AssessmentView, Ass
                     int emptyIndex = adapterLetterAnswer.getEmptyIndex();
                     if (emptyIndex != -1) adapterLetterAnswer.addLetter(s, emptyIndex);
                 }
-            Log.d(TAG, "onSetQuestion: ident answer: " + adapterLetterAnswer.getAnswer());
+            Log.d(TAG, "onSetQuestion: ident answer: " + adapterLetterAnswer.getAnswer());*/
         }
     }
 
@@ -267,7 +282,14 @@ public class AssessmentActivity extends MvpViewStateActivity<AssessmentView, Ass
         userAnswer.setCorrectAnswer(assessment.getAnswer());
         userAnswer.setLessonDetailId(assessment.getLesson_detail());
 
-        if (assessment.getQuestion_type() == Constant.QUESTION_TYPE_MULTIPLE) {
+        AssessmentChoice choice = choiceAdapter.getSelectedChoice();
+        if (choice == null && hasReturn) {
+            return "Select Answer";
+        }
+        userAnswer.setUserAnswer(choice != null ? choice.getBody() : "");
+        userAnswer.setChoiceType(choice != null ? choice.getChoice_type() : 0);
+
+        /*if (assessment.getQuestion_type() == Constant.QUESTION_TYPE_MULTIPLE) {
             AssessmentChoice choice = choiceAdapter.getSelectedChoice();
             if (choice == null && hasReturn) {
                 return "Select Answer";
@@ -284,8 +306,8 @@ public class AssessmentActivity extends MvpViewStateActivity<AssessmentView, Ass
                 }
             }
             userAnswer.setUserAnswer(adapterLetterAnswer.getAnswer());
-            userAnswer.setChoiceType(Constant.DETAIL_TYPE_TEXT);
-        }
+            userAnswer.setChoiceType(Constant.Q_TYPE_TEXT);
+        }*/
         if (userAnswerList.size() > ((AssessmentViewState) getViewState()).getCounter())
             userAnswerList.set(((AssessmentViewState) getViewState()).getCounter(), userAnswer);
         else
@@ -373,12 +395,11 @@ public class AssessmentActivity extends MvpViewStateActivity<AssessmentView, Ass
             if (userAnswer.isCorrect()) score++;
         }
         dialogBinding.txtRawScore.setText(score + "/" + items);
-        String ave = Math.round(presenter.getAverage(score, items))+ "%";
+        String ave = Math.round(presenter.getAverage(score, items)) + "%";
         dialogBinding.txtAverage.setText(ave);
 
         dialogBinding.recyclerView.setLayoutManager(new LinearLayoutManager(this));
         dialogBinding.recyclerView.setItemAnimator(new DefaultItemAnimator());
-        dialogBinding.recyclerView.addItemDecoration(new DividerItemDecoration(this, DividerItemDecoration.VERTICAL));
 
         SummaryListAdapter summaryListAdapter = new SummaryListAdapter(getMvpView());
         summaryListAdapter.setUserAnswerList(userAnswerList);
@@ -386,14 +407,14 @@ public class AssessmentActivity extends MvpViewStateActivity<AssessmentView, Ass
 
         Number maxCount = realm
                 .where(AssessmentGrade.class)
-                .equalTo("term", termId)
+                .equalTo("type", type)
                 .max("count");
 
         Number maxId = realm.where(AssessmentGrade.class).max("id");
 
         final AssessmentGrade assessmentGrade = new AssessmentGrade();
         assessmentGrade.setId(maxId == null ? 1 : maxId.intValue() + 1);
-        assessmentGrade.setTerm(termId);
+        assessmentGrade.setType(type);
         assessmentGrade.setRawScore(score);
         assessmentGrade.setItemCount(items);
         assessmentGrade.setDateUpdated(new Date().getTime());

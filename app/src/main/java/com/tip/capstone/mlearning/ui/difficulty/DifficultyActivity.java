@@ -4,8 +4,8 @@ import android.content.Intent;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.DefaultItemAnimator;
-import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.view.MenuItem;
 
@@ -34,6 +34,7 @@ public class DifficultyActivity extends MvpActivity<DifficultyView, DifficultyPr
 
         ActivityDifficultyBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_difficulty);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setBackgroundDrawable(ContextCompat.getDrawable(this,R.drawable.bg_gradient));
 
         binding.recyclerView.setLayoutManager(new LinearLayoutManager(this));
         binding.recyclerView.setItemAnimator(new DefaultItemAnimator());
@@ -52,7 +53,7 @@ public class DifficultyActivity extends MvpActivity<DifficultyView, DifficultyPr
 
     @Override
     protected void onDestroy() {
-        difficultyRealmResults.removeChangeListeners();
+        difficultyRealmResults.removeAllChangeListeners();
         realm.close();
         super.onDestroy();
     }

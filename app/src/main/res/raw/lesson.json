@@ -1,0 +1,296 @@
+[
+  {
+    "id": 1,
+    "topicId": 1,
+    "sequence": 1,
+    "title": "LESSON 1",
+    "description": "Identify hazards and risks"
+  },
+  {
+    "id": 2,
+    "topicId": 1,
+    "sequence": 2,
+    "title": "LESSON 2",
+    "description": "Evaluate hazards and risks"
+  },
+  {
+    "id": 3,
+    "topicId": 1,
+    "sequence": 3,
+    "title": "LESSON 3",
+    "description": "Control hazards and risks"
+  },
+  {
+    "id": 4,
+    "topicId": 2,
+    "sequence": 1,
+    "title": "LESSON 1",
+    "description": "Plan and prepare tasks to be undertaken"
+  },
+  {
+    "id": 5,
+    "topicId": 2,
+    "sequence": 2,
+    "title": "LESSON 2",
+    "description": "Prepare hand tools"
+  },
+  {
+    "id": 6,
+    "topicId": 2,
+    "sequence": 3,
+    "title": "LESSON 3",
+    "description": "Use approriate hand tools and test equipment"
+  },
+  {
+    "id": 7,
+    "topicId": 2,
+    "sequence": 4,
+    "title": "LESSON 4",
+    "description": "Maintain hand tools"
+  },
+  {
+    "id": 9,
+    "topicId": 3,
+    "sequence": 2,
+    "title": "LESSON 2",
+    "description": "Carry out measurement and calculation"
+  },
+  {
+    "id": 10,
+    "topicId": 3,
+    "sequence": 3,
+    "title": "LESSON 3",
+    "description": "Maintain measuring instrument"
+  },
+  {
+    "id": 11,
+    "topicId": 4,
+    "sequence": 1,
+    "title": "LESSON 1",
+    "description": "Select measuring instrument"
+  },
+  {
+    "id": 12,
+    "topicId": 4,
+    "sequence": 2,
+    "title": "LESSON 2",
+    "description": "Carry out measurement and calculation"
+  },
+  {
+    "id": 13,
+    "topicId": 5,
+    "sequence": 1,
+    "title": "LESSON 1",
+    "description": "PLAN AND PREPARE FOR TASKS TO BE UNDERTAKEN"
+  },
+  {
+    "id": 14,
+    "topicId": 5,
+    "sequence": 2,
+    "title": "LESSON 2",
+    "description": "INPUT DATA INTO A COMPUTER"
+  },
+  {
+    "id": 15,
+    "topicId": 5,
+    "sequence": 3,
+    "title": "LESSON 3",
+    "description": "ACCESS INFORMATION USING COMPUTERS"
+  },
+  {
+    "id": 16,
+    "topicId": 5,
+    "sequence": 4,
+    "title": "LESSON 4",
+    "description": "USE BASIC FUNCTIONS OF A WEB BROWSER TO LOCATE INFORMATION"
+  },
+  {
+    "id": 17,
+    "topicId": 5,
+    "sequence": 5,
+    "title": "LESSON 5",
+    "description": "MAINTAIN COMPUTER EQUIPMENT AND SYSTEMS"
+  },
+  {
+    "id": 18,
+    "topicId": 6,
+    "sequence": 1,
+    "title": "LESSON 1",
+    "description": "PLAN AND PREPARE FOR TERMINATION/CONNECTION OF ELECTRICAL WIRING/ELECTRONICS CIRCUITS"
+  },
+  {
+    "id": 19,
+    "topicId": 6,
+    "sequence": 1,
+    "title": "LESSON 1",
+    "description": "PLAN AND PREPARE FOR TERMINATION/CONNECTION OF ELECTRICAL WIRING/ELECTRONICS CIRCUITS"
+  },
+  {
+    "id": 20,
+    "topicId": 6,
+    "sequence": 1,
+    "title": "LESSON 1",
+    "description": "PLAN AND PREPARE FOR TERMINATION/CONNECTION OF ELECTRICAL WIRING/ELECTRONICS CIRCUITS"
+  },
+  {
+    "id": 21,
+    "topicId": 6,
+    "sequence": 2,
+    "title": "LESSON 2",
+    "description": "TERMINATE/CONNECT WIRING/ELECTRONIC CIRCUITS"
+  },
+  {
+    "id": 22,
+    "topicId": 6,
+    "sequence": 2,
+    "title": "LESSON 2",
+    "description": "TERMINATE/CONNECT WIRING/ELECTRONIC CIRCUITS"
+  },
+  {
+    "id": 23,
+    "topicId": 6,
+    "sequence": 3,
+    "title": "LESSON 3",
+    "description": "TEST TERMINATION/CONNECTIONS OF ELECTRICAL WIRING/ELECTRONICS CIRCUITS"
+  },
+  {
+    "id": 24,
+    "topicId": 7,
+    "sequence": 1,
+    "title": "LESSON 1",
+    "description": "IDENTIFY AND EXPLAIN THE USES/FUNCTIONS OF DIFFERENT TYPES OF TOOLS, EQUIPMENT AND TESTING INSTRUMENTS"
+  },
+  {
+    "id": 25,
+    "topicId": 7,
+    "sequence": 2,
+    "title": "LESSON 2",
+    "description": "IDENTIFY ELECTRONIC SYMBOLS"
+  },
+  {
+    "id": 26,
+    "topicId": 7,
+    "sequence": 3,
+    "title": "LESSON 3",
+    "description": "APPLY PROPER SOLDERING AND DESOLDERING TECHNIQUES"
+  },
+  {
+    "id": 27,
+    "topicId": 7,
+    "sequence": 4,
+    "title": "LESSON 4",
+    "description": "APPLY WIRING AND CABLING TECHNIQUES"
+  },
+  {
+    "id": 28,
+    "topicId": 7,
+    "sequence": 5,
+    "title": "LESSON 4",
+    "description": "APPLY WIRING AND CABLING TECHNIQUES"
+  },
+  {
+    "id": 29,
+    "topicId": 8,
+    "sequence": 1,
+    "title": "LESSON 1",
+    "description": "ENUMERATE, EXPLAIN AND APPLY OHS POLICIES AND PROCEDURES IN MAINTAINING AND REPAIRING AUDIO/VIDEO PRODUCTS AND SYSTEMS"
+  },
+  {
+    "id": 30,
+    "topicId": 8,
+    "sequence": 2,
+    "title": "LESSON 2",
+    "description": "IDENTIFY AND EXPLAIN THE USES/FUNCTIONS OF DIFFERENT TYPES OF TOOLS AND TESTING INSTRUMENTS FOR MAINTAINING AND REPAIRING AUDIO/VIDEO PRODUCTS AND SYSTEMS"
+  },
+  {
+    "id": 31,
+    "topicId": 8,
+    "sequence": 3,
+    "title": "LESSON 3",
+    "description": "IDENTIFY AND EXPLAIN OR INTERPRET THE PRINCIPLES OF OPERATION OF ELECTRONIC SYMBOLS AND BLOCK SECTIONS OF SCHEMATIC DIAGRAM"
+  },
+  {
+    "id": 32,
+    "topicId": 8,
+    "sequence": 4,
+    "title": "LESSON 4",
+    "description": "APPLY SYMPTOMS DIAGNOSIS AND SYSTEMATIC PRE-TESTING PROCEDURES"
+  },
+  {
+    "id": 33,
+    "topicId": 8,
+    "sequence": 5,
+    "title": "LESSON 5",
+    "description": "TROUBLESHOOT, REPAIR AND MAINTAIN AUDIO/VIDEO PRODUCTS AND SYSTEMS"
+  },
+  {
+    "id": 34,
+    "topicId": 9,
+    "sequence": 1,
+    "title": "LESSON 1",
+    "description": "ENUMERATE, EXPLAIN AND APPLY OHS POLICIES AND PROCEDURES IN MAINTAINING AND REPAIRING ELECTRONICALLY CONTROLLED DOMESTIC APPLIANCES"
+  },
+  {
+    "id": 35,
+    "topicId": 9,
+    "sequence": 2,
+    "title": "LESSON 2",
+    "description": "IDENTIFY AND EXPLAIN THE USES/FUNCTIONS OF DIFFERENT TYPES OF TOOLS AND TESTING INSTRUMENTS FOR MAINTAINING AND REPAIRING ELECTRONICALLY CONTROLLED DOMESTIC APPLIANCES"
+  },
+  {
+    "id": 36,
+    "topicId": 9,
+    "sequence": 3,
+    "title": "LESSON 3",
+    "description": "IDENTIFY AND EXPLAIN OR INTERPRET THE PRINCIPLES OF OPERATION OF ELECTRONIC SYMBOLS AND BLOCK SECTIONS OF SCHEMATIC DIAGRAM"
+  },
+  {
+    "id": 37,
+    "topicId": 9,
+    "sequence": 4,
+    "title": "LESSON 4",
+    "description": "APPLY SYMPTOMS DIAGNOSIS AND SYSTEMATIC PRE-TESTING PROCEDURES"
+  },
+  {
+    "id": 38,
+    "topicId": 9,
+    "sequence": 5,
+    "title": "LESSON 5",
+    "description": "TROUBLESHOOT, REPAIR AND MAINTAIN ELECTRONICALLY CONTROLLED DOMESTIC APPLIANCES"
+  },
+  {
+    "id": 39,
+    "topicId": 10,
+    "sequence": 1,
+    "title": "LESSON 1",
+    "description": "ENUMERATE, EXPLAIN AND APPLY OHS POLICIES AND PROCEDURES IN MAINTAINING AND REPAIRING AUDIO/VIDEO PRODUCTS AND SYSTEMS"
+  },
+  {
+    "id": 40,
+    "topicId": 10,
+    "sequence": 2,
+    "title": "LESSON 2",
+    "description": "IDENTIFY AND EXPLAIN THE USES/FUNCTIONS OF DIFFERENT TYPES OF TOOLS AND TESTING INSTRUMENTS FOR MAINTAINING AND REPAIRING CELLULAR PHONES"
+  },
+  {
+    "id": 41,
+    "topicId": 10,
+    "sequence": 3,
+    "title": "LESSON 3",
+    "description": "IDENTIFY AND EXPLAIN OR INTERPRET THE PRINCIPLES OF OPERATION OF ELECTRONIC SYMBOLS AND BLOCK SECTIONS OF SCHEMATIC DIAGRAM"
+  },
+  {
+    "id": 42,
+    "topicId": 10,
+    "sequence": 4,
+    "title": "LESSON 4",
+    "description": "APPLY SYMPTOMS DIAGNOSIS AND SYSTEMATIC PRE-TESTING PROCEDURES"
+  },
+  {
+    "id": 43,
+    "topicId": 10,
+    "sequence": 5,
+    "title": "LESSON 5",
+    "description": "REPAIR, MAINTAIN AND ENHANCE CELLULAR PHONES "
+  }
+]

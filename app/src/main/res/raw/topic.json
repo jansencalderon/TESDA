@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "difficultyId": 1,
+    "sequence": 1,
+    "title": "Practice occupational health and safety procedures",
+    "image": "topic1"
+  },
+  {
+    "id": 2,
+    "difficultyId": 1,
+    "sequence": 2,
+    "title": "Use hand tools",
+    "image": "topic2"
+  },
+  {
+    "id": 3,
+    "difficultyId": 1,
+    "sequence": 3,
+    "title": "Perform mensuration and calculation",
+    "image": "topic3"
+  },
+  {
+    "id": 4,
+    "difficultyId": 1,
+    "sequence": 4,
+    "title": "Prepare and interpret technical drawings",
+    "image": "topic4"
+  },
+  {
+    "id": 5,
+    "difficultyId": 1,
+    "sequence": 1,
+    "title": "Perform Computer Operations",
+    "image": "topic5"
+  },
+  {
+    "id": 6,
+    "difficultyId": 1,
+    "sequence": 2,
+    "title": "Terminate and connect electrical wiring  and electronics circuit",
+    "image": "topic6"
+  },
+  {
+    "id": 7,
+    "difficultyId": 1,
+    "sequence": 3,
+    "title": "Assemble/ disassemble consumer electronics products and systems",
+    "image": "topic7"
+  },
+  {
+    "id": 8,
+    "difficultyId": 1,
+    "sequence": 1,
+    "title": "Maintain and repair audio/ video products and systems",
+    "image": "topic8"
+  },
+  {
+    "id": 9,
+    "difficultyId": 1,
+    "sequence": 2,
+    "title": "Maintain and repair electronically- controlled domestic appliances",
+    "image": "topic9"
+  },
+  {
+    "id": 10,
+    "difficultyId": 1,
+    "sequence": 3,
+    "title": "Maintain and repair cellular phones",
+    "image": "topic10"
+  }
+]

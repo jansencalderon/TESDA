@@ -1,0 +1,3404 @@
+[
+  {
+    "id": 1,
+    "questionId": 1,
+    "body": "Slips and trips",
+    "choice_type": 1
+  },
+  {
+    "id": 2,
+    "questionId": 1,
+    "body": "Contact Injuries",
+    "choice_type": 1
+  },
+  {
+    "id": 3,
+    "questionId": 1,
+    "body": "Electrical Shocks",
+    "choice_type": 1
+  },
+  {
+    "id": 4,
+    "questionId": 1,
+    "body": "Fire",
+    "choice_type": 1
+  },
+  {
+    "id": 5,
+    "questionId": 2,
+    "body": "Slips and trips",
+    "choice_type": 1
+  },
+  {
+    "id": 6,
+    "questionId": 2,
+    "body": "Contact Injuries",
+    "choice_type": 1
+  },
+  {
+    "id": 7,
+    "questionId": 2,
+    "body": "Electrical Shocks",
+    "choice_type": 1
+  },
+  {
+    "id": 8,
+    "questionId": 2,
+    "body": "Fire",
+    "choice_type": 1
+  },
+  {
+    "id": 9,
+    "questionId": 3,
+    "body": "Slips and trips",
+    "choice_type": 1
+  },
+  {
+    "id": 10,
+    "questionId": 3,
+    "body": "Contact Injuries",
+    "choice_type": 1
+  },
+  {
+    "id": 11,
+    "questionId": 3,
+    "body": "Hazardous Substances",
+    "choice_type": 1
+  },
+  {
+    "id": 12,
+    "questionId": 3,
+    "body": "Fire",
+    "choice_type": 1
+  },
+  {
+    "id": 13,
+    "questionId": 4,
+    "body": "Slips and trips",
+    "choice_type": 1
+  },
+  {
+    "id": 14,
+    "questionId": 4,
+    "body": "Contact Injuries",
+    "choice_type": 1
+  },
+  {
+    "id": 15,
+    "questionId": 4,
+    "body": "Electrical Shocks",
+    "choice_type": 1
+  },
+  {
+    "id": 16,
+    "questionId": 4,
+    "body": "Fire",
+    "choice_type": 1
+  },
+  {
+    "id": 17,
+    "questionId": 5,
+    "body": "Slips and trips",
+    "choice_type": 1
+  },
+  {
+    "id": 18,
+    "questionId": 5,
+    "body": "Contact Injuries",
+    "choice_type": 1
+  },
+  {
+    "id": 19,
+    "questionId": 5,
+    "body": "Electrical Shocks",
+    "choice_type": 1
+  },
+  {
+    "id": 20,
+    "questionId": 5,
+    "body": "Fire",
+    "choice_type": 1
+  },
+  {
+    "id": 21,
+    "questionId": 6,
+    "body": "Protective Pryotech Equipment",
+    "choice_type": 1
+  },
+  {
+    "id": 22,
+    "questionId": 6,
+    "body": "Personal Protective Equipment",
+    "choice_type": 1
+  },
+  {
+    "id": 23,
+    "questionId": 6,
+    "body": "Practical Protective Equipment",
+    "choice_type": 1
+  },
+  {
+    "id": 24,
+    "questionId": 6,
+    "body": "Private Protective Equipment",
+    "choice_type": 1
+  },
+  {
+    "id": 25,
+    "questionId": 7,
+    "body": "Eye Protecticn",
+    "choice_type": 1
+  },
+  {
+    "id": 26,
+    "questionId": 7,
+    "body": "Boots",
+    "choice_type": 1
+  },
+  {
+    "id": 27,
+    "questionId": 7,
+    "body": "Helmet",
+    "choice_type": 1
+  },
+  {
+    "id": 28,
+    "questionId": 7,
+    "body": "Protective Clothing",
+    "choice_type": 1
+  },
+  {
+    "id": 29,
+    "questionId": 8,
+    "body": "Eye Protecticn",
+    "choice_type": 1
+  },
+  {
+    "id": 30,
+    "questionId": 8,
+    "body": "Boots",
+    "choice_type": 1
+  },
+  {
+    "id": 31,
+    "questionId": 8,
+    "body": "Helmet",
+    "choice_type": 1
+  },
+  {
+    "id": 32,
+    "questionId": 8,
+    "body": "Protective Clothing",
+    "choice_type": 1
+  },
+  {
+    "id": 33,
+    "questionId": 9,
+    "body": "Eye Protecticn",
+    "choice_type": 1
+  },
+  {
+    "id": 34,
+    "questionId": 9,
+    "body": "Boots",
+    "choice_type": 1
+  },
+  {
+    "id": 35,
+    "questionId": 9,
+    "body": "Helmet",
+    "choice_type": 1
+  },
+  {
+    "id": 36,
+    "questionId": 9,
+    "body": "Protective Clothing",
+    "choice_type": 1
+  },
+  {
+    "id": 37,
+    "questionId": 10,
+    "body": "Eye Protecticn",
+    "choice_type": 1
+  },
+  {
+    "id": 38,
+    "questionId": 10,
+    "body": "Boots",
+    "choice_type": 1
+  },
+  {
+    "id": 39,
+    "questionId": 10,
+    "body": "Helmet",
+    "choice_type": 1
+  },
+  {
+    "id": 40,
+    "questionId": 10,
+    "body": "Protective Clothing",
+    "choice_type": 1
+  },
+  {
+    "id": 41,
+    "questionId": 11,
+    "body": "PPE",
+    "choice_type": 1
+  },
+  {
+    "id": 42,
+    "questionId": 11,
+    "body": "Threshold Limit Value",
+    "choice_type": 1
+  },
+  {
+    "id": 43,
+    "questionId": 11,
+    "body": "Organizational Safety Protocol",
+    "choice_type": 1
+  },
+  {
+    "id": 44,
+    "questionId": 12,
+    "body": "Ceiling Limit",
+    "choice_type": 1
+  },
+  {
+    "id": 45,
+    "questionId": 12,
+    "body": "Average",
+    "choice_type": 1
+  },
+  {
+    "id": 46,
+    "questionId": 12,
+    "body": "Short - Term Exposure Limit",
+    "choice_type": 1
+  },
+  {
+    "id": 47,
+    "questionId": 12,
+    "body": "None of the Above",
+    "choice_type": 1
+  },
+  {
+    "id": 48,
+    "questionId": 13,
+    "body": "Ceiling Limit",
+    "choice_type": 1
+  },
+  {
+    "id": 49,
+    "questionId": 13,
+    "body": "Average",
+    "choice_type": 1
+  },
+  {
+    "id": 50,
+    "questionId": 13,
+    "body": "Short - Term Exposure Limit",
+    "choice_type": 1
+  },
+  {
+    "id": 51,
+    "questionId": 13,
+    "body": "None of the Above",
+    "choice_type": 1
+  },
+  {
+    "id": 52,
+    "questionId": 14,
+    "body": "Ceiling Limit",
+    "choice_type": 1
+  },
+  {
+    "id": 53,
+    "questionId": 14,
+    "body": "Average",
+    "choice_type": 1
+  },
+  {
+    "id": 54,
+    "questionId": 14,
+    "body": "Short - Term Exposure Limit",
+    "choice_type": 1
+  },
+  {
+    "id": 55,
+    "questionId": 14,
+    "body": "None of the Above",
+    "choice_type": 1
+  },
+  {
+    "id": 56,
+    "questionId": 15,
+    "body": "Threshold Limit Value",
+    "choice_type": 1
+  },
+  {
+    "id": 57,
+    "questionId": 15,
+    "body": "Personal Protective Equipment",
+    "choice_type": 1
+  },
+  {
+    "id": 58,
+    "questionId": 15,
+    "body": "Occupational Health and Safety",
+    "choice_type": 1
+  },
+  {
+    "id": 59,
+    "questionId": 15,
+    "body": "None of the Above",
+    "choice_type": 1
+  },
+  {
+    "id": 60,
+    "questionId": 16,
+    "body": "Long Nose Pliers",
+    "choice_type": 1
+  },
+  {
+    "id": 61,
+    "questionId": 16,
+    "body": "Side Cutter",
+    "choice_type": 1
+  },
+  {
+    "id": 62,
+    "questionId": 16,
+    "body": "Standard Screw Driver",
+    "choice_type": 1
+  },
+  {
+    "id": 63,
+    "questionId": 16,
+    "body": "Wrench",
+    "choice_type": 1
+  },
+  {
+    "id": 64,
+    "questionId": 17,
+    "body": "Side Cutter",
+    "choice_type": 1
+  },
+  {
+    "id": 65,
+    "questionId": 17,
+    "body": "Utility Knife",
+    "choice_type": 1
+  },
+  {
+    "id": 66,
+    "questionId": 17,
+    "body": "Standard Screw Driver",
+    "choice_type": 1
+  },
+  {
+    "id": 67,
+    "questionId": 17,
+    "body": "De - Soldering Iron/Pump",
+    "choice_type": 1
+  },
+  {
+    "id": 68,
+    "questionId": 18,
+    "body": "Utility Knife",
+    "choice_type": 1
+  },
+  {
+    "id": 69,
+    "questionId": 18,
+    "body": "Wrench",
+    "choice_type": 1
+  },
+  {
+    "id": 70,
+    "questionId": 18,
+    "body": "Allen Keys/Wrench",
+    "choice_type": 1
+  },
+  {
+    "id": 71,
+    "questionId": 18,
+    "body": "Standard Screw Driver",
+    "choice_type": 1
+  },
+  {
+    "id": 72,
+    "questionId": 19,
+    "body": "Utility Knife",
+    "choice_type": 1
+  },
+  {
+    "id": 73,
+    "questionId": 19,
+    "body": "Soldering Iron",
+    "choice_type": 1
+  },
+  {
+    "id": 74,
+    "questionId": 19,
+    "body": "Wrench",
+    "choice_type": 1
+  },
+  {
+    "id": 75,
+    "questionId": 19,
+    "body": "De - Soldering Iron/Pump",
+    "choice_type": 1
+  },
+  {
+    "id": 76,
+    "questionId": 20,
+    "body": "Side Cutter",
+    "choice_type": 1
+  },
+  {
+    "id": 77,
+    "questionId": 20,
+    "body": "Standard Screw Driver",
+    "choice_type": 1
+  },
+  {
+    "id": 78,
+    "questionId": 20,
+    "body": "Wrench",
+    "choice_type": 1
+  },
+  {
+    "id": 79,
+    "questionId": 20,
+    "body": "Allen Keys/Wrench",
+    "choice_type": 1
+  },
+  {
+    "id": 80,
+    "questionId": 21,
+    "body": "Allen Keys/Wrench",
+    "choice_type": 1
+  },
+  {
+    "id": 81,
+    "questionId": 21,
+    "body": "Utility Knife",
+    "choice_type": 1
+  },
+  {
+    "id": 82,
+    "questionId": 21,
+    "body": "Soldering Iron",
+    "choice_type": 1
+  },
+  {
+    "id": 83,
+    "questionId": 21,
+    "body": "De - Soldering Iron/Pump",
+    "choice_type": 1
+  },
+  {
+    "id": 84,
+    "questionId": 22,
+    "body": "Allen Keys/Wrench",
+    "choice_type": 1
+  },
+  {
+    "id": 85,
+    "questionId": 22,
+    "body": "Utility Knife",
+    "choice_type": 1
+  },
+  {
+    "id": 86,
+    "questionId": 22,
+    "body": "Soldering Iron",
+    "choice_type": 1
+  },
+  {
+    "id": 87,
+    "questionId": 22,
+    "body": "De - Soldering Iron/Pump",
+    "choice_type": 1
+  },
+  {
+    "id": 88,
+    "questionId": 23,
+    "body": "Side Cutter",
+    "choice_type": 1
+  },
+  {
+    "id": 89,
+    "questionId": 23,
+    "body": "Standard Screw Driver",
+    "choice_type": 1
+  },
+  {
+    "id": 90,
+    "questionId": 23,
+    "body": "Wrench",
+    "choice_type": 1
+  },
+  {
+    "id": 91,
+    "questionId": 23,
+    "body": "De - Soldering Iron/Pump",
+    "choice_type": 1
+  },
+  {
+    "id": 92,
+    "questionId": 24,
+    "body": "Function Generator",
+    "choice_type": 1
+  },
+  {
+    "id": 93,
+    "questionId": 24,
+    "body": "Multi - meter",
+    "choice_type": 1
+  },
+  {
+    "id": 94,
+    "questionId": 24,
+    "body": "Oscilloscope",
+    "choice_type": 1
+  },
+  {
+    "id": 95,
+    "questionId": 24,
+    "body": "None of the Above",
+    "choice_type": 1
+  },
+  {
+    "id": 96,
+    "questionId": 25,
+    "body": "Function Generator",
+    "choice_type": 1
+  },
+  {
+    "id": 97,
+    "questionId": 25,
+    "body": "Multi - meter",
+    "choice_type": 1
+  },
+  {
+    "id": 98,
+    "questionId": 25,
+    "body": "Oscilloscope",
+    "choice_type": 1
+  },
+  {
+    "id": 99,
+    "questionId": 25,
+    "body": "None of the Above",
+    "choice_type": 1
+  },
+  {
+    "id": 100,
+    "questionId": 26,
+    "body": "Function Generator",
+    "choice_type": 1
+  },
+  {
+    "id": 101,
+    "questionId": 26,
+    "body": "Multi - meter",
+    "choice_type": 1
+  },
+  {
+    "id": 102,
+    "questionId": 26,
+    "body": "Oscilloscope",
+    "choice_type": 1
+  },
+  {
+    "id": 103,
+    "questionId": 26,
+    "body": "None of the Above",
+    "choice_type": 1
+  },
+  {
+    "id": 104,
+    "questionId": 27,
+    "body": "Toolbox",
+    "choice_type": 1
+  },
+  {
+    "id": 105,
+    "questionId": 27,
+    "body": "School Bag",
+    "choice_type": 1
+  },
+  {
+    "id": 106,
+    "questionId": 27,
+    "body": "Anywhere",
+    "choice_type": 1
+  },
+  {
+    "id": 107,
+    "questionId": 27,
+    "body": "Non of the Above",
+    "choice_type": 1
+  },
+  {
+    "id": 108,
+    "questionId": 28,
+    "body": "Micrometer",
+    "choice_type": 1
+  },
+  {
+    "id": 109,
+    "questionId": 28,
+    "body": "Test Light",
+    "choice_type": 1
+  },
+  {
+    "id": 110,
+    "questionId": 28,
+    "body": "Volt Meter",
+    "choice_type": 1
+  },
+  {
+    "id": 111,
+    "questionId": 28,
+    "body": "Tape Measure",
+    "choice_type": 1
+  },
+  {
+    "id": 112,
+    "questionId": 29,
+    "body": "Micrometer",
+    "choice_type": 1
+  },
+  {
+    "id": 113,
+    "questionId": 29,
+    "body": "Test Light",
+    "choice_type": 1
+  },
+  {
+    "id": 114,
+    "questionId": 29,
+    "body": "Wire Gauge",
+    "choice_type": 1
+  },
+  {
+    "id": 115,
+    "questionId": 29,
+    "body": "Tape Measure",
+    "choice_type": 1
+  },
+  {
+    "id": 116,
+    "questionId": 30,
+    "body": "Micrometer",
+    "choice_type": 1
+  },
+  {
+    "id": 117,
+    "questionId": 30,
+    "body": "Test Light",
+    "choice_type": 1
+  },
+  {
+    "id": 118,
+    "questionId": 30,
+    "body": "Wire Gauge",
+    "choice_type": 1
+  },
+  {
+    "id": 119,
+    "questionId": 30,
+    "body": "Tape Measure",
+    "choice_type": 1
+  },
+  {
+    "id": 120,
+    "questionId": 31,
+    "body": "Micrometer",
+    "choice_type": 1
+  },
+  {
+    "id": 121,
+    "questionId": 31,
+    "body": "Test Light",
+    "choice_type": 1
+  },
+  {
+    "id": 122,
+    "questionId": 31,
+    "body": "Wire Gauge",
+    "choice_type": 1
+  },
+  {
+    "id": 123,
+    "questionId": 31,
+    "body": "Tape Measure",
+    "choice_type": 1
+  },
+  {
+    "id": 124,
+    "questionId": 32,
+    "body": "Watt Meter",
+    "choice_type": 1
+  },
+  {
+    "id": 125,
+    "questionId": 32,
+    "body": "Test Light",
+    "choice_type": 1
+  },
+  {
+    "id": 126,
+    "questionId": 32,
+    "body": "Volt Meter",
+    "choice_type": 1
+  },
+  {
+    "id": 127,
+    "questionId": 32,
+    "body": "Tape Measure",
+    "choice_type": 1
+  },
+  {
+    "id": 128,
+    "questionId": 33,
+    "body": "Watt Meter",
+    "choice_type": 1
+  },
+  {
+    "id": 129,
+    "questionId": 33,
+    "body": "Test Light",
+    "choice_type": 1
+  },
+  {
+    "id": 130,
+    "questionId": 33,
+    "body": "Volt Meter",
+    "choice_type": 1
+  },
+  {
+    "id": 131,
+    "questionId": 33,
+    "body": "Ammter",
+    "choice_type": 1
+  },
+  {
+    "id": 132,
+    "questionId": 34,
+    "body": "Watt Meter",
+    "choice_type": 1
+  },
+  {
+    "id": 133,
+    "questionId": 34,
+    "body": "Ohm Meter",
+    "choice_type": 1
+  },
+  {
+    "id": 134,
+    "questionId": 34,
+    "body": "Volt Meter",
+    "choice_type": 1
+  },
+  {
+    "id": 135,
+    "questionId": 34,
+    "body": "Ammter",
+    "choice_type": 1
+  },
+  {
+    "id": 136,
+    "questionId": 35,
+    "body": "Watt Meter",
+    "choice_type": 1
+  },
+  {
+    "id": 137,
+    "questionId": 35,
+    "body": "Ohm Meter",
+    "choice_type": 1
+  },
+  {
+    "id": 138,
+    "questionId": 35,
+    "body": "Volt Meter",
+    "choice_type": 1
+  },
+  {
+    "id": 139,
+    "questionId": 35,
+    "body": "Ammter",
+    "choice_type": 1
+  },
+  {
+    "id": 140,
+    "questionId": 36,
+    "body": "Micrometer",
+    "choice_type": 1
+  },
+  {
+    "id": 141,
+    "questionId": 36,
+    "body": "Wire Gauge",
+    "choice_type": 1
+  },
+  {
+    "id": 142,
+    "questionId": 36,
+    "body": "Test Light",
+    "choice_type": 1
+  },
+  {
+    "id": 143,
+    "questionId": 36,
+    "body": "Tape Measure",
+    "choice_type": 1
+  },
+  {
+    "id": 144,
+    "questionId": 37,
+    "body": "Micrometer",
+    "choice_type": 1
+  },
+  {
+    "id": 145,
+    "questionId": 37,
+    "body": "Wire Gauge",
+    "choice_type": 1
+  },
+  {
+    "id": 146,
+    "questionId": 37,
+    "body": "Test Light",
+    "choice_type": 1
+  },
+  {
+    "id": 147,
+    "questionId": 37,
+    "body": "Tape Measure",
+    "choice_type": 1
+  },
+  {
+    "id": 148,
+    "questionId": 38,
+    "body": "Micrometer",
+    "choice_type": 1
+  },
+  {
+    "id": 149,
+    "questionId": 38,
+    "body": "Wire Gauge",
+    "choice_type": 1
+  },
+  {
+    "id": 150,
+    "questionId": 38,
+    "body": "Test Light",
+    "choice_type": 1
+  },
+  {
+    "id": 151,
+    "questionId": 38,
+    "body": "Tape Measure",
+    "choice_type": 1
+  },
+  {
+    "id": 152,
+    "questionId": 39,
+    "body": "Watt Meter",
+    "choice_type": 1
+  },
+  {
+    "id": 153,
+    "questionId": 39,
+    "body": "Ohm Meter",
+    "choice_type": 1
+  },
+  {
+    "id": 154,
+    "questionId": 39,
+    "body": "Volt Meter",
+    "choice_type": 1
+  },
+  {
+    "id": 155,
+    "questionId": 39,
+    "body": "Ammter",
+    "choice_type": 1
+  },
+  {
+    "id": 156,
+    "questionId": 40,
+    "body": "Watt Meter",
+    "choice_type": 1
+  },
+  {
+    "id": 157,
+    "questionId": 40,
+    "body": "Ohm Meter",
+    "choice_type": 1
+  },
+  {
+    "id": 158,
+    "questionId": 40,
+    "body": "Volt Meter",
+    "choice_type": 1
+  },
+  {
+    "id": 159,
+    "questionId": 40,
+    "body": "Ammter",
+    "choice_type": 1
+  },
+  {
+    "id": 160,
+    "questionId": 41,
+    "body": "Watt Meter",
+    "choice_type": 1
+  },
+  {
+    "id": 161,
+    "questionId": 41,
+    "body": "Ohm Meter",
+    "choice_type": 1
+  },
+  {
+    "id": 162,
+    "questionId": 41,
+    "body": "Volt Meter",
+    "choice_type": 1
+  },
+  {
+    "id": 163,
+    "questionId": 41,
+    "body": "Ammter",
+    "choice_type": 1
+  },
+  {
+    "id": 164,
+    "questionId": 42,
+    "body": "I only",
+    "choice_type": 1
+  },
+  {
+    "id": 165,
+    "questionId": 42,
+    "body": "I and II",
+    "choice_type": 1
+  },
+  {
+    "id": 166,
+    "questionId": 42,
+    "body": "I and III",
+    "choice_type": 1
+  },
+  {
+    "id": 167,
+    "questionId": 42,
+    "body": "III only",
+    "choice_type": 1
+  },
+  {
+    "id": 168,
+    "questionId": 43,
+    "body": "Isometric Projection",
+    "choice_type": 1
+  },
+  {
+    "id": 169,
+    "questionId": 43,
+    "body": "British Standard Dimensions",
+    "choice_type": 1
+  },
+  {
+    "id": 170,
+    "questionId": 43,
+    "body": "Orthographic Projection",
+    "choice_type": 1
+  },
+  {
+    "id": 171,
+    "questionId": 43,
+    "body": "None of the Above",
+    "choice_type": 1
+  },
+  {
+    "id": 172,
+    "questionId": 44,
+    "body": "Isometric Projection",
+    "choice_type": 1
+  },
+  {
+    "id": 173,
+    "questionId": 44,
+    "body": "British Standard Dimensions",
+    "choice_type": 1
+  },
+  {
+    "id": 174,
+    "questionId": 44,
+    "body": "Orthographic Projection",
+    "choice_type": 1
+  },
+  {
+    "id": 175,
+    "questionId": 44,
+    "body": "None of the Above",
+    "choice_type": 1
+  },
+  {
+    "id": 176,
+    "questionId": 45,
+    "body": "Isometric Projection",
+    "choice_type": 1
+  },
+  {
+    "id": 177,
+    "questionId": 45,
+    "body": "British Standard Dimensions",
+    "choice_type": 1
+  },
+  {
+    "id": 178,
+    "questionId": 45,
+    "body": "Orthographic Projection",
+    "choice_type": 1
+  },
+  {
+    "id": 179,
+    "questionId": 45,
+    "body": "None of the Above",
+    "choice_type": 1
+  },
+  {
+    "id": 180,
+    "questionId": 46,
+    "body": "Composite",
+    "choice_type": 1
+  },
+  {
+    "id": 181,
+    "questionId": 46,
+    "body": "Polystyrene",
+    "choice_type": 1
+  },
+  {
+    "id": 182,
+    "questionId": 46,
+    "body": "Thermosetting Plastic",
+    "choice_type": 1
+  },
+  {
+    "id": 183,
+    "questionId": 46,
+    "body": "Styrofoam",
+    "choice_type": 1
+  },
+  {
+    "id": 184,
+    "questionId": 47,
+    "body": "Composite",
+    "choice_type": 1
+  },
+  {
+    "id": 185,
+    "questionId": 47,
+    "body": "Polymer",
+    "choice_type": 1
+  },
+  {
+    "id": 186,
+    "questionId": 47,
+    "body": "Thermoplastic",
+    "choice_type": 1
+  },
+  {
+    "id": 187,
+    "questionId": 47,
+    "body": "Acrylic",
+    "choice_type": 1
+  },
+  {
+    "id": 188,
+    "questionId": 48,
+    "body": "Marking Knife",
+    "choice_type": 1
+  },
+  {
+    "id": 189,
+    "questionId": 48,
+    "body": "Panel Saw",
+    "choice_type": 1
+  },
+  {
+    "id": 190,
+    "questionId": 48,
+    "body": "T Square",
+    "choice_type": 1
+  },
+  {
+    "id": 191,
+    "questionId": 48,
+    "body": "File",
+    "choice_type": 1
+  },
+  {
+    "id": 192,
+    "questionId": 49,
+    "body": "Try Square",
+    "choice_type": 1
+  },
+  {
+    "id": 193,
+    "questionId": 49,
+    "body": "Craft Knife",
+    "choice_type": 1
+  },
+  {
+    "id": 194,
+    "questionId": 49,
+    "body": "Cutting Mat",
+    "choice_type": 1
+  },
+  {
+    "id": 195,
+    "questionId": 49,
+    "body": "Die Cutter",
+    "choice_type": 1
+  },
+  {
+    "id": 196,
+    "questionId": 50,
+    "body": "Vaccum Forming",
+    "choice_type": 1
+  },
+  {
+    "id": 197,
+    "questionId": 50,
+    "body": "Line Bending",
+    "choice_type": 1
+  },
+  {
+    "id": 198,
+    "questionId": 50,
+    "body": "Injection Molding",
+    "choice_type": 1
+  },
+  {
+    "id": 199,
+    "questionId": 50,
+    "body": "None of the Above",
+    "choice_type": 1
+  },
+  {
+    "id": 200,
+    "questionId": 51,
+    "body": "Vaccum Forming",
+    "choice_type": 1
+  },
+  {
+    "id": 201,
+    "questionId": 51,
+    "body": "Line Bending",
+    "choice_type": 1
+  },
+  {
+    "id": 202,
+    "questionId": 51,
+    "body": "Injection Molding",
+    "choice_type": 1
+  },
+  {
+    "id": 203,
+    "questionId": 51,
+    "body": "None of the Above",
+    "choice_type": 1
+  },
+  {
+    "id": 204,
+    "questionId": 52,
+    "body": "Vaccum Forming",
+    "choice_type": 1
+  },
+  {
+    "id": 205,
+    "questionId": 52,
+    "body": "Line Bending",
+    "choice_type": 1
+  },
+  {
+    "id": 206,
+    "questionId": 52,
+    "body": "Injection Molding",
+    "choice_type": 1
+  },
+  {
+    "id": 207,
+    "questionId": 52,
+    "body": "None of the Above",
+    "choice_type": 1
+  },
+  {
+    "id": 208,
+    "questionId": 53,
+    "body": "Switch",
+    "choice_type": 1
+  },
+  {
+    "id": 209,
+    "questionId": 53,
+    "body": "Capacitor",
+    "choice_type": 1
+  },
+  {
+    "id": 210,
+    "questionId": 53,
+    "body": "Inductor",
+    "choice_type": 1
+  },
+  {
+    "id": 211,
+    "questionId": 53,
+    "body": "Resistor",
+    "choice_type": 1
+  },
+  {
+    "id": 212,
+    "questionId": 54,
+    "body": "Switch",
+    "choice_type": 1
+  },
+  {
+    "id": 213,
+    "questionId": 54,
+    "body": "Capacitor",
+    "choice_type": 1
+  },
+  {
+    "id": 214,
+    "questionId": 54,
+    "body": "Inductor",
+    "choice_type": 1
+  },
+  {
+    "id": 215,
+    "questionId": 54,
+    "body": "Resistor",
+    "choice_type": 1
+  },
+  {
+    "id": 216,
+    "questionId": 55,
+    "body": "Tabular",
+    "choice_type": 1
+  },
+  {
+    "id": 217,
+    "questionId": 55,
+    "body": "Align",
+    "choice_type": 1
+  },
+  {
+    "id": 218,
+    "questionId": 55,
+    "body": "Undirectional",
+    "choice_type": 1
+  },
+  {
+    "id": 219,
+    "questionId": 55,
+    "body": "None of the Above",
+    "choice_type": 1
+  },
+  {
+    "id": 220,
+    "questionId": 56,
+    "body": "Tabular",
+    "choice_type": 1
+  },
+  {
+    "id": 221,
+    "questionId": 56,
+    "body": "Align",
+    "choice_type": 1
+  },
+  {
+    "id": 222,
+    "questionId": 56,
+    "body": "Undirectional",
+    "choice_type": 1
+  },
+  {
+    "id": 223,
+    "questionId": 56,
+    "body": "None of the Above",
+    "choice_type": 1
+  },
+  {
+    "id": 224,
+    "questionId": 57,
+    "body": "Tabular",
+    "choice_type": 1
+  },
+  {
+    "id": 225,
+    "questionId": 57,
+    "body": "Align",
+    "choice_type": 1
+  },
+  {
+    "id": 226,
+    "questionId": 57,
+    "body": "Undirectional",
+    "choice_type": 1
+  },
+  {
+    "id": 227,
+    "questionId": 57,
+    "body": "None of the Above",
+    "choice_type": 1
+  },
+  {
+    "id": 228,
+    "questionId": 58,
+    "body": "Act 2001",
+    "choice_type": 1
+  },
+  {
+    "id": 229,
+    "questionId": 58,
+    "body": "Act 2004",
+    "choice_type": 1
+  },
+  {
+    "id": 230,
+    "questionId": 58,
+    "body": "Act 2009",
+    "choice_type": 1
+  },
+  {
+    "id": 231,
+    "questionId": 58,
+    "body": "None Of The Above",
+    "choice_type": 1
+  },
+  {
+    "id": 232,
+    "questionId": 59,
+    "body": "All Victorian workers ",
+    "choice_type": 1
+  },
+  {
+    "id": 233,
+    "questionId": 59,
+    "body": "Government Employees",
+    "choice_type": 1
+  },
+  {
+    "id": 234,
+    "questionId": 59,
+    "body": "OFWs",
+    "choice_type": 1
+  },
+  {
+    "id": 235,
+    "questionId": 59,
+    "body": "None Of The Above",
+    "choice_type": 1
+  },
+  {
+    "id": 236,
+    "questionId": 60,
+    "body": "Batch OS and Single OS",
+    "choice_type": 1
+  },
+  {
+    "id": 237,
+    "questionId": 60,
+    "body": "Real Time OS and Multitasking OS",
+    "choice_type": 1
+  },
+  {
+    "id": 238,
+    "questionId": 60,
+    "body": "Normal OS and Real Time OS",
+    "choice_type": 1
+  },
+  {
+    "id": 239,
+    "questionId": 60,
+    "body": "Fast OS and Slow ",
+    "choice_type": 1
+  },
+  {
+    "id": 240,
+    "questionId": 61,
+    "body": "Character User Interface(CUI) OS",
+    "choice_type": 1
+  },
+  {
+    "id": 241,
+    "questionId": 61,
+    "body": "Normal Operating System",
+    "choice_type": 1
+  },
+  {
+    "id": 242,
+    "questionId": 61,
+    "body": "Real Time Operating System",
+    "choice_type": 1
+  },
+  {
+    "id": 243,
+    "questionId": 61,
+    "body": "Graphical User Interface(GUI) OS",
+    "choice_type": 1
+  },
+  {
+    "id": 244,
+    "questionId": 62,
+    "body": "Character User Interface(CUI) OS",
+    "choice_type": 1
+  },
+  {
+    "id": 245,
+    "questionId": 62,
+    "body": "Normal Operating System",
+    "choice_type": 1
+  },
+  {
+    "id": 246,
+    "questionId": 62,
+    "body": "Real Time Operating System",
+    "choice_type": 1
+  },
+  {
+    "id": 247,
+    "questionId": 62,
+    "body": "Graphical User Interface(GUI) OS",
+    "choice_type": 1
+  },
+  {
+    "id": 248,
+    "questionId": 63,
+    "body": "Operating System Designs",
+    "choice_type": 1
+  },
+  {
+    "id": 249,
+    "questionId": 63,
+    "body": "Structures of Operating Systems",
+    "choice_type": 1
+  },
+  {
+    "id": 250,
+    "questionId": 63,
+    "body": "Architecture of Operating Systems",
+    "choice_type": 1
+  },
+  {
+    "id": 251,
+    "questionId": 63,
+    "body": "Graphical User Interface(GUI)",
+    "choice_type": 1
+  },
+  {
+    "id": 252,
+    "questionId": 64,
+    "body": "Memory",
+    "choice_type": 1
+  },
+  {
+    "id": 253,
+    "questionId": 64,
+    "body": "Hard disk drive",
+    "choice_type": 1
+  },
+  {
+    "id": 254,
+    "questionId": 64,
+    "body": "Solid-state drives",
+    "choice_type": 1
+  },
+  {
+    "id": 255,
+    "questionId": 64,
+    "body": "Flash drive",
+    "choice_type": 1
+  },
+  {
+    "id": 256,
+    "questionId": 65,
+    "body": "Table; Parallel",
+    "choice_type": 1
+  },
+  {
+    "id": 257,
+    "questionId": 65,
+    "body": "Parallel; Table",
+    "choice_type": 1
+  },
+  {
+    "id": 258,
+    "questionId": 65,
+    "body": "Chair; Parallel",
+    "choice_type": 1
+  },
+  {
+    "id": 259,
+    "questionId": 65,
+    "body": "Chair; Table",
+    "choice_type": 1
+  },
+  {
+    "id": 260,
+    "questionId": 66,
+    "body": "System Software",
+    "choice_type": 1
+  },
+  {
+    "id": 261,
+    "questionId": 66,
+    "body": "Operating System",
+    "choice_type": 1
+  },
+  {
+    "id": 262,
+    "questionId": 66,
+    "body": "Hardware",
+    "choice_type": 1
+  },
+  {
+    "id": 263,
+    "questionId": 66,
+    "body": "Peripherals",
+    "choice_type": 1
+  },
+  {
+    "id": 264,
+    "questionId": 67,
+    "body": "System Software",
+    "choice_type": 1
+  },
+  {
+    "id": 265,
+    "questionId": 67,
+    "body": "Kernel",
+    "choice_type": 1
+  },
+  {
+    "id": 266,
+    "questionId": 67,
+    "body": "RAM",
+    "choice_type": 1
+  },
+  {
+    "id": 267,
+    "questionId": 67,
+    "body": "Boot Program",
+    "choice_type": 1
+  },
+  {
+    "id": 268,
+    "questionId": 68,
+    "body": "Character User Interface and Graphical User Interface",
+    "choice_type": 1
+  },
+  {
+    "id": 269,
+    "questionId": 68,
+    "body": "Fast and Slow",
+    "choice_type": 1
+  },
+  {
+    "id": 270,
+    "questionId": 68,
+    "body": "Functional and Operational",
+    "choice_type": 1
+  },
+  {
+    "id": 271,
+    "questionId": 68,
+    "body": "Real-Time and Batch",
+    "choice_type": 1
+  },
+  {
+    "id": 272,
+    "questionId": 69,
+    "body": "Kernel",
+    "choice_type": 1
+  },
+  {
+    "id": 273,
+    "questionId": 69,
+    "body": "Operating System",
+    "choice_type": 1
+  },
+  {
+    "id": 274,
+    "questionId": 69,
+    "body": "Firmware",
+    "choice_type": 1
+  },
+  {
+    "id": 275,
+    "questionId": 69,
+    "body": "Shell",
+    "choice_type": 1
+  },
+  {
+    "id": 276,
+    "questionId": 70,
+    "body": "Command Line shells",
+    "choice_type": 1
+  },
+  {
+    "id": 277,
+    "questionId": 70,
+    "body": "Command Line Interface",
+    "choice_type": 1
+  },
+  {
+    "id": 278,
+    "questionId": 70,
+    "body": "Graphical Command Line",
+    "choice_type": 1
+  },
+  {
+    "id": 279,
+    "questionId": 70,
+    "body": "Graphical Line Shells",
+    "choice_type": 1
+  },
+  {
+    "id": 280,
+    "questionId": 71,
+    "body": "C Command Line shells",
+    "choice_type": 1
+  },
+  {
+    "id": 281,
+    "questionId": 71,
+    "body": "Command Line Interface",
+    "choice_type": 1
+  },
+  {
+    "id": 282,
+    "questionId": 71,
+    "body": "Graphical Command Line",
+    "choice_type": 1
+  },
+  {
+    "id": 283,
+    "questionId": 71,
+    "body": "Graphical Line Shells",
+    "choice_type": 1
+  },
+  {
+    "id": 284,
+    "questionId": 72,
+    "body": "Firmware",
+    "choice_type": 1
+  },
+  {
+    "id": 285,
+    "questionId": 72,
+    "body": "Root",
+    "choice_type": 1
+  },
+  {
+    "id": 286,
+    "questionId": 72,
+    "body": "Kernel",
+    "choice_type": 1
+  },
+  {
+    "id": 287,
+    "questionId": 72,
+    "body": "CPU",
+    "choice_type": 1
+  },
+  {
+    "id": 288,
+    "questionId": 73,
+    "body": "Virtual and Physical",
+    "choice_type": 1
+  },
+  {
+    "id": 289,
+    "questionId": 73,
+    "body": "RAM and ROM",
+    "choice_type": 1
+  },
+  {
+    "id": 290,
+    "questionId": 73,
+    "body": "HDD and SDD",
+    "choice_type": 1
+  },
+  {
+    "id": 291,
+    "questionId": 73,
+    "body": "Flash and RAM",
+    "choice_type": 1
+  },
+  {
+    "id": 292,
+    "questionId": 74,
+    "body": "Storage Management",
+    "choice_type": 1
+  },
+  {
+    "id": 293,
+    "questionId": 74,
+    "body": "File Management",
+    "choice_type": 1
+  },
+  {
+    "id": 294,
+    "questionId": 74,
+    "body": "Process Management",
+    "choice_type": 1
+  },
+  {
+    "id": 295,
+    "questionId": 74,
+    "body": "Operating Management",
+    "choice_type": 1
+  },
+  {
+    "id": 296,
+    "questionId": 75,
+    "body": "File Management",
+    "choice_type": 1
+  },
+  {
+    "id": 297,
+    "questionId": 75,
+    "body": "Storage Management",
+    "choice_type": 1
+  },
+  {
+    "id": 298,
+    "questionId": 75,
+    "body": "Operating Management",
+    "choice_type": 1
+  },
+  {
+    "id": 299,
+    "questionId": 75,
+    "body": "Process Management",
+    "choice_type": 1
+  },
+  {
+    "id": 300,
+    "questionId": 76,
+    "body": "Long term scheduler; Short term scheduler; Medium term schedule",
+    "choice_type": 1
+  },
+  {
+    "id": 301,
+    "questionId": 76,
+    "body": "Fast scheduler ; Slow Scheduler; Moderate Scheduler",
+    "choice_type": 1
+  },
+  {
+    "id": 302,
+    "questionId": 76,
+    "body": "Very Fast scheduler; Very Slow scheduler; Slow Scheduler",
+    "choice_type": 1
+  },
+  {
+    "id": 303,
+    "questionId": 76,
+    "body": "Very Fast scheduler; Very Slow scheduler; Fast Scheduler",
+    "choice_type": 1
+  },
+  {
+    "id": 304,
+    "questionId": 77,
+    "body": "Hard Real-Time System",
+    "choice_type": 1
+  },
+  {
+    "id": 305,
+    "questionId": 77,
+    "body": "Soft Real-Time System",
+    "choice_type": 1
+  },
+  {
+    "id": 306,
+    "questionId": 77,
+    "body": "Fast Real-Time System",
+    "choice_type": 1
+  },
+  {
+    "id": 307,
+    "questionId": 77,
+    "body": "Automatic System",
+    "choice_type": 1
+  },
+  {
+    "id": 308,
+    "questionId": 78,
+    "body": "Always cover sharp pointed tools w/ plastic",
+    "choice_type": 1
+  },
+  {
+    "id": 309,
+    "questionId": 78,
+    "body": "Always cover sharp pointed tools w/ cork",
+    "choice_type": 1
+  },
+  {
+    "id": 310,
+    "questionId": 78,
+    "body": "Always cover sharp pointed tools w/ rubber",
+    "choice_type": 1
+  },
+  {
+    "id": 311,
+    "questionId": 78,
+    "body": "None of the Above",
+    "choice_type": 1
+  },
+  {
+    "id": 312,
+    "questionId": 79,
+    "body": "Always cover sharp pointed tools w/ plastic",
+    "choice_type": 1
+  },
+  {
+    "id": 313,
+    "questionId": 79,
+    "body": "Always cover sharp pointed tools w/ cork",
+    "choice_type": 1
+  },
+  {
+    "id": 314,
+    "questionId": 79,
+    "body": "Always cover sharp pointed tools w/ rubber",
+    "choice_type": 1
+  },
+  {
+    "id": 315,
+    "questionId": 79,
+    "body": "None of the Above",
+    "choice_type": 1
+  },
+  {
+    "id": 316,
+    "questionId": 80,
+    "body": "Safe Use",
+    "choice_type": 1
+  },
+  {
+    "id": 317,
+    "questionId": 80,
+    "body": "Correct maintenance of Tools and Equipment",
+    "choice_type": 1
+  },
+  {
+    "id": 318,
+    "questionId": 80,
+    "body": "Law on Tools and Maintenance",
+    "choice_type": 1
+  },
+  {
+    "id": 319,
+    "questionId": 80,
+    "body": "None of the Above",
+    "choice_type": 1
+  },
+  {
+    "id": 320,
+    "questionId": 81,
+    "body": "Safe Use",
+    "choice_type": 1
+  },
+  {
+    "id": 321,
+    "questionId": 81,
+    "body": "Correct maintenance of Tools and Equipment",
+    "choice_type": 1
+  },
+  {
+    "id": 322,
+    "questionId": 81,
+    "body": "Law on Tools and Maintenance",
+    "choice_type": 1
+  },
+  {
+    "id": 323,
+    "questionId": 81,
+    "body": "None of the Above",
+    "choice_type": 1
+  },
+  {
+    "id": 324,
+    "questionId": 82,
+    "body": "Standard Rules and Regulations(SRR)",
+    "choice_type": 1
+  },
+  {
+    "id": 325,
+    "questionId": 82,
+    "body": "Standard Operating Regulations(SOR)",
+    "choice_type": 1
+  },
+  {
+    "id": 326,
+    "questionId": 82,
+    "body": "Standard Operating Procedure(SOP)",
+    "choice_type": 1
+  },
+  {
+    "id": 327,
+    "questionId": 82,
+    "body": "None of the above",
+    "choice_type": 1
+  },
+  {
+    "id": 328,
+    "questionId": 83,
+    "body": "Inductance Testers",
+    "choice_type": 1
+  },
+  {
+    "id": 329,
+    "questionId": 83,
+    "body": "Solenoid Voltage Testers",
+    "choice_type": 1
+  },
+  {
+    "id": 330,
+    "questionId": 83,
+    "body": "Continuity Testers",
+    "choice_type": 1
+  },
+  {
+    "id": 331,
+    "questionId": 83,
+    "body": "Electrical testers",
+    "choice_type": 1
+  },
+  {
+    "id": 332,
+    "questionId": 84,
+    "body": "Inductance Testers",
+    "choice_type": 1
+  },
+  {
+    "id": 333,
+    "questionId": 84,
+    "body": "Solenoid Voltage Testers",
+    "choice_type": 1
+  },
+  {
+    "id": 334,
+    "questionId": 84,
+    "body": "Continuity Testers",
+    "choice_type": 1
+  },
+  {
+    "id": 335,
+    "questionId": 84,
+    "body": "Electrical testers",
+    "choice_type": 1
+  },
+  {
+    "id": 336,
+    "questionId": 85,
+    "body": "Inductance Testers",
+    "choice_type": 1
+  },
+  {
+    "id": 337,
+    "questionId": 85,
+    "body": "Solenoid Voltage Testers",
+    "choice_type": 1
+  },
+  {
+    "id": 338,
+    "questionId": 85,
+    "body": "Continuity Testers",
+    "choice_type": 1
+  },
+  {
+    "id": 339,
+    "questionId": 85,
+    "body": "Electrical testers",
+    "choice_type": 1
+  },
+  {
+    "id": 340,
+    "questionId": 86,
+    "body": "True",
+    "choice_type": 1
+  },
+  {
+    "id": 341,
+    "questionId": 86,
+    "body": "False",
+    "choice_type": 1
+  },
+  {
+    "id": 342,
+    "questionId": 86,
+    "body": "Sometimes",
+    "choice_type": 1
+  },
+  {
+    "id": 343,
+    "questionId": 86,
+    "body": "Not at all",
+    "choice_type": 1
+  },
+  {
+    "id": 344,
+    "questionId": 87,
+    "body": "True",
+    "choice_type": 1
+  },
+  {
+    "id": 345,
+    "questionId": 87,
+    "body": "False",
+    "choice_type": 1
+  },
+  {
+    "id": 346,
+    "questionId": 87,
+    "body": "Sometimes",
+    "choice_type": 1
+  },
+  {
+    "id": 347,
+    "questionId": 87,
+    "body": "Not at all",
+    "choice_type": 1
+  },
+  {
+    "id": 348,
+    "questionId": 88,
+    "body": "True",
+    "choice_type": 1
+  },
+  {
+    "id": 349,
+    "questionId": 88,
+    "body": "False",
+    "choice_type": 1
+  },
+  {
+    "id": 350,
+    "questionId": 88,
+    "body": "Sometimes",
+    "choice_type": 1
+  },
+  {
+    "id": 351,
+    "questionId": 88,
+    "body": "Not at all",
+    "choice_type": 1
+  },
+  {
+    "id": 352,
+    "questionId": 89,
+    "body": "Solenoid Voltage Testers",
+    "choice_type": 1
+  },
+  {
+    "id": 353,
+    "questionId": 89,
+    "body": "Plug-in Circuit Analyzers",
+    "choice_type": 1
+  },
+  {
+    "id": 354,
+    "questionId": 89,
+    "body": "Multimeters",
+    "choice_type": 1
+  },
+  {
+    "id": 355,
+    "questionId": 89,
+    "body": "Neon Voltage Testers",
+    "choice_type": 1
+  },
+  {
+    "id": 356,
+    "questionId": 90,
+    "body": "True",
+    "choice_type": 1
+  },
+  {
+    "id": 357,
+    "questionId": 90,
+    "body": "False",
+    "choice_type": 1
+  },
+  {
+    "id": 358,
+    "questionId": 90,
+    "body": "Maybe",
+    "choice_type": 1
+  },
+  {
+    "id": 359,
+    "questionId": 90,
+    "body": "Not at all",
+    "choice_type": 1
+  },
+  {
+    "id": 360,
+    "questionId": 91,
+    "body": "Solenoid Voltage Testers",
+    "choice_type": 1
+  },
+  {
+    "id": 361,
+    "questionId": 91,
+    "body": "Plug-in Circuit Analyzers",
+    "choice_type": 1
+  },
+  {
+    "id": 362,
+    "questionId": 91,
+    "body": "Multimeters",
+    "choice_type": 1
+  },
+  {
+    "id": 363,
+    "questionId": 91,
+    "body": "Neon Voltage Testers",
+    "choice_type": 1
+  },
+  {
+    "id": 364,
+    "questionId": 92,
+    "body": "Solenoid Voltage Testers",
+    "choice_type": 1
+  },
+  {
+    "id": 365,
+    "questionId": 92,
+    "body": "Plug-in Circuit Analyzers",
+    "choice_type": 1
+  },
+  {
+    "id": 366,
+    "questionId": 92,
+    "body": "Multimeters",
+    "choice_type": 1
+  },
+  {
+    "id": 367,
+    "questionId": 92,
+    "body": "Neon Voltage Testers",
+    "choice_type": 1
+  },
+  {
+    "id": 368,
+    "questionId": 93,
+    "body": "Solenoid Voltage Testers",
+    "choice_type": 1
+  },
+  {
+    "id": 369,
+    "questionId": 93,
+    "body": "Plug-in Circuit Analyzers",
+    "choice_type": 1
+  },
+  {
+    "id": 370,
+    "questionId": 93,
+    "body": "Multimeters",
+    "choice_type": 1
+  },
+  {
+    "id": 371,
+    "questionId": 93,
+    "body": "Neon Voltage Testers",
+    "choice_type": 1
+  },
+  {
+    "id": 372,
+    "questionId": 94,
+    "body": "True",
+    "choice_type": 1
+  },
+  {
+    "id": 373,
+    "questionId": 94,
+    "body": "False",
+    "choice_type": 1
+  },
+  {
+    "id": 374,
+    "questionId": 94,
+    "body": "Maybe",
+    "choice_type": 1
+  },
+  {
+    "id": 375,
+    "questionId": 94,
+    "body": "Not at all",
+    "choice_type": 1
+  },
+  {
+    "id": 376,
+    "questionId": 95,
+    "body": "Four",
+    "choice_type": 1
+  },
+  {
+    "id": 377,
+    "questionId": 95,
+    "body": "Eight",
+    "choice_type": 1
+  },
+  {
+    "id": 378,
+    "questionId": 95,
+    "body": "One",
+    "choice_type": 1
+  },
+  {
+    "id": 379,
+    "questionId": 95,
+    "body": "Two",
+    "choice_type": 1
+  },
+  {
+    "id": 380,
+    "questionId": 96,
+    "body": "One is red and the other is black",
+    "choice_type": 1
+  },
+  {
+    "id": 381,
+    "questionId": 96,
+    "body": "One is blue and the other is red",
+    "choice_type": 1
+  },
+  {
+    "id": 382,
+    "questionId": 96,
+    "body": "One is green and the other is yellow",
+    "choice_type": 1
+  },
+  {
+    "id": 383,
+    "questionId": 96,
+    "body": "One is white and the other is black",
+    "choice_type": 1
+  },
+  {
+    "id": 384,
+    "questionId": 97,
+    "body": "Help employees understand the expected scope, key responsibilities, required knowledge and skills.",
+    "choice_type": 1
+  },
+  {
+    "id": 385,
+    "questionId": 97,
+    "body": "Support equitable evaluation of all employees doing the same job tasks",
+    "choice_type": 1
+  },
+  {
+    "id": 386,
+    "questionId": 97,
+    "body": "Facilitate communication between the supervisor and employees regarding job related activities",
+    "choice_type": 1
+  },
+  {
+    "id": 387,
+    "questionId": 97,
+    "body": "None of the Above",
+    "choice_type": 1
+  },
+  {
+    "id": 388,
+    "questionId": 98,
+    "body": "6 band resistor",
+    "choice_type": 1
+  },
+  {
+    "id": 389,
+    "questionId": 98,
+    "body": "4 band resistor",
+    "choice_type": 1
+  },
+  {
+    "id": 390,
+    "questionId": 98,
+    "body": "5 band resistor",
+    "choice_type": 1
+  },
+  {
+    "id": 391,
+    "questionId": 98,
+    "body": "None Of The Above",
+    "choice_type": 1
+  },
+  {
+    "id": 392,
+    "questionId": 99,
+    "body": "Cleat wiring",
+    "choice_type": 1
+  },
+  {
+    "id": 393,
+    "questionId": 99,
+    "body": "Batten Wiring",
+    "choice_type": 1
+  },
+  {
+    "id": 394,
+    "questionId": 99,
+    "body": "Lead Sheathed Wiring",
+    "choice_type": 1
+  },
+  {
+    "id": 395,
+    "questionId": 99,
+    "body": "Conduit Wiring",
+    "choice_type": 1
+  },
+  {
+    "id": 396,
+    "questionId": 100,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 397,
+    "questionId": 100,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 398,
+    "questionId": 100,
+    "body": "maybe",
+    "choice_type": 1
+  },
+  {
+    "id": 399,
+    "questionId": 100,
+    "body": "none of the above",
+    "choice_type": 1
+  },
+  {
+    "id": 400,
+    "questionId": 101,
+    "body": "speaker",
+    "choice_type": 1
+  },
+  {
+    "id": 401,
+    "questionId": 101,
+    "body": "amplifier",
+    "choice_type": 1
+  },
+  {
+    "id": 402,
+    "questionId": 101,
+    "body": "mic",
+    "choice_type": 1
+  },
+  {
+    "id": 403,
+    "questionId": 101,
+    "body": "antenna",
+    "choice_type": 1
+  },
+  {
+    "id": 404,
+    "questionId": 102,
+    "body": "Damping",
+    "choice_type": 1
+  },
+  {
+    "id": 405,
+    "questionId": 102,
+    "body": "Dynamic noise limiter (DNL)",
+    "choice_type": 1
+  },
+  {
+    "id": 406,
+    "questionId": 102,
+    "body": "Noise reduction",
+    "choice_type": 1
+  },
+  {
+    "id": 407,
+    "questionId": 102,
+    "body": "Clipping",
+    "choice_type": 1
+  },
+  {
+    "id": 408,
+    "questionId": 103,
+    "body": "Clipping",
+    "choice_type": 1
+  },
+  {
+    "id": 409,
+    "questionId": 103,
+    "body": "Bridging",
+    "choice_type": 1
+  },
+  {
+    "id": 410,
+    "questionId": 103,
+    "body": "Damping",
+    "choice_type": 1
+  },
+  {
+    "id": 411,
+    "questionId": 103,
+    "body": "Noise reduction",
+    "choice_type": 1
+  },
+  {
+    "id": 412,
+    "questionId": 104,
+    "body": "Bridging",
+    "choice_type": 1
+  },
+  {
+    "id": 413,
+    "questionId": 104,
+    "body": "Clipping",
+    "choice_type": 1
+  },
+  {
+    "id": 414,
+    "questionId": 104,
+    "body": "Noise reduction",
+    "choice_type": 1
+  },
+  {
+    "id": 415,
+    "questionId": 104,
+    "body": "Damping",
+    "choice_type": 1
+  },
+  {
+    "id": 416,
+    "questionId": 105,
+    "body": "Vision",
+    "choice_type": 1
+  },
+  {
+    "id": 417,
+    "questionId": 105,
+    "body": "Color vision",
+    "choice_type": 1
+  },
+  {
+    "id": 418,
+    "questionId": 105,
+    "body": "Luminance",
+    "choice_type": 1
+  },
+  {
+    "id": 419,
+    "questionId": 105,
+    "body": "Chrominance",
+    "choice_type": 1
+  },
+  {
+    "id": 420,
+    "questionId": 106,
+    "body": "switches",
+    "choice_type": 1
+  },
+  {
+    "id": 421,
+    "questionId": 106,
+    "body": "capacitor",
+    "choice_type": 1
+  },
+  {
+    "id": 422,
+    "questionId": 106,
+    "body": "resistor",
+    "choice_type": 1
+  },
+  {
+    "id": 423,
+    "questionId": 106,
+    "body": "diode",
+    "choice_type": 1
+  },
+  {
+    "id": 424,
+    "questionId": 107,
+    "body": "amplifier",
+    "choice_type": 1
+  },
+  {
+    "id": 425,
+    "questionId": 107,
+    "body": "capacitor",
+    "choice_type": 1
+  },
+  {
+    "id": 426,
+    "questionId": 107,
+    "body": "resistor",
+    "choice_type": 1
+  },
+  {
+    "id": 427,
+    "questionId": 107,
+    "body": "Diodes",
+    "choice_type": 1
+  },
+  {
+    "id": 428,
+    "questionId": 108,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 429,
+    "questionId": 108,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 430,
+    "questionId": 108,
+    "body": "MAYBE",
+    "choice_type": 1
+  },
+  {
+    "id": 431,
+    "questionId": 108,
+    "body": "NONE OF THE ABOVE",
+    "choice_type": 1
+  },
+  {
+    "id": 432,
+    "questionId": 109,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 433,
+    "questionId": 109,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 434,
+    "questionId": 109,
+    "body": "MAYBE",
+    "choice_type": 1
+  },
+  {
+    "id": 435,
+    "questionId": 109,
+    "body": "NONE OF THE ABOVE",
+    "choice_type": 1
+  },
+  {
+    "id": 436,
+    "questionId": 110,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 437,
+    "questionId": 110,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 438,
+    "questionId": 110,
+    "body": "MAYBE",
+    "choice_type": 1
+  },
+  {
+    "id": 439,
+    "questionId": 110,
+    "body": "NONE OF THE ABOVE",
+    "choice_type": 1
+  },
+  {
+    "id": 440,
+    "questionId": 111,
+    "body": "echolocation",
+    "choice_type": 1
+  },
+  {
+    "id": 441,
+    "questionId": 111,
+    "body": "distortion",
+    "choice_type": 1
+  },
+  {
+    "id": 442,
+    "questionId": 111,
+    "body": "acoustic",
+    "choice_type": 1
+  },
+  {
+    "id": 443,
+    "questionId": 111,
+    "body": "sound",
+    "choice_type": 1
+  },
+  {
+    "id": 444,
+    "questionId": 112,
+    "body": "Tunnel Diode",
+    "choice_type": 1
+  },
+  {
+    "id": 445,
+    "questionId": 112,
+    "body": "light emitting diode/LED",
+    "choice_type": 1
+  },
+  {
+    "id": 446,
+    "questionId": 112,
+    "body": "Photo Diode",
+    "choice_type": 1
+  },
+  {
+    "id": 447,
+    "questionId": 112,
+    "body": "Zener Diode",
+    "choice_type": 1
+  },
+  {
+    "id": 448,
+    "questionId": 113,
+    "body": "Network Components",
+    "choice_type": 1
+  },
+  {
+    "id": 449,
+    "questionId": 113,
+    "body": "Capacitors",
+    "choice_type": 1
+  },
+  {
+    "id": 450,
+    "questionId": 113,
+    "body": "Resistors",
+    "choice_type": 1
+  },
+  {
+    "id": 451,
+    "questionId": 113,
+    "body": "Transistors",
+    "choice_type": 1
+  },
+  {
+    "id": 452,
+    "questionId": 114,
+    "body": "Resistors",
+    "choice_type": 1
+  },
+  {
+    "id": 453,
+    "questionId": 114,
+    "body": "Capacitors",
+    "choice_type": 1
+  },
+  {
+    "id": 454,
+    "questionId": 114,
+    "body": "Transistors",
+    "choice_type": 1
+  },
+  {
+    "id": 455,
+    "questionId": 114,
+    "body": "Network Components",
+    "choice_type": 1
+  },
+  {
+    "id": 456,
+    "questionId": 115,
+    "body": "Transistors",
+    "choice_type": 1
+  },
+  {
+    "id": 457,
+    "questionId": 115,
+    "body": "Resistors",
+    "choice_type": 1
+  },
+  {
+    "id": 458,
+    "questionId": 115,
+    "body": "Network Components",
+    "choice_type": 1
+  },
+  {
+    "id": 459,
+    "questionId": 115,
+    "body": "Capacitors",
+    "choice_type": 1
+  },
+  {
+    "id": 460,
+    "questionId": 116,
+    "body": "Resistors",
+    "choice_type": 1
+  },
+  {
+    "id": 461,
+    "questionId": 116,
+    "body": "Network Components",
+    "choice_type": 1
+  },
+  {
+    "id": 462,
+    "questionId": 116,
+    "body": "Transistors",
+    "choice_type": 1
+  },
+  {
+    "id": 463,
+    "questionId": 116,
+    "body": "Capacitors",
+    "choice_type": 1
+  },
+  {
+    "id": 464,
+    "questionId": 117,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 465,
+    "questionId": 117,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 466,
+    "questionId": 117,
+    "body": "MAYBE",
+    "choice_type": 1
+  },
+  {
+    "id": 467,
+    "questionId": 117,
+    "body": "NONE OF THE ABOVE",
+    "choice_type": 1
+  },
+  {
+    "id": 468,
+    "questionId": 118,
+    "body": "resistor",
+    "choice_type": 1
+  },
+  {
+    "id": 469,
+    "questionId": 118,
+    "body": "fixed capacitor",
+    "choice_type": 1
+  },
+  {
+    "id": 470,
+    "questionId": 118,
+    "body": "Variable Capacitors",
+    "choice_type": 1
+  },
+  {
+    "id": 471,
+    "questionId": 118,
+    "body": "none of the above",
+    "choice_type": 1
+  },
+  {
+    "id": 472,
+    "questionId": 119,
+    "body": "resistor",
+    "choice_type": 1
+  },
+  {
+    "id": 473,
+    "questionId": 119,
+    "body": "Variable Capacitors",
+    "choice_type": 1
+  },
+  {
+    "id": 474,
+    "questionId": 119,
+    "body": "fixed capacitor",
+    "choice_type": 1
+  },
+  {
+    "id": 475,
+    "questionId": 119,
+    "body": "none of the above",
+    "choice_type": 1
+  },
+  {
+    "id": 476,
+    "questionId": 120,
+    "body": "PN Junction Diode",
+    "choice_type": 1
+  },
+  {
+    "id": 477,
+    "questionId": 120,
+    "body": "photo diode",
+    "choice_type": 1
+  },
+  {
+    "id": 478,
+    "questionId": 120,
+    "body": "light emitting diode/LED",
+    "choice_type": 1
+  },
+  {
+    "id": 479,
+    "questionId": 120,
+    "body": "Zener Diode",
+    "choice_type": 1
+  },
+  {
+    "id": 480,
+    "questionId": 121,
+    "body": "PN Junction Diode",
+    "choice_type": 1
+  },
+  {
+    "id": 481,
+    "questionId": 121,
+    "body": "photo diode",
+    "choice_type": 1
+  },
+  {
+    "id": 482,
+    "questionId": 121,
+    "body": "tunnel diode",
+    "choice_type": 1
+  },
+  {
+    "id": 483,
+    "questionId": 121,
+    "body": "Zener Diode",
+    "choice_type": 1
+  },
+  {
+    "id": 484,
+    "questionId": 122,
+    "body": "resistors",
+    "choice_type": 1
+  },
+  {
+    "id": 485,
+    "questionId": 122,
+    "body": "diode",
+    "choice_type": 1
+  },
+  {
+    "id": 486,
+    "questionId": 122,
+    "body": "schematic drawing",
+    "choice_type": 1
+  },
+  {
+    "id": 487,
+    "questionId": 122,
+    "body": "Schematic nets",
+    "choice_type": 1
+  },
+  {
+    "id": 488,
+    "questionId": 123,
+    "body": "Cleat wiring",
+    "choice_type": 1
+  },
+  {
+    "id": 489,
+    "questionId": 123,
+    "body": "Looping System",
+    "choice_type": 1
+  },
+  {
+    "id": 490,
+    "questionId": 123,
+    "body": "Conduit wiring",
+    "choice_type": 1
+  },
+  {
+    "id": 491,
+    "questionId": 123,
+    "body": "Capping wiring",
+    "choice_type": 1
+  },
+  {
+    "id": 492,
+    "questionId": 124,
+    "body": "Cleat wiring",
+    "choice_type": 1
+  },
+  {
+    "id": 493,
+    "questionId": 124,
+    "body": "Looping System",
+    "choice_type": 1
+  },
+  {
+    "id": 494,
+    "questionId": 124,
+    "body": "Conduit wiring",
+    "choice_type": 1
+  },
+  {
+    "id": 495,
+    "questionId": 124,
+    "body": "Capping wiring",
+    "choice_type": 1
+  },
+  {
+    "id": 496,
+    "questionId": 125,
+    "body": "Looping System",
+    "choice_type": 1
+  },
+  {
+    "id": 497,
+    "questionId": 125,
+    "body": "Lead Sheathed Wiring",
+    "choice_type": 1
+  },
+  {
+    "id": 498,
+    "questionId": 125,
+    "body": "Conduit wiring",
+    "choice_type": 1
+  },
+  {
+    "id": 499,
+    "questionId": 125,
+    "body": "Cleat wiring",
+    "choice_type": 1
+  },
+  {
+    "id": 500,
+    "questionId": 126,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 501,
+    "questionId": 126,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 502,
+    "questionId": 126,
+    "body": "MAYBE",
+    "choice_type": 1
+  },
+  {
+    "id": 503,
+    "questionId": 126,
+    "body": "NONE OF THE ABOVE",
+    "choice_type": 1
+  },
+  {
+    "id": 504,
+    "questionId": 127,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 505,
+    "questionId": 127,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 506,
+    "questionId": 127,
+    "body": "MAYBE",
+    "choice_type": 1
+  },
+  {
+    "id": 507,
+    "questionId": 127,
+    "body": "NONE OF THE ABOVE",
+    "choice_type": 1
+  },
+  {
+    "id": 508,
+    "questionId": 128,
+    "body": "Protective clothing",
+    "choice_type": 1
+  },
+  {
+    "id": 509,
+    "questionId": 128,
+    "body": "boots",
+    "choice_type": 1
+  },
+  {
+    "id": 510,
+    "questionId": 128,
+    "body": "helmet",
+    "choice_type": 1
+  },
+  {
+    "id": 511,
+    "questionId": 128,
+    "body": "eye glass",
+    "choice_type": 1
+  },
+  {
+    "id": 512,
+    "questionId": 129,
+    "body": "REPUBLIC ACT NO. 5734",
+    "choice_type": 1
+  },
+  {
+    "id": 513,
+    "questionId": 129,
+    "body": "REPUBLIC ACT NO. 5755",
+    "choice_type": 1
+  },
+  {
+    "id": 514,
+    "questionId": 129,
+    "body": "REPUBLIC ACT NO. 5856",
+    "choice_type": 1
+  },
+  {
+    "id": 515,
+    "questionId": 129,
+    "body": "REPUBLIC ACT NO. 5485",
+    "choice_type": 1
+  },
+  {
+    "id": 516,
+    "questionId": 130,
+    "body": "wrench",
+    "choice_type": 1
+  },
+  {
+    "id": 517,
+    "questionId": 130,
+    "body": "Allen Wrenches",
+    "choice_type": 1
+  },
+  {
+    "id": 518,
+    "questionId": 130,
+    "body": "brush",
+    "choice_type": 1
+  },
+  {
+    "id": 519,
+    "questionId": 130,
+    "body": "screw driver",
+    "choice_type": 1
+  },
+  {
+    "id": 520,
+    "questionId": 131,
+    "body": "transformer",
+    "choice_type": 1
+  },
+  {
+    "id": 521,
+    "questionId": 131,
+    "body": "power supply",
+    "choice_type": 1
+  },
+  {
+    "id": 522,
+    "questionId": 131,
+    "body": "capacitor",
+    "choice_type": 1
+  },
+  {
+    "id": 523,
+    "questionId": 131,
+    "body": "fuse",
+    "choice_type": 1
+  },
+  {
+    "id": 524,
+    "questionId": 132,
+    "body": "capacitor",
+    "choice_type": 1
+  },
+  {
+    "id": 525,
+    "questionId": 132,
+    "body": "power supply",
+    "choice_type": 1
+  },
+  {
+    "id": 526,
+    "questionId": 132,
+    "body": "transformer",
+    "choice_type": 1
+  },
+  {
+    "id": 527,
+    "questionId": 132,
+    "body": "fuse",
+    "choice_type": 1
+  },
+  {
+    "id": 528,
+    "questionId": 133,
+    "body": "speaker",
+    "choice_type": 1
+  },
+  {
+    "id": 529,
+    "questionId": 133,
+    "body": "antenna",
+    "choice_type": 1
+  },
+  {
+    "id": 530,
+    "questionId": 133,
+    "body": "amplifier",
+    "choice_type": 1
+  },
+  {
+    "id": 531,
+    "questionId": 133,
+    "body": "mic",
+    "choice_type": 1
+  },
+  {
+    "id": 532,
+    "questionId": 134,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 533,
+    "questionId": 134,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 534,
+    "questionId": 134,
+    "body": "maybe",
+    "choice_type": 1
+  },
+  {
+    "id": 535,
+    "questionId": 134,
+    "body": "None Of The Above",
+    "choice_type": 1
+  },
+  {
+    "id": 536,
+    "questionId": 135,
+    "body": "lead",
+    "choice_type": 1
+  },
+  {
+    "id": 537,
+    "questionId": 135,
+    "body": "manual solder sucker",
+    "choice_type": 1
+  },
+  {
+    "id": 538,
+    "questionId": 135,
+    "body": "solder",
+    "choice_type": 1
+  },
+  {
+    "id": 539,
+    "questionId": 135,
+    "body": "Desoldering Machine",
+    "choice_type": 1
+  },
+  {
+    "id": 540,
+    "questionId": 136,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 541,
+    "questionId": 136,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 542,
+    "questionId": 136,
+    "body": "MAYBE",
+    "choice_type": 1
+  },
+  {
+    "id": 543,
+    "questionId": 136,
+    "body": "None Of The Above",
+    "choice_type": 1
+  },
+  {
+    "id": 544,
+    "questionId": 137,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 545,
+    "questionId": 137,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 546,
+    "questionId": 137,
+    "body": "maybe",
+    "choice_type": 1
+  },
+  {
+    "id": 547,
+    "questionId": 137,
+    "body": "none of the above",
+    "choice_type": 1
+  },
+  {
+    "id": 548,
+    "questionId": 137,
+    "body": "Harmonic distortion",
+    "choice_type": 1
+  },
+  {
+    "id": 549,
+    "questionId": 137,
+    "body": "distortion",
+    "choice_type": 1
+  },
+  {
+    "id": 550,
+    "questionId": 137,
+    "body": "Intermodulation distortion",
+    "choice_type": 1
+  },
+  {
+    "id": 551,
+    "questionId": 137,
+    "body": "Noise",
+    "choice_type": 1
+  },
+  {
+    "id": 552,
+    "questionId": 139,
+    "body": "Output stage",
+    "choice_type": 1
+  },
+  {
+    "id": 553,
+    "questionId": 139,
+    "body": "input stage",
+    "choice_type": 1
+  },
+  {
+    "id": 554,
+    "questionId": 139,
+    "body": "amplifier",
+    "choice_type": 1
+  },
+  {
+    "id": 555,
+    "questionId": 139,
+    "body": "None Of The Above",
+    "choice_type": 1
+  },
+  {
+    "id": 556,
+    "questionId": 140,
+    "body": "class AB",
+    "choice_type": 1
+  },
+  {
+    "id": 557,
+    "questionId": 140,
+    "body": "class A",
+    "choice_type": 1
+  },
+  {
+    "id": 558,
+    "questionId": 140,
+    "body": "class B",
+    "choice_type": 1
+  },
+  {
+    "id": 559,
+    "questionId": 140,
+    "body": "none of the above",
+    "choice_type": 1
+  },
+  {
+    "id": 560,
+    "questionId": 141,
+    "body": "light emitting diode/LED",
+    "choice_type": 1
+  },
+  {
+    "id": 561,
+    "questionId": 141,
+    "body": "Zener Diode",
+    "choice_type": 1
+  },
+  {
+    "id": 562,
+    "questionId": 141,
+    "body": "Photo Diode",
+    "choice_type": 1
+  },
+  {
+    "id": 563,
+    "questionId": 141,
+    "body": "PN Junction Diode",
+    "choice_type": 1
+  },
+  {
+    "id": 564,
+    "questionId": 142,
+    "body": "light emitting diode/LED",
+    "choice_type": 1
+  },
+  {
+    "id": 565,
+    "questionId": 142,
+    "body": "Zener Diode",
+    "choice_type": 1
+  },
+  {
+    "id": 566,
+    "questionId": 142,
+    "body": "Photo Diode",
+    "choice_type": 1
+  },
+  {
+    "id": 567,
+    "questionId": 142,
+    "body": "PN Junction Diode",
+    "choice_type": 1
+  }
+]

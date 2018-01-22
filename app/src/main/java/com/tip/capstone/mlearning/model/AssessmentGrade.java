@@ -16,7 +16,7 @@ public class AssessmentGrade extends RealmObject {
     private int itemCount;
     private long dateUpdated;
     private int count;
-    private int term;
+    private int type;
 
     public int getId() {
         return id;
@@ -65,11 +65,11 @@ public class AssessmentGrade extends RealmObject {
         this.count = count;
     }
 
-    public int getTerm() {
-        return term;
+    public int getType() {
+        return type;
     }
 
-    public void setTerm(int term) {
-        this.term = term;
+    public void setType(int type) {
+        this.type = type;
     }
 }

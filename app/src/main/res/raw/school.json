@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "name": "Academy for Contact Center English Proficiency and School for Skills (ACCESS)",
+    "address": "1203 A-4 Delos Reyes Street, Sampaloc Manila",
+    "contact": "734-47-21",
+    "latitude": 14.6275537,
+    "longitude": 121.0088066
+  },
+  {
+    "id": 2,
+    "name": "ABE International College of Business and Economics Legarda",
+    "address": "2578 Legarda St., Sampaloc  Manila",
+    "contact": "736-2893/94 ",
+    "latitude": 14.6003429,
+    "longitude": 120.9960203
+  },
+  {
+    "id": 3,
+    "name": "A1 Training & Assessment Experts Corporation",
+    "address": "965-A Aragon Street, Malate Manila",
+    "contact": "",
+    "latitude": 14.570199,
+    "longitude": 120.9915848
+  },
+  {
+    "id": 4,
+    "name": "Access Computer and Technical Colleges Manila",
+    "address": "2nd & 3rd Floors ACCESS Building C.M. Recto Ave. cor. Quezon Blvd. Manila",
+    "contact": "734-8517 / 8363386 ",
+    "latitude": 14.5783005,
+    "longitude": 120.9915848
+  },
+  {
+    "id": 5,
+    "name": "Adventus Solutions Inc.",
+    "address": "3687 R. Magsaysay Blvd., Sta. Mesa Manila",
+    "contact": "713-8877 ",
+    "latitude": 14.6074534,
+    "longitude": 120.96241
+  },
+  {
+    "id": 6,
+    "name": "American International Nursing Institute Inc.",
+    "address": "St. Jude College Calip-Atienza Building Sampaloc, Manila",
+    "contact": "480-64-05 ",
+    "latitude": 14.6110296,
+    "longitude": 120.9962387
+  },
+  {
+    "id": 7,
+    "name": "Asian Institute of Computer Studies",
+    "address": "AICS Building P. Noval St. Cor. España Sampaloc, Manila",
+    "contact": "417-3356 ",
+    "latitude": 14.6076101,
+    "longitude": 120.989539
+  },
+  {
+    "id": 8,
+    "name": "Electron Technical-Vocational Training Center",
+    "address": "664 Quirino Hwy, Novaliches, Quezon City, Metro Manila",
+    "contact": "",
+    "latitude": 14.6989517,
+    "longitude": 121.0342741
+  },
+  {
+    "id": 9,
+    "name": "Electron Technical Training Center - España Branch",
+    "address": "2278 España Blvd, Sampaloc, Manila, 1008 Metro Manila",
+    "contact": "",
+    "latitude": 14.6170965,
+    "longitude": 121.001127
+  },
+  {
+    "id": 10,
+    "name": "Xavier Technical Training Center Corporation - Marikina Branch",
+    "address": "267, E. Dela Paz Street, Santo Nino, Marikina, 1800 Metro Manila",
+    "contact": "(02) 475 1492",
+    "latitude": 14.637933,
+    "longitude": 121.095718
+  },
+  {
+    "id": 11,
+    "name": "Xavier Technical Training Center",
+    "address": "54 Epifanio de los Santos Ave, East Grace Park, Caloocan, Metro Manila",
+    "contact": "(02) 932 4923",
+    "latitude": 14.621653,
+    "longitude": 120.9968197
+  },
+  {
+    "id": 12,
+    "name": "Asian College of Science and Technology (Asian College) ",
+    "address": "1102 Aurora Blvd, Project 3, Quezon City, Metro Manila",
+    "contact": "(02) 912 3236",
+    "latitude": 14.62933,
+    "longitude": 121.068993
+  },
+  {
+    "id": 13,
+    "name": "Access Computer College Cubao 2 Campus",
+    "address": "St. Francis Building, 3 St. Francis, Cubao, Quezon City, 1111 Metro Manila",
+    "contact": "997 598 5725",
+    "latitude": 14.6293293,
+    "longitude": 121.0613457
+  },
+  {
+    "id": 14,
+    "name": "CCT Training and Development Institute, Inc.",
+    "address": "1428, Taft Avenue, Ermita, Ermita, Manila, 1000 Metro Manila",
+    "contact": "(02) 400 6909",
+    "latitude": 14.5848693,
+    "longitude": 120.9837038
+  },
+  {
+    "id": 15,
+    "name": "Bestlink College of the Philippines",
+    "address": "Sta Monica Quirino Highway, Brgy, Metro Manila",
+    "contact": "966 50 925 2622",
+    "latitude": 14.7286446,
+    "longitude": 121.0416883
+  },
+  {
+    "id": 16,
+    "name": "Central Colleges Of The Philippines ",
+    "address": "52 Aurora Blvd, Quezon City, Metro Manila",
+    "contact": "(02) 715 5170",
+    "latitude": 14.605748,
+    "longitude": 121.020032
+  },
+  {
+    "id": 17,
+    "name": "College of Saint Catherine Quezon City (Saint Theresa's School of Baesa)",
+    "address": "Congressional Avenue, Bahay Toro, Project 6, Quezon City",
+    "contact": "(02) 926 9875",
+    "latitude": 14.6617912,
+    "longitude": 121.0201026
+  },
+  {
+    "id": 18,
+    "name": "EAV Industrial Security Academy Incorporated",
+    "address": "177 Quirino Highway corner Salazar Street, Baesa, Quezon City, 1106 Metro Manila",
+    "contact": "(02) 362 8876",
+    "latitude": 14.663488,
+    "longitude": 121.002461
+  },
+  {
+    "id": 19,
+    "name": "EBMI Philippines Skills Development Training Center",
+    "address": "3/F FMSG Bldg 1823 E. Rodriguez Sr. Ave. corner New York St., Cubao, Quezon City, Quezon City, 1109 Metro Manila",
+    "contact": "(02) 416 4799",
+    "latitude": 14.622849,
+    "longitude": 121.04512
+  },
+  {
+    "id": 20,
+    "name": "Follow Me Security Training Center Incorporated",
+    "address": "505 Alfer Bldg., EDSA Avenue, Quezon City",
+    "contact": "(02) 726 3621",
+    "latitude": 14.6280233,
+    "longitude": 121.0475573
+  },
+  {
+    "id": 21,
+    "name": "Headstrong Training Center, Inc.",
+    "address": "#22 2nd Avenue, Brgy. Bagong Lipunan, Crame, Quezon City, Metro Manila",
+    "contact": "",
+    "latitude": 14.6110001,
+    "longitude": 121.052002
+  },
+  {
+    "id": 22,
+    "name": "I Learn Center Incorporated",
+    "address": "2nd Floor Trans-Asia Building, 2 Anonas Street corner Aurora Boulevard, Project 3, Project 3, Quezon City, 1109 Metro Manila",
+    "contact": "(02) 434 2983",
+    "latitude": 14.628891,
+    "longitude": 121.062468
+  },
+  {
+    "id": 23,
+    "name": "Informatics College",
+    "address": "185 E. Rodriguez Jr. Avenue (C5),, Acropolis Dr, Bagumbayan, Quezon City, 1800 Metro Manila",
+    "contact": "(02) 667 3093",
+    "latitude": 14.6089964,
+    "longitude": 121.0767083
+  },
+  {
+    "id": 24,
+    "name": "Informatics College Caloocan, Inc.",
+    "address": "380 Rizal Avenue,, Grace Park West, Caloocan, Metro Manila",
+    "contact": "",
+    "latitude": 14.65315,
+    "longitude": 120.9836733
+  },
+  {
+    "id": 25,
+    "name": "Lockheed Training Center",
+    "address": "EU State Tower 30 Quezon Avenue, Quezon City, Metro Manila",
+    "contact": "",
+    "latitude": 14.6351666,
+    "longitude": 121.0230885
+  },
+  {
+    "id": 26,
+    "name": "Medline International Training Institute",
+    "address": "63 Commonwealth Ave, Quezon City, 1127 Metro Manila",
+    "contact": "(02) 952 4547",
+    "latitude": 14.6772351,
+    "longitude": 121.0830246
+  },
+  {
+    "id": 27,
+    "name": "Metro Manila College, Inc.",
+    "address": "Plaines Subdivision,, Jordan, Novaliches, Quezon City, 1124 Metro Manila",
+    "contact": "(02) 939 1162",
+    "latitude": 14.726518,
+    "longitude": 121.043589
+  },
+  {
+    "id": 28,
+    "name": "Microcadd Technologies",
+    "address": "One Kalayaan Place, 284 Samson Rd, Caloocan, 1400 Metro Manila",
+    "contact": "(02) 365 7280",
+    "latitude": 14.656923,
+    "longitude": 120.98223
+  },
+  {
+    "id": 29,
+    "name": "Novagen College of Quezon City",
+    "address": "Novaliches, Quezon City, 1117 Metro Manila",
+    "contact": "(02) 937 9672",
+    "latitude": 14.7098858,
+    "longitude": 121.0387492
+  },
+  {
+    "id": 30,
+    "name": "Tamaraw Training Center, Inc.",
+    "address": "1853 E. Rodriguez Ave., Cubao, Quezon City, Metro Manila",
+    "contact": "",
+    "latitude": 14.6185999,
+    "longitude": 121.012001
+  }
+]

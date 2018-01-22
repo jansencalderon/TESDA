@@ -80,6 +80,7 @@
                 android:layout_height="30dp"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
+                android:visibility="visible"
                 android:background="@drawable/rounded_button_yellow"
                 android:onClick="@{() -> view.onViewReference(answer.lessonDetailId)}"
                 android:text="See Reference" />

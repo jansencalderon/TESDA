@@ -10,6 +10,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
+import io.realm.Realm;
 import io.realm.RealmList;
 
 /**
@@ -35,19 +36,22 @@ class AssessmentPresenter extends MvpNullObjectBasePresenter<AssessmentView> {
             // Swap the random element with the present element.
             Assessment randomAssessment = assessmentList.get(random);
             assessmentList.set(random, assessmentList.get(i));
-
-            RealmList<AssessmentChoice> choiceList = randomAssessment.getAssessmentchoices();
-            int m = choiceList.size();
+            Realm realm = Realm.getDefaultInstance();
+            List<AssessmentChoice> choices = realm.copyFromRealm(realm.where(AssessmentChoice.class).equalTo("questionId", randomAssessment.getId()).findAll());
+            int m = choices.size();
             for (int j = 0; j < m; j++) {
                 int r = getRandomInt(j, m);
-                AssessmentChoice randomChoice = choiceList.get(r);
-                choiceList.set(r, choiceList.get(j));
-                choiceList.set(j, randomChoice);
+                AssessmentChoice randomChoice = choices.get(r);
+                choices.set(r, choices.get(j));
+                choices.set(j, randomChoice);
             }
-            randomAssessment.setAssessmentchoices(choiceList);
+            RealmList<AssessmentChoice> choiceRealmList = new RealmList<>();
+            choiceRealmList.addAll(choices);
+            randomAssessment.setAssessmentchoices(choiceRealmList);
 
 
             assessmentList.set(i, randomAssessment);
+            realm.close();
         }
         return assessmentList;
     }

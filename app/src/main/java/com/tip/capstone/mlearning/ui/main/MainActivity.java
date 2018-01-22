@@ -1,80 +1,101 @@
 package com.tip.capstone.mlearning.ui.main;
 
+import android.app.Dialog;
 import android.content.Intent;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
+import android.support.v4.content.ContextCompat;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 
-import com.hannesdorfmann.mosby.mvp.MvpActivity;
 import com.tip.capstone.mlearning.R;
+import com.tip.capstone.mlearning.app.Constant;
 import com.tip.capstone.mlearning.databinding.ActivityMainBinding;
-import com.tip.capstone.mlearning.ui.difficulty.DifficultyActivity;
+import com.tip.capstone.mlearning.databinding.DialogAssessmentChoiceBinding;
+import com.tip.capstone.mlearning.ui.assessment.AssessmentActivity;
+import com.tip.capstone.mlearning.ui.grades.detail.GradesDetailActivity;
+import com.tip.capstone.mlearning.ui.map.MapsActivity;
+import com.tip.capstone.mlearning.ui.simulation.SimulationActivity;
+import com.tip.capstone.mlearning.ui.topics.TopicsListActivity;
+import com.tip.capstone.mlearning.ui.videos.VideoListActivity;
 
-public class MainActivity extends MvpActivity<MainView, MainPresenter> implements MainView {
+public class MainActivity extends AppCompatActivity {
+
+    private ActivityMainBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        ActivityMainBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
-        binding.setView(getMvpView());
-    }
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
+        getSupportActionBar().setBackgroundDrawable(ContextCompat.getDrawable(this,R.drawable.bg_gradient));
+        getSupportActionBar().setIcon(R.mipmap.ic_launcher);
 
-    @NonNull
-    @Override
-    public MainPresenter createPresenter() {
-        return new MainPresenter();
-    }
+        binding.study.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
 
-    @Override
-    public void onStudyClicked() {
-        startActivity(new Intent(this, DifficultyActivity.class));
-    }
-/*
-    @Override
-    public void onAssessmentClicked() {
-        startActivity(new Intent(this, AssessmentActivity.class));
-    }
+                //startActivity(new Intent(MainActivity.this, DifficultyActivity.class));
+                Intent intent = new Intent(MainActivity.this, TopicsListActivity.class);
+                intent.putExtra(Constant.ID,0);
+                startActivity(intent);
+            }
+        });
 
-    @Override
-    public void onGradesClicked() {
-        startActivity(new Intent(this, GradesActivity.class));
-    }
+        binding.map.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, MapsActivity.class));
+            }
+        });
 
-    @Override
-    public void onVideosClicked() {
-        startActivity(new Intent(this, VideoListActivity.class));
-    }
+        binding.videos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, VideoListActivity.class));
 
-    @Override
-    public void onSimulationClicked() {
-        startActivity(new Intent(this, SimulationMenuActivity.class));
-    }
+            }
+        });
 
-    @Override
-    public void onGlossaryClicked() {
-        startActivity(new Intent(this, GlossaryActivity.class));
-    }*/
-/*
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return super.onCreateOptionsMenu(menu);
-    }
+        binding.results.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,GradesDetailActivity.class));
+            }
+        });
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.action_help:
-                startActivity(new Intent(MainActivity.this, TutorialActivity.class));
-                return true;
-            case R.id.action_about:
-                Dialog dialog = new Dialog(this);
-                dialog.setTitle("About");
-                dialog.setContentView(R.layout.dialog_about);
+        binding.assessment.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                DialogAssessmentChoiceBinding dialogBinding = DataBindingUtil.inflate(
+                        getLayoutInflater(),
+                        R.layout.dialog_assessment_choice,
+                        null,
+                        false);
+
+                dialogBinding.trueorfalse.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        startActivity(new Intent(MainActivity.this, AssessmentActivity.class).putExtra("type", 1));
+                    }
+                });
+                dialogBinding.guessthetools.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        startActivity(new Intent(MainActivity.this, AssessmentActivity.class).putExtra("type", 2));
+                    }
+                });
+                Dialog dialog = new Dialog(MainActivity.this);
+                dialog.setContentView(dialogBinding.getRoot());
                 dialog.show();
-                return true;
-            default:
-                return super.onOptionsItemSelected(item);
-        }
-    }*/
+            }
+        });
+
+        binding.simulation.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, SimulationActivity.class));
+            }
+        });
+    }
+
 }

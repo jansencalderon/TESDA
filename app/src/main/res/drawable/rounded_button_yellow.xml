@@ -6,7 +6,7 @@
         <shape
             xmlns:android="http://schemas.android.com/apk/res/android">
 
-            <corners android:radius="10dp" />
+            <corners android:radius="2dp" />
             <solid android:color="#dac90e" />
 
         </shape>
@@ -16,7 +16,7 @@
 
         <shape xmlns:android="http://schemas.android.com/apk/res/android">
 
-            <corners android:radius="10dp" />
+            <corners android:radius="2dp" />
             <solid android:color="#dac90e" />
 
         </shape>
@@ -28,7 +28,7 @@
 
         <shape xmlns:android="http://schemas.android.com/apk/res/android">
 
-            <corners android:radius="10dp" />
+            <corners android:radius="2dp" />
             <solid android:color="#dac90e" />
 
         </shape>
@@ -39,7 +39,7 @@
 
         <shape xmlns:android="http://schemas.android.com/apk/res/android">
 
-            <corners android:radius="10dp" />
+            <corners android:radius="2dp" />
             <solid android:color="#ffea00" />
 
         </shape>

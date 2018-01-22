@@ -4,8 +4,8 @@ import android.databinding.DataBindingUtil;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.View;
 import android.view.ViewGroup;
-import android.widget.CompoundButton;
 
 import com.bumptech.glide.Glide;
 import com.tip.capstone.mlearning.R;
@@ -54,7 +54,7 @@ public class ChoiceListAdapter extends RecyclerView.Adapter<ChoiceListAdapter.Vi
         char x = 'A';
         x += position;
         holder.itemChoiceBinding.setLetter(x + "");
-        if (choice.getChoice_type() == Constant.DETAIL_TYPE_IMAGE) {
+        if (choice.getChoice_type() == Constant.Q_TYPE_IMAGE) {
             Glide.with(holder.itemView.getContext())
                     .load(ResourceHelper.getDrawableResourceId(holder.itemView.getContext(), choice.getBody()))
                     .into(holder.itemChoiceBinding.imgChoice);
@@ -117,10 +117,16 @@ public class ChoiceListAdapter extends RecyclerView.Adapter<ChoiceListAdapter.Vi
             super(itemChoiceBinding.getRoot());
             this.itemChoiceBinding = itemChoiceBinding;
             // setup listener as issues if onBindViewHolder
-            itemChoiceBinding.checkbox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            /*itemChoiceBinding.checkbox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
                 @Override
                 public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                     resetSelected(b ? getAdapterPosition() : -1);
+                }
+            });*/
+            itemChoiceBinding.card.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    resetSelected(getAdapterPosition());
                 }
             });
         }

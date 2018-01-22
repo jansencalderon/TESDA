@@ -12,6 +12,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
+import io.realm.Realm;
 import io.realm.RealmList;
 
 /**
@@ -36,8 +37,9 @@ public class QuizPresenter extends MvpNullObjectBasePresenter<QuizView> {
             // Swap the random element with the present element.
             Question randomQuestion = questionList.get(random);
             questionList.set(random, questionList.get(i));
-
-            RealmList<Choice> choiceList = randomQuestion.getChoices();
+            final Realm realm = Realm.getDefaultInstance();
+            RealmList<Choice> choiceList = new RealmList<Choice>();
+            choiceList.addAll(realm.where(Choice.class).equalTo("questionId", randomQuestion.getId()).findAll());
             int m = choiceList.size();
             for (int j = 0; j < m; j++) {
                 int r = getRandomInt(j, m);
@@ -47,7 +49,7 @@ public class QuizPresenter extends MvpNullObjectBasePresenter<QuizView> {
             }
             randomQuestion.setChoices(choiceList);
 
-
+            realm.close();
             questionList.set(i, randomQuestion);
         }
         return questionList;

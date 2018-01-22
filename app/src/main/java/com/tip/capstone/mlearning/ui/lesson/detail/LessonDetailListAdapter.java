@@ -10,7 +10,6 @@ import android.text.style.BackgroundColorSpan;
 import android.text.style.ForegroundColorSpan;
 import android.util.Log;
 import android.view.LayoutInflater;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 
@@ -19,6 +18,7 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.request.target.GlideDrawableImageViewTarget;
 import com.tip.capstone.mlearning.R;
 import com.tip.capstone.mlearning.app.Constant;
+import com.tip.capstone.mlearning.databinding.ItemLessonDetailHeaderBinding;
 import com.tip.capstone.mlearning.databinding.ItemLessonDetailImageBinding;
 import com.tip.capstone.mlearning.databinding.ItemLessonDetailTextBinding;
 import com.tip.capstone.mlearning.databinding.ItemLessonHeaderBinding;
@@ -37,6 +37,7 @@ class LessonDetailListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
     private static final int VIEW_TEXT = 1;
     private static final int VIEW_IMAGE = 2;
     private static final int VIEW_QUIZ = 3;
+    private static final int VIEW_DETAIL_HEADER = 4;
     private static final String TAG = LessonDetailListAdapter.class.getSimpleName();
 
     private final Lesson lesson;
@@ -65,19 +66,27 @@ class LessonDetailListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
 
     @Override
     public int getItemViewType(int position) {
-        if (position == 0 && lesson != null) {
-            return VIEW_HEADER;
-        } else if (isLastPage && position == (getItemCount() - 1)) {
-            return VIEW_QUIZ;
-        } else {
-            // decrement index for list if has lesson
-            int index = lesson != null ? position - 1 : position;
-            switch (lessonDetails.get(index).getBody_type()) {
-                case Constant.DETAIL_TYPE_TEXT:
-                    return VIEW_TEXT;
-                case Constant.DETAIL_TYPE_IMAGE:
-                    return VIEW_IMAGE;
+        try {
+            if (position == 0 && lesson != null) {
+                return VIEW_HEADER;
+            } else if (isLastPage && position == (getItemCount() - 1)) {
+                return VIEW_QUIZ;
+            } else {
+                // decrement index for list if has lesson
+                int index = lesson != null ? position - 1 : position;
+                switch (lessonDetails.get(index).getBody_type()) {
+                    case Constant.DETAIL_TYPE_TEXT:
+                        return VIEW_TEXT;
+                    case Constant.DETAIL_TYPE_IMAGE:
+                        return VIEW_IMAGE;
+                    case Constant.DETAIL_TYPE_DETAIL_HEADER:
+                        return VIEW_DETAIL_HEADER;
+                }
             }
+        } catch (NullPointerException e) {
+            e.printStackTrace();
+            lessonDetailListView.showAlert(
+                    lesson.getTitle());
         }
         return super.getItemViewType(position);
     }
@@ -113,6 +122,13 @@ class LessonDetailListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
                         parent,
                         false);
                 return new LessonQuizButtonHolder(itemLessonQuizButtonBinding);
+            case VIEW_DETAIL_HEADER:
+                ItemLessonDetailHeaderBinding itemLessonDetailHeaderBinding = DataBindingUtil.inflate(
+                        LayoutInflater.from(parent.getContext()),
+                        R.layout.item_lesson_detail_header,
+                        parent,
+                        false);
+                return new LessonDetailHeaderViewHolder(itemLessonDetailHeaderBinding);
             default:
                 return null;
         }
@@ -159,7 +175,9 @@ class LessonDetailListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
                                 return true;
                             }
                         });
-                lessonDetailTextViewHolder.itemLessonDetailTextBinding.txtBody
+
+                //TODO: Enable TextOnTouch
+                /*lessonDetailTextViewHolder.itemLessonDetailTextBinding.txtBody
                         .setOnTouchListener(new View.OnTouchListener() {
 
                             final float STEP = 200;
@@ -191,7 +209,7 @@ class LessonDetailListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
                                 int dy = (int) (event.getY(0) - event.getY(1));
                                 return (int) (Math.sqrt(dx * dx + dy * dy));
                             }
-                        });
+                        });*/
                 lessonDetailTextViewHolder.itemLessonDetailTextBinding.txtBody.setLongClickable(true);
                 break;
             case VIEW_IMAGE:
@@ -220,10 +238,15 @@ class LessonDetailListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
                             .into(lessonDetailImageViewHolder.itemLessonDetailImageBinding.imageLessonDetail);
                 }
 
+
                 break;
             case VIEW_QUIZ:
                 LessonQuizButtonHolder lessonQuizButtonHolder = (LessonQuizButtonHolder) holder;
                 lessonQuizButtonHolder.itemLessonQuizButtonBinding.setView(lessonDetailListView);
+                break;
+            case VIEW_DETAIL_HEADER:
+                LessonDetailHeaderViewHolder lessonDetailHeaderViewHolder = (LessonDetailHeaderViewHolder) holder;
+                lessonDetailHeaderViewHolder.itemLessonDetailHeaderBinding.setDetail(lessonDetails.get(lesson != null ? position - 1 : position));
                 break;
         }
     }
@@ -280,5 +303,15 @@ class LessonDetailListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
             this.itemLessonQuizButtonBinding = itemLessonQuizButtonBinding;
         }
     }
+
+    private class LessonDetailHeaderViewHolder extends RecyclerView.ViewHolder {
+        private final ItemLessonDetailHeaderBinding itemLessonDetailHeaderBinding;
+
+        LessonDetailHeaderViewHolder(ItemLessonDetailHeaderBinding itemLessonDetailHeaderBinding) {
+            super(itemLessonDetailHeaderBinding.getRoot());
+            this.itemLessonDetailHeaderBinding = itemLessonDetailHeaderBinding;
+        }
+    }
+
 
 }

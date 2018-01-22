@@ -1,0 +1,109 @@
+
+[
+  {
+    "id": 1,
+    "sequence": 1,
+    "code": "B",
+    "title": "BEGINNER",
+    "objective": "",
+    "topics": [
+      {
+        "id": 1,
+        "difficultyId": 1,
+        "sequence": 1,
+        "title": "Practice occupational health and safety procedures",
+        "image": "topic1",
+        "lessons": [
+          {
+            "id": 1,
+            "topic": 1,
+            "sequence": 1,
+            "title": "LEARNING OBJECTIVE 1",
+            "description": "Identify hazards and risks",
+            "lessonDetails": [
+              {
+                "id": 1,
+                "learningObjectiveId": 1,
+                "sequence": 1,
+                "body": "1. Do not work alone so that there's someone who can take care of you in case of emergency. 2. Always power off the computer and unplug the computer before working on it. 3. Take away any liquid near your working area to avoid getting electrocuted or accidentally damaging computer parts.4. Be careful with tools that may cause short circuit.5. Always ground or discharge yourself before touching any part of the computer.6. Do not use excessive force if things don't quite slip into place.7. Clean the area before and after using it to maintain sanitation and prevent accidents.8. Hold the components on the edges and do not touch the Integrated Circuit (IC) parts.9. Always wear personal protective equipment (PPE) in accordance with the organization's OHS procedures and practices.10. Make sure that the pins are properly aligned when connecting a cable connector.11. Contingency measures during workplace accidents, fire and other emergencies are recognized.12. Use brush, compressed air or blower in cleaning the computer system.",
+                "body_type": 1
+              },
+              {
+                "id": 3,
+                "learningObjectiveId": 1,
+                "sequence": 2,
+                "body": "topic10",
+                "body_type": 2
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "topic": 1,
+            "sequence": 2,
+            "title": "LEARNING OBJECTIVE 2",
+            "description": "Evaluate hazards and risks",
+            "lessonDetails": [
+              {
+                "id": 2,
+                "learningObjectiveId": 1,
+                "sequence": 1,
+                "body": "Organizational safety and health protocol",
+                "body_type": 1
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "topic": 1,
+            "sequence": 3,
+            "title": "LEARNING OBJECTIVE 3",
+            "description": "Control hazards and risks"
+          },
+          {
+            "id": 4,
+            "topic": 1,
+            "sequence": 4,
+            "title": "LEARNING OBJECTIVE 4",
+            "description": "Maintain occupational health and safety awareness"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "difficultyId": 1,
+        "sequence": 2,
+        "title": "Use hand tools",
+        "image": "topic2"
+      },
+      {
+        "id": 3,
+        "difficultyId": 1,
+        "sequence": 3,
+        "title": "Perform mensuration and calculation",
+        "image": "topic3"
+      },
+      {
+        "id": 4,
+        "difficultyId": 1,
+        "sequence": 4,
+        "title": "Prepare and interpret technical drawings",
+        "image": "topic4"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "sequence": 2,
+    "code": "I",
+    "title": "INTERMIDIATE",
+    "objective": ""
+  },
+  {
+    "id": 3,
+    "sequence": 3,
+    "code": "A",
+    "title": "ADVANCED",
+    "objective": ""
+  }
+]

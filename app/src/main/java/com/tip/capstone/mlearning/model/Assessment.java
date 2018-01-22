@@ -13,11 +13,11 @@ public class Assessment extends RealmObject {
 
     @PrimaryKey
     private int id;
-    private int term;
+    private int type;
     private String question;
     private String answer;
     private RealmList<AssessmentChoice> assessmentchoices;
-    private int question_type;
+    private String question_type;
     private int lesson_detail;
 
     public int getId() {
@@ -28,13 +28,6 @@ public class Assessment extends RealmObject {
         this.id = id;
     }
 
-    public int getTerm() {
-        return term;
-    }
-
-    public void setTerm(int term) {
-        this.term = term;
-    }
 
     public String getQuestion() {
         return question;
@@ -60,11 +53,11 @@ public class Assessment extends RealmObject {
         this.assessmentchoices = assessmentchoices;
     }
 
-    public int getQuestion_type() {
+    public String getQuestion_type() {
         return question_type;
     }
 
-    public void setQuestion_type(int question_type) {
+    public void setQuestion_type(String question_type) {
         this.question_type = question_type;
     }
 
@@ -74,5 +67,13 @@ public class Assessment extends RealmObject {
 
     public void setLesson_detail(int lesson_detail) {
         this.lesson_detail = lesson_detail;
+    }
+
+    public int getType() {
+        return type;
+    }
+
+    public void setType(int type) {
+        this.type = type;
     }
 }

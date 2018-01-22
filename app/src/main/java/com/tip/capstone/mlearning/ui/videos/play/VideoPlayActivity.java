@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.DisplayMetrics;
 import android.util.Log;
-import android.view.View;
+import android.view.MenuItem;
 import android.widget.MediaController;
 
 import com.tip.capstone.mlearning.R;
@@ -25,9 +25,16 @@ public class VideoPlayActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_HIDE_NAVIGATION);
         binding = DataBindingUtil.setContentView(this, R.layout.activity_video_play);
         int resourceId = getIntent().getIntExtra(Constant.RES_ID, -1);
+        String title = getIntent().getStringExtra("videoTitle");
+
+
+
+        setSupportActionBar(binding.toolbar);
+        getSupportActionBar().setTitle(title);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
 
         DisplayMetrics metrics = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(metrics);
@@ -83,5 +90,19 @@ public class VideoPlayActivity extends AppCompatActivity {
         position = savedInstanceState.getInt(POSITION);
         binding.activityVideoPlay.seekTo(position);
     }
+
+
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                onBackPressed();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+
 
 }

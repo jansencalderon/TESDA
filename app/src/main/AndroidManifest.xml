@@ -14,13 +14,12 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
             android:name=".ui.main.MainActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme">
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,12 +29,29 @@
         <activity
             android:name=".ui.difficulty.DifficultyActivity"
             android:label="Study" />
-        <activity android:name=".ui.quiz.QuizActivity" />
+        <activity
+            android:name=".ui.quiz.QuizActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".ui.topics.TopicsListActivity" />
         <activity
             android:name=".ui.lesson.LessonActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".ui.assessment.AssessmentActivity" />
+        <activity android:name=".ui.assessment.AssessmentActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".ui.lesson.detail.ZoomActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".ui.videos.VideoListActivity"
+            android:label="Videos" />
+        <activity
+            android:name=".ui.videos.play.VideoPlayActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".ui.grades.detail.GradesDetailActivity" />
+        <activity android:name=".ui.grades.GradesActivity" />
+
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -50,7 +66,11 @@
 
         <activity
             android:name=".ui.map.MapsActivity"
-            android:label="@string/title_activity_maps"></activity>
+            android:label="@string/title_activity_maps"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".ui.simulation.SimulationActivity"
+            android:theme="@style/AppTheme.NoActionBar"   ></activity>
     </application>
 
 </manifest>

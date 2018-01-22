@@ -4,14 +4,11 @@ import android.databinding.DataBindingUtil;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.View;
 import android.view.ViewGroup;
-import android.widget.CompoundButton;
 
-import com.bumptech.glide.Glide;
 import com.tip.capstone.mlearning.R;
-import com.tip.capstone.mlearning.app.Constant;
 import com.tip.capstone.mlearning.databinding.ItemAssessmentChoiceBinding;
-import com.tip.capstone.mlearning.helper.ResourceHelper;
 import com.tip.capstone.mlearning.model.AssessmentChoice;
 
 import java.util.ArrayList;
@@ -52,11 +49,11 @@ class AssessmentChoiceListAdapter extends RecyclerView.Adapter<AssessmentChoiceL
         char x = 'A';
         x += position;
         holder.itemChoiceBinding.setLetter(x + "");
-        if (choice.getChoice_type() == Constant.DETAIL_TYPE_IMAGE) {
+       /* if (choice.get Choice_type() == Constant.Q_TYPE_IMAGE) {
             Glide.with(holder.itemView.getContext())
                     .load(ResourceHelper.getDrawableResourceId(holder.itemView.getContext(), choice.getBody()))
                     .into(holder.itemChoiceBinding.imgChoice);
-        }
+        }*/
         onBind = true;
         holder.itemChoiceBinding.checkbox.setChecked(selected[position]);
         onBind = false;
@@ -117,10 +114,10 @@ class AssessmentChoiceListAdapter extends RecyclerView.Adapter<AssessmentChoiceL
             super(itemChoiceBinding.getRoot());
             this.itemChoiceBinding = itemChoiceBinding;
             // setup listener here as it arises issues if in onBindViewHolder()
-            itemChoiceBinding.checkbox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            itemChoiceBinding.card.setOnClickListener(new View.OnClickListener() {
                 @Override
-                public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-                    if (b) resetSelected(getAdapterPosition());
+                public void onClick(View v) {
+                    resetSelected(getAdapterPosition());
                 }
             });
         }

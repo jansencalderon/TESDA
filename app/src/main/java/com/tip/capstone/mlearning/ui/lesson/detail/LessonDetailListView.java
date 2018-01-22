@@ -23,4 +23,5 @@ public interface LessonDetailListView extends MvpView {
 
     void imageZoom(LessonDetail lessonDetail);
 
+    void showAlert(String s);
 }

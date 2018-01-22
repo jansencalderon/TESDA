@@ -13,6 +13,7 @@ public class Question extends RealmObject {
 
     @PrimaryKey
     private int id;
+    private int topicId;
     private String question;
     private String answer;
     private int question_type;
@@ -36,11 +37,11 @@ public class Question extends RealmObject {
     }
 
     public String getAnswer() {
-        return answer;
+        return answer.trim();
     }
 
     public void setAnswer(String answer) {
-        this.answer = answer;
+        this.answer = answer.trim();
     }
 
     public int getQuestion_type() {
@@ -65,5 +66,13 @@ public class Question extends RealmObject {
 
     public void setLesson_detail(int lesson_detail) {
         this.lesson_detail = lesson_detail;
+    }
+
+    public int getTopicId() {
+        return topicId;
+    }
+
+    public void setTopicId(int topicId) {
+        this.topicId = topicId;
     }
 }

@@ -48,7 +48,7 @@ public class VideoListAdapter extends RecyclerView.Adapter<VideoListAdapter.View
                 + "/raw/" + videoList.get(position).getRawName());
         MediaMetadataRetriever retriever = new MediaMetadataRetriever();
         retriever.setDataSource(holder.itemView.getContext().getApplicationContext(), videoURI);
-        Bitmap thumb = retriever.getFrameAtTime(10, MediaMetadataRetriever.OPTION_PREVIOUS_SYNC);
+        Bitmap thumb = retriever.getFrameAtTime(0, MediaMetadataRetriever.OPTION_PREVIOUS_SYNC);
         holder.itemVideoBinding.image.setImageBitmap(thumb);
         holder.itemVideoBinding.setVideo(videoList.get(position));
         holder.itemVideoBinding.setView(videoListView);

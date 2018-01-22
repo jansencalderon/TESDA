@@ -34,7 +34,7 @@ public interface AssessmentView extends IdentificationView, SummaryView {
      * Restore Data on Orientation Change or similar scenarios
      *
      * @param counter        the current counter/index of the question
-     * @param assessmentList the assessment question list (algorithm already applied)
+     * @param assessmentList the assessment.json question list (algorithm already applied)
      * @param userAnswerList the user answer list
      * @param lettersList
      */

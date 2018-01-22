@@ -162,6 +162,17 @@
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
                     android:layout_margin="16dp" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Assessment"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="20sp"
+                    android:padding="16dp"
+                    android:textStyle="bold"
+                    app:layout_widthPercent="40%" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

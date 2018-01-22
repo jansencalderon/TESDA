@@ -15,9 +15,14 @@ public class Lesson extends RealmObject {
     @PrimaryKey
     private int id;
     private int sequence;
+    private int topicId;
     private String title;
     private String description;
-    private RealmList<LessonDetail> lessondetails;
+    private RealmList<LessonDetail> lessonDetails;
+
+    public static String getColSeq() {
+        return COL_SEQ;
+    }
 
     public int getId() {
         return id;
@@ -33,6 +38,14 @@ public class Lesson extends RealmObject {
 
     public void setSequence(int sequence) {
         this.sequence = sequence;
+    }
+
+    public int getTopicId() {
+        return topicId;
+    }
+
+    public void setTopicId(int topicId) {
+        this.topicId = topicId;
     }
 
     public String getTitle() {
@@ -51,11 +64,11 @@ public class Lesson extends RealmObject {
         this.description = description;
     }
 
-    public RealmList<LessonDetail> getLessondetails() {
-        return lessondetails;
+    public RealmList<LessonDetail> getLessonDetails() {
+        return lessonDetails;
     }
 
-    public void setLessondetails(RealmList<LessonDetail> lessondetails) {
-        this.lessondetails = lessondetails;
+    public void setLessonDetails(RealmList<LessonDetail> lessonDetails) {
+        this.lessonDetails = lessonDetails;
     }
 }

@@ -19,6 +19,7 @@ public class Difficulty extends RealmObject {
     private String code;
     private String title;
     private String objective;
+    private String img;
     private RealmList<Topic> topics;
 
     public int getId() {
@@ -67,5 +68,17 @@ public class Difficulty extends RealmObject {
 
     public void setTopics(RealmList<Topic> topics) {
         this.topics = topics;
+    }
+
+    public static String getColSeq() {
+        return COL_SEQ;
+    }
+
+    public String getImg() {
+        return img;
+    }
+
+    public void setImg(String img) {
+        this.img = img;
     }
 }

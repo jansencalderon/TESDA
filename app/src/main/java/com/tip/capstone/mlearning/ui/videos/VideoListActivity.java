@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.SearchView;
@@ -32,7 +33,7 @@ public class VideoListActivity extends MvpViewStateActivity<VideoListView, Video
         setRetainInstance(true);
         ActivityVideoListBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_video_list);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true); // assumes theme has toolbar
-        getSupportActionBar().setTitle("Videos"); // TODO: 29/11/2016 set title in manifest instead
+        getSupportActionBar().setBackgroundDrawable(ContextCompat.getDrawable(this,R.drawable.bg_gradient));
 
         adapter = new VideoListAdapter(getMvpView());
         binding.recyclerView.setLayoutManager(new LinearLayoutManager(this));
@@ -95,6 +96,7 @@ public class VideoListActivity extends MvpViewStateActivity<VideoListView, Video
     public void onVideoClicked(Video video) {
         Intent intent = new Intent(this, VideoPlayActivity.class);
         intent.putExtra(Constant.RES_ID, video.getResourceId());
+        intent.putExtra("videoTitle", video.getTitle());
         startActivity(intent);
     }
 

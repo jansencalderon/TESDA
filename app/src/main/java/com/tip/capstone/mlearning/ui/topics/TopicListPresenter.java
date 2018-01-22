@@ -5,7 +5,9 @@ import android.util.Log;
 import com.hannesdorfmann.mosby.mvp.MvpNullObjectBasePresenter;
 import com.tip.capstone.mlearning.model.Topic;
 
+import io.realm.Case;
 import io.realm.Realm;
+import io.realm.Sort;
 
 import static android.content.ContentValues.TAG;
 
@@ -36,5 +38,15 @@ public class TopicListPresenter extends MvpNullObjectBasePresenter<TopicListView
                 getView().showAlert("Database Error", "Error on Saving Topic List");
             }
         });
+    }
+
+    public void loadTopicList(String query) {
+        final Realm realm = Realm.getDefaultInstance();
+        if (query.equals(""))
+            getView().setTopics(realm.where(Topic.class).findAll());
+        else
+            getView().setTopics(realm.where(Topic.class).contains("title", query, Case.INSENSITIVE).findAll().sort("title", Sort.DESCENDING));
+
+        realm.close();
     }
 }

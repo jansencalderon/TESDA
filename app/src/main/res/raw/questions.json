@@ -1,0 +1,1138 @@
+[
+  {
+    "id": 1,
+    "topicId": 1,
+    "answer": " Contact Injuries",
+    "lesson_detail": 2,
+    "question": "It is a hazard that can be prevented with proper equipment training and by asking\npermission to the technician in charge.",
+    "question_type": 1
+  },
+  {
+    "id": 2,
+    "topicId": 1,
+    "answer": " Electrical Shocks",
+    "lesson_detail": 2,
+    "question": "It is a hazard that can be prevented by making sure that the electrical cables and plugs should regularly inspected by the user for damage.",
+    "question_type": 1
+  },
+  {
+    "id": 3,
+    "topicId": 1,
+    "answer": " Hazardous Substances",
+    "lesson_detail": 3,
+    "question": "It is a hazard that can be prevented by wearing an appropriate PPE.",
+    "question_type": 1
+  },
+  {
+    "id": 4,
+    "topicId": 1,
+    "answer": " Slips and trips",
+    "lesson_detail": 3,
+    "question": "It is a hazard that can be prevented by cleaning any spillages immedietly.",
+    "question_type": 1
+  },
+  {
+    "id": 5,
+    "topicId": 1,
+    "answer": "d. Fire",
+    "lesson_detail": 3,
+    "question": "It is a hazard that can be prevented by keeping any flammable substances\naway from naked fire.",
+    "question_type": 1
+  },
+  {
+    "id": 6,
+    "topicId": 1,
+    "answer": " Protective Pryotech Equipment",
+    "lesson_detail": 6,
+    "question": "It is a set of equipments that will protect the user against health or safety risks at work.",
+    "question_type": 1
+  },
+  {
+    "id": 7,
+    "topicId": 1,
+    "answer": " Boots",
+    "lesson_detail": 8,
+    "question": "This equipement is a type of footwear which is durable and can be used in any type\n of environment.",
+    "question_type": 1
+  },
+  {
+    "id": 8,
+    "topicId": 1,
+    "answer": " Eye Protecticn",
+    "lesson_detail": 8,
+    "question": "This equipement is a gear that prevents foreign materials from coming to the user's eyes.",
+    "question_type": 1
+  },
+  {
+    "id": 9,
+    "topicId": 1,
+    "answer": "d. Protective Clothing",
+    "lesson_detail": 8,
+    "question": "This equipement is a type of clothing that covers the user from nect to ankle.",
+    "question_type": 1
+  },
+  {
+    "id": 10,
+    "topicId": 1,
+    "answer": " Helmet",
+    "lesson_detail": 8,
+    "question": "This equipement is a form of a gear that worn to protect the head from injuries.",
+    "question_type": 1
+  },
+  {
+    "id": 11,
+    "topicId": 1,
+    "answer": " Threshold Limit Value",
+    "lesson_detail": 10,
+    "question": "An occupational exposure value recommended by ACGIH to which it is belived nearly all workers can be exposed for a lifetime without affecting health.",
+    "question_type": 1
+  },
+  {
+    "id": 12,
+    "topicId": 1,
+    "answer": " Average",
+    "lesson_detail": 10,
+    "question": "A TLV type that is the average exposure on the basis of a 8h/day, 40h/week work\nschedule.",
+    "question_type": 1
+  },
+  {
+    "id": 13,
+    "topicId": 1,
+    "answer": " Short - Term Exposure Limit",
+    "lesson_detail": 10,
+    "question": "A TLV type that is the spot exposure for duration of 15 minutes that cannot be repeated 4 times per day.",
+    "question_type": 1
+  },
+  {
+    "id": 14,
+    "topicId": 1,
+    "answer": " Ceiling Limit",
+    "lesson_detail": 10,
+    "question": "A TLV type that is the absolute exposure limit.",
+    "question_type": 1
+  },
+  {
+    "id": 15,
+    "topicId": 1,
+    "answer": " Occupational Health and Safety",
+    "lesson_detail": 12,
+    "question": "Are requirements workers come across various health and safety hazards while working.",
+    "question_type": 1
+  },
+  {
+    "id": 16,
+    "topicId": 2,
+    "answer": " Long Nose Pliers",
+    "lesson_detail": 40,
+    "question": "A tool for both cutting and holding. It is commonly used by jewelry designers and electricians.",
+    "question_type": 1
+  },
+  {
+    "id": 17,
+    "topicId": 2,
+    "answer": " Side Cutter",
+    "lesson_detail": 40,
+    "question": "A tool for cutting small pieces of wires and has a plane defined by the cutting edges.",
+    "question_type": 1
+  },
+  {
+    "id": 18,
+    "topicId": 2,
+    "answer": "d. Standard Screw Driver",
+    "lesson_detail": 40,
+    "question": "It is used to drive slotted screws, it is commonly used by everyone and commonly found in households.",
+    "question_type": 1
+  },
+  {
+    "id": 19,
+    "topicId": 2,
+    "answer": " Wrench",
+    "lesson_detail": 40,
+    "question": "Used to provide grip in applying torque to turn nuts and bolts.",
+    "question_type": 1
+  },
+  {
+    "id": 20,
+    "topicId": 2,
+    "answer": "d. Allen Keys/Wrench",
+    "lesson_detail": 40,
+    "question": "It is used to drive bolts and screws with hexagonal sockets.",
+    "question_type": 1
+  },
+  {
+    "id": 21,
+    "topicId": 2,
+    "answer": " Utility Knife",
+    "lesson_detail": 40,
+    "question": "A tool used for general purposes of cutting.",
+    "question_type": 1
+  },
+  {
+    "id": 22,
+    "topicId": 2,
+    "answer": " Soldering Iron",
+    "lesson_detail": 40,
+    "question": "It supplies heat to melt lead so that it can flow to the joint between 2 work pieces.",
+    "question_type": 1
+  },
+  {
+    "id": 23,
+    "topicId": 2,
+    "answer": "d. De - Soldering Iron/Pump",
+    "lesson_detail": 40,
+    "question": "A tool also known as ",
+    "question_type": 1
+  },
+  {
+    "id": 24,
+    "topicId": 2,
+    "answer": " Multi - meter",
+    "lesson_detail": 49,
+    "question": "It is used to measure 2 or more electrical values, it measures voltages, amperage, resistance.",
+    "question_type": 1
+  },
+  {
+    "id": 25,
+    "topicId": 2,
+    "answer": " Oscilloscope",
+    "lesson_detail": 49,
+    "question": "It tests and displays voltage signals as waveforms.",
+    "question_type": 1
+  },
+  {
+    "id": 26,
+    "topicId": 2,
+    "answer": " Function Generator",
+    "lesson_detail": 49,
+    "question": "It is a piece of electronic test equipment that is used to generate types of electrical waveforms over a wide range of fequencies.",
+    "question_type": 1
+  },
+  {
+    "id": 27,
+    "topicId": 2,
+    "answer": " Toolbox",
+    "lesson_detail": 61,
+    "question": "This is the ideal storage for all of hand tools used in electronic/electrical work.",
+    "question_type": 1
+  },
+  {
+    "id": 28,
+    "topicId": 3,
+    "answer": " Test Light",
+    "lesson_detail": 66,
+    "question": "A measuring tool used to determine the presence or absence of an electric voltage a piece of equipment under test.",
+    "question_type": 1
+  },
+  {
+    "id": 29,
+    "topicId": 3,
+    "answer": " Micrometer",
+    "lesson_detail": 67,
+    "question": "Also known as screw gauge, a device used for precise measurement of components.",
+    "question_type": 1
+  },
+  {
+    "id": 30,
+    "topicId": 3,
+    "answer": " Wire Gauge",
+    "lesson_detail": 68,
+    "question": "It is a measuring tool used to identify the correct diameter of a wire.",
+    "question_type": 1
+  },
+  {
+    "id": 31,
+    "topicId": 3,
+    "answer": "d. Tape Measure",
+    "lesson_detail": 69,
+    "question": "It is a flexible ruler used to measure distance.",
+    "question_type": 1
+  },
+  {
+    "id": 32,
+    "topicId": 3,
+    "answer": " Volt Meter",
+    "lesson_detail": 70,
+    "question": "An electronic instrument used for measuring electrical potential difference between 2 points in an electric circuit.",
+    "question_type": 1
+  },
+  {
+    "id": 33,
+    "topicId": 3,
+    "answer": "d. Ammter",
+    "lesson_detail": 71,
+    "question": "Measuring instrument used to measure current in a circuit.",
+    "question_type": 1
+  },
+  {
+    "id": 34,
+    "topicId": 3,
+    "answer": " Ohm Meter",
+    "lesson_detail": 72,
+    "question": "It is an electronic instrument which is widely used to check a complete circuit or the resistance of a circuit element.",
+    "question_type": 1
+  },
+  {
+    "id": 35,
+    "topicId": 3,
+    "answer": " Watt Meter",
+    "lesson_detail": 73,
+    "question": "An instrument for measuring the electric power of any given circuit.",
+    "question_type": 1
+  },
+  {
+    "id": 36,
+    "topicId": 3,
+    "answer": " Test Light",
+    "lesson_detail": 86,
+    "question": "Use a high quality _________, low quality uses poor grade materials and might catch fire if it was contacted to high voltage.",
+    "question_type": 1
+  },
+  {
+    "id": 37,
+    "topicId": 3,
+    "answer": " Wire Gauge",
+    "lesson_detail": 86,
+    "question": "Cleaning the _________ with clean cloth to avoid rust.",
+    "question_type": 1
+  },
+  {
+    "id": 38,
+    "topicId": 3,
+    "answer": "d. Tape Measure",
+    "lesson_detail": 86,
+    "question": "Make sure the ______________ has been returned to zero.",
+    "question_type": 1
+  },
+  {
+    "id": 39,
+    "topicId": 3,
+    "answer": " Volt Meter",
+    "lesson_detail": 86,
+    "question": "Calibrate the _________ at frequent intervals, and protect the instrument from dust.",
+    "question_type": 1
+  },
+  {
+    "id": 40,
+    "topicId": 3,
+    "answer": "d. Ammter",
+    "lesson_detail": 87,
+    "question": "Always be careful when measuring high voltages using _______.",
+    "question_type": 1
+  },
+  {
+    "id": 41,
+    "topicId": 3,
+    "answer": " Ohm Meter",
+    "lesson_detail": 87,
+    "question": "As same as the voltmeter, ________ should be calibrated at fequent intervals.",
+    "question_type": 1
+  },
+  {
+    "id": 42,
+    "topicId": 3,
+    "answer": "d. III only",
+    "lesson_detail": 89,
+    "question": "Choose the letter that doesn't belong to proper procedure of cleaning the workplace.\nI Notify the workplace staff of you arrival\r\nII No food and drinks in the workshop\r\nIII All chemicals doesn't need to be checked by workplace staff before use\r\nIV Keep your work area tidy",
+    "question_type": 1
+  },
+  {
+    "id": 43,
+    "topicId": 4,
+    "answer": " Orthographic Projection",
+    "lesson_detail": 93,
+    "question": "A drawing convention that is producing an accurate working drawing of a 3D object using 3 separate 2D views from 3 different viewpoints.",
+    "question_type": 1
+  },
+  {
+    "id": 44,
+    "topicId": 4,
+    "answer": " Isometric Projection",
+    "lesson_detail": 93,
+    "question": "A drawing convention that is producing an accurate drawing of a 3D object using a combination of 30º lines for lines.",
+    "question_type": 1
+  },
+  {
+    "id": 45,
+    "topicId": 4,
+    "answer": " British Standard Dimensions",
+    "lesson_detail": 93,
+    "question": "An internationally recognized set of rules for applying dimensions to working drawings.",
+    "question_type": 1
+  },
+  {
+    "id": 46,
+    "topicId": 4,
+    "answer": "d. Styrofoam",
+    "lesson_detail": 94,
+    "question": "An expanded polystyrene foam in block form suitable for modeling.",
+    "question_type": 1
+  },
+  {
+    "id": 47,
+    "topicId": 4,
+    "answer": " Polymer",
+    "lesson_detail": 94,
+    "question": "A type of plastic composed of long chains of molecules.",
+    "question_type": 1
+  },
+  {
+    "id": 48,
+    "topicId": 4,
+    "answer": " T Square",
+    "lesson_detail": 95,
+    "question": "Drawing instrument used in conjunction with a drawing board to ensure horizontal lines.",
+    "question_type": 1
+  },
+  {
+    "id": 49,
+    "topicId": 4,
+    "answer": " Try Square",
+    "lesson_detail": 95,
+    "question": "L",
+    "question_type": 1
+  },
+  {
+    "id": 50,
+    "topicId": 4,
+    "answer": " Line Bending",
+    "lesson_detail": 97,
+    "question": "The process of heating a narrow area of a sheet of thermoplastic so that the sheet can be folded to a certain angle.",
+    "question_type": 1
+  },
+  {
+    "id": 51,
+    "topicId": 4,
+    "answer": " Vaccum Forming",
+    "lesson_detail": 97,
+    "question": "The process of heating a sheet of thermoplastic forcing it over a prepared mold and drawing out all of the air under it to creat a hallow shape.",
+    "question_type": 1
+  },
+  {
+    "id": 52,
+    "topicId": 4,
+    "answer": "d. Injection Molding",
+    "lesson_detail": 97,
+    "question": "The process of forcing molten plastic into a mold to create solid objects.",
+    "question_type": 1
+  },
+  {
+    "id": 53,
+    "topicId": 4,
+    "answer": "d. Resistor",
+    "lesson_detail": 102,
+    "question": "An electric symbol that means reduces the current flow to a circuit.",
+    "question_type": 1
+  },
+  {
+    "id": 54,
+    "topicId": 4,
+    "answer": " Capacitor",
+    "lesson_detail": 103,
+    "question": "An electric symbol that means to store an electric charge.",
+    "question_type": 1
+  },
+  {
+    "id": 55,
+    "topicId": 4,
+    "answer": " Undirectional",
+    "lesson_detail": 116,
+    "question": "A type of dimensioning that requires that all numerals, figures and notes must be places horizontally.",
+    "question_type": 1
+  },
+  {
+    "id": 56,
+    "topicId": 4,
+    "answer": " Align",
+    "lesson_detail": 118,
+    "question": "A type of dimensioning that requires all numerals, figures and notes must be aligned with the dimension line to be reat from the bottom right side of the drawing sheet.",
+    "question_type": 1
+  },
+  {
+    "id": 57,
+    "topicId": 4,
+    "answer": " Tabular",
+    "lesson_detail": 120,
+    "question": "A type of dimensioning that is a system in which size and location dimensions are given from datums or coordinates given in a table.",
+    "question_type": 1
+  },
+  {
+    "id": 58,
+    "topicId": 5,
+    "answer": " Act 2004",
+    "lesson_detail": 133,
+    "question": " This Act was varied to include the following health and safety principles",
+    "question_type": 1
+  },
+  {
+    "id": 59,
+    "topicId": 5,
+    "answer": " All Victorian workers ",
+    "lesson_detail": 134,
+    "question": " Who is covered by the Act S5 and S6",
+    "question_type": 1
+  },
+  {
+    "id": 60,
+    "topicId": 5,
+    "answer": " Real Time OS and Multitasking OS",
+    "lesson_detail": 137,
+    "question": " Computer Operating systems are broadly classified into two types, what are those?",
+    "question_type": 1
+  },
+  {
+    "id": 61,
+    "topicId": 5,
+    "answer": " Character User Interface(CUI) OS",
+    "lesson_detail": 139,
+    "question": " It is a text-based operating system, which is used for interacting with the software or files by typing commands to perform specific tasks.",
+    "question_type": 1
+  },
+  {
+    "id": 62,
+    "topicId": 5,
+    "answer": "d. Graphical User Interface(GUI) OS",
+    "lesson_detail": 139,
+    "question": " It is a mouse-based operating system (Windows Operating System, LINUX), wherein a user performs the tasks or operations without typing the commands from the keyboard.",
+    "question_type": 1
+  },
+  {
+    "id": 63,
+    "topicId": 5,
+    "answer": " Architecture of Operating Systems",
+    "lesson_detail": 139,
+    "question": "  The operating systems control the hardware resources of a computer. The kernel and shell are the parts of the operating system that perform essential operations.",
+    "question_type": 1
+  },
+  {
+    "id": 64,
+    "topicId": 5,
+    "answer": " Memory",
+    "lesson_detail": 153,
+    "question": " It refers to the computer hardware devices involved to store information for immediate use in a computer; it is synonymous with the term ",
+    "question_type": 1
+  },
+  {
+    "id": 65,
+    "topicId": 5,
+    "answer": " Chair; Parallel",
+    "lesson_detail": 173,
+    "question": "Adjust the height of the _____ to achieve proper posture – your legs from the body should be close to _____ to the floor.",
+    "question_type": 1
+  },
+  {
+    "id": 66,
+    "topicId": 5,
+    "answer": " System Software",
+    "lesson_detail": 178,
+    "question": " It is computer software designed to provide platform to other software(s).",
+    "question_type": 1
+  },
+  {
+    "id": 67,
+    "topicId": 5,
+    "answer": "d. Boot Program",
+    "lesson_detail": 179,
+    "question": "I Loads the operating system into the computer's main memory or random access memory (RAM).",
+    "question_type": 1
+  },
+  {
+    "id": 68,
+    "topicId": 5,
+    "answer": " Character User Interface and Graphical User Interface",
+    "lesson_detail": 138,
+    "question": "1 Normal operating system is further classified into two types: What are those?",
+    "question_type": 1
+  },
+  {
+    "id": 69,
+    "topicId": 5,
+    "answer": "d. Shell",
+    "lesson_detail": 140,
+    "question": "1 It is a part of the software which is placed between the user and the kernel, and it provides services of the kernel.",
+    "question_type": 1
+  },
+  {
+    "id": 70,
+    "topicId": 5,
+    "answer": " Command Line shells",
+    "lesson_detail": 140,
+    "question": "IIt provide a command line interface while graphical line shells provide a graphical user interface.",
+    "question_type": 1
+  },
+  {
+    "id": 71,
+    "topicId": 5,
+    "answer": "d. Graphical Line Shells",
+    "lesson_detail": 140,
+    "question": "1 It provides a graphical user interface.",
+    "question_type": 1
+  },
+  {
+    "id": 72,
+    "topicId": 5,
+    "answer": " Kernel",
+    "lesson_detail": 140,
+    "question": "1 It is a part of a software. It is like a bridge between the shell and hardware. It is responsible for running programs and providing secure access to the machine’s hardware.",
+    "question_type": 1
+  },
+  {
+    "id": 73,
+    "topicId": 5,
+    "answer": " Virtual and Physical",
+    "lesson_detail": 142,
+    "question": "1 A CPU consists of two types of memory modules: What are those?",
+    "question_type": 1
+  },
+  {
+    "id": 74,
+    "topicId": 5,
+    "answer": " Process Management",
+    "lesson_detail": 142,
+    "question": "1 It  is an instance of a program that is being executed.",
+    "question_type": 1
+  },
+  {
+    "id": 75,
+    "topicId": 5,
+    "answer": " Storage Management",
+    "lesson_detail": 142,
+    "question": "1It is a function of the operating system that handles memory allocation of the dat",
+    "question_type": 1
+  },
+  {
+    "id": 76,
+    "topicId": 5,
+    "answer": " Long term scheduler; Short term scheduler; Medium term schedule",
+    "lesson_detail": 142,
+    "question": "1 The schedulers are mainly of three types:",
+    "question_type": 1
+  },
+  {
+    "id": 77,
+    "topicId": 5,
+    "answer": " Hard Real-Time System",
+    "lesson_detail": 142,
+    "question": " It is a purely time constant system. For a hard real time operating system, finishing the tasks within deadline is very important for an efficient system performance.",
+    "question_type": 1
+  },
+  {
+    "id": 78,
+    "topicId": 6,
+    "answer": "Always cover sharp pointed tools w/ cork",
+    "lesson_detail": 220,
+    "question": " One of the Proper Care and Maintenance of Tools and Equipment is:",
+    "question_type": 1
+  },
+  {
+    "id": 79,
+    "topicId": 6,
+    "answer": "Safe Use",
+    "lesson_detail": 223,
+    "question": "\nThese risks can vary greatly. Above all, what matters is that whoever has to use any tool or piece of equipment as part of their job does so with care.",
+    "question_type": 1
+  },
+  {
+    "id": 80,
+    "topicId": 6,
+    "answer": "Correct maintenance of Tools and Equipment",
+    "lesson_detail": 224,
+    "question": "\nA further part of a health and safety strategy is to maintain tools and equipment regularly.",
+    "question_type": 1
+  },
+  {
+    "id": 81,
+    "topicId": 6,
+    "answer": "Law on Tools and Maintenance",
+    "lesson_detail": 225,
+    "question": "These requirements appear in work equipment law.",
+    "question_type": 1
+  },
+  {
+    "id": 82,
+    "topicId": 6,
+    "answer": "Standard Operating Procedure(SOP)",
+    "lesson_detail": 249,
+    "question": "It is a set of written instructions that document a\nroutine or repetitive activity followed by an organization.",
+    "question_type": 1
+  },
+  {
+    "id": 83,
+    "topicId": 6,
+    "answer": "d.Electrical testers",
+    "lesson_detail": 306,
+    "question": "These are used to check both AC and DC voltage, continuity, circuit problems, amperage, shorted and open circuit problems, and to make sure the voltages are correct at the electrical panel.",
+    "question_type": 1
+  },
+  {
+    "id": 84,
+    "topicId": 6,
+    "answer": "Continuity Testers",
+    "lesson_detail": 308,
+    "question": "It is a device that is powered by batteries and has a probe at on end and a cord with either an alligator clip or another probe at the other end.",
+    "question_type": 1
+  },
+  {
+    "id": 85,
+    "topicId": 6,
+    "answer": "Solenoid Voltage Testers",
+    "lesson_detail": 312,
+    "question": "\n It is frequently called wiggies, are multi-function testers. They are capable of testing both voltage and polarity.",
+    "question_type": 1
+  },
+  {
+    "id": 86,
+    "topicId": 6,
+    "answer": "False",
+    "lesson_detail": 312,
+    "question": " Solenoid Voltage Testers is frequently called wiggle tester, are multi-function testers. They are capable of testing both voltage and polarity.",
+    "question_type": 1
+  },
+  {
+    "id": 87,
+    "topicId": 6,
+    "answer": "False",
+    "lesson_detail": 308,
+    "question": "Iontinuity Testers is a device that is powered by solar and has a probe at on end and a cord with either an alligator clip or another probe at the other end.",
+    "question_type": 1
+  },
+  {
+    "id": 88,
+    "topicId": 6,
+    "answer": "True",
+    "lesson_detail": 306,
+    "question": "1Electrical testers are used to check both AC and DC voltage, continuity, circuit problems, amperage, shorted and open circuit problems, and to make sure the voltages are correct at the electrical panel.",
+    "question_type": 1
+  },
+  {
+    "id": 89,
+    "topicId": 6,
+    "answer": "d.Neon Voltage Testers",
+    "lesson_detail": 314,
+    "question": "1They are a handy testing tool, usually measuring only a few inches to a half a foot long with a light at one end of the tester and two wires with probes on the other. ",
+    "question_type": 1
+  },
+  {
+    "id": 90,
+    "topicId": 6,
+    "answer": "False",
+    "lesson_detail": 314,
+    "question": "\nIultimeters are a handy testing tool, usually measuring only a few inches to a half a foot long with a light at one end of the tester and two wires with probes on the other. ",
+    "question_type": 1
+  },
+  {
+    "id": 91,
+    "topicId": 6,
+    "answer": "Plug-in Circuit Analyzers",
+    "lesson_detail": 316,
+    "question": "1This tool are great, quick electrical testers that fit easily in your pocket and test outlets with ease.",
+    "question_type": 1
+  },
+  {
+    "id": 92,
+    "topicId": 6,
+    "answer": "Multimeters",
+    "lesson_detail": 318,
+    "question": "\n1These are the most complex electrical testers because like their name says they perform various functions of testing.",
+    "question_type": 1
+  },
+  {
+    "id": 93,
+    "topicId": 6,
+    "answer": "Plug-in Circuit Analyzers",
+    "lesson_detail": 316,
+    "question": "1These testers are designed to test outlets, but only ones that have three holes, meaning ones that have a hot, neutral and a ground.",
+    "question_type": 1
+  },
+  {
+    "id": 94,
+    "topicId": 6,
+    "answer": "True",
+    "lesson_detail": 312,
+    "question": "1Solenoid testers do not use batteries to power them so they are always ready to check voltage accurately.",
+    "question_type": 1
+  },
+  {
+    "id": 95,
+    "topicId": 6,
+    "answer": "d.Two",
+    "lesson_detail": 312,
+    "question": "1Solenoid testers have _____ wires, each with a probe, extending out of the bottom of the tester.",
+    "question_type": 1
+  },
+  {
+    "id": 96,
+    "topicId": 6,
+    "answer": "One is red and the other is black",
+    "lesson_detail": 312,
+    "question": "What color of Solenoid testers wire?",
+    "question_type": 1
+  },
+  {
+    "id": 97,
+    "topicId": 6,
+    "answer": "d.None of the Above",
+    "lesson_detail": 286,
+    "question": "These are Job Performance Standards except for  ",
+    "question_type": 1
+  },
+  {
+    "id": 98,
+    "topicId": 8,
+    "answer": "4 band resistor",
+    "lesson_detail": 506,
+    "question": "are the common type of lead resistors we usually see and use in different lab experiments and projects.",
+    "question_type": 1
+  },
+  {
+    "id": 99,
+    "topicId": 8,
+    "answer": "Cleat wiring",
+    "lesson_detail": 813,
+    "question": "This system of wiring comprise of ordinary VIR or PVC insulated wires (occasionally, sheathed and weather proof cable) braided and compounded held on walls or ceilings by means of porcelain cleats, Plastic or wood.",
+    "question_type": 1
+  },
+  {
+    "id": 100,
+    "topicId": 8,
+    "answer": "TRUE",
+    "lesson_detail": 483,
+    "question": "Passive electronic components are those that do not have gain or directionality. They are also called Electrical elements or electrical components. e.g. resistors, capacitors, diodes, Inductors.true or false?",
+    "question_type": 1
+  },
+  {
+    "id": 101,
+    "topicId": 8,
+    "answer": "antenna",
+    "lesson_detail": 498,
+    "question": "A device which is designed to receive or transmit radio signals. It is also known as an antenn",
+    "question_type": 1
+  },
+  {
+    "id": 102,
+    "topicId": 8,
+    "answer": "Dynamic noise limiter (DNL)",
+    "lesson_detail": 666,
+    "question": "an audio noise reduction system originally introduced by Philips in 1971 for use on cassette decks.",
+    "question_type": 1
+  },
+  {
+    "id": 103,
+    "topicId": 8,
+    "answer": "Clipping",
+    "lesson_detail": 651,
+    "question": "a term which many people have probably heard, but may not fully understand. Very simply, clipping of an amplifier occurs when one tries to get a larger output signal out of an amplifier than it was designed to provide.",
+    "question_type": 1
+  },
+  {
+    "id": 104,
+    "topicId": 8,
+    "answer": "Bridging",
+    "lesson_detail": 655,
+    "question": "It  refers to configuring a two channel (stereo) amplifier to drive a single load with more power than the sum of the two original channels combined.",
+    "question_type": 1
+  },
+  {
+    "id": 105,
+    "topicId": 8,
+    "answer": "Color vision",
+    "lesson_detail": 673,
+    "question": "It is  the ability of an organism or machine to distinguish objects based on the wavelengths (or frequencies) of the light they reflect, emit, or transmit",
+    "question_type": 1
+  },
+  {
+    "id": 106,
+    "topicId": 8,
+    "answer": "switches",
+    "lesson_detail": 532,
+    "question": "Components that may be made to either conduct (closed) or not (open).",
+    "question_type": 1
+  },
+  {
+    "id": 107,
+    "topicId": 8,
+    "answer": "Diodes",
+    "lesson_detail": 584,
+    "question": "Is a device which restricts current flow in only one direction",
+    "question_type": 1
+  },
+  {
+    "id": 108,
+    "topicId": 8,
+    "answer": "FALSE",
+    "lesson_detail": 676,
+    "question": "luminance describes the frequency of light at a given point on the screen, or in more common terms, the color of the light to be produced at a given point.",
+    "question_type": 1
+  },
+  {
+    "id": 109,
+    "topicId": 8,
+    "answer": "TRUE",
+    "lesson_detail": 676,
+    "question": "Luminance indicates how bright a given location on the screen is",
+    "question_type": 1
+  },
+  {
+    "id": 110,
+    "topicId": 8,
+    "answer": "TRUE",
+    "lesson_detail": 614,
+    "question": "Icholocation is a complex and highly evolved process that has given bats the ability to exploit an ecological niche closed to all but a few animal groups-the night sky",
+    "question_type": 1
+  },
+  {
+    "id": 111,
+    "topicId": 8,
+    "answer": "acoustic",
+    "lesson_detail": 612,
+    "question": "It  is the science of sound and deals with the origin of sound and its propagation, either in free space or in pipes and channels or closed spaces.",
+    "question_type": 1
+  },
+  {
+    "id": 112,
+    "topicId": 8,
+    "answer": "light emitting diode/LED",
+    "lesson_detail": 592,
+    "question": "It is a special type of PN junction diode made from semiconductors like Gallium Arsenide",
+    "question_type": 1
+  },
+  {
+    "id": 113,
+    "topicId": 9,
+    "answer": "Transistors",
+    "lesson_detail": 1009,
+    "question": "A semiconductor device capable of amplification.",
+    "question_type": 1
+  },
+  {
+    "id": 114,
+    "topicId": 9,
+    "answer": "Capacitors",
+    "lesson_detail": 1009,
+    "question": "Components that store electrical charge in an electrical field.",
+    "question_type": 1
+  },
+  {
+    "id": 115,
+    "topicId": 9,
+    "answer": "Network Components",
+    "lesson_detail": 1009,
+    "question": " Components that use more than 1 type of Passive Component.",
+    "question_type": 1
+  },
+  {
+    "id": 116,
+    "topicId": 9,
+    "answer": "Resistors",
+    "lesson_detail": 1009,
+    "question": " Components used to resist current.",
+    "question_type": 1
+  },
+  {
+    "id": 117,
+    "topicId": 9,
+    "answer": "TRUE",
+    "lesson_detail": 1025,
+    "question": "A series circuit connects components end to end to provide a single path for current flow. ",
+    "question_type": 1
+  },
+  {
+    "id": 118,
+    "topicId": 9,
+    "answer": "Fixed capacitor",
+    "lesson_detail": 1053,
+    "question": "They offer a fixed reactance to the flow of current. They can be Mica capacitor which consists of mica as the insulating material",
+    "question_type": 1
+  },
+  {
+    "id": 119,
+    "topicId": 9,
+    "answer": "Variable Capacitors",
+    "lesson_detail": 1055,
+    "question": "They offer capacitance which can be varied by varying the distance between the plates",
+    "question_type": 1
+  },
+  {
+    "id": 120,
+    "topicId": 9,
+    "answer": "PN Junction Diode",
+    "lesson_detail": 1063,
+    "question": "A simple PN junction diode consists of a p-type semiconductor mounted on an n-type semiconductor such that a junction is formed between the p and n types",
+    "question_type": 1
+  },
+  {
+    "id": 121,
+    "topicId": 9,
+    "answer": "tunnel diode",
+    "lesson_detail": 1067,
+    "question": "It is a heavily doped pn junction diode where the current decreases with increasing forward voltage",
+    "question_type": 1
+  },
+  {
+    "id": 122,
+    "topicId": 9,
+    "answer": "Schematic nets",
+    "lesson_detail": 1217,
+    "question": "It  tell you how components are wired together in a circuit",
+    "question_type": 1
+  },
+  {
+    "id": 123,
+    "topicId": 9,
+    "answer": "Looping System",
+    "lesson_detail": 1243,
+    "question": "This method of wiring is universally used in wiring. Lamps and other appliances are connected in parallel so that each of the appliances can be controlled individually",
+    "question_type": 1
+  },
+  {
+    "id": 124,
+    "topicId": 9,
+    "answer": "Capping wiring",
+    "lesson_detail": 1250,
+    "question": "1was famous wiring system in the past but, it is considered obsolete this days because of Conduit and sheathed wiring system. The cables used in this kind of wiring were either VIR or PVC or any other approved insulated cables.",
+    "question_type": 1
+  },
+  {
+    "id": 125,
+    "topicId": 9,
+    "answer": "Lead Sheathed Wiring",
+    "lesson_detail": 1256,
+    "question": "Ihe type of wiring employs conductors that are insulated with VIR and covered with an outer sheath of lead aluminum alloy containing about 95% of lead.",
+    "question_type": 1
+  },
+  {
+    "id": 126,
+    "topicId": 9,
+    "answer": "FALSE",
+    "lesson_detail": 1262,
+    "question": "1Metallic cleat are made of steel which are very strong but costly as well.",
+    "question_type": 1
+  },
+  {
+    "id": 127,
+    "topicId": 9,
+    "answer": "TRUE",
+    "lesson_detail": 1262,
+    "question": "1a disadvantage of having a conduit wiring is that it is hard to find defects in the wiring true or false?",
+    "question_type": 1
+  },
+  {
+    "id": 128,
+    "topicId": 10,
+    "answer": "Protective clothing",
+    "lesson_detail": 1306,
+    "question": "A type of clothing that covers the user from neck to ankle which prevents is wearer from injuries and skin irritation.",
+    "question_type": 1
+  },
+  {
+    "id": 129,
+    "topicId": 10,
+    "answer": "REPUBLIC ACT NO. 5734",
+    "lesson_detail": 1310,
+    "question": "THE ELECTRONICS ANDCOMMUNICATIONS ENGINEERING ACT OF THEPHILIPPINES",
+    "question_type": 1
+  },
+  {
+    "id": 130,
+    "topicId": 10,
+    "answer": "Allen Wrenches",
+    "lesson_detail": 1334,
+    "question": "Used to drive bolts and screws with hexagonal sockets in their heads",
+    "question_type": 1
+  },
+  {
+    "id": 131,
+    "topicId": 10,
+    "answer": "fuse",
+    "lesson_detail": 1423,
+    "question": "A safety device which will 'blow' (melt) if the current flowing through it exceeds a specified value",
+    "question_type": 1
+  },
+  {
+    "id": 132,
+    "topicId": 10,
+    "answer": "transformer",
+    "lesson_detail": 1426,
+    "question": "Are used to step up (increase) and step down (decrease) AC voltages.",
+    "question_type": 1
+  },
+  {
+    "id": 133,
+    "topicId": 10,
+    "answer": "antenna",
+    "lesson_detail": 1445,
+    "question": "A device which is designed to receive or transmit radio signals.",
+    "question_type": 1
+  },
+  {
+    "id": 134,
+    "topicId": 10,
+    "answer": "TRUE",
+    "lesson_detail": 1752,
+    "question": "Solder Wick is basically just copper braid that soaks up solder when you heat it up true or false?",
+    "question_type": 1
+  },
+  {
+    "id": 135,
+    "topicId": 10,
+    "answer": "Desoldering Machine",
+    "lesson_detail": 1752,
+    "question": "If you repair a lot of boards, you absolutely need a machine like this. It is basically a soldering iron with a hole in the center of the tip that is connected to a vacuum pump.",
+    "question_type": 1
+  },
+  {
+    "id": 136,
+    "topicId": 10,
+    "answer": "TRUE",
+    "lesson_detail": 1758,
+    "question": "An advantage of a loop in wiring system is that it doesn't require any joint boxes true or false",
+    "question_type": 1
+  },
+  {
+    "id": 137,
+    "topicId": 10,
+    "answer": "FALSE",
+    "lesson_detail": 1613,
+    "question": "Dynamic noise limiter (DNL) is an audio noise reduction system originally introduced by Philips in 1958 for use on cassette decks true or false?",
+    "question_type": 1
+  },
+  {
+    "id": 138,
+    "topicId": 10,
+    "answer": "Intermodulation distortion",
+    "lesson_detail": 1596,
+    "question": "The second major type of distortion that is often specified for amplifiers it  is much more objectionable to the human ear because it generates non-harmonically related extra signals which were not present in the original.",
+    "question_type": 1
+  },
+  {
+    "id": 139,
+    "topicId": 10,
+    "answer": "Output stage",
+    "lesson_detail": 1573,
+    "question": "Is the portion of an amplifier which actually converts the weak input signal into a much more powerful ",
+    "question_type": 1
+  },
+  {
+    "id": 140,
+    "topicId": 10,
+    "answer": "Class A",
+    "lesson_detail": 1576,
+    "question": "It is a class of amplifier that has a very low distortion (lowest distortion occurs when the volume is low) however they are very inefficient and are rarely used for high power designs",
+    "question_type": 1
+  },
+  {
+    "id": 141,
+    "topicId": 10,
+    "answer": "Zener Diode",
+    "lesson_detail": 1535,
+    "question": "It is a diode made up of heavily doped p region compared to the n-region, such that it not only allows current flow in one direction",
+    "question_type": 1
+  },
+  {
+    "id": 142,
+    "topicId": 10,
+    "answer": "Photo Diode",
+    "lesson_detail": 1541,
+    "question": "It is a special type of PN junction diode whose resistance decreases when light falls on it. It consists of a pn junction diode placed inside a plastic.",
+    "question_type": 1
+  }
+]
