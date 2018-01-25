@@ -51,14 +51,6 @@ public class TopicsListActivity extends MvpActivity<TopicListView, TopicListPres
             finish();
         }
 
-        /*difficulty = realm.where(Difficulty.class).equalTo(Constant.ID, termId).findFirst();
-        if (difficulty == null) {
-            Toast.makeText(this, "No Difficulty Object Found", Toast.LENGTH_SHORT).show();
-            finish();
-        }
-        topicList = realm.where(Topic.class).equalTo("difficultyId", difficulty.getId()).findAllSorted("id");
-        getSupportActionBar().setTitle(difficulty.getTitle());
-*/
         getSupportActionBar().setTitle("Topics");
         topicList = realm.copyFromRealm(realm.where(Topic.class).findAll());
         getSupportActionBar().setBackgroundDrawable(ContextCompat.getDrawable(this, R.drawable.bg_gradient));
@@ -71,6 +63,7 @@ public class TopicsListActivity extends MvpActivity<TopicListView, TopicListPres
         topicListAdapter.setTopicList(topicList);
 
     }
+
 
     @Override
     protected void onResume() {

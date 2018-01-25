@@ -8,518 +8,452 @@
   {
     "id": 2,
     "learningObjectiveId": 1,
-    "body": "hazards1",
-    "body_type": "image"
-  },
-  {
-    "id": 3,
-    "learningObjectiveId": 1,
-    "body": "hazards2",
-    "body_type": "image"
-  },
-  {
-    "id": 4,
-    "learningObjectiveId": 1,
-    "body": "hazards3",
-    "body_type": "image"
-  },
-  {
-    "id": 5,
-    "learningObjectiveId": 1,
     "body": "Organizational safety and health protocol",
     "body_type": "header"
   },
   {
-    "id": 6,
+    "id": 3,
     "learningObjectiveId": 1,
     "body": "Every student must have personal protective equipment to prevent injuries\n throughout the whole class. Personal Protective Equipment (PPE) is a set of equipment that will protect the user against health or safety risks at work. It can include items such as safety helmets, gloves, eye protection, protective clothing and safety footwear. Here are the examples of PPE for electrical work.",
     "body_type": "text"
   },
   {
-    "id": 7,
+    "id": 4,
     "learningObjectiveId": 1,
-    "body": "ppe",
+    "body": "PPE.jpg",
     "body_type": "image"
   },
   {
-    "id": 8,
+    "id": 5,
     "learningObjectiveId": 1,
-    "body": "Here are the following bodys of the PPE.\n• Helmet - a form of protective gear worn to protect the head from injuries.\r\n• Eye Protection - is a protective gear to prevent foreign materials from coming to the eyes.\r\n• Boots - a type of footwear and a specific type of shoe which durable and can be used in any type of environment.\r\n• Protective Clothing – a type of clothing that covers the user from neck to ankle which prevents is wearer from injuries and skin irritation.\r\n",
+    "body": "Here are the following contents of the PPE.\n• Helmet - a form of protective gear worn to protect the head from injuries.\r\n• Eye Protection - is a protective gear to prevent foreign materials from coming to the eyes.\r\n• Boots - a type of footwear and a specific type of shoe which durable and can be used in any type of environment.\r\n• Protective Clothing – a type of clothing that covers the user from neck to ankle which prevents is wearer from injuries and skin irritation.\r\n",
     "body_type": "text"
   },
   {
-    "id": 9,
+    "id": 6,
     "learningObjectiveId": 1,
     "body": "Threshold limit value (TLV)",
     "body_type": "header"
   },
   {
-    "id": 10,
+    "id": 7,
     "learningObjectiveId": 1,
     "body": "Threshold Limit Value (TLV) is a registered and reserved term of the American Conference of Governmental Industrial Hygienists (ACGIH). It is an occupational exposure value recommended by ACGIH to which it is believed nearly all workers can be exposed for lifetime without affecting health. It is the maximum average concentration of a hazardous material floating in the workplace to which workers can be exposed during an eight-hour work day and 40-hour workweek, over a working lifetime, without experiencing significant adverse health concerns.\nThree types of TLVs for chemical substances are defined: Threshold Limit Value - /Time Weighted \r\n• Average (TLV-TWA) is the average exposure on the basis of a 8h/day, 40h/week work schedule.\r\n• Threshold Limit Value - Short-Term Exposure Limit (TLV-STEL) is the spot exposure for duration of 15 minutes that cannot be repeated more than 4 times per day.\r\n• Threshold Limit Value - Ceiling Limit (TLV-C) is the absolute exposure limit that should not be exceeded at any time\r\n",
     "body_type": "text"
   },
   {
-    "id": 11,
+    "id": 8,
     "learningObjectiveId": 1,
     "body": "OHS Indicators",
     "body_type": "header"
   },
   {
-    "id": 12,
+    "id": 9,
     "learningObjectiveId": 1,
     "body": "OHS or Occupational Health and Safety are requirements workers come across various health and safety hazards while working. OHS addresses many types of workplace hazards, such as chemical, physical, biological, psychological, ergonomic and accidental. It also enforces safety practices and examines legal perspectives. Safety standards are set to remove, reduce, or replace hazards, or minimize the effect of hazards on workers. These are the steps in making your workplace clean and safe.\n• Do not work alone so that there's someone who can take care of you in case of emergency.\r\n• Always power off the computer and unplug the computer before working on it/\r\n• Take away any liquid near your working area to avoid getting electrocuted or accidentally damaging computer parts.\r\n• Be careful with hand tools that may cause short circuit.\r\n• Always ground or discharge yourself before touching any part of the computer.\r\n• Do not use excessive force if things don't quite slip into place.\r\n• Clean the area before and after using it to maintain sanitation and prevent accidents.\r\n• Hold the components on the edges and do not touch the Integrated Circuit (IC) parts.\r\n• Always wear personal protective equipment (PPE) in accordance with the organization's OHS procedures and practices.\r\n• Make sure that the pins are properly aligned when connecting a cable connector.\r\n• Contingency measures during workplace accidents, fire and other emergencies are recognized.\r\n• Use brush, compressed air or blower in cleaning the computer system.\r\n\r\n",
     "body_type": "text"
   },
   {
-    "id": 13,
-    "learningObjectiveId": 2,
-    "body": " TLV Table",
-    "body_type": "header"
-  },
-  {
-    "id": 14,
-    "learningObjectiveId": 2,
-    "body": "tlv1",
-    "body_type": "image"
-  },
-  {
-    "id": 15,
-    "learningObjectiveId": 2,
-    "body": "tlv2",
-    "body_type": "image"
-  },
-  {
-    "id": 16,
-    "learningObjectiveId": 2,
-    "body": "tlv3",
-    "body_type": "image"
-  },
-  {
-    "id": 17,
-    "learningObjectiveId": 2,
-    "body": "tlv4",
-    "body_type": "image"
-  },
-  {
-    "id": 18,
+    "id": 10,
     "learningObjectiveId": 2,
     "body": "Philippines OHS Standards",
     "body_type": "header"
   },
   {
-    "id": 19,
+    "id": 11,
     "learningObjectiveId": 2,
     "body": "The Occupational Safety and Health Standards was formulated in 1978 in compliance with the constitutional mandate to safeguard the worker’s social and economic well-being as well as his/her physical safety and health. Adopted through the tested democratic machinery of tripartism, the 1978 Standards is considered as a landmark in Philippine labor and social legislation.\nWith joint efforts from the Bureau of Working Conditions, the International Labor Organization (ILO) Manila Office and the tripartite sectors, the revisions to the OSH Standards were approved in August 1989. With the latest improvements in the Standards, all establishments covered will now be provided with a better tool for promoting and maintaining a safe and conducive working environment.\r\n",
     "body_type": "text"
   },
   {
-    "id": 20,
+    "id": 12,
     "learningObjectiveId": 2,
     "body": "Ergonomics",
     "body_type": "header"
   },
   {
-    "id": 21,
+    "id": 13,
     "learningObjectiveId": 2,
     "body": "Ergonomics is the process of designing or arranging workplaces, products and systems so that they fit the people who use them. Most people have heard of ergonomics and think it is something to do with seating or with the design of car controls and instruments – and it is… but it is so much more. Ergonomics applies to the design of anything that involves people – workspaces, sports and leisure, health and safety.\nErgonomics aims to improve workspaces and environments to minimize risk of injury or harm. So as technologies change, so too does the need to ensure that the tools we access for work, rest and play are designed for our body’s requirements.\r\nAccording to Safe Work Australia, the total economic cost of work-related injuries and illnesses is estimated to be $60 billion dollars. Recent research has shown that lower back pain is the world’s most common work-related disability – affecting employees from offices, building sites and in the highest risk category, agriculture.\r\n",
     "body_type": "text"
   },
   {
-    "id": 22,
+    "id": 14,
     "learningObjectiveId": 2,
     "body": "ECC Regulations",
     "body_type": "header"
   },
   {
-    "id": 23,
+    "id": 15,
     "learningObjectiveId": 2,
     "body": "Pursuant to Republic Act No. 10524 entitled “An Act Expanding the Positions Reserved for Persons with Disability,” the following implementing rules and regulations (IRR) are hereby issued:\nPURPOSE AND CONSTRUCTION\r\nSECTION 1. PURPOSE.\r\nThis implementing Rules and Regulations (IRR) is promulgated to prescribe the procedures and guidelines for the implementation of Republic Act No. 10524 to facilitate compliance and achieve its objectives.\r\nSECTION 2. CONSTRUCTION.\r\nThis IRR shall be construed and applied in accordance with and in furtherance of the policies and objectives of Republic Act No. 10524. In case of doubt, the same shall be construed liberally and in favor of persons with disability.\r\n\r\nSECTION 3. GENERAL POLICIES AND OBJECTIVES\r\nRecognizing the right of persons with disability to work on an equal basis with others and to participate fully into the mainstream of society, it is the aim of this IRR to provide persons with disability, equal opportunity for employment and equal remuneration for work of equal value. Towards this end, the State shall facilitate access of persons with disability to labor market information, capacity building programs, and wage employment.\r\n",
     "body_type": "text"
   },
   {
-    "id": 24,
+    "id": 16,
     "learningObjectiveId": 3,
     "body": "Safety Regulations: Clean Air Act",
     "body_type": "header"
   },
   {
-    "id": 25,
+    "id": 17,
     "learningObjectiveId": 3,
     "body": "SECTION 1. Short Title. - This Act shall be known as the “Philippine Clean Air Act of 1999.”\nSEC. 2. Declaration of Principles. - The State shall protect and advance the right of the people to a   balanced and healthful ecology in accord with the rhythm and harmony of nature.\r\nThe State shall promote and protect the global environment to attain sustainable development while   recognizing the primary responsibility of local government units to deal with environmental problems.\r\nThe State recognizes that the responsibility of cleaning the habitat and environment is primarily area-based.\r\nThe State also recognizes the principle that “polluters must pay”.\r\nFinally, the State recognizes that a clean and healthy environment is for the good of all and should, therefore, be   the concern of all. \r\n",
     "body_type": "text"
   },
   {
-    "id": 26,
+    "id": 18,
     "learningObjectiveId": 3,
     "body": " Safety Regulations: Electrical and Fire Safety Code",
     "body_type": "header"
   },
   {
-    "id": 27,
+    "id": 19,
     "learningObjectiveId": 3,
     "body": "SECTION 6.0.2.1 REQUIREMENTS \nA.) All business establishments employing at least fifty (50) persons shall, in addition to the requirements set forth under Section 7 of RA 9514 for the grant of Fire Safety Inspection Certificate (FSIC), establish an organization of fire brigade to deal with fire and other related emergencies. The head of the company, through its duly designated safety officer shall evaluate the potential magnitude of a fire emergency within the company, and the availability of firefighting assistance from the BFP to determine the nature of the organization to be established. B) For buildings having various occupancies, the Building Administrator and/or owner shall initiate the organization of a fire brigade in the premises irrespective of the number of occupants. C) In cases where a fire brigade is already established for a building, said fire brigade shall be sufficient to comply with the requirements of para “A” of this Section. D) All barangays shall likewise endeavor to organize their own Fire Brigades.\r\n",
     "body_type": "text"
   },
   {
-    "id": 28,
+    "id": 20,
     "learningObjectiveId": 3,
     "body": "Safety Regulations: Waste Management",
     "body_type": "header"
   },
   {
-    "id": 29,
-    "learningObjectiveId": 3,
+    "id": 21,
+    "learningObjectiveId": 4,
     "body": "The experiences and practices of household waste management of people in a barangay (village) in Manila, Philippines are documented. The data were gathered through an interview with household members using open-ended questions. Interviews were also conducted with garbage collectors as well as scavengers. Results showed that the households generated an \naverage of 3.2 kg of solid waste per day, or 0.50 kg/capita/day. The types of wastes commonly generated are food/kitchen wastes, papers, PET bottles, metals, and cans, boxes/cartons, glass bottles, cellophane/plastics, and yard/garden wastes. The respondents segregate their wastes into PET bottles, glass bottles, and other waste (mixed wastes). No respondents perform composting. It is worth noting, however, that burning of waste is not done by the respondents. The households rely on garbage collection by the government. Collection is done twice daily, except Sundays, and household members bring their garbage when the garbage truck arrives. However, there are those who dump their garbage in non – designated pick-up points, usually in a corner of the street. The dumped garbage becomes a breeding ground for disease-causing organisms. Some household respondents said that it is possible that the dumping in certain areas caused the dengue fever suffered by some of their family members. Mothers and household helpers are responsible for household waste management. ",
     "body_type": "text"
   },
   {
-    "id": 30,
+    "id": 22,
     "learningObjectiveId": 4,
     "body": "Identifying Appropriate Hand Tools",
     "body_type": "header"
   },
   {
-    "id": 31,
+    "id": 23,
     "learningObjectiveId": 4,
-    "body": "handtools1",
+    "body": "tools.jpg",
     "body_type": "image"
   },
   {
-    "id": 32,
-    "learningObjectiveId": 4,
-    "body": "handtools2",
-    "body_type": "image"
-  },
-  {
-    "id": 33,
+    "id": 24,
     "learningObjectiveId": 4,
     "body": "Identifying Tasks",
     "body_type": "header"
   },
   {
-    "id": 34,
+    "id": 25,
     "learningObjectiveId": 4,
     "body": "Positions in this job family are assigned responsibilities involving skilled electronics diagnosis, repair and maintenance of various electronic testing, training aids and other electronic components and devices. Assigned tasks are generally defined and incumbents are responsible for determining the best method for completing repairs or other work.\nTYPICAL FUNCTIONS:\r\n• Maintains, repairs and services electrical/electronic and mechanical equipment, such as film and slide projectors, reel and cassette video tape recorders and cameras, battery chargers trouble shoots and repairs those pieces of equipment that can be repaired at the agency.\r\n• Sets-up and operates various equipment for training, testing, education or informational purposes, such as screens, projectors, recorders, cameras, electronic response and public address equipment.\r\n• Maintains an adequate stock of spare parts, tools, supplies and manuals; keeps records and inventory on the receipt and issuance of supplies, equipment and tools and makes periodic reports to the appropriate supervisor.\r\n",
     "body_type": "text"
   },
   {
-    "id": 35,
+    "id": 26,
     "learningObjectiveId": 4,
     "body": "Selecting Appropriate Hand Tools",
     "body_type": "header"
   },
   {
-    "id": 36,
+    "id": 27,
     "learningObjectiveId": 4,
     "body": "Poorly designed hand tools — too heavy, poorly balanced, with a grip that is too large, the wrong shape, or slippery — can lead to injuries of the hand, wrist, forearm, shoulder, and neck. Here are the guidelines in selecting the right tool.\nGrip – a well-balanced tool with a properly designed grip or handle instantly feels comfortable in the hand. If a tool is poorly designed or is not right for the job, it may have to be held more firmly and at an awkward angle. A properly designed grip helps to reduce fatigue and pain. Tools that can be used in either hand allow workers to alternate hands and the tool can be used properly by the 10 percent of workers who are left-handed. \r\nHandle Size – a well-balanced tool with a properly designed grip or handle instantly feels comfortable in the hand. The right-sized handle is one that allows the hand to go more than halfway around the handle without the thumb and fingers meeting. Grip surfaces – the grip surfaces of hand tools should be smooth, non-conductive, and slightly compressible to dampen vibration and better distribute hand pressure. Avoid tools that have grooves for finger — for most people the grooves are either too big or too widely or closely spaced. The resulting pressure ridges across the hand can damage nerves or create hot spots of pain. \r\nWeight – weight is often a problem with power tools and tools such as drills, hammers, and saws. To reduce hand, arm, and shoulder fatigue, the hand tool should not weigh more than 2.3 kg. If the center of gravity of a heavy tool is far from the wrist, this maximum weight should be reduced. \r\nTriggers – Many power tools have a trigger that is operated either by the thumb or one or more fingers. To avoid hand and forearm fatigue, look for tools that can be activated by either hand. Also, the trigger should have a mechanism that holds or locks it in place while the tool is being used. \r\n",
     "body_type": "text"
   },
   {
-    "id": 37,
+    "id": 28,
     "learningObjectiveId": 5,
     "body": "Operation of Hand Tools",
     "body_type": "header"
   },
   {
-    "id": 38,
+    "id": 29,
     "learningObjectiveId": 5,
     "body": "• Ensure that employees are properly trained in the safe use of hand tools.\n• Select the right tool for the job. Substitutes increase the chance of having an accident.\r\n• Use good quality tools.\r\n• Keep tools in good condition at all times.\r\n• Inspect tools for defects before use. Replace or repair defective tools.\r\n• Keep cutting tools sharp and cover sharp edges with a suitable covering to protect the tool and to prevent injuries from unintended contact.\r\n• Replace cracked, splintered, or broken handles on files, hammers, screwdrivers, or sledges.\r\n• Ensure that the handles of tools like hammers fit tightly into the head of the tool.\r\n• Replace worn jaws on wrenches, pipe tools and pliers.\r\n• Pull on a wrench or pliers. Never push unless you hold the tool with your palm open.\r\n• Carry tools in a sturdy tool box to and from the worksite.\r\n• Wear safety glasses or goggles, or a faceshield (with safety glasses or goggles) and well-fitting gloves appropriate for the hazards to which you may be exposed when doing various tasks.\r\n• Keep the work environment clean and tidy to avoid clutter which may cause accidents.\r\n• Use a heavy belt or apron and hang tools pointed down at your sides, not behind your back.\r\n• Keep the work space tidy. Store tools properly when not in use.  \r\n",
-    "body_type": "text"
+    "body_type": ""
   },
   {
-    "id": 39,
+    "id": 30,
     "learningObjectiveId": 5,
     "body": "Function of Hand Tools",
     "body_type": "header"
   },
   {
-    "id": 40,
+    "id": 31,
     "learningObjectiveId": 5,
-    "body": "function",
-    "body_type": "image"
+    "body": "Screwdriver – a manual tool, used for inserting and removing screws. A screwdriver is classified by its tip, which is shaped to fit the driving surfaces slots, grooves and recesses on the corresponding screw head.\nWrench – or spanner is a tool used to provide grip and mechanical advantage in applying torque to turn objects—usually rotary fasteners, \r\nsuch as nuts and bolts—or keep them from turning.\r\nAllen Wrench/Key – a tool used to drive bolts and screws with hexagonal sockets in their heads.\r\nUtility knife – a knife used for general or utility purposes such as cutting wire and cordage, stripping wires and other tasks.\r\nLong nose pliers – are both cutting and holding pliers used by artisans, jewellery designers and electricians  to bend, re-position and snip wire. Their namesake long nose gives excellent control while the cutting edge near the pliers' joint provides one-tool convenience. Because of their long shape they are useful for reaching into small areas where cables or other materials have become stuck or unreachable with fingers or other means. \r\nWire cutters – or diagonal pliers are pliers intended for the cutting of wire (they are generally not used to grab or turn anything). The plane defined by the cutting edges of the jaws intersects the joint rivet at an angle or on a diagonal, hence the name.\r\nSoldering iron – a hand tool used in soldering. It supplies heat to melt solder so that it can flow into the joint between two work pieces.\r\nDesoldering pump – colloquially known as a solder sucker, is a manually or electricity-operated device which is used to remove solder from a printed circuit board.\r\n",
+    "body_type": "text"
   },
   {
-    "id": 41,
+    "id": 32,
     "learningObjectiveId": 5,
     "body": "Common Faults of Hand Tools",
     "body_type": "header"
   },
   {
-    "id": 42,
+    "id": 33,
     "learningObjectiveId": 5,
-    "body": "fault",
+    "body": "Screwdriver – the head of the screw driver are heavily used and can’t drive smaller screws.\nWrench – covered in rust, the jaws of the wrench are worn out\r\nAllen Wrench/Key – the allen wrench are heavily worn and cannot be used.\r\nUtility knife – the blade is rusted and not sharp.\r\nLong nose pliers – the joints are mostly dry and out of oil, the whole pliers is covered in rust.\r\nWire cutters – the joints are mostly dry and out of oil and the whole wire cutter is covered in rust.\r\nSoldering iron – the tip is not tinned and cannot melt any solder.\r\nDesoldering pump – the spring is worn out and the pump is not powerful to suck melted solder.\r\n",
     "body_type": "image"
   },
   {
-    "id": 43,
+    "id": 34,
     "learningObjectiveId": 5,
     "body": "Safety Requirements of Hand Tools",
     "body_type": "header"
   },
   {
-    "id": 44,
+    "id": 35,
     "learningObjectiveId": 5,
     "body": "Long Nose Pliers\n• Pliers should not be used for cutting hardened wire unless specifically manufactured for this purpose.\r\n• Never expose pliers to excessive heat. This may change the material properties and ruin the tool.\r\n• Always cut at right angles. Never rock from side to side or bend the wire back and forth against the cutting edges.\r\n• Don't bend stiff wire with light pliers. Using the tips to bend too large a wire can damage long-nose pliers. Use a sturdier tool.\r\n• Never use pliers as a hammer nor hammer on the handles. They may crack or break, or edges may be nicked by such abuse.\r\n• Never extend the length of handles to secure greater leverage. Use a larger pair of pliers.\r\n• Pliers should not be used on nuts or bolts. A wrench will do the job better and with less risk of damage to the fastener.\r\n• Oil pliers occasionally. A drop of oil at the joint will lengthen tool life and assure easy operation.\r\n• Safety glasses or goggles should be worn when cutting wire, etc. to protect eyes.\r\n• Never attempt to cut a “HOT” wire.",
     "body_type": "text"
   },
   {
-    "id": 45,
+    "id": 36,
     "learningObjectiveId": 5,
     "body": " Wire Cutters\n• Never try to use side cutters as pliers.\r\n• Do not expose side cutter to excessive heat. Because side cutters are sensitive to high heat, your tool may be destroyed if placed under direct flames.\r\n• Always cut at right angles, not side to side. By rocking the side cutter from side to side when cutting wire or bending the wire against the cutting knives, you may dull or nick the cutting edges.\r\n• Always protect your eyes before cutting wire or metal. \r\n• Do not use the side cutter on live electrical circuits. Comfort grips or plastic-dipped handles are not designed to protect the user from electric shock.\r\n• Oil pliers to maintain life and value. \r\n\r\n Standard Screw Driver\r\n• Always match the screwdriver to the screw head, both in terms of size and type.\r\n• Choose contoured handles that fit the shank tightly, with a flange to keep the hand from slipping off the tool.\r\n• Use a slot screwdriver with a blade tip width that is the same as the width of slotted screw head.\r\n• For cross head screws, use the correct size and type of screwdriver.\r\n• Wear safety glasses or a face shield (with safety glasses or goggles) that is appropriate for the hazards of the work you are doing.\r\n• Keep the screwdriver handle clean. A greasy handle could cause an injury or damage from unexpected slippage.\r\n• Shut off electricity before beginning work on electrical equipment (lock out, de-energize and tag out).\r\n• If work must be carried out on live equipment, use screwdrivers that have insulated handles designed for electrical work and a non-conducting shaft.  Remember, most plastic handles are designed for grip and comfort.\r\n• Use non-magnetic tools when working near strong magnets (e.g., in some laboratories).\r\n",
     "body_type": "text"
   },
   {
-    "id": 46,
+    "id": 37,
     "learningObjectiveId": 5,
     "body": "Wrench/Allen Wrench\n• Prior to use, inspect a wrench, making sure it is not damaged or defected in any way.\r\n• Never use worn, cracked or tweaked wrenches. Replace them immediately to avoid injury.\r\n• Pay special attention to the jaws when inspecting wrenches. Make sure they are still sharp or they can cause slippage that may lead to injury.\r\n• Never attempt to straighten a bent wrench. Doing so will only further weaken it.\r\n• Use a wrench that pulls in a straight and clean manner.\r\n• Always use the proper size of wrench for the job.\r\n• Never substitute pliers for a wrench.\r\n• Never use a hammer with a wrench unless the wrench was specifically designed for such a purpose.\r\n• Make sure to use torque wrenches only for tightening tasks.\r\n\r\n Utility Knife\r\n• Never draw the knife towards you, instead draw the knife away from your body.\r\n• Never work with a dull blade. (Dull blades require more pressure, increasing the potential for injury.)\r\n• Never try to cut more than the knife can handle.\r\n• Don’t store the knife with the blade extended.\r\n• Always wear personal protective equipment.\r\n• Always inspect the tool before use.\r\n",
     "body_type": "text"
   },
   {
-    "id": 47,
+    "id": 38,
     "learningObjectiveId": 5,
     "body": "Soldering Iron\n• Never touch the element of the soldering iron.\r\n• Hold wires to be soldered with tweezers or clamps.\r\n• Keep the cleaning sponge wet during use.\r\n• Always return the soldering iron to its stand when not in use. Never put it down on the workbench.\r\n• Turn unit off and unplug when not in use.\r\n\r\n De – soldering pump\r\n• Never touch the tip of the desoldering pump the tip is very hot.\r\n• Keep the cleaning sponge wet during use.\r\n• Always return the desoldering pump to its stand when not in use. Never put it down on the workbench.\r\n• Don’t push the pump if its not used, the spring will retain pressure an might destroy the thread of the tool.\r\n• Turn unit off and unplug when not in use.\r\n",
     "body_type": "text"
   },
   {
-    "id": 48,
+    "id": 39,
     "learningObjectiveId": 6,
     "body": " Function of Tools",
     "body_type": "header"
   },
   {
-    "id": 49,
+    "id": 40,
     "learningObjectiveId": 6,
-    "body": "func",
+    "body": "equipment.jpg",
     "body_type": "image"
   },
   {
-    "id": 50,
+    "id": 41,
+    "learningObjectiveId": 6,
+    "body": "Multimeter – used to measure two or more electrical values, principally voltage (volts), current (amps) and resistance (ohms). It is a standard diagnostic tool for technicians the electrical/electronic industries.\nOscilloscope – test and display voltage signals as waveforms, visual representations of the variation of voltage over time. It is also used to observe the change of electrical signal overtime.\r\nFunction Generator – a piece of electronic test equipment or software used to generate different types of electrical waveforms over a wide range of frequencies.\r\n",
+    "body_type": "text"
+  },
+  {
+    "id": 42,
     "learningObjectiveId": 6,
     "body": " Safety Requirements of Tools",
     "body_type": "header"
   },
   {
-    "id": 51,
+    "id": 43,
     "learningObjectiveId": 6,
     "body": "Multi – meter\n• Discharge the circuit completely before connecting or disconnecting a multi – meter.\r\n• Never apply power to the circuit while measuring resistance with a multi – meter.\r\n• Connect the multi – meter in series with the circuit for current measurements, and in parallel for voltage measurements.\r\n• Observe proper DC polarity when measuring DC.\r\n• When you are finished with a multi – meter, switch it to the OFF position, if available. If there is no OFF position, switch the multi – meter to the highest ac voltage position.\r\n• Always start with the highest voltage or current range.\r\n• Select a final range that allows a reading near the middle of the scale.\r\n• Be certain to read ac measurements on the ac scale of a multi – meter.\r\n• Observe the general safety precautions for electrical and electronic devices.\r\n",
     "body_type": "text"
   },
   {
-    "id": 52,
+    "id": 44,
     "learningObjectiveId": 6,
     "body": "\nOscilloscope\r\n• Always study the instruction manual of any oscilloscope.\r\n• Always keep the minimum intensity necessary for good viewing.\r\n• If possible, avoid using the oscilloscope in direct sunlight or in a brightly lighted room. This will permit a low intensity setting. If the oscilloscope must be used in bright light, use the viewing hood.\r\n• Make all measurements in the center area of the screen.\r\n• Use only shielded probes. Never allow your fingers to slip down to the metal probe tip when the probe is in contact with a hot circuit.\r\n• Avoid operating an oscilloscope in a strong magnetic field. Such fields can causes distortion of the display.\r\n• Avoid operating the oscilloscope with the shield or case removed.\r\n• Avoid vibration and mechanical shock. Like most electronic equipment, an oscilloscope is a delicate instrument.\r\n• If an internal fan or blower is used, make sure that it is operating. Keep ventilation air filters clean.\r\n• Do not attempt repair of an oscilloscope unless you are a qualified instru-ment technician. If you must adjust any internal circuits, follow the in-struction manual.\r\n• Study the circuit under test before making any test connections. ",
     "body_type": "text"
   },
   {
-    "id": 53,
+    "id": 45,
     "learningObjectiveId": 6,
     "body": " Function Generator\n• The function generator in debugging, maintenance should be anti-static devices, so as not to cause damage to the instrument.\r\n• Do not use in high temperature and high pressure, humidity, strong vibration and strong magnetic fields and storage.\r\n• Please use in relatively stable environment, and provide good ventilation and cooling conditions.\r\n• When the fuse blows, please correct the causes of failure\r\n",
     "body_type": "text"
   },
   {
-    "id": 54,
+    "id": 46,
     "learningObjectiveId": 6,
     "body": "Proper Use of Test Equipment",
     "body_type": "header"
   },
   {
-    "id": 55,
+    "id": 47,
     "learningObjectiveId": 6,
     "body": "Multi – meter\n• Use meters within their current rating\r\n• Use high quality batteries for your multi – meter\r\n• Use replacement fuses approved by the manufacturer\r\n• Use high quality safety related testing leads\r\n• Whenever possible work on discharged circuits\r\n\r\nOscilloscope\r\n• Before you turn the CRO on, make sure the intensity control is wound down.\r\n• Turn the CRO on.\r\n• Wait for the tube to warm up and start operating.\r\n• Turn the intensity control up until you have a horizontal line which is not too bright.\r\n• Adjust the focus control until you have a line which is as thin as you can get it.\r\n• Connect a probe into the CH1 input.\r\n• Connect the probe tip into the CAL output.\r\n• Adjust the time base control and the amplitude control (for CH1) until you have a square wave which takes up most of the screen, and shows you at least one full cycle.\r\n• Adjust the trimmer on the probe so you don't get overshoot or undershoot.\r\n• Remove probe tip from the square wave output\r\n",
     "body_type": "text"
   },
   {
-    "id": 56,
+    "id": 48,
     "learningObjectiveId": 6,
     "body": " Function Generator\n• The function generator in debugging, maintenance should be anti-static devices, so as not to cause damage to the instrument.\r\n• Do not use in high temperature and high pressure, humidity, strong vibration and strong magnetic fields and storage.\r\n• Please use in relatively stable environment, and provide good ventilation and cooling conditions.\r\n• When the fuse blows, please correct the causes of failure\r\n",
     "body_type": "text"
   },
   {
-    "id": 57,
+    "id": 49,
     "learningObjectiveId": 7,
     "body": "Maintenance of Tools",
     "body_type": "header"
   },
   {
-    "id": 58,
+    "id": 50,
     "learningObjectiveId": 7,
-    "body": "maintain1",
-    "body_type": "image"
+    "body": "Long Nose Pliers – Place in a clean toolbox to prevent rust, apply oil to the joint of the pliers.\nWire Cutter – Place in a clean toolbox to prevent rust, apply oil to the joint of the pliers. Sharpen the blades of the blade is dull.\r\nPhillip’s Screw Driver – Place in a clean toolbox to prevent rust. If the driver head is worn off, replace the tool\r\nWrench – Place in a clean toolbox to prevent rust. If the jaws of the wrench are worn off, replace the tool.\r\nAllen Wrench – place in a clean toolbox to prevent rust. If the allen wrench head is worn off, replace the tool.\r\nUtility Knife – always put the blade black inside the tool after use, store in a clean toolbox to prevent the blade from rusting.\r\nSoldering Iron – always place the tool where no pets of children in the area to prevent them from burns, always unplug or turn off the tool if you will not use it for a long period of time.\r\nDesoldering Pump – always place the tool where no pets of children in the area to prevent them from burns, always unplug or turn off the tool if you will not use it for a long period of time. Clean the pump to prevent it from clogging.\r\n",
+    "body_type": "text"
   },
   {
-    "id": 59,
-    "learningObjectiveId": 7,
-    "body": "maintain2",
-    "body_type": "image"
-  },
-  {
-    "id": 60,
+    "id": 51,
     "learningObjectiveId": 7,
     "body": "Storage of Tools",
     "body_type": "header"
   },
   {
-    "id": 61,
+    "id": 52,
     "learningObjectiveId": 7,
     "body": "All of the hand tools mentioned should be placed inside a clean toolbox, each hand tools must be sorted properly inside the toolbox. The toolbox must have the correct dimensions to fit all of the tools mentioned with cluttering it all up.\nElectrical tools such as the soldering iron and de – soldering pump have their own stands and usually placed on a table / workbench. If these tools needs to be stored it can be placed inside a toolbox, if you don’t have a toolbox you can also put them inside a bag but the soldering iron’s tip must be covered so that it won’t pierce through the bag. Some soldering irons includes a tip cover when bought but if you don’t have on you can just cover the tip with paper and tape temporarily. The wire must also be folded and tied using a zip tie or a twist tie.\r\nTest Equipment such as oscilloscope and function generator are often placed on a table / workbench. Test equipment such as multi – meter can be placed inside a toolbox or a bag.\r\n",
     "body_type": "text"
   },
   {
-    "id": 62,
+    "id": 53,
     "learningObjectiveId": 8,
     "body": "1.  Identify the necessary measuring tools in selecting the job requirement",
     "body_type": "header"
   },
   {
-    "id": 63,
+    "id": 54,
     "learningObjectiveId": 8,
-    "body": "measuringtools",
+    "body": "measuringtoolsnew.jpeg",
     "body_type": "image"
   },
   {
-    "id": 64,
-    "learningObjectiveId": 8,
-    "body": "measuringtools2",
-    "body_type": "image"
-  },
-  {
-    "id": 65,
+    "id": 55,
     "learningObjectiveId": 9,
     "body": "1. Identifying appropriate measuring intruments to be used",
     "body_type": "header"
   },
   {
-    "id": 66,
+    "id": 56,
     "learningObjectiveId": 9,
     "body": "Test Light – a simple piece of electronic test equipment used to determine the presence or absence of an electric voltage a piece of equipment under test. A test light is generally simpler and less costly than a measuring instrument such as a multi – meter, and often suffices for checking for the presence of voltage on a conductor.\n Properly designed test lights include features to protect the user from accidental electric shock. Non-contact test lights can detect voltage on insulated conductors.\r\n",
     "body_type": "text"
   },
   {
-    "id": 67,
+    "id": 57,
     "learningObjectiveId": 9,
     "body": "Micrometer – sometimes known as a micrometer screw gauge, is a device incorporating a calibrated screw widely used for precise measurement of components. In electric work, it is used to measure the diameter of wire/conductors in a circuit/appliance. \nBecause some appliances have little to no free space it is difficult to use a wire gauge, micrometer is used because its smaller and it measures accurately. \r\n",
     "body_type": "text"
   },
   {
-    "id": 68,
+    "id": 58,
     "learningObjectiveId": 9,
     "body": "Wire Gauge - is a measurement of wire diameter. This determines the amount of electric current a wire can safely carry, as well as its electrical resistance and weight. It has 2 types, AWG (American Wire Gauge) and Metric. \nAWG is used in the U.S. while the metric is used worldwide including the Philippines.\r\n",
     "body_type": "text"
   },
   {
-    "id": 69,
+    "id": 59,
     "learningObjectiveId": 9,
     "body": "Tape Measure - is a flexible ruler and used to measure distance. It consists of a metal strip with linear-measurement markings. It is a common measuring tool. Its design allows for a measure of great length to be easily carried in pocket or toolkit and permits one to measure around curves or corners.  It can measure in millimeters and inches.",
     "body_type": "text"
   },
   {
-    "id": 70,
+    "id": 60,
     "learningObjectiveId": 9,
     "body": "Volt Meter – an instrument used for measuring electrical potential difference between two points in an electric circuit. Analog voltmeters move a pointer across a scale in proportion to the voltage of the circuit; digital voltmeters give a numerical display of voltage by use of an analog to digital converter. A voltmeter in a circuit diagram is represented by the letter V in a circle.\nVolt Meter is commonly used by electricians, electrical engineer students and hobbyists. Its use is obviously to measure the voltage of an object.\r\n",
     "body_type": "text"
   },
   {
-    "id": 71,
+    "id": 61,
     "learningObjectiveId": 9,
     "body": "Ammeter – a measuring instrument used to measure the current in a circuit. Electric currents are measured in amperes (A), hence the name. Ammeters are used to check wiring when surges appear to be happening frequently, especially in older homes where older wiring could be faulty. They can also locate which circuits are having trouble.\n\r\nThere are different types of ammeters. Some ammeters measure direct current, and some measure alternating current. There are magnetic, analog and digital ammeters, but all serve a similar purpose: measuring electric current for a given circuit.\r\n",
     "body_type": "text"
   },
   {
-    "id": 72,
+    "id": 62,
     "learningObjectiveId": 9,
     "body": "Ohm Meter – electronic instrument which is widely used to check a complete circuit or to measure the resistance of a circuit element. Micro Ohmmeter, Mega Ohmmeter and Milli- Ohmmeters are used to measure resistance in different applications of electrical testing. A Micro Ohmmeter is used to measure extremely low resistances with high accuracy at particular test currents and is used for bonding contact applications.\nAn ohmmeter can be used to troubleshoot many household items. A ceramic fuse for instance, which may offer no visible means to determine if it's blown or not, can be tested with an ohmmeter. If an ohmmeter indicates a short circuit then the fuse is good. An open circuit indication means it's blown. Stereo cables, speaker coils, guitar pickups and other electrical devices can be tested and verified with an ohmmeter.\r\n",
     "body_type": "text"
   },
   {
-    "id": 73,
+    "id": 63,
     "learningObjectiveId": 9,
     "body": "Watt Meter – is an instrument for measuring the electric power (or the supply rate of electrical energy) in watts of any given circuit. Electromagnetic watt – meters are used for measurement of utility frequency and audio frequency power; other types are required for radio frequency measurements.\nAn electricity meter, electrical meter, or energy meter, or a watt meter is a device that measures the amount of electric energy consumed by a residence, a business, or an electrically powered device.\r\n",
     "body_type": "text"
   },
   {
-    "id": 74,
+    "id": 64,
     "learningObjectiveId": 9,
     "body": "Using the four fundamentals of mathematical operations (How to use measuring tools)",
     "body_type": "header"
   },
   {
-    "id": 75,
+    "id": 65,
     "learningObjectiveId": 9,
     "body": "Test Light\nStep 1 – the device has to legs. To measure for positive voltage, attach one leg to a known ground and touch the other leg to the wire you want to test.\r\nStep 2 – If the device lights up, it means that there is a positive voltage in what you are measuring. If the light doesn’t light up, then there is not positive voltage in what you are measuring.\r\n",
     "body_type": "text"
   },
   {
-    "id": 76,
+    "id": 66,
     "learningObjectiveId": 9,
     "body": "Micro Meter\nMeasurements taken with micrometer are a combination of the value shown on the sleeve scale and the value indicated on the rotating sleeve scale. When using a micrometer with an additional vernier scale, the value on the vernier scale may also be taken into account.\r\nStep 1 - Look at sleeve scale, the value of the first significant figure of a measurement can be found on the sleeve scale. This will be the number immediately to the left of the thimble. On a metric micrometer, this will be given in millimeters. Each minor increment on the sleeve scale represents 0.5mm.\r\nStep 2 - Look at thimble scale. Then, read the value shown on the thimble scale. The thimble scale of a metric micrometer has a range of 0.5mm (one complete revolution), with each increment representing 0.01mm, and usually numbered in 0.05mm steps. The value is the lowest number that aligns best with the index line on the sleeve scale. If the index line falls between two values, the reading will be the number immediately below the index line. If this is the case, you should estimate the final part of the measurement or, if your micrometer has one, consult the vernier scale.\r\n",
     "body_type": "text"
   },
   {
-    "id": 77,
+    "id": 67,
     "learningObjectiveId": 9,
     "body": "Step 3 - Look at vernier scale, if you have a vernier micrometer, you may next read the value indicated on the vernier scale. The vernier scale of a metric micrometer has a measuring range of 0.01mm and is graduated in 10 increments. Each increment represents 0.001mm. The reading on the vernier scale is the value that aligns best with any increment on the thimble scale.\nStep 4 - Add values together, to get your total reading, add the values from each of the scales together (sleeve + thimble ( + vernier) = measured value).\r\ne.g. 6.5mm + 0.11mm = 6.66mm.\r\nBecause the reading on the thimble scale fell roughly halfway between two values, we can estimate that the reading is in fact, 6.665mm. A vernier scale, however, would provide the smallest part of the measurement (0.005mm in this case) more accurately.\r\n",
     "body_type": "text"
   },
   {
-    "id": 78,
+    "id": 68,
     "learningObjectiveId": 9,
     "body": "Tape Measure\nStep 1 – Catch the hooked end on one side of the object you're measuring. If you're using a retractable tape measure note that the end of the tape will almost always have a small metal notch at the zero mark. This is useful for holding the tape in the right place as you measure, so you may want to start by catching it on the edge of the object you're measuring.\r\nStep 2 – Stretch the tape across your object. With the zero mark in place, pull back on the box to let more tape out. You can use one hand to hold the end of the tape in place as you pull it back. Let tape out until it stretches all the way across the distance you're measuring.\r\n",
     "body_type": "text"
   },
   {
-    "id": 79,
+    "id": 69,
     "learningObjectiveId": 9,
     "body": "Step 3 – Take a reading directly from the tape. Now, look at the point where the tape meets the end of the thing you're measuring. The nearest number below the end of the tape is your number of units you're measuring and the markings between this number and the one above it correspond to fractions of the unit.\nFor example, if you are measuring across the front of your dresser and the edge of the dresser lines up right after the 24 inch marking, this means that your dresser is between 24 and 25 inches wide. If, for instance, it's three 1/8 inch marks past 24 inches, it is 24 3/8 inches wide.\r\nYou can also try putting a kink in the tape, then lining up this kink with the edge of what you're measuring. This is handy in certain situations, like for instance, when you're measuring into a tight corner.\r\nStep 4 – Use the lock switch to keep the tape at the same length. Most retractable tape measures will have a button or sliding switch that, when pressed, keeps the tape measure from being sucked back in. Some even lock automatically.\r\n",
     "body_type": "text"
   },
   {
-    "id": 80,
+    "id": 70,
     "learningObjectiveId": 9,
     "body": "Volt Meter\nStep 1 – Plug the black probe into the COM port on your multimeter. Then Plug the red probe into the VΩmA port.\r\nStep 2 – Switch on your multimeter, and set the dial to DC voltage mode (indicated by a V with a straight line, or the symbol ⎓). Most multimeters are not autoranging, meaning you will need to set the correct range for the voltage you expect to measure. Each setting on the dial lists the maximum voltage it can measure. So for example, if you expect to measure more than 2 volts but less than 20, use the 20 volt setting. If you're not sure, start with the highest setting.\r\nStep 3 – Place the red probe on the positive terminal, and the black probe on the negative terminal.\r\n",
     "body_type": "text"
   },
   {
-    "id": 81,
+    "id": 71,
     "learningObjectiveId": 9,
     "body": "Ammeter\nStep 1 – Choose an electrical conductor to test, the clamp can easily measure the current on a load without the need to disconnect the electrical conductor from the circuit. To get a reading, the electrical wire should be connected to an electrical appliance that is running or operating. As a safety precaution, it is best to remove the wire from the power source first before getting a reading.\r\nStep 2 - Choose the appropriate function and range, set the rotary selector on the clamp meter to the correct function and range. Measuring current that is higher than that specified in the range can damage the device. In addition, the electrical conductor should be running on voltage lower than 600V. The device cannot read the current on conductors running on very high voltage. If not sure about the range, choose a high range and decrease it as needed.\r\n",
     "body_type": "text"
   },
   {
-    "id": 82,
+    "id": 72,
     "learningObjectiveId": 9,
     "body": "Step 3 – Clamp the conductor. Push the trigger on the device to open the jaw. Clamp the device around the conductor and close it. If the electrical conductor is not yet connected to a power source, connect it. The clamp should give a reading in seconds.\nStep 4 – Use an AC line separator, when measuring AC current, the device may give a false reading. Hot and neutral current cancel each other out causing the device to display nothing on the LCD screen. To correct the problem, connect the AC line separator to the power source and attach the electrical conductor to the AC line separator. Clamp the meter to the AC line separator to measure the current.\r\nStep 5 - Set the clamp meter to the voltage symbol “V” to read the voltage on the conductor. Plug the probes to the meter as well. Connect the black probe to the COM jack and the red probe to the V/O jack. Select the correct range and make sure not to measure voltages that are above 600V. Touch the tips of the probes to the electric conductor to get a voltage reading. Read the voltage on the LCD screen.\r\n",
     "body_type": "text"
   },
   {
-    "id": 83,
+    "id": 73,
     "learningObjectiveId": 9,
     "body": "Ohm Meter\nStep 1 – Disconnect completely and/or turn off all power to the circuit you are testing. You must have a completely dead wire or circuit in order to ensure accuracy in measurement, as well as your own safety. Your ohmmeter will supply the voltage and current for your circuit so NO other power is necessary. \r\nStep 2 – Plug your test leads into the sockets on your meter. For multi-functional meters, you will see a common, or negative plug, and a positive plug. These may also be colored red (+) and black (-).\r\nStep 3 – Zero your meter if it is equipped with a zeroing dial. Notice that the scale reads in the reverse direction of most conventional measuring scales, that is, less resistance is to the right, and more resistance is to the left. Zero resistance should be observed when your probes are connected directly to each other, and you can adjust this by holding them together and turning the adjust dial until the needle on the scales is at zero ohms.\r\n",
     "body_type": "text"
   },
   {
-    "id": 84,
+    "id": 74,
     "learningObjectiveId": 9,
-    "body": "Step 4 – Touch one probe to one end of a circuit, the other to the other end, and note the reading on the instrument. If you bought a 1000 ohm resistor, you can place a probe on each conductor on the resistor, and select the 1000 or 10,000 ohm range, then read the meter to see if indeed it reads 1,000 ohms.\nStep 5 – Isolate components in a hard wired electrical circuit to test them individually. If you are reading the ohms on a resistor in a printed circuit board, you will have to unsolder or unpin the resistor to assure you are not getting a false reading through another path in the circuit.\r\nStep 6 – Read the resistance of a run of wire or a branch of a circuit to see if there is a short or open break in the circuit. If you read \"infinite ohms\", there is no path for the electrical current to follow, and in simple terms, this suggests a burned out component somewhere in the circuit, or a broken conductor. Because many circuits contain gate devices (transistors or semiconductors), diodes, and capacitors, however, you may not read continuity even when the complete circuit is intact, which makes it difficult to test complete circuits with only an ohmmeter.\r\n",
+    "body": "Step 4 – Touch one probe to one end of a circuit, the other to the other end, and note the reading on the instrument. If you bought a 1000 ohm resistor, you can place a probe on each conductor on the resistor, and select the 1000 or 10,000 ohm range, then read the meter to see if indeed it reads 1,000 ohms.\nStep 5 – Isolate components in a hard wired electrical circuit to test them individually. If you are reading the ohms on a resistor in a printed circuit board, you will have to unsolder or unpin the resistor to assure you are not getting a false reading through another path in the circuit.\r\nStep 6 – Read the resistance of a run of wire or a branch of a circuit to see if there is a short or open break in the circuit. If you read infinite ohms, there is no path for the electrical current to follow, and in simple terms, this suggests a burned out component somewhere in the circuit, or a broken conductor. Because many circuits contain gate devices (transistors or semiconductors), diodes, and capacitors, however, you may not read continuity even when the complete circuit is intact, which makes it difficult to test complete circuits with only an ohmmeter.\r\n",
     "body_type": "text"
   },
   {
-    "id": 85,
+    "id": 75,
     "learningObjectiveId": 10,
     "body": "1. Using appropriate instrument tools to avoid damage",
     "body_type": "header"
   },
   {
-    "id": 86,
+    "id": 76,
     "learningObjectiveId": 10,
-    "body": "tool1",
-    "body_type": "image"
-  },
-  {
-    "id": 87,
-    "learningObjectiveId": 10,
-    "body": "tool2",
-    "body_type": "image"
+    "body": "Test Light\n• Use a high quality test light, low quality test lights uses poor quality materials and might catch on fire if it was contacted to high voltage for a long time.\r\nMicrometer\r\n• Regularly wipe the circumference of the spindle and both measuring faces with a dry, lint – free cloth\r\n• Be careful not to drop the tool\r\n• If you have accidentally damage your micrometer, ensure that it is inspected for accuracy before taking measurements. You may need to recalibrate your micrometer\r\nWire Gauge\r\n• Clean the wire gauge with clean cloth to avoid rust\r\nTape Measure\r\n• Make sure the measuring tape has been returned to zero\r\n• Check if there are rustiness and scratches in the surface of the measuring tape\r\n• Clear the burrs, grease or slag chips in the surface.\r\n• Clean with clean soft cloth or dust – free paper.\r\nVoltemeter\r\n• Calibrate the voltmeter at frequent interval\r\n• Protect the instrument from dust, fumes, moisture and heat\r\n• Renew the polarity of the of the circuit before connecting\r\nAmmeter\r\n• Calibrate the ammeter at frequent intervals\r\n• Protect the instrument from dust, fumes, moisture and heat\r\n• Be careful when measuring high voltage\r\nOhmmeter\r\n• Calibrate the ohmeter at frequent intervals\r\n• Protect the instrument from dust, fumes, moisture and heat\r\nWattmeter\r\n• Be careful when measuring high voltage\r\n",
+    "body_type": "text"
   },
   {
     "id": 88,

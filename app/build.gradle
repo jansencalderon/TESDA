@@ -3,7 +3,6 @@ apply plugin: 'realm-android'
 
 android {
     compileSdkVersion 25
-    buildToolsVersion '26.0.2'
     defaultConfig {
         applicationId "com.tip.capstone.mlearning"
         minSdkVersion 17

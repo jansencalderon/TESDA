@@ -177,7 +177,7 @@ public class SimulationActivity extends AppCompatActivity
                                 builder = new AlertDialog.Builder(this);
                             }
                             builder.setTitle("Congratulations!")
-                                    .setMessage("You fixed it!")
+                                    .setMessage("You have successfully solved the problem!")
                                     .setNeutralButton("Close", new DialogInterface.OnClickListener() {
                                         @Override
                                         public void onClick(DialogInterface dialog, int which) {

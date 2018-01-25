@@ -33,10 +33,10 @@
             <ImageView
                 android:id="@+id/image_topic"
                 android:layout_width="match_parent"
+                android:foreground="@drawable/bg_gradient"
                 android:layout_height="160dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:foreground="@drawable/bg_gradient"
                 tools:ignore="ContentDescription" />
 
             <TextView
