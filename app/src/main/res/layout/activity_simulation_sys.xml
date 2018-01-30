@@ -15,10 +15,12 @@
             android:layout_height="wrap_content"
             android:background="@color/colorPrimary"
             app:theme="@style/ThemeOverlay.AppCompat.Dark"
-            app:title="Faulty GPU" />
+            app:title="System Unit Assembly" />
 
         <FrameLayout
             android:layout_width="match_parent"
+            android:id="@+id/progressLayout"
+            android:contentDescription="Progress Layout"
             android:layout_height="wrap_content">
 
             <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
@@ -32,6 +34,7 @@
                 app:rcProgressColor="@color/colorPrimaryDark" />
 
             <TextView
+                android:contentDescription="Progress"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
@@ -42,6 +45,7 @@
         <LinearLayout
             android:id="@+id/layout_problem"
             android:background="@drawable/shape"
+            android:contentDescription="Problem Layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
@@ -51,17 +55,18 @@
 
             <ImageView
                 android:id="@+id/monitor"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:contentDescription="System Unit"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
                 android:layout_gravity="center"
                 android:layout_margin="10dp"
-                android:src="@drawable/monitor_off" />
+                android:src="@drawable/system_unit" />
 
             <TextView
                 android:id="@+id/hint"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="The monitor seems not functioning properly. First try to power on the monitor"
+                android:text="Let's assemble the system unit"
                 android:gravity="center_horizontal"
                 android:layout_margin="10dp"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
@@ -73,8 +78,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
+            android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <com.google.android.flexbox.FlexboxLayout
@@ -107,6 +111,7 @@
                     android:id="@+id/vgaGood"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:contentDescription="VGA Cable"
                     android:scaleType="centerCrop"
                     android:src="@drawable/good_vga" />
 
@@ -115,12 +120,14 @@
                     android:id="@+id/screwdriverPhillip"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:contentDescription="Screwdriver"
                     android:scaleType="centerCrop"
                     android:src="@drawable/screwdriverp" />
 
 
                 <ImageView
                     android:id="@+id/ramddr2"
+                    android:contentDescription="DDR2 Ram"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:scaleType="centerCrop"
@@ -130,6 +137,7 @@
                 <ImageView
                     android:id="@+id/psupply"
                     android:layout_width="50dp"
+                    android:contentDescription="Power Supply"
                     android:layout_height="50dp"
                     android:scaleType="centerCrop"
                     android:src="@drawable/psupply" />
@@ -138,17 +146,20 @@
                     android:id="@+id/ramddr3"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:contentDescription="DDR3 RAM"
                     android:scaleType="centerCrop"
                     android:src="@drawable/ramddr3" />
 
                 <ImageView
                     android:id="@+id/psupply2"
                     android:layout_width="50dp"
+                    android:contentDescription="Power Supply"
                     android:layout_height="50dp"
                     android:scaleType="centerCrop"
                     android:src="@drawable/psupply2" />
                 <ImageView
                     android:id="@+id/dvi"
+                    android:contentDescription="DVI Cable"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:scaleType="centerCrop"
@@ -157,25 +168,56 @@
                     android:id="@+id/brush"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:contentDescription="Brush"
                     android:scaleType="centerCrop"
                     android:src="@drawable/brush" />
                 <ImageView
                     android:id="@+id/light"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:contentDescription="Flashlight"
                     android:scaleType="centerCrop"
                     android:src="@drawable/light" />
                 <ImageView
-                    android:id="@+id/powerCord"
+                android:id="@+id/powerCord"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="Power Cord"
+                android:src="@drawable/powercord" />
+
+                <ImageView
+                    android:id="@+id/cases"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/powercord" />
+                    android:contentDescription="Case"
+                    android:src="@drawable/cases" />
             </com.google.android.flexbox.FlexboxLayout>
 
 
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="6dp"
+            android:contentDescription="Activity Log"
+            android:orientation="vertical"
+            android:background="@color/darkGray"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Activity Log: "
+                android:textSize="16sp"
+                android:textColor="@color/lightestGray"
+                android:layout_height="wrap_content" />
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:background="@color/darkGray"
+                android:id="@+id/activityLogRecyclerView"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
 
     </LinearLayout>
 

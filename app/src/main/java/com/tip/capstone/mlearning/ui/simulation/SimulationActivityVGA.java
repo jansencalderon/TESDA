@@ -10,6 +10,8 @@ import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.LinearLayoutManager;
+import android.util.Log;
 import android.view.DragEvent;
 import android.view.MenuItem;
 import android.view.MotionEvent;
@@ -20,13 +22,18 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.Priority;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.tip.capstone.mlearning.R;
-import com.tip.capstone.mlearning.databinding.ActivityReviseSimulationBinding;
+import com.tip.capstone.mlearning.databinding.ActivitySimulationVgaBinding;
+import com.tip.capstone.mlearning.ui.adapter.ActivityLogAdapter;
 
-public class SimulationActivity extends AppCompatActivity
+import java.util.ArrayList;
+import java.util.List;
+
+public class SimulationActivityVGA extends AppCompatActivity
         implements View.OnDragListener, View.OnTouchListener {
 
-    private ActivityReviseSimulationBinding binding;
-
+    private ActivitySimulationVgaBinding binding;
+    private List<String> listActivityLog = new ArrayList<>();
+    private ActivityLogAdapter activityLogAdapter;
 
     public static final int[] SIMULATION_DRAWABLES = {
             R.drawable.good_vga,
@@ -50,7 +57,7 @@ public class SimulationActivity extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = DataBindingUtil.setContentView(this, R.layout.activity_revise_simulation);
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_simulation_vga);
 
         enterShape = ContextCompat.getDrawable(this, R.drawable.shape_droptarget);
         normalShape = ContextCompat.getDrawable(this, R.drawable.shape);
@@ -73,6 +80,8 @@ public class SimulationActivity extends AppCompatActivity
         binding.layoutToolbox.setOnDragListener(this);
         binding.monitor.setOnDragListener(this);
         binding.layoutProblem.setOnDragListener(this);
+        binding.activityLogRecyclerView.setOnDragListener(this);
+        binding.progressLayout.setOnDragListener(this);
 
         for (int i = 0; i < imageViews.length; i++) {
             Glide.with(this)
@@ -103,19 +112,34 @@ public class SimulationActivity extends AppCompatActivity
             @Override
             public void onClick(View v) {
                 if (step1 && !monitorOn) {
+                    addToLog("Turned On Monitor");
+                    addToLog("Progress 20%");
                     monitorOn = true;
                     binding.progress.setProgress(20f);
-                    binding.monitor.setImageDrawable(ContextCompat.getDrawable(SimulationActivity.this, R.drawable.monitor_faulty));
+                    binding.monitor.setImageDrawable(ContextCompat.getDrawable(SimulationActivityVGA.this, R.drawable.monitor_faulty));
                     binding.hint.setText("Choose the right tools or equipment to fix this problem.");
 
-                    MediaPlayer mp = MediaPlayer.create(SimulationActivity.this, R.raw.ting);
+                    MediaPlayer mp = MediaPlayer.create(SimulationActivityVGA.this, R.raw.ting);
                     mp.start();
                 }
             }
         });
 
+        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+        layoutManager.setStackFromEnd(true);
+        binding.activityLogRecyclerView.setLayoutManager(layoutManager);
+
 
     }
+
+    public void addToLog(String toBeAdded) {
+        listActivityLog.add(" - "+toBeAdded);
+        Log.d("ACTIVITY LOG : ",
+                listActivityLog.size() + 1 + " " + toBeAdded);
+        activityLogAdapter = new ActivityLogAdapter(listActivityLog);
+        binding.activityLogRecyclerView.setAdapter(activityLogAdapter);
+    }
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -137,7 +161,6 @@ public class SimulationActivity extends AppCompatActivity
         } else {
             switch (dragEvent.getAction()) {
                 case DragEvent.ACTION_DRAG_STARTED:
-                    // do nothing
                     break;
                 case DragEvent.ACTION_DRAG_ENTERED:
                     if (view.getId() == R.id.layout_problem) {
@@ -148,28 +171,14 @@ public class SimulationActivity extends AppCompatActivity
                     normalShape(view);
                     break;
                 case DragEvent.ACTION_DROP:
-                /*if (isEnterable(view, imageView)) {
-                    // Dropped, reassign View to ViewGroup
-                    View view1 = (View) dragEvent.getLocalState();
-                    ViewGroup owner = (ViewGroup) view1.getParent();
-                    owner.removeView(view1);
-                    FlexboxLayout container = (FlexboxLayout) view;
-                    container.addView(view1);
-                    view1.setVisibility(View.VISIBLE);
-                    if(view.getId() != R.id.layout_top_left){
-                        MediaPlayer mp = MediaPlayer.create(SimulationActivity.this, R.raw.ting);
-                        mp.start();
-                    }
-                } else {
-                    imageView.setVisibility(View.VISIBLE);
-                    MediaPlayer mp = MediaPlayer.create(SimulationActivity.this, R.raw.engk);
-                    mp.start();
-                }*/
+                    addToLog("Dropped " + imageView.getContentDescription() + " to " + view.getContentDescription());
                     if (!step1 && step2) {
                         if ((view.getId() == R.id.monitor) && (imageView.getId() == R.id.vgaGood)) {
                             step1 = false;
                             binding.progress.setProgress(100f);
-                            binding.hint.setText("Congratulations! You fix it.");
+                            addToLog("Progress 100%");
+                            addToLog("Congratulations ");
+                            binding.hint.setText("Congratulations! You fixed it.");
                             final AlertDialog.Builder builder;
                             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                                 builder = new AlertDialog.Builder(this, android.R.style.Theme_Material_Dialog_Alert);
@@ -184,15 +193,15 @@ public class SimulationActivity extends AppCompatActivity
                                             dialog.dismiss();
                                         }
                                     })
-                                        .setIcon(android.R.drawable.ic_dialog_alert)
+                                    .setIcon(android.R.drawable.ic_dialog_alert)
                                     .show();
 
-                            binding.monitor.setImageDrawable(ContextCompat.getDrawable(SimulationActivity.this, R.drawable.monitor_good));
-                            MediaPlayer mp = MediaPlayer.create(SimulationActivity.this, R.raw.ting);
+                            binding.monitor.setImageDrawable(ContextCompat.getDrawable(SimulationActivityVGA.this, R.drawable.monitor_good));
+                            MediaPlayer mp = MediaPlayer.create(SimulationActivityVGA.this, R.raw.ting);
                             mp.start();
                         } else {
                             imageView.setVisibility(View.VISIBLE);
-                            MediaPlayer mp = MediaPlayer.create(SimulationActivity.this, R.raw.engk);
+                            MediaPlayer mp = MediaPlayer.create(SimulationActivityVGA.this, R.raw.engk);
                             if (view.getId() != R.id.layout_toolbox) {
                                 mp.start();
                             }
@@ -201,15 +210,16 @@ public class SimulationActivity extends AppCompatActivity
 
                     if (step1) {
                         if ((view.getId() == R.id.monitor) && (imageView.getId() == R.id.screwdriverPhillip)) {
-                            binding.monitor.setImageDrawable(ContextCompat.getDrawable(SimulationActivity.this, R.drawable.monitor_novga));
+                            binding.monitor.setImageDrawable(ContextCompat.getDrawable(SimulationActivityVGA.this, R.drawable.monitor_novga));
                             binding.progress.setProgress(50f);
                             binding.hint.setText("No VGA Cable connected!");
-                            MediaPlayer mp = MediaPlayer.create(SimulationActivity.this, R.raw.ting);
+                            addToLog("Progress 50%");
+                            MediaPlayer mp = MediaPlayer.create(SimulationActivityVGA.this, R.raw.ting);
                             mp.start();
                             step1 = false;
                         } else {
                             imageView.setVisibility(View.VISIBLE);
-                            MediaPlayer mp = MediaPlayer.create(SimulationActivity.this, R.raw.engk);
+                            MediaPlayer mp = MediaPlayer.create(SimulationActivityVGA.this, R.raw.engk);
                             if (view.getId() != R.id.layout_toolbox) {
                                 mp.start();
                             }
@@ -228,7 +238,7 @@ public class SimulationActivity extends AppCompatActivity
                     start.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
-                            startActivity(new Intent(SimulationActivity.this,ReviseSimulationActivity2.class));
+                            startActivity(new Intent(SimulationActivityVGA.this,ReviseSimulationActivity2.class));
                             finish();
                         }
                     });

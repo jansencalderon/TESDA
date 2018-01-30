@@ -12,10 +12,12 @@ import com.tip.capstone.mlearning.R;
 import com.tip.capstone.mlearning.app.Constant;
 import com.tip.capstone.mlearning.databinding.ActivityMainBinding;
 import com.tip.capstone.mlearning.databinding.DialogAssessmentChoiceBinding;
+import com.tip.capstone.mlearning.databinding.DialogSimulationChoiceBinding;
 import com.tip.capstone.mlearning.ui.assessment.AssessmentActivity;
 import com.tip.capstone.mlearning.ui.grades.detail.GradesDetailActivity;
 import com.tip.capstone.mlearning.ui.map.MapsActivity;
-import com.tip.capstone.mlearning.ui.simulation.SimulationActivity;
+import com.tip.capstone.mlearning.ui.simulation.SimulationActivitySys;
+import com.tip.capstone.mlearning.ui.simulation.SimulationActivityVGA;
 import com.tip.capstone.mlearning.ui.topics.TopicsListActivity;
 import com.tip.capstone.mlearning.ui.videos.VideoListActivity;
 
@@ -93,7 +95,28 @@ public class MainActivity extends AppCompatActivity {
         binding.simulation.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, SimulationActivity.class));
+
+                DialogSimulationChoiceBinding dialogBinding = DataBindingUtil.inflate(
+                        getLayoutInflater(),
+                        R.layout.dialog_simulation_choice,
+                        null,
+                        false);
+
+                dialogBinding.sys.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        startActivity(new Intent(MainActivity.this, SimulationActivitySys.class));
+                    }
+                });
+                dialogBinding.vga.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        startActivity(new Intent(MainActivity.this, SimulationActivityVGA.class));
+                    }
+                });
+                Dialog dialog = new Dialog(MainActivity.this);
+                dialog.setContentView(dialogBinding.getRoot());
+                dialog.show();
             }
         });
     }

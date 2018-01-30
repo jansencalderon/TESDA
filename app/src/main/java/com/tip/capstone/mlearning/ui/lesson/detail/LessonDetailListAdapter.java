@@ -15,7 +15,6 @@ import android.view.ViewGroup;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
-import com.bumptech.glide.request.target.GlideDrawableImageViewTarget;
 import com.tip.capstone.mlearning.R;
 import com.tip.capstone.mlearning.app.Constant;
 import com.tip.capstone.mlearning.databinding.ItemLessonDetailHeaderBinding;
@@ -218,7 +217,20 @@ class LessonDetailListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
                         .setLessonDetail(lessonDetails.get(lesson != null ? position - 1 : position));
                 Log.d(TAG, "onBindViewHolder: " + lessonDetails.get(lesson != null ? position - 1 : position).getBody());
                 lessonDetailImageViewHolder.itemLessonDetailImageBinding.setView(lessonDetailListView);
-                if (lessonDetails.get(lesson != null ? position - 1 : position).getBody().contains(".gif")) {
+
+                int id = ResourceHelper.getDrawableResourceId(holder.itemView.getContext(),
+                        lessonDetails.get(lesson != null ? position - 1 : position).getBody());
+
+                if(id != 0){
+                    Glide.with(holder.itemView.getContext())
+                            .load(id)
+                            .asBitmap()
+                            .diskCacheStrategy(DiskCacheStrategy.NONE)
+                            .into(lessonDetailImageViewHolder.itemLessonDetailImageBinding.imageLessonDetail);
+                }
+
+
+                /*if (lessonDetails.get(lesson != null ? position - 1 : position).getBody().contains(".gif")) {
                     GlideDrawableImageViewTarget imageViewTarget = new GlideDrawableImageViewTarget(lessonDetailImageViewHolder.itemLessonDetailImageBinding.imageLessonDetail);
                     Glide.with(holder.itemView.getContext())
                             .load(ResourceHelper.getRawResourceId(holder.itemView.getContext(), lessonDetails.get(lesson != null ? position - 1 : position)
@@ -236,7 +248,7 @@ class LessonDetailListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
                             //.placeholder(R.drawable.ic_photo)
                             //.error(R.drawable.ic_photo)
                             .into(lessonDetailImageViewHolder.itemLessonDetailImageBinding.imageLessonDetail);
-                }
+                }*/
 
 
                 break;

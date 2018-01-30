@@ -127,7 +127,7 @@ public class LessonDetailListFragment
         // init data
         realm = Realm.getDefaultInstance();
         Lesson lesson = realm.where(Lesson.class).equalTo(Constant.ID, lessonId).findFirst();
-        RealmResults<LessonDetail> lessonDetails = realm.where(LessonDetail.class).equalTo("learningObjectiveId", lesson.getId()).findAll().sort("id");
+        RealmResults<LessonDetail> lessonDetails = realm.where(LessonDetail.class).equalTo("learningObjectiveId", lesson.getId()).findAllAsync().sort("id");
         LessonDetailListAdapter lessonDetailListAdapter = new LessonDetailListAdapter(lesson, getMvpView(), isLastPage, query, lessonDetailRef);
         binding.recyclerView.setAdapter(lessonDetailListAdapter);
 

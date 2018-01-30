@@ -69,8 +69,11 @@
             android:label="@string/title_activity_maps"
             android:theme="@style/AppTheme.NoActionBar" />
 
-        <activity android:name=".ui.simulation.SimulationActivity"
-            android:theme="@style/AppTheme.NoActionBar"   ></activity>
+        <activity
+            android:name=".ui.simulation.SimulationActivityVGA"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ui.simulation.SimulationActivitySys"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

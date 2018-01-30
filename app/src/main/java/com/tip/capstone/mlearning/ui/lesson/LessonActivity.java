@@ -68,12 +68,13 @@ public class LessonActivity extends MvpViewStateActivity<LessonView, LessonPrese
         int topicId = getIntent().getIntExtra(Constant.ID, -1);
         lessonDetailRefId = getIntent().getIntExtra("lesson_detail_ref_id", -1);
         if (lessonDetailRefId != -1) {
-            LessonDetail lessonDetail = realm.where(LessonDetail.class).equalTo("id",lessonDetailRefId).findFirst();
+            LessonDetail lessonDetail = realm.where(LessonDetail.class).equalTo("id", lessonDetailRefId).findFirst();
             Lesson lesson = realm.where(Lesson.class).equalTo("id", lessonDetail.getLearningObjectiveId()).findFirst();
             topic = realm.copyFromRealm(realm.where(Topic.class).equalTo("id", lesson.getId()).findFirst());
             if (topic != null)
                 topicId = topic.getId();
         }
+
         if (topicId == -1) {
             Toast.makeText(getApplicationContext(), "No Intent Extra Found", Toast.LENGTH_SHORT).show();
             finish();
@@ -87,12 +88,14 @@ public class LessonActivity extends MvpViewStateActivity<LessonView, LessonPrese
         }
 
 
+
         getSupportActionBar().setTitle(topic.getName());
 
         lessonPageAdapter = new LessonPageAdapter(getSupportFragmentManager(), topicId, topic.getVideo(), lessonDetailRefId);
         binding.container.addOnPageChangeListener(this);
         binding.container.setAdapter(lessonPageAdapter);
 
+        lessons = realm.where(Lesson.class).equalTo("topicId", topic.getId()).findAll().sort("id");
         setUiPageViewController();
     }
 
@@ -257,7 +260,6 @@ public class LessonActivity extends MvpViewStateActivity<LessonView, LessonPrese
 
     private void setUiPageViewController() {
         // setup view page controller specially the counter indicator
-        lessons = realm.where(Lesson.class).equalTo("topicId", topic.getId()).findAllSorted("id");
         lessonPageAdapter.setLessonList(lessons);
         dotsCount = lessonPageAdapter.getCount();
         if (dotsCount <= 0) return;
