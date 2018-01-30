@@ -1,7 +1,6 @@
 package com.tip.capstone.mlearning.ui.assessment;
 
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -15,21 +14,23 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.hannesdorfmann.mosby.mvp.viewstate.MvpViewStateActivity;
 import com.hannesdorfmann.mosby.mvp.viewstate.ViewState;
 import com.tip.capstone.mlearning.R;
 import com.tip.capstone.mlearning.app.Constant;
 import com.tip.capstone.mlearning.databinding.ActivityAssessmentBinding;
 import com.tip.capstone.mlearning.databinding.DialogQuizSummaryBinding;
+import com.tip.capstone.mlearning.databinding.DialogViewReferenceBinding;
 import com.tip.capstone.mlearning.helper.ResourceHelper;
 import com.tip.capstone.mlearning.model.Assessment;
 import com.tip.capstone.mlearning.model.AssessmentChoice;
 import com.tip.capstone.mlearning.model.AssessmentGrade;
+import com.tip.capstone.mlearning.model.LessonDetail;
 import com.tip.capstone.mlearning.model.Letter;
 import com.tip.capstone.mlearning.model.UserAnswer;
 import com.tip.capstone.mlearning.ui.adapter.LetterListAdapter;
 import com.tip.capstone.mlearning.ui.adapter.SummaryListAdapter;
-import com.tip.capstone.mlearning.ui.lesson.LessonActivity;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -441,8 +442,34 @@ public class AssessmentActivity extends MvpViewStateActivity<AssessmentView, Ass
 
     @Override
     public void onViewReference(int lessonDetailId) {
-        Intent intent = new Intent(this, LessonActivity.class);
-        intent.putExtra("lesson_detail_ref_id", lessonDetailId);
-        startActivity(intent);
+        DialogViewReferenceBinding dialogBinding = DataBindingUtil.inflate(
+                getLayoutInflater(),
+                R.layout.dialog_view_reference,
+                null,
+                false);
+        LessonDetail lessonDetail = realm.where(LessonDetail.class).equalTo("id", lessonDetailId).findFirst();
+        dialogBinding.setLessonDetail(lessonDetail);
+        if (lessonDetail.getBody_type().equals(Constant.DETAIL_TYPE_TEXT)) {
+            dialogBinding.txtBody.setText(lessonDetail.getBody());
+        } else {
+            Glide.with(this)
+                    .load(ResourceHelper.getDrawableResourceId(this,
+                            lessonDetail.getBody()))
+                    .asBitmap()
+                    .diskCacheStrategy(DiskCacheStrategy.SOURCE)
+                    .into(dialogBinding.imageLessonDetail);
+        }
+
+
+        new AlertDialog.Builder(this)
+                .setView(dialogBinding.getRoot())
+                .setCancelable(false)
+                .setPositiveButton("Close", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        AssessmentActivity.this.finish();
+                    }
+                })
+                .show();
     }
 }

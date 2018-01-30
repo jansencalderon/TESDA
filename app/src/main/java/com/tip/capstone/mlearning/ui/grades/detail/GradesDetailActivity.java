@@ -221,6 +221,30 @@ public class GradesDetailActivity extends MvpActivity<GradesDetailView, GradesDe
             setDataComparison();
         }
 
+        //set
+
+        //set Line Graph
+
+       binding.trueOrFalse.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View v) {
+               RealmResults<AssessmentGrade> assessmentGradeRealmResults = realm
+                       .where(AssessmentGrade.class)
+                       .equalTo("type", 1)
+                       .findAllSorted("count", Sort.DESCENDING);
+               showAssessmentHistory(assessmentGradeRealmResults, 1);
+           }
+       });
+        binding.guessthetools.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                RealmResults<AssessmentGrade> assessmentGradeRealmResults = realm
+                        .where(AssessmentGrade.class)
+                        .equalTo("type", 2)
+                        .findAllSorted("count", Sort.DESCENDING);
+                showAssessmentHistory(assessmentGradeRealmResults, 2);
+            }
+        });
 
         binding.showDialog.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -575,23 +599,27 @@ public class GradesDetailActivity extends MvpActivity<GradesDetailView, GradesDe
         }
     }
     @Override
-    public void showAssessmentHistory(Grades grades) {
+    public void showAssessmentHistory(RealmResults<AssessmentGrade> quizGradeRealmResults, int type) {
         DialogGradesHistoryBinding historyBinding = DataBindingUtil.inflate(
                 getLayoutInflater(),
                 R.layout.dialog_grades_history,
                 null,
                 false);
 
-        RealmResults<AssessmentGrade> quizGradeRealmResults = realm.where(AssessmentGrade.class).equalTo("term", grades.getAssessmentGrade().getType())
-                .findAllSorted("count", Sort.ASCENDING);
         AssessmentHistoryListAdapter assessmentHistoryListAdapter = new AssessmentHistoryListAdapter();
         assessmentHistoryListAdapter.setGradesList(quizGradeRealmResults);
-        historyBinding.topic.setText(grades.getTitle());
 
         historyBinding.recyclerView.setLayoutManager(new LinearLayoutManager(this));
         historyBinding.recyclerView.setItemAnimator(new DefaultItemAnimator());
         historyBinding.recyclerView.addItemDecoration(new DividerItemDecoration(this, DividerItemDecoration.VERTICAL));
         historyBinding.recyclerView.setAdapter(assessmentHistoryListAdapter);
+
+        if(type == 1){
+            historyBinding.topic.setText("True or False");
+        }else {
+
+            historyBinding.topic.setText("Guess the Tools");
+        }
 
         Dialog dialog = new Dialog(this);
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);

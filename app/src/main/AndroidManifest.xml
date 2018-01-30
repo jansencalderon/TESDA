@@ -74,6 +74,8 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".ui.simulation.SimulationActivitySys"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ui.simulation.SimulationActivityMicro"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

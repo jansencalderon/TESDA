@@ -167,12 +167,46 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Assessment"
+                    android:padding="16dp"
+                    android:text="Assessments"
                     android:textColor="@color/colorAccent"
                     android:textSize="20sp"
-                    android:padding="16dp"
                     android:textStyle="bold"
                     app:layout_widthPercent="40%" />
+
+                <TextView
+                    android:id="@+id/trueOrFalse"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?selectableItemBackground"
+                    android:padding="16dp"
+                    android:text="True or False"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    android:textColor="@color/colorAccent"
+                    app:layout_widthPercent="40%" />
+
+                <com.github.mikephil.charting.charts.LineChart
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="16dp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/guessthetools"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?selectableItemBackground"
+                    android:padding="16dp"
+                    android:text="Guess The Tools"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    android:textColor="@color/colorAccent"
+                    app:layout_widthPercent="40%" />
+
+                <com.github.mikephil.charting.charts.LineChart
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="16dp"
+                    android:visibility="gone" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

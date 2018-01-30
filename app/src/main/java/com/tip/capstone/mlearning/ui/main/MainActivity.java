@@ -16,6 +16,7 @@ import com.tip.capstone.mlearning.databinding.DialogSimulationChoiceBinding;
 import com.tip.capstone.mlearning.ui.assessment.AssessmentActivity;
 import com.tip.capstone.mlearning.ui.grades.detail.GradesDetailActivity;
 import com.tip.capstone.mlearning.ui.map.MapsActivity;
+import com.tip.capstone.mlearning.ui.simulation.SimulationActivityMicro;
 import com.tip.capstone.mlearning.ui.simulation.SimulationActivitySys;
 import com.tip.capstone.mlearning.ui.simulation.SimulationActivityVGA;
 import com.tip.capstone.mlearning.ui.topics.TopicsListActivity;
@@ -114,6 +115,14 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(new Intent(MainActivity.this, SimulationActivityVGA.class));
                     }
                 });
+
+                dialogBinding.micro.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        startActivity(new Intent(MainActivity.this, SimulationActivityMicro.class));
+                    }
+                });
+
                 Dialog dialog = new Dialog(MainActivity.this);
                 dialog.setContentView(dialogBinding.getRoot());
                 dialog.show();
