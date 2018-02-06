@@ -16,36 +16,36 @@ public class VideoListPresenter extends MvpNullObjectBasePresenter<VideoListView
 
     private static final int[] VIDEO_RES_ID = {
             R.raw.topic1,
-           /* R.raw.topic2,
+            R.raw.topic2,
             R.raw.topic3,
             R.raw.topic4,
             R.raw.topic5_1,
             R.raw.topic5_2,
             R.raw.topic6,
             R.raw.topic7_1,
-            R.raw.topic7_2*/
+            R.raw.topic7_2
     };
     private static final String[] VIDEO_NAME_WITHOUT_EXTENSION = {
             "topic1",
-            /*"topic2",
+            "topic2",
             "topic3",
             "topic4",
             "topic5_1",
             "topic5_2",
             "topic6",
             "topic7_1",
-            "topic7_2",*/
+            "topic7_2"
     };
     private static final String[] VIDEO_TITLE = {
             "Basic Health and Safety Procedure",
-           /* "Basic Tools Required for Electronic PCB Repairs",
+            "Basic Tools Required for Electronic PCB Repairs",
             "Calculation and Mensturation",
             "Prepare and Interpret Technical Drawings",
             "Computer Operations 1",
             "Computer Operations 2",
             "Two Way Switching",
             "Air Conditioner Assembly",
-            "Air Conditioner Disassembly"*/
+            "Air Conditioner Disassembly"
     };
 
     public void loadVideoList(String query) {
