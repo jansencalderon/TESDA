@@ -206,6 +206,7 @@ public class AssessmentActivity extends MvpViewStateActivity<AssessmentView, Ass
         if (assessment.getQuestion_type().equals(Constant.QUESTION_TYPE_TEXT)) {
             binding.txtQuestion.setText((counter + 1) + ". " + assessment.getQuestion());
             binding.imageQuestion.setVisibility(View.GONE);
+            binding.txtQuestion.setVisibility(View.VISIBLE);
             binding.recyclerView.setVisibility(View.VISIBLE);
             binding.recyclerViewAnswer.setVisibility(View.GONE);
             binding.recyclerViewLetterChoices.setVisibility(View.GONE);
@@ -219,6 +220,7 @@ public class AssessmentActivity extends MvpViewStateActivity<AssessmentView, Ass
                     .load(ResourceHelper.getDrawableResourceId(this, assessment.getQuestion()))
                     .fitCenter()
                     .into(binding.imageQuestion);
+            binding.imageQuestion.setVisibility(View.VISIBLE);
             binding.txtQuestion.setVisibility(View.GONE);
             binding.recyclerView.setVisibility(View.VISIBLE);
             binding.recyclerViewAnswer.setVisibility(View.GONE);
@@ -227,29 +229,6 @@ public class AssessmentActivity extends MvpViewStateActivity<AssessmentView, Ass
             choiceAdapter.setChoiceList(choices);
             if (userAnswer != null)
                 choiceAdapter.setAnswer(userAnswer.getUserAnswer());
-
-            /*binding.recyclerView.setVisibility(View.GONE);
-            binding.recyclerViewAnswer.setVisibility(View.VISIBLE);
-            binding.recyclerViewLetterChoices.setVisibility(View.VISIBLE);
-            adapterLetterAnswer.setLetters(presenter.getAssessmentLetter(assessment.getAnswer()));
-
-            Log.d(TAG, "onSetQuestion: answer: " + assessment.getAnswer());
-
-            if (lettersList.get(counter).size() <= 0) {
-                lettersList.set(counter, presenter.getChoiceLetters(assessment.getAnswer()));
-                ((AssessmentViewState) getViewState()).setLetterList(lettersList);
-            }
-
-            adapterLetterChoice.setLetters(lettersList.get(counter));
-            Log.d(TAG, "onSetQuestion: choices: " + adapterLetterChoice.getAnswer());
-
-            if (userAnswer != null)
-                for (int i = 0; i < userAnswer.getUserAnswer().length(); i++) {
-                    String s = userAnswer.getUserAnswer().charAt(i) + "";
-                    int emptyIndex = adapterLetterAnswer.getEmptyIndex();
-                    if (emptyIndex != -1) adapterLetterAnswer.addLetter(s, emptyIndex);
-                }
-            Log.d(TAG, "onSetQuestion: ident answer: " + adapterLetterAnswer.getAnswer());*/
         }
     }
 
@@ -448,6 +427,9 @@ public class AssessmentActivity extends MvpViewStateActivity<AssessmentView, Ass
                 null,
                 false);
         LessonDetail lessonDetail = realm.where(LessonDetail.class).equalTo("id", lessonDetailId).findFirst();
+        if(lessonDetail == null){
+            return;
+        }
         dialogBinding.setLessonDetail(lessonDetail);
         if (lessonDetail.getBody_type().equals(Constant.DETAIL_TYPE_TEXT)) {
             dialogBinding.txtBody.setText(lessonDetail.getBody());

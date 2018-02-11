@@ -1,7 +1,6 @@
 package com.tip.capstone.mlearning.ui.videos;
 
 import com.hannesdorfmann.mosby.mvp.MvpNullObjectBasePresenter;
-import com.tip.capstone.mlearning.R;
 import com.tip.capstone.mlearning.model.Video;
 
 import java.util.ArrayList;
@@ -15,7 +14,7 @@ import java.util.List;
 public class VideoListPresenter extends MvpNullObjectBasePresenter<VideoListView> {
 
     private static final int[] VIDEO_RES_ID = {
-            R.raw.topic1,
+          /*  R.raw.topic1,
             R.raw.topic2,
             R.raw.topic3,
             R.raw.topic4,
@@ -23,10 +22,10 @@ public class VideoListPresenter extends MvpNullObjectBasePresenter<VideoListView
             R.raw.topic5_2,
             R.raw.topic6,
             R.raw.topic7_1,
-            R.raw.topic7_2
+            R.raw.topic7_2*/
     };
     private static final String[] VIDEO_NAME_WITHOUT_EXTENSION = {
-            "topic1",
+           /* "topic1",
             "topic2",
             "topic3",
             "topic4",
@@ -34,7 +33,7 @@ public class VideoListPresenter extends MvpNullObjectBasePresenter<VideoListView
             "topic5_2",
             "topic6",
             "topic7_1",
-            "topic7_2"
+            "topic7_2"*/
     };
     private static final String[] VIDEO_TITLE = {
             "Basic Health and Safety Procedure",

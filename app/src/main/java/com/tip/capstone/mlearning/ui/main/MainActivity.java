@@ -11,7 +11,6 @@ import android.view.View;
 import com.tip.capstone.mlearning.R;
 import com.tip.capstone.mlearning.app.Constant;
 import com.tip.capstone.mlearning.databinding.ActivityMainBinding;
-import com.tip.capstone.mlearning.databinding.DialogAssessmentChoiceBinding;
 import com.tip.capstone.mlearning.databinding.DialogSimulationChoiceBinding;
 import com.tip.capstone.mlearning.ui.assessment.AssessmentActivity;
 import com.tip.capstone.mlearning.ui.grades.detail.GradesDetailActivity;
@@ -69,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
         binding.assessment.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                DialogAssessmentChoiceBinding dialogBinding = DataBindingUtil.inflate(
+               /* DialogAssessmentChoiceBinding dialogBinding = DataBindingUtil.inflate(
                         getLayoutInflater(),
                         R.layout.dialog_assessment_choice,
                         null,
@@ -89,7 +88,8 @@ public class MainActivity extends AppCompatActivity {
                 });
                 Dialog dialog = new Dialog(MainActivity.this);
                 dialog.setContentView(dialogBinding.getRoot());
-                dialog.show();
+                dialog.show();*/
+                startActivity(new Intent(MainActivity.this, AssessmentActivity.class).putExtra("type", 1));
             }
         });
 

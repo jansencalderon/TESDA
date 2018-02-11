@@ -15,6 +15,7 @@ import android.view.ViewGroup;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
+import com.bumptech.glide.request.target.GlideDrawableImageViewTarget;
 import com.tip.capstone.mlearning.R;
 import com.tip.capstone.mlearning.app.Constant;
 import com.tip.capstone.mlearning.databinding.ItemLessonDetailHeaderBinding;
@@ -213,42 +214,28 @@ class LessonDetailListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
                 break;
             case VIEW_IMAGE:
                 LessonDetailImageViewHolder lessonDetailImageViewHolder = (LessonDetailImageViewHolder) holder;
+                LessonDetail detail = lessonDetails.get(lesson != null ? position - 1 : position);
                 lessonDetailImageViewHolder.itemLessonDetailImageBinding
-                        .setLessonDetail(lessonDetails.get(lesson != null ? position - 1 : position));
-                Log.d(TAG, "onBindViewHolder: " + lessonDetails.get(lesson != null ? position - 1 : position).getBody());
+                        .setLessonDetail(detail);
                 lessonDetailImageViewHolder.itemLessonDetailImageBinding.setView(lessonDetailListView);
 
-                int id = ResourceHelper.getDrawableResourceId(holder.itemView.getContext(),
-                        lessonDetails.get(lesson != null ? position - 1 : position).getBody());
-
-                if(id != 0){
-                    Glide.with(holder.itemView.getContext())
-                            .load(id)
-                            .asBitmap()
-                            .diskCacheStrategy(DiskCacheStrategy.NONE)
-                            .into(lessonDetailImageViewHolder.itemLessonDetailImageBinding.imageLessonDetail);
-                }
-
-
-                /*if (lessonDetails.get(lesson != null ? position - 1 : position).getBody().contains(".gif")) {
+                if (detail.getBody().contains(".gif")) {
                     GlideDrawableImageViewTarget imageViewTarget = new GlideDrawableImageViewTarget(lessonDetailImageViewHolder.itemLessonDetailImageBinding.imageLessonDetail);
                     Glide.with(holder.itemView.getContext())
-                            .load(ResourceHelper.getRawResourceId(holder.itemView.getContext(), lessonDetails.get(lesson != null ? position - 1 : position)
-                                    .getBody()))
+                            .load(ResourceHelper.getDrawableResourceId(holder.itemView.getContext(), detail.getBody()))
                             .diskCacheStrategy(DiskCacheStrategy.NONE)
-                            //.placeholder(R.drawable.ic_photo)
-                            //.error(R.drawable.ic_photo)
                             .into(imageViewTarget);
+                    //lessonDetailListView.showAlert(detail.getBody()+detail.getBody_type());
                 } else {
                     Glide.with(holder.itemView.getContext())
                             .load(ResourceHelper.getDrawableResourceId(holder.itemView.getContext(),
-                                    lessonDetails.get(lesson != null ? position - 1 : position).getBody()))
+                                    detail.getBody()))
                             .asBitmap()
                             .diskCacheStrategy(DiskCacheStrategy.NONE)
                             //.placeholder(R.drawable.ic_photo)
                             //.error(R.drawable.ic_photo)
                             .into(lessonDetailImageViewHolder.itemLessonDetailImageBinding.imageLessonDetail);
-                }*/
+                }
 
 
                 break;

@@ -196,7 +196,6 @@ public class LessonDetailListFragment
 
     @Override
     public void imageZoom(LessonDetail lessonDetail) {
-
         startActivity(new Intent(getActivity(), ZoomActivity.class).putExtra("pic",lessonDetail.getBody()));
 
     }

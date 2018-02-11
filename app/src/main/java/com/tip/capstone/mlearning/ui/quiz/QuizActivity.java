@@ -477,17 +477,21 @@ public class QuizActivity extends MvpViewStateActivity<QuizView, QuizPresenter> 
                 null,
                 false);
         LessonDetail lessonDetail = realm.where(LessonDetail.class).equalTo("id", lessonDetailId).findFirst();
-        dialogBinding.setLessonDetail(lessonDetail);
-        if (lessonDetail.getBody_type().equals(Constant.DETAIL_TYPE_TEXT)) {
-            dialogBinding.txtBody.setText(lessonDetail.getBody());
-        } else {
-            Glide.with(this)
-                    .load(ResourceHelper.getDrawableResourceId(this,
-                            lessonDetail.getBody()))
-                    .asBitmap()
-                    .diskCacheStrategy(DiskCacheStrategy.SOURCE)
-                    .into(dialogBinding.imageLessonDetail);
+        if(lessonDetail != null){
+            dialogBinding.setLessonDetail(lessonDetail);
+            if (lessonDetail.getBody_type().equals(Constant.DETAIL_TYPE_TEXT)) {
+                dialogBinding.txtBody.setText(lessonDetail.getBody());
+            } else {
+                Glide.with(this)
+                        .load(ResourceHelper.getDrawableResourceId(this,
+                                lessonDetail.getBody()))
+                        .asBitmap()
+                        .diskCacheStrategy(DiskCacheStrategy.SOURCE)
+                        .into(dialogBinding.imageLessonDetail);
+            }
         }
+
+
 
 
         new AlertDialog.Builder(this)
@@ -496,7 +500,7 @@ public class QuizActivity extends MvpViewStateActivity<QuizView, QuizPresenter> 
                 .setPositiveButton("Close", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
-                        QuizActivity.this.finish();
+                        dialogInterface.dismiss();
                     }
                 })
                 .show();

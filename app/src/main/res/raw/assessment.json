@@ -1,406 +1,166 @@
 [
   {
     "id": 1,
-    "type": 2,
+    "type": 1,
     "answer": "Slotter Screwdriver",
-    "lesson_detail": 39,
+    "lesson_detail": 0,
     "question": "q1.JPEG",
     "question_type": "image"
   },
   {
     "id": 2,
-    "type": 2,
+    "type": 1,
     "answer": "Wrench",
-    "lesson_detail": 39,
+    "lesson_detail": 0,
     "question": "q2.JPEG",
     "question_type": "image"
   },
   {
     "id": 3,
-    "type": 2,
+    "type": 1,
     "answer": "Allen key",
-    "lesson_detail": 39,
+    "lesson_detail": 0,
     "question": "q3.JPEG",
     "question_type": "image"
   },
   {
     "id": 4,
-    "type": 2,
+    "type": 1,
     "answer": "Utility knife",
-    "lesson_detail": 39,
+    "lesson_detail": 0,
     "question": "q4.JPEG",
     "question_type": "image"
   },
   {
     "id": 5,
-    "type": 2,
+    "type": 1,
     "answer": "Pliers",
-    "lesson_detail": 39,
+    "lesson_detail": 0,
     "question": "q5.JPEG",
     "question_type": "image"
   },
   {
     "id": 6,
-    "type": 2,
+    "type": 1,
     "answer": "Long nose pliers",
-    "lesson_detail": 39,
+    "lesson_detail": 0,
     "question": "q6.JPEG",
     "question_type": "image"
   },
   {
     "id": 7,
-    "type": 2,
+    "type": 1,
     "answer": "Side cutting pliers",
-    "lesson_detail": 39,
+    "lesson_detail": 0,
     "question": "q7.JPEG",
     "question_type": "image"
   },
   {
     "id": 8,
-    "type": 2,
+    "type": 1,
     "answer": "De soldering pump",
-    "lesson_detail": 39,
+    "lesson_detail": 0,
     "question": "q8.JPEG",
     "question_type": "image"
   },
   {
     "id": 9,
-    "type": 2,
+    "type": 1,
     "answer": "Multimeter",
-    "lesson_detail": 51,
+    "lesson_detail": 0,
     "question": "q9.JPEG",
     "question_type": "image"
   },
   {
     "id": 10,
-    "type": 2,
+    "type": 1,
     "answer": "Oscilloscope",
-    "lesson_detail": 52,
+    "lesson_detail": 0,
     "question": "q10.JPEG",
     "question_type": "image"
   },
   {
     "id": 11,
-    "type": 2,
+    "type": 1,
     "answer": "Function generator",
-    "lesson_detail": 53,
+    "lesson_detail": 0,
     "question": "q11.JPEG",
     "question_type": "image"
   },
   {
     "id": 12,
-    "type": 2,
+    "type": 1,
     "answer": "Testlight",
-    "lesson_detail": 54,
+    "lesson_detail": 0,
     "question": "q12.JPEG",
     "question_type": "image"
   },
   {
     "id": 13,
-    "type": 2,
+    "type": 1,
     "answer": "Micrometer",
-    "lesson_detail": 68,
+    "lesson_detail": 0,
     "question": "q13.JPEG",
     "question_type": "image"
   },
   {
     "id": 14,
-    "type": 2,
+    "type": 1,
     "answer": "Wire gauge",
-    "lesson_detail": 68,
+    "lesson_detail": 0,
     "question": "q14.JPEG",
     "question_type": "image"
   },
   {
     "id": 15,
-    "type": 2,
+    "type": 1,
     "answer": "Tape measure",
-    "lesson_detail": 68,
+    "lesson_detail": 0,
     "question": "q15.JPEG",
     "question_type": "image"
   },
   {
     "id": 16,
-    "type": 2,
+    "type": 1,
     "answer": "Voltmeter",
-    "lesson_detail": 70,
+    "lesson_detail": 0,
     "question": "q16.JPEG",
     "question_type": "image"
   },
   {
     "id": 17,
-    "type": 2,
+    "type": 1,
     "answer": "Ammeter",
-    "lesson_detail": 70,
+    "lesson_detail": 0,
     "question": "q17.JPEG",
     "question_type": "image"
   },
   {
     "id": 18,
-    "type": 2,
+    "type": 1,
     "answer": "Ohm meter",
-    "lesson_detail": 70,
+    "lesson_detail": 0,
     "question": "q18.JPEG",
     "question_type": "image"
   },
   {
     "id": 19,
-    "type": 2,
+    "type": 1,
     "answer": "Watt meter",
-    "lesson_detail": 70,
+    "lesson_detail": 0,
     "question": "q19.JPEG",
     "question_type": "image"
   },
   {
     "id": 20,
-    "type": 2,
+    "type": 1,
     "answer": "Earth electrode symbol",
-    "lesson_detail": 98,
+    "lesson_detail": 0,
     "question": "q20.JPEG",
     "question_type": "image"
   },
   {
     "id": 21,
-    "type": 2,
-    "answer": "Cell symbol",
-    "lesson_detail": 98,
-    "question": "q21.JPEG",
-    "question_type": "image"
-  },
-  {
-    "id": 22,
-    "type": 2,
-    "answer": "Battery symbol",
-    "lesson_detail": 98,
-    "question": "q22.JPEG",
-    "question_type": "image"
-  },
-  {
-    "id": 23,
-    "type": 2,
-    "answer": "Source symbol",
-    "lesson_detail": 98,
-    "question": "q23.JPEG",
-    "question_type": "image"
-  },
-  {
-    "id": 24,
-    "type": 2,
-    "answer": "Ideal source symbol",
-    "lesson_detail": 98,
-    "question": "q24.JPEG",
-    "question_type": "image"
-  },
-  {
-    "id": 25,
-    "type": 2,
-    "answer": "Resistor symbol",
-    "lesson_detail": 98,
-    "question": "q25.JPEG",
-    "question_type": "image"
-  },
-  {
-    "id": 26,
-    "type": 2,
-    "answer": "Alternate resistor symbol",
-    "lesson_detail": 98,
-    "question": "q26.JPEG",
-    "question_type": "image"
-  },
-  {
-    "id": 27,
-    "type": 2,
-    "answer": "Variable resistor symbol",
-    "lesson_detail": 98,
-    "question": "q27.JPEG",
-    "question_type": "image"
-  },
-  {
-    "id": 28,
-    "type": 2,
-    "answer": "Pre-set resistor symbol",
-    "lesson_detail": 98,
-    "question": "q28.JPEG",
-    "question_type": "image"
-  },
-  {
-    "id": 29,
-    "type": 2,
-    "answer": "Re-set potentiometer symbol",
-    "lesson_detail": 98,
-    "question": "q29.JPEG",
-    "question_type": "image"
-  },
-  {
-    "id": 30,
-    "type": 2,
-    "answer": "Potentiometer resistor symbol",
-    "lesson_detail": 98,
-    "question": "q30.JPEG",
-    "question_type": "image"
-  },
-  {
-    "id": 31,
-    "type": 2,
-    "answer": "Attenuator",
-    "lesson_detail": 98,
-    "question": "q31.JPEG",
-    "question_type": "image"
-  },
-  {
-    "id": 32,
-    "type": 2,
-    "answer": "Contact symbol",
-    "lesson_detail": 98,
-    "question": "q32.JPEG",
-    "question_type": "image"
-  },
-  {
-    "id": 33,
-    "type": 2,
-    "answer": "Capacitor symbol",
-    "lesson_detail": 98,
-    "question": "q33.JPEG",
-    "question_type": "image"
-  },
-  {
-    "id": 34,
-    "type": 2,
-    "answer": "Capacitor 2 symbol",
-    "lesson_detail": 98,
-    "question": "q34.JPEG",
-    "question_type": "image"
-  },
-  {
-    "id": 35,
-    "type": 2,
-    "answer": "Capacitor with Step symbol",
-    "lesson_detail": 98,
-    "question": "q35.JPEG",
-    "question_type": "image"
-  },
-  {
-    "id": 36,
-    "type": 2,
-    "answer": "Switch 1P symbol",
-    "lesson_detail": 98,
-    "question": "q36.JPEG",
-    "question_type": "image"
-  },
-  {
-    "id": 37,
-    "type": 2,
-    "answer": "Various connections symbol",
-    "lesson_detail": 98,
-    "question": "q37.JPEG",
-    "question_type": "image"
-  },
-  {
-    "id": 38,
-    "type": 2,
-    "answer": "Accumulation symbol",
-    "lesson_detail": 98,
-    "question": "q38.JPEG",
-    "question_type": "image"
-  },
-  {
-    "id": 39,
-    "type": 2,
-    "answer": "Antenna symbol",
-    "lesson_detail": 98,
-    "question": "q39.JPEG",
-    "question_type": "image"
-  },
-  {
-    "id": 40,
-    "type": 2,
-    "answer": "Diode symbol",
-    "lesson_detail": 98,
-    "question": "q40.JPEG",
-    "question_type": "image"
-  },
-  {
-    "id": 41,
-    "type": 2,
-    "answer": "Diode LED symbol",
-    "lesson_detail": 98,
-    "question": "q41.JPEG",
-    "question_type": "image"
-  },
-  {
-    "id": 42,
-    "type": 2,
-    "answer": "Loop antenna symbol",
-    "lesson_detail": 98,
-    "question": "q42.JPEG",
-    "question_type": "image"
-  },
-  {
-    "id": 43,
-    "type": 2,
-    "answer": "Crystal symbol",
-    "lesson_detail": 98,
-    "question": "q43.JPEG",
-    "question_type": "image"
-  },
-  {
-    "id": 44,
-    "type": 2,
-    "answer": "AND Gate",
-    "lesson_detail": 0,
-    "question": "q44.JPEG",
-    "question_type": "image"
-  },
-  {
-    "id": 45,
-    "type": 2,
-    "answer": "OR Gate",
-    "lesson_detail": 0,
-    "question": "q45.JPEG",
-    "question_type": "image"
-  },
-  {
-    "id": 46,
-    "type": 2,
-    "answer": "NAND Gate",
-    "lesson_detail": 0,
-    "question": "q46.JPEG",
-    "question_type": "image"
-  },
-  {
-    "id": 47,
-    "type": 2,
-    "answer": "NOR Gate",
-    "lesson_detail": 0,
-    "question": "q47.JPEG",
-    "question_type": "image"
-  },
-  {
-    "id": 48,
-    "type": 2,
-    "answer": "XOR Gate",
-    "lesson_detail": 0,
-    "question": "q48.JPEG",
-    "question_type": "image"
-  },
-  {
-    "id": 49,
-    "type": 2,
-    "answer": "NOT Gate",
-    "lesson_detail": 0,
-    "question": "q49.JPEG",
-    "question_type": "image"
-  },
-  {
-    "id": 50,
-    "type": 2,
-    "answer": "Capacitor 2 symbol",
-    "lesson_detail": 98,
-    "question": "q34.JPEG",
-    "question_type": "image"
-  },
-  {
-    "id": 51,
     "type": 1,
     "answer": "TRUE",
     "lesson_detail": 0,
@@ -408,7 +168,7 @@
     "question_type": "text"
   },
   {
-    "id": 52,
+    "id": 22,
     "type": 1,
     "answer": "FALSE",
     "lesson_detail": 0,
@@ -416,7 +176,7 @@
     "question_type": "text"
   },
   {
-    "id": 53,
+    "id": 23,
     "type": 1,
     "answer": "TRUE",
     "lesson_detail": 0,
@@ -424,7 +184,7 @@
     "question_type": "text"
   },
   {
-    "id": 54,
+    "id": 24,
     "type": 1,
     "answer": "TRUE",
     "lesson_detail": 0,
@@ -432,7 +192,7 @@
     "question_type": "text"
   },
   {
-    "id": 55,
+    "id": 25,
     "type": 1,
     "answer": "FALSE",
     "lesson_detail": 0,
@@ -440,7 +200,7 @@
     "question_type": "text"
   },
   {
-    "id": 56,
+    "id": 26,
     "type": 1,
     "answer": "TRUE",
     "lesson_detail": 0,
@@ -448,7 +208,7 @@
     "question_type": "text"
   },
   {
-    "id": 57,
+    "id": 27,
     "type": 1,
     "answer": "TRUE",
     "lesson_detail": 0,
@@ -456,7 +216,7 @@
     "question_type": "text"
   },
   {
-    "id": 58,
+    "id": 28,
     "type": 1,
     "answer": "TRUE",
     "lesson_detail": 0,
@@ -464,7 +224,7 @@
     "question_type": "text"
   },
   {
-    "id": 59,
+    "id": 29,
     "type": 1,
     "answer": "FALSE",
     "lesson_detail": 0,
@@ -472,7 +232,7 @@
     "question_type": "text"
   },
   {
-    "id": 60,
+    "id": 30,
     "type": 1,
     "answer": "FALSE",
     "lesson_detail": 0,
@@ -480,7 +240,7 @@
     "question_type": "text"
   },
   {
-    "id": 61,
+    "id": 31,
     "type": 1,
     "answer": "TRUE",
     "lesson_detail": 0,
@@ -488,7 +248,7 @@
     "question_type": "text"
   },
   {
-    "id": 62,
+    "id": 32,
     "type": 1,
     "answer": "FALSE",
     "lesson_detail": 0,
@@ -496,7 +256,7 @@
     "question_type": "text"
   },
   {
-    "id": 63,
+    "id": 33,
     "type": 1,
     "answer": "FALSE",
     "lesson_detail": 0,
@@ -504,15 +264,15 @@
     "question_type": "text"
   },
   {
-    "id": 64,
+    "id": 34,
     "type": 1,
     "answer": "TRUE",
     "lesson_detail": 0,
-    "question": " Acrylic  also known as ‘perspex’ – a type of thermoplastic, available in sheet, block and rod form, in a range of colors as well as transparent and ‘light-gathering’. ",
+    "question": "Acrylic  also known as ‘perspex’ – a type of thermoplastic, available in sheet, block and rod form, in a range of colors as well as transparent and ‘light-gathering’. ",
     "question_type": "text"
   },
   {
-    "id": 65,
+    "id": 35,
     "type": 1,
     "answer": "TRUE",
     "lesson_detail": 0,
@@ -520,7 +280,7 @@
     "question_type": "text"
   },
   {
-    "id": 66,
+    "id": 36,
     "type": 1,
     "answer": "TRUE",
     "lesson_detail": 0,
@@ -528,7 +288,7 @@
     "question_type": "text"
   },
   {
-    "id": 67,
+    "id": 37,
     "type": 1,
     "answer": "FALSE",
     "lesson_detail": 0,
@@ -536,7 +296,7 @@
     "question_type": "text"
   },
   {
-    "id": 68,
+    "id": 38,
     "type": 1,
     "answer": "FALSE",
     "lesson_detail": 0,
@@ -544,7 +304,7 @@
     "question_type": "text"
   },
   {
-    "id": 69,
+    "id": 39,
     "type": 1,
     "answer": "FALSE",
     "lesson_detail": 0,
@@ -552,251 +312,11 @@
     "question_type": "text"
   },
   {
-    "id": 70,
+    "id": 40,
     "type": 1,
     "answer": "FALSE",
     "lesson_detail": 0,
     "question": "The GUI operating system is a text-based operating system, which is used for interacting with the software or files by typing commands to perform specific tasks.",
-    "question_type": "text"
-  },
-  {
-    "id": 71,
-    "type": 1,
-    "answer": "TRUE",
-    "lesson_detail": 0,
-    "question": "The kernel is a part of a software. It is like a bridge between the shell and hardware. It is responsible for running programs and providing secure access to the machine’s hardware",
-    "question_type": "text"
-  },
-  {
-    "id": 72,
-    "type": 1,
-    "answer": "TRUE",
-    "lesson_detail": 0,
-    "question": "Storage management is a function of the operating system that handles memory allocation of the data.",
-    "question_type": "text"
-  },
-  {
-    "id": 73,
-    "type": 1,
-    "answer": "FALSE",
-    "lesson_detail": 0,
-    "question": "A capacitor is usually rated in Amperes, which represent the maximum continuous current it could handle without blowing.",
-    "question_type": "text"
-  },
-  {
-    "id": 74,
-    "type": 1,
-    "answer": "TRUE",
-    "lesson_detail": 0,
-    "question": "Volatile memory is computer memory that requires power to maintain the stored information.",
-    "question_type": "text"
-  },
-  {
-    "id": 75,
-    "type": 1,
-    "answer": "FALSE",
-    "lesson_detail": 0,
-    "question": "A fuse is a single slender rod or filament of drawn metal",
-    "question_type": "text"
-  },
-  {
-    "id": 76,
-    "type": 1,
-    "answer": "FALSE",
-    "lesson_detail": 0,
-    "question": "A insulator is a wire suitable for carrying an electric current. \n",
-    "question_type": "text"
-  },
-  {
-    "id": 77,
-    "type": 1,
-    "answer": "TRUE",
-    "lesson_detail": 0,
-    "question": "A stranded conductor is a conductor composed of a group of wire or any combination of group of wires.",
-    "question_type": "text"
-  },
-  {
-    "id": 78,
-    "type": 1,
-    "answer": "TRUE",
-    "lesson_detail": 0,
-    "question": "A switch is a mechanical device used to connect and disconnect a circuit at will. Switches cover a wide range of types, from subminiature up to industrial plant switching megawatts of power on high voltage distribution lines.",
-    "question_type": "text"
-  },
-  {
-    "id": 79,
-    "type": 1,
-    "answer": "FALSE",
-    "lesson_detail": 0,
-    "question": "A Active Device is one that contributes no power gain (amplification) to a circuit or system",
-    "question_type": "text"
-  },
-  {
-    "id": 80,
-    "type": 1,
-    "answer": "TRUE",
-    "lesson_detail": 0,
-    "question": " Active Devices are components that are capable of controlling voltages or currents and can create a switching action in the circuit.",
-    "question_type": "text"
-  },
-  {
-    "id": 81,
-    "type": 1,
-    "answer": "TRUE",
-    "lesson_detail": 0,
-    "question": "Electrical testers are used to check both AC and DC voltage, continuity, circuit problems, amperage, shorted and open circuit problems, and to make sure the voltages are correct at the electrical panel.",
-    "question_type": "text"
-  },
-  {
-    "id": 82,
-    "type": 1,
-    "answer": "TRUE",
-    "lesson_detail": 0,
-    "question": "Solenoid voltage testers, frequently called wiggies, are multi-function testers. They are capable of testing both voltage and polarity. Electricians use them frequently because they can test bot AC voltage and Dc voltage in a range from 100 to 600 volts.",
-    "question_type": "text"
-  },
-  {
-    "id": 83,
-    "type": 1,
-    "answer": "FALSE",
-    "lesson_detail": 0,
-    "question": "Volt meters are the most complex electrical testers because like their name says they perform various functions of testing",
-    "question_type": "text"
-  },
-  {
-    "id": 84,
-    "type": 1,
-    "answer": "FALSE",
-    "lesson_detail": 0,
-    "question": "Active electronic components are those that do not have gain or directionality. They are also called Electrical elements or electrical components. e.g. resistors, capacitors, diodes, Inductors.",
-    "question_type": "text"
-  },
-  {
-    "id": 85,
-    "type": 1,
-    "answer": "TRUE",
-    "lesson_detail": 0,
-    "question": "Protective Clothing is  a type of clothing that covers the user from neck to ankle which prevents is wearer from injuries and skin irritation.",
-    "question_type": "text"
-  },
-  {
-    "id": 86,
-    "type": 1,
-    "answer": "FALSE",
-    "lesson_detail": 0,
-    "question": "battery is a safety device which will 'blow' (melt) if the current flowing through it exceeds a specified value",
-    "question_type": "text"
-  },
-  {
-    "id": 87,
-    "type": 1,
-    "answer": "FALSE",
-    "lesson_detail": 0,
-    "question": "An antenna circuit with one input. Really it is a block diagram symbol because it represents a circuit rather than just one component.",
-    "question_type": "text"
-  },
-  {
-    "id": 88,
-    "type": 1,
-    "answer": "FALSE",
-    "lesson_detail": 0,
-    "question": "amplifier is a device which is designed to receive or transmit radio signals",
-    "question_type": "text"
-  },
-  {
-    "id": 89,
-    "type": 1,
-    "answer": "TRUE",
-    "lesson_detail": 0,
-    "question": "High voltage probe is  a physical device used to connect electronic test equipment to a device under test (DUT)",
-    "question_type": "text"
-  },
-  {
-    "id": 90,
-    "type": 1,
-    "answer": "FALSE",
-    "lesson_detail": 0,
-    "question": "Passive components are those that have gain or directionality. e.g. transistors, integrated circuits or ICs, logic gates.",
-    "question_type": "text"
-  },
-  {
-    "id": 91,
-    "type": 1,
-    "answer": "TRUE",
-    "lesson_detail": 0,
-    "question": "Diodes are Components that conduct electricity in only one direction",
-    "question_type": "text"
-  },
-  {
-    "id": 92,
-    "type": 1,
-    "answer": "FALSE",
-    "lesson_detail": 0,
-    "question": "Resistors are  components that store electrical charge in an electrical field.",
-    "question_type": "text"
-  },
-  {
-    "id": 93,
-    "type": 1,
-    "answer": "FALSE",
-    "lesson_detail": 0,
-    "question": "A series circuit has two or more paths for current to flow. As Kirchhoff's current law states, the sum of all the currents entering any junction is equal to the sum of all the currents leaving the same junction. ",
-    "question_type": "text"
-  },
-  {
-    "id": 94,
-    "type": 1,
-    "answer": "FALSE",
-    "lesson_detail": 0,
-    "question": "variable capacitors  offer a fixed reactance to the flow of current and they can be electrolyte capacitors which are polarized and used where high value of capacitance is required.",
-    "question_type": "text"
-  },
-  {
-    "id": 95,
-    "type": 1,
-    "answer": "TRUE",
-    "lesson_detail": 0,
-    "question": " An inductor is a passive electronic component which stores energy in form of a magnetic field.",
-    "question_type": "text"
-  },
-  {
-    "id": 96,
-    "type": 1,
-    "answer": "TRUE",
-    "lesson_detail": 0,
-    "question": "Inductor can be used as a choke to offer resistance to the applied voltage and store the energy or used in combination with a capacitor to form a tuned circuit, used for oscillations. In AC circuits, the voltage leads the current as imposed voltage takes some time to build up the current in the coil due to opposition",
-    "question_type": "text"
-  },
-  {
-    "id": 97,
-    "type": 1,
-    "answer": "FALSE",
-    "lesson_detail": 0,
-    "question": "tunnel diode  is a diode made up of heavily doped p region compared to the n-region, such that it not only allows current flow in one direction, but also allows current flow in the opposite direction, on application of sufficient voltage.",
-    "question_type": "text"
-  },
-  {
-    "id": 98,
-    "type": 1,
-    "answer": "TRUE",
-    "lesson_detail": 0,
-    "question": "Light Emitting Diode/LED is a special type of PN junction diode made from semiconductors like Gallium Arsenide, which emits light when a suitable voltage is applied.",
-    "question_type": "text"
-  },
-  {
-    "id": 99,
-    "type": 1,
-    "answer": "FALSE",
-    "lesson_detail": 0,
-    "question": " Class B amplifiers have very low distortion (lowest distortion occurs when the volume is low) however they are very inefficient and are rarely used for high power designs.",
-    "question_type": "text"
-  },
-  {
-    "id": 100,
-    "type": 1,
-    "answer": "TRUE",
-    "lesson_detail": 0,
-    "question": "Bridging an amplifier refers to configuring a two channel (stereo) amplifier to drive a single load with more power than the sum of the two original channels combined.",
     "question_type": "text"
   }
 ]
