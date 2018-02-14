@@ -1,6 +1,7 @@
 package com.tip.capstone.mlearning.ui.videos;
 
 import com.hannesdorfmann.mosby.mvp.MvpNullObjectBasePresenter;
+import com.tip.capstone.mlearning.R;
 import com.tip.capstone.mlearning.model.Video;
 
 import java.util.ArrayList;
@@ -14,37 +15,41 @@ import java.util.List;
 public class VideoListPresenter extends MvpNullObjectBasePresenter<VideoListView> {
 
     private static final int[] VIDEO_RES_ID = {
-          /*  R.raw.topic1,
-            R.raw.topic2,
-            R.raw.topic3,
-            R.raw.topic4,
-            R.raw.topic5_1,
-            R.raw.topic5_2,
-            R.raw.topic6,
-            R.raw.topic7_1,
-            R.raw.topic7_2*/
+            R.raw.v1,
+            R.raw.v2,
+            R.raw.v3,
+            R.raw.v4,
+            R.raw.v5,
+            R.raw.v6,
+            R.raw.v7,
+            R.raw.v8,
+            R.raw.v9,
+            R.raw.v10
     };
     private static final String[] VIDEO_NAME_WITHOUT_EXTENSION = {
-           /* "topic1",
-            "topic2",
-            "topic3",
-            "topic4",
-            "topic5_1",
-            "topic5_2",
-            "topic6",
-            "topic7_1",
-            "topic7_2"*/
+           "v1",
+            "v2",
+            "v3",
+            "v4",
+            "v5",
+            "v6",
+            "v7",
+            "v8",
+            "v9",
+            "v10",
+            "v11"
     };
     private static final String[] VIDEO_TITLE = {
-            "Basic Health and Safety Procedure",
-            "Basic Tools Required for Electronic PCB Repairs",
-            "Calculation and Mensturation",
-            "Prepare and Interpret Technical Drawings",
-            "Computer Operations 1",
-            "Computer Operations 2",
-            "Two Way Switching",
-            "Air Conditioner Assembly",
-            "Air Conditioner Disassembly"
+            "OHS",
+            "Safety concerns when working on Electronics",
+            "Basic Electronic Components",
+            "How To Identify Electronic Components",
+            "Electronics Tools",
+            "How to Solder",
+            "How to Desolder",
+            "How to make circuit board",
+            "Power Supply",
+            "How to Read a Resistor"
     };
 
     public void loadVideoList(String query) {

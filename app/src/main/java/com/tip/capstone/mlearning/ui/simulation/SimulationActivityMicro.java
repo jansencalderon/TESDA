@@ -129,6 +129,8 @@ public class SimulationActivityMicro extends AppCompatActivity
         binding.activityLogRecyclerView.setLayoutManager(layoutManager);
 
 
+        addToLog("Troubleshooting starts.");
+
     }
 
     public void addToLog(String toBeAdded) {
@@ -178,6 +180,7 @@ public class SimulationActivityMicro extends AppCompatActivity
                         step2 = false;
                         step3 = true;
                         binding.hint.setText("Find the faulty component.");
+                        addToLog("Side Panel of the microwave is removed using a screw driver.");
                     } else {
                         imageView.setVisibility(View.VISIBLE);
                         MediaPlayer mp = MediaPlayer.create(SimulationActivityMicro.this, R.raw.engk);
@@ -187,7 +190,7 @@ public class SimulationActivityMicro extends AppCompatActivity
                     }
                 } else if (step3) {
                     if ((view.getId() == R.id.monitor) && (imageView.getId() == R.id.long_nose)) {
-                        addToLog("The faulty fuse has been removed from the appliace, replace it with a new one.");
+                        addToLog("Faulty fuse has been removed, replace it with a new one.");
                         binding.monitor.setImageDrawable(ContextCompat.getDrawable(SimulationActivityMicro.this, R.drawable.micro_interior));
                         binding.progress.setProgress(78f);
                         addToLog("Progress 78%");

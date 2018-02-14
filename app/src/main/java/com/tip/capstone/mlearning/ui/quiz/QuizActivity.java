@@ -2,6 +2,7 @@ package com.tip.capstone.mlearning.ui.quiz;
 
 import android.content.DialogInterface;
 import android.databinding.DataBindingUtil;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AlertDialog;
@@ -119,6 +120,26 @@ public class QuizActivity extends MvpViewStateActivity<QuizView, QuizPresenter> 
         String strNumItems = "Number of Items: " + topicQuestions.size();
         binding.txtNumItems.setText(strNumItems);
         Log.d(TAG, "onCreate: realm is instantiated");
+
+        final AlertDialog.Builder builder;
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            builder = new AlertDialog.Builder(QuizActivity.this, android.R.style.Theme_Material_Dialog_Alert);
+        } else {
+            builder = new AlertDialog.Builder(QuizActivity.this);
+        }
+        builder.setTitle(topic.getName())
+                .setMessage("Multiple Choice (1 point each)\n" +
+                        "Directions:\n" +
+                        "Select the correct answer provided by the choices for each questions.")
+                .setNeutralButton("CLOSE", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss();
+                    }
+                })
+                .setIcon(android.R.drawable.ic_dialog_alert)
+                .show();
+
     }
 
     @Override
@@ -141,7 +162,7 @@ public class QuizActivity extends MvpViewStateActivity<QuizView, QuizPresenter> 
                 .setPositiveButton("EXIT", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
-                        QuizActivity.this.finish();
+                        dialogInterface.dismiss();
                     }
                 })
                 .setNegativeButton("CANCEL", null)

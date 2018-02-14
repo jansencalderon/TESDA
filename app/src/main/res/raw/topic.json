@@ -4,69 +4,80 @@
     "difficultyId": 1,
     "sequence": 1,
     "title": "Practice occupational health and safety procedures",
-    "image": "topic1"
+    "image": "topic1",
+    "lo": "The students/trainees will be able to:\n> Identify hazards and risks.\n>Evaluate hazards and risks.\n> Control hazards and risks and\n> Maintain occupational health and safety awareness."
   },
   {
     "id": 2,
     "difficultyId": 1,
     "sequence": 2,
     "title": "Use hand tools",
-    "image": "topic2"
+    "image": "topic2",
+    "lo":"The students/trainees will be able to:\n> Plan and prepare tasks to be undertaken.\n> Prepare and distinguish classification of hand tools.\n> Use appropriate hand tools an test equipment and\n> Maintain hand tools."
   },
   {
     "id": 3,
     "difficultyId": 1,
     "sequence": 3,
     "title": "Perform mensuration and calculation",
-    "image": "topic3"
+    "image": "topic3",
+    "lo": "The students/trainees will be able to:\n> Select and distinguish measuring instrument.\n> Carry out measurement and calculation and\n> Maintain measuring instrument."
   },
   {
     "id": 4,
     "difficultyId": 1,
     "sequence": 4,
     "title": "Prepare and interpret technical drawings",
-    "image": "topic4"
+    "image": "topic4",
+    "lo": "The students/trainees will be able to:\n> Identify different kinds of technical drawings.\n> Interpret technical drawings and\n> Make changes to electrical electronic schematic and drawings."
   },
   {
     "id": 5,
     "difficultyId": 1,
     "sequence": 1,
     "title": "Perform Computer Operations",
-    "image": "topic5"
+    "image": "topic5",
+    "lo":"The students/trainees will be able to:\n> Plan and prepare for termination connection of electrical wiring circuits.\n> Terminate connection of electrical electronics wiring circuits and\n> Connect electrical electronics wiring circuits."
   },
   {
     "id": 6,
     "difficultyId": 1,
     "sequence": 2,
     "title": "Terminate and connect electrical wiring  and electronics circuit",
-    "image": "topic6"
+    "image": "topic6",
+    "lo": "The students/trainees will be able to:\n>Plan and prepare for termination connection of electrical wiring circuits\n>Terminate connection of electrical electronics wiring circuits and\n>Connect electrical electronics wiring circuits"
+
   },
   {
     "id": 7,
     "difficultyId": 1,
     "sequence": 3,
     "title": "Assemble/ disassemble consumer electronics products and systems",
-    "image": "topic7"
+    "image": "topic7",
+    "lo": "The students/trainees will be able to:\n> Plan and prepare for termination connection of electrical wiring circuits.\n> Terminate connection of electrical electronics wiring circuits and\n> Connect electrical electronics wiring circuits."
   },
   {
     "id": 8,
     "difficultyId": 1,
     "sequence": 1,
     "title": "Maintain and repair audio/ video products and systems",
-    "image": "topic8"
+    "image": "topic8",
+    "lo": "The students/trainees will be able to:\n> Enumerate, explain and apply OHS policies and procedures in maintaining Audio/Video systems.\n> Enumerate, explain and apply OHS policies and procedures in repairing Audio/Video systems.\n> Identify and explain the functions of different tools for maintaining and repairing Audio/Video systems.\n> Apply symptoms diagnosis and systematic pre-testing procedures and\n> Troubleshoot Audio/Video systems."
   },
   {
     "id": 9,
     "difficultyId": 1,
     "sequence": 2,
     "title": "Maintain and repair electronically- controlled domestic appliances",
-    "image": "topic9"
+    "image": "topic9",
+    "lo": "The students/trainees will be able to:\n> Enumerate, explain and apply OHS policies and procedures in maintaining electronically controlled appliances.\n> Enumerate, explain and apply OHS policies and procedures in repairing electronically controlled appliances.\n> Interpret the principles of operation of electronic symbols and block sections of schematic diagram."
   },
   {
     "id": 10,
     "difficultyId": 1,
     "sequence": 3,
     "title": "Maintain and repair cellular phones",
-    "image": "topic10"
+    "image": "topic10",
+    "lo": "The students/trainees will be able to:\n> Enumerate, explain and apply OHS policies and procedures in maintaining cellular phones.\n> Enumerate, explain and apply OHS policies and procedures in repairing cellular phones.\n> Interpret the principles of operation of electronic symbols and block sections of schematic diagram and\n> Apply symptoms diagnosis and systematic pre-testing procedures."
   }
 ]

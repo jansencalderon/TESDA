@@ -180,7 +180,7 @@
                     android:layout_height="wrap_content"
                     android:background="?selectableItemBackground"
                     android:padding="16dp"
-                    android:text="True or False"
+                    android:text="Assessment Grades"
                     android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
                     android:textColor="@color/colorAccent"
                     app:layout_widthPercent="40%" />
@@ -198,6 +198,7 @@
                     android:background="?selectableItemBackground"
                     android:padding="16dp"
                     android:text="Guess The Tools"
+                    android:visibility="gone"
                     android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
                     android:textColor="@color/colorAccent"
                     app:layout_widthPercent="40%" />

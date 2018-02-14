@@ -22,6 +22,7 @@ public class Topic extends RealmObject {
     private String video;
     private RealmList<Lesson> lessons;
     private RealmList<Question> questions;
+    private String lo;
 
     public int getId() {
         return id;
@@ -93,5 +94,17 @@ public class Topic extends RealmObject {
 
     public void setTitle(String title) {
         this.title = title;
+    }
+
+    public static String getColSeq() {
+        return COL_SEQ;
+    }
+
+    public String getLo() {
+        return lo;
+    }
+
+    public void setLo(String lo) {
+        this.lo = lo;
     }
 }

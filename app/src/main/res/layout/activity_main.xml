@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
 
     <data>
 
@@ -14,24 +15,23 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center"
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:padding="4dp"
-        android:weightSum="1">
+        android:weightSum="150">
 
         <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"
-            android:layout_weight=".5"
-            android:orientation="vertical"
-            android:weightSum="150">
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50"
+            android:orientation="horizontal"
+            android:weightSum="100">
 
             <android.support.v7.widget.CardView
                 android:id="@+id/study"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
                 android:layout_margin="3dp"
-                android:layout_weight="50"
+                android:layout_weight="70"
                 android:foreground="?selectableItemBackground"
                 app:cardCornerRadius="10dp"
                 app:cardElevation="0dp"
@@ -45,7 +45,7 @@
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:foreground="@drawable/bg_gradient"
+                        android:foreground="@drawable/bg_exp"
                         android:scaleType="centerCrop"
                         android:src="@drawable/study" />
 
@@ -60,12 +60,146 @@
                         android:textSize="20sp"
                         android:textStyle="bold" />
                 </RelativeLayout>
+
+
             </android.support.v7.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:orientation="vertical"
+                android:weightSum="100">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/videos"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="50"
+                    android:foreground="?selectableItemBackground"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="0dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:foreground="@drawable/bg_exp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/videos" />
+
+                        <com.joanzapata.iconify.widget.IconTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="{entypo-folder-video}  VIDEOS"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/results"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="50"
+                    android:foreground="?selectableItemBackground"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="0dp">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:foreground="@drawable/bg_exp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/results" />
+
+                        <com.joanzapata.iconify.widget.IconTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="{entypo-line-graph}  GRADES"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/simulation"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_weight="100"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="0dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimary">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:foreground="@drawable/bg_exp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/simulation" />
+
+                    <com.joanzapata.iconify.widget.IconTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="{entypo-line-graph}  SIMULATION"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50"
+            android:orientation="horizontal"
+            android:weightSum="100">
 
             <android.support.v7.widget.CardView
                 android:id="@+id/assessment"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_margin="3dp"
                 android:layout_weight="50"
                 app:cardCornerRadius="10dp"
@@ -81,7 +215,7 @@
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:foreground="@drawable/bg_gradient"
+                        android:foreground="@drawable/bg_exp"
                         android:scaleType="centerCrop"
                         android:src="@drawable/asessment" />
 
@@ -101,11 +235,10 @@
 
             <android.support.v7.widget.CardView
                 android:id="@+id/map"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_margin="3dp"
                 android:layout_weight="50"
-                android:foreground="?selectableItemBackground"
                 app:cardCornerRadius="10dp"
                 app:cardElevation="0dp"
                 app:cardPreventCornerOverlap="true">
@@ -119,7 +252,7 @@
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:foreground="@drawable/bg_gradient"
+                        android:foreground="@drawable/bg_exp"
                         android:scaleType="centerCrop"
                         android:src="@drawable/schools" />
 
@@ -135,6 +268,18 @@
                         android:textStyle="bold" />
                 </RelativeLayout>
             </android.support.v7.widget.CardView>
+        </LinearLayout>
+        <!--<LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight=".5"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:weightSum="150">
+
+
+
 
 
         </LinearLayout>
@@ -145,115 +290,15 @@
             android:layout_gravity="center"
             android:layout_weight=".5"
             android:orientation="vertical"
+            android:visibility="gone"
             android:weightSum="150">
 
-            <android.support.v7.widget.CardView
-                android:id="@+id/videos"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_margin="3dp"
-                android:layout_weight="50"
-                android:foreground="?selectableItemBackground"
-                app:cardCornerRadius="10dp"
-                app:cardElevation="0dp">
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorPrimary">
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:foreground="@drawable/bg_gradient"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/videos" />
-
-                    <com.joanzapata.iconify.widget.IconTextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_centerInParent="true"
-                        android:layout_gravity="center"
-                        android:gravity="center"
-                        android:text="{entypo-folder-video}  VIDEOS"
-                        android:textColor="@color/white"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-                </RelativeLayout>
-            </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView
-                android:id="@+id/simulation"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_margin="3dp"
-                android:layout_weight="50"
-                app:cardCornerRadius="10dp"
-                app:cardElevation="0dp">
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorPrimary">
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:foreground="@drawable/bg_gradient"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/simulation" />
-
-                    <com.joanzapata.iconify.widget.IconTextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_centerInParent="true"
-                        android:layout_gravity="center"
-                        android:gravity="center"
-                        android:text="{entypo-line-graph}  SIMULATION"
-                        android:textColor="@color/white"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-                </RelativeLayout>
-            </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView
-                android:id="@+id/results"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_margin="3dp"
-                android:layout_weight="50"
-                android:foreground="?selectableItemBackground"
-                app:cardCornerRadius="10dp"
-                app:cardElevation="0dp">
 
 
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorPrimary">
 
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:foreground="@drawable/bg_gradient"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/results" />
-
-                    <com.joanzapata.iconify.widget.IconTextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_centerInParent="true"
-                        android:layout_gravity="center"
-                        android:gravity="center"
-                        android:text="{entypo-line-graph}  GRADES"
-                        android:textColor="@color/white"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-                </RelativeLayout>
-            </android.support.v7.widget.CardView>
 
         </LinearLayout>
-
+-->
 
     </LinearLayout>
 

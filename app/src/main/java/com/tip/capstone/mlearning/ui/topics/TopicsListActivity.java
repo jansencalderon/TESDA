@@ -1,7 +1,9 @@
 package com.tip.capstone.mlearning.ui.topics;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.databinding.DataBindingUtil;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.content.ContextCompat;
@@ -141,10 +143,25 @@ public class TopicsListActivity extends MvpActivity<TopicListView, TopicListPres
     }
 
     @Override
-    public void onTopicClicked(Topic topic) {
-        Intent intent = new Intent(this, LessonActivity.class);
-        intent.putExtra(Constant.ID, topic.getId());
-        startActivity(intent);
+    public void onTopicClicked(final Topic topic) {
+        final AlertDialog.Builder builder;
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            builder = new AlertDialog.Builder(TopicsListActivity.this, android.R.style.Theme_Material_Dialog_Alert);
+        } else {
+            builder = new AlertDialog.Builder(TopicsListActivity.this);
+        }
+        builder.setTitle("Intended Learning Outcomes")
+                .setMessage(topic.getLo())
+                .setNeutralButton("START", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        Intent intent = new Intent(TopicsListActivity.this, LessonActivity.class);
+                        intent.putExtra(Constant.ID, topic.getId());
+                        startActivity(intent);
+                    }
+                })
+                .setIcon(android.R.drawable.ic_dialog_alert)
+                .show();
     }
 
     @Override
