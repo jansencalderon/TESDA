@@ -2,1201 +2,793 @@
   {
     "id": 1,
     "topicId": 1,
-    "answer": "5's Principle",
-    "lesson_detail": 62,
-    "question": "Applying this principle will reduce errors by having a robust document and version control in place this will prevent old copies of forms or  documents being sent to customers.",
-    "question_type": 1
+    "answer": "5S System",
+    "lesson_detail": 36,
+    "question": "It is a lean manufacturing tool that improves workplace efficiency and eliminates waste. Trainees and instructors achieve greater organization, standardization, and efficiency—all while reducing costs and boosting productivity.",
+    "question_type": "1"
   },
   {
     "id": 2,
     "topicId": 1,
-    "answer": "Threshold Limit Value (TLV) ",
-    "lesson_detail": 55,
-    "question": "It is an occupational exposure value recommended by ACGIH to which it is believed nearly all workers can be exposed for lifetime without affecting health.",
-    "question_type": 1
+    "answer": "Personal Protective Equipment",
+    "lesson_detail": 22,
+    "question": "A set of equipment that will protect the user against health or safety risks at work.",
+    "question_type": "1"
   },
   {
     "id": 3,
     "topicId": 1,
-    "answer": "Organizational safety and health protocol",
-    "lesson_detail": 50,
-    "question": "Every student must have this equipment to prevent injuries throughout the whole class.",
-    "question_type": 1
+    "answer": "Shine",
+    "lesson_detail": 45,
+    "question": "One of the 5's principle that entails a thorough cleaning. In this step entails a thorough cleaning of the area, equipment, and tools.",
+    "question_type": "1"
   },
   {
     "id": 4,
     "topicId": 1,
-    "answer": "Contact Injuries.",
-    "lesson_detail": 8,
-    "question": "A hazard that can be prevented by not using the workshop equiptments unless they have received a sufficient training and permission from the technician in – charge.",
-    "question_type": 1
+    "answer": "Employee's Compensation Commission",
+    "lesson_detail": 59,
+    "question": "A government corporation that is attached to DOLE for policy coordination and guidance. It is a quasi-judicial corporate entity created to implement the Employees’ Compensation Program.",
+    "question_type": "1"
   },
   {
     "id": 5,
     "topicId": 1,
-    "answer": "Fire",
-    "lesson_detail": 34,
-    "question": "A hazard that can be prevented by making sure the equipment should be switched off when not in use for long periods of time.",
-    "question_type": 1
+    "answer": "Clean Air Act",
+    "lesson_detail": 64,
+    "question": "A Philippines Republic Act that outlines the government’s measures to reduce air pollution and incorporate environmental protection into its development plans.",
+    "question_type": "1"
   },
   {
     "id": 6,
     "topicId": 1,
-    "answer": "Helmet",
+    "answer": "Philippine OSH Standards",
     "lesson_detail": 52,
-    "question": "A form of protective gear worn to protect the head from injuries.",
-    "question_type": 1
+    "question": "It was formulated in 1978 in compliance with the constitutional mandate to safeguard the worker’s social and economic well-being as well as his physical safety and health.",
+    "question_type": "1"
   },
   {
     "id": 7,
     "topicId": 1,
-    "answer": "Short-Term Exposure Limit",
-    "lesson_detail": 56,
-    "question": "A TLV type that is the absolute exposure limit that should not be exceeded at any time",
-    "question_type": 1
+    "answer": "Standardize",
+    "lesson_detail": 47,
+    "question": "The fourth step in the 5s principle is to make your 5S practices effective and efficient. This is accomplished by simplifying and standardizing.",
+    "question_type": "1"
   },
   {
     "id": 8,
     "topicId": 1,
-    "answer": "Eye Protection",
-    "lesson_detail": 52,
-    "question": "Is a protective gear to prevent foreign materials from coming to the eyes.",
-    "question_type": 1
+    "answer": "Waste Management",
+    "lesson_detail": 75,
+    "question": "Also known as the Republic Act 9003, it was enacted to provide a framework for managing the growing problem of solid waste in the country.",
+    "question_type": "1"
   },
   {
     "id": 9,
     "topicId": 1,
-    "answer": "Ceiling Limit ",
-    "lesson_detail": 56,
-    "question": " A TLV type that is the absolute exposure limit that should not be exceeded at any time",
-    "question_type": 1
+    "answer": "Sort",
+    "lesson_detail": 41,
+    "question": "One of the 5's principle that means to sort through & separate everything in each work area and keep only what is necessary. Materials, tools and equipment that are not frequently used should be moved to a separate storage area.",
+    "question_type": "1"
   },
   {
     "id": 10,
     "topicId": 1,
-    "answer": "Average",
-    "lesson_detail": 56,
-    "question": "A TLV type that is the average exposure on the basis of a 8h/day, 40h/week work schedule.",
-    "question_type": 1
+    "answer": "Sustain",
+    "lesson_detail": 49,
+    "question": "The fifth and final 5s in the program, in this step you'll need to train people to clean, organize and inspect their work areas every day, and not let clutter accumulate in any location.",
+    "question_type": "1"
   },
   {
     "id": 11,
-    "topicId": 1,
-    "answer": "Protective Clothing",
-    "lesson_detail": 52,
-    "question": "A type of clothing that covers the user from neck to ankle which prevents is wearer from injuries and skin irritation.",
-    "question_type": 1
+    "topicId": 2,
+    "answer": "Electronic Test Equipment",
+    "lesson_detail": 145,
+    "question": "This equipment/s is used to create signals or capture responses from electronic devices under test (DUTs). In this way, the proper operation of the DUT can be proven or faults in the device can be traced. Use of electronic test equipment is essential to any serious work on electronics systems. The following items are used for troubleshooting in electronics.",
+    "question_type": "1"
   },
   {
     "id": 12,
-    "topicId": 1,
-    "answer": "OHS indicators",
-    "lesson_detail": 58,
-    "question": "Are the requirements workers come across various health and safety hazards while working.",
-    "question_type": 1
+    "topicId": 2,
+    "answer": "Multimeter",
+    "lesson_detail": 150,
+    "question": "A test tool used to measure two or more electrical values, principally voltage (volts), current (amps) and resistance (ohms). It is a standard diagnostic tool for technicians in the electrical/electronic industries.",
+    "question_type": "1"
   },
   {
     "id": 13,
-    "topicId": 1,
-    "answer": "Sustain",
-    "lesson_detail": 63,
-    "question": "Also translates as do without being told. This 5's principle means training and discipline.",
-    "question_type": 1
+    "topicId": 2,
+    "answer": "Lab Power Supply",
+    "lesson_detail": 153,
+    "question": "It is an electrical device that supplies electric power to an electrical load.",
+    "question_type": "1"
   },
   {
     "id": 14,
-    "topicId": 1,
-    "answer": "Set",
-    "lesson_detail": 63,
-    "question": "This principle means arrange all necessary items so that they can be easily selected for   use.",
-    "question_type": 1
+    "topicId": 2,
+    "answer": "Oscilloscope",
+    "lesson_detail": 147,
+    "question": "An equipment that test and displays voltage signals as waveforms, visual representations of the variation of voltage over time.",
+    "question_type": "1"
   },
   {
     "id": 15,
-    "topicId": 1,
-    "answer": "Standard",
-    "lesson_detail": 63,
-    "question": "This 5's principle means maintaining high standards in workplace organization at all times.",
-    "question_type": 1
+    "topicId": 2,
+    "answer": "Soldering Iron",
+    "lesson_detail": 86,
+    "question": "The most important tool. A hand tool that supplies heat to melt solder so that it can flow into the joint between two work pieces.",
+    "question_type": "1"
   },
   {
     "id": 16,
     "topicId": 2,
-    "answer": "Soldering Iron",
-    "lesson_detail": 120,
-    "question": "A tool used in soldering, it supplies heat to melt the solder so that it can flow to the joint between 2 work pieces.\n",
-    "question_type": 1
+    "answer": "Solder",
+    "lesson_detail": 86,
+    "question": "A fusible metal alloy used to create a permanent bond between metal work pieces.",
+    "question_type": "1"
   },
   {
     "id": 17,
     "topicId": 2,
-    "answer": "De - Soldering Iron/Pump",
-    "lesson_detail": 120,
-    "question": "It is a manually or electrical powered equipment which is used to remove solder from a wire or circuit board.\n",
-    "question_type": 1
+    "answer": "Wire Cutter",
+    "lesson_detail": 88,
+    "question": "This is essential for cutting small, thick wires and excess legs in electronic components.",
+    "question_type": "1"
   },
   {
     "id": 18,
     "topicId": 2,
-    "answer": "Standard Screw Driver",
-    "lesson_detail": 120,
-    "question": "It is used to drive slotted screws, it is commonly used by everyone and commonly found in households.",
-    "question_type": 1
+    "answer": "Wire Stripper",
+    "lesson_detail": 88,
+    "question": "It is a tool used for stripping the electrical insulation of wires. It commonly has measurements for various wire gauges.",
+    "question_type": "1"
   },
   {
     "id": 19,
     "topicId": 2,
-    "answer": "Allen Wrench Key",
-    "lesson_detail": 111,
-    "question": "A hand tool used for driving bolts and screws with a hexagonal sockets type screw head.",
-    "question_type": 1
+    "answer": "Screwdrivers",
+    "lesson_detail": 90,
+    "question": "A common tool used by everyone. It is used for inserting and removing screws. A screwdriver set is a set of screwdriver in different sizes and head designs.",
+    "question_type": "1"
   },
   {
     "id": 20,
     "topicId": 2,
-    "answer": "Phillip’s Screw Driver",
-    "lesson_detail": 111,
-    "question": "A type of hand tool commonly used for driving/screwing slotted screw heads.",
-    "question_type": 1
+    "answer": "Precision Screwdrivers",
+    "lesson_detail": 90,
+    "question": "Same as its bigger version, a precision screwdriver is used for inserting and removing small screws.",
+    "question_type": "1"
   },
   {
     "id": 21,
-    "topicId": 2,
-    "answer": "Wrench",
-    "lesson_detail": 111,
-    "question": "A tool used to provide a sufficient grip and mechanical advantage in applying torque to turn rotary fasteners such as nuts and bolts.",
-    "question_type": 1
+    "topicId": 3,
+    "answer": "Test Light",
+    "lesson_detail": 193,
+    "question": "A simple piece of electronic test equipment used to determine the presence or absence of an electric voltage a piece of equipment under test. Properly designed test lights include features to protect the user from accidental electric shock.",
+    "question_type": "1"
   },
   {
     "id": 22,
-    "topicId": 2,
-    "answer": "Side Cutter/Wire Snipper",
-    "lesson_detail": 117,
-    "question": "A type of pliers intended for cutting wires.",
-    "question_type": 1
+    "topicId": 3,
+    "answer": "Wire Gauge",
+    "lesson_detail": 199,
+    "question": "A measuring tool for wire diameters. This determines the amount of electric current a wire can safely carry, as well as its electrical resistance and weight.",
+    "question_type": "1"
   },
   {
     "id": 23,
-    "topicId": 2,
-    "answer": "Long Nose Pliers",
-    "lesson_detail": 117,
-    "question": "A both cutting and holding type of pliers used to ben, ",
-    "question_type": 1
+    "topicId": 3,
+    "answer": "Micrometer",
+    "lesson_detail": 196,
+    "question": "In electric work, it is used to measure the diameter of wire/conductors in a circuit/appliance. Because some appliances have little to no free space it is difficult to use a wire gauge, micrometer is used because its smaller and it measures accurately.",
+    "question_type": "1"
   },
   {
     "id": 24,
-    "topicId": 2,
-    "answer": "Utility Knife",
-    "lesson_detail": 114,
-    "question": "A type of cutting tool used for general purposes such as opening boxes, cutting and stripping wires.",
-    "question_type": 1
+    "topicId": 3,
+    "answer": "Ammter",
+    "lesson_detail": 205,
+    "question": "A tool used to check wiring when surges appear to be happening frequently, especially in older homes where older wiring could be faulty. They can also locate which circuits are having trouble. There are different types of ammeters. Some ammeters measure direct current, and some measure alternating current.",
+    "question_type": "1"
   },
   {
     "id": 25,
-    "topicId": 2,
-    "answer": "Poorly designed hand tools",
-    "lesson_detail": 129,
-    "question": "Too heavy, poorly balanced, with a grip that is too large, the wrong shape, or slippery — can lead to injuries of the hand, wrist, forearm, shoulder, and neck. Here are the guidelines in selecting the right tool.",
-    "question_type": 1
+    "topicId": 3,
+    "answer": "Wattmeter",
+    "lesson_detail": 208,
+    "question": "An instrument for measuring the in watts of any given circuit. An electricity meter, electrical meter, or energy meter, or a watt meter is a device that measures the amount of electric energy consumed by a residence, a business, or an electrically powered device.",
+    "question_type": "1"
   },
   {
     "id": 26,
-    "topicId": 2,
-    "answer": "Weight",
-    "lesson_detail": 135,
-    "question": "Often a problem with power tools and tools such as drills, hammers, and saws. If the center of gravity of a heavy tool is far from the wrist, this maximum weight should be reduced. ",
-    "question_type": 1
+    "topicId": 3,
+    "answer": "Tape Measure",
+    "lesson_detail": 202,
+    "question": "It is flexible and used to measure distance and object dimensions.",
+    "question_type": "1"
   },
   {
     "id": 27,
-    "topicId": 2,
-    "answer": "Grip",
-    "lesson_detail": 132,
-    "question": "A properly designed grip helps to reduce fatigue and pain. Tools that can be used in either hand allow workers to alternate hands and the tool can be used properly by the 10 percent of workers who are left-handed. ",
-    "question_type": 1
+    "topicId": 3,
+    "answer": "Ammter",
+    "lesson_detail": 245,
+    "question": "When using this tool, first is you need to: Calibrate the tool at frequent intervals, Protect the instrument from dust, moisture and heat careful when measuring high voltages",
+    "question_type": "1"
   },
   {
     "id": 28,
     "topicId": 3,
-    "answer": "Watt Meter",
-    "lesson_detail": 217,
-    "question": "An instrument for measuring in watts of any given circuit. ",
-    "question_type": 1
+    "answer": "Test Light",
+    "lesson_detail": 237,
+    "question": "When using this tool, you need to: Use a high quality test light, poorly made ones uses low quality materials and might catch fire if it was contacted to high voltage.",
+    "question_type": "1"
   },
   {
     "id": 29,
     "topicId": 3,
-    "answer": "Volt Meter",
-    "lesson_detail": 211,
-    "question": "An instrument used for measuring electrical potential difference between two points in an electric circuit.",
-    "question_type": 1
+    "answer": "Wattmeter",
+    "lesson_detail": 247,
+    "question": "When using this tool, you need to: Be careful when measuring high voltages",
+    "question_type": "1"
   },
   {
     "id": 30,
     "topicId": 3,
-    "answer": "Ohm Meter",
-    "lesson_detail": 215,
-    "question": "Electronic instrument which is widely used to check a complete circuit or to measure the resistance of a circuit element.",
-    "question_type": 1
+    "answer": "Tape Measure",
+    "lesson_detail": 243,
+    "question": "When using this tool, you need to:\n> Make sure that the measuring tape has been returned to zero\r\n> Check if there are rust, wear or scratch etc. in the surface of the measuring tape.\r\n> Clean the burrs, grease or slag on the surface\r\n> Clean with clean soft cloth or dust free paper\"\t1\r\n31\t4\tElectronic Component\t250\tAre basic electronic elements or electronic parts usually packaged in a discrete form with two or more connecting leads or metallic pads.\t1\r\n32\t4\t",
+    "question_type": "1"
   },
   {
     "id": 31,
-    "topicId": 3,
-    "answer": "Test Light",
-    "lesson_detail": 203,
-    "question": "A simple piece of electronic test equipment used to determine the presence or absence of an electric voltage a piece of equipment under test.",
-    "question_type": 1
-  },
-  {
-    "id": 32,
-    "topicId": 3,
-    "answer": "Tape Measure",
-    "lesson_detail": 209,
-    "question": "A flexible ruler and used to measure distance and object dimensions.=",
-    "question_type": 1
+    "topicId": 252,
+    "answer": "Electronic Component",
+    "lesson_detail": 250,
+    "question": "Components that uses an electrical signal to cause some kind of mechanical change.",
+    "question_type": "1"
   },
   {
     "id": 33,
-    "topicId": 3,
-    "answer": "Micrometer",
-    "lesson_detail": 205,
-    "question": "It is used to measure the diameter of wire/conductors in a circuit/appliance. ",
-    "question_type": 1
+    "topicId": 4,
+    "answer": "Active Electronic Components",
+    "lesson_detail": 252,
+    "question": "Components that are nothing but, a component that provides and controls energy.",
+    "question_type": "1"
   },
   {
     "id": 34,
-    "topicId": 3,
-    "answer": "Wire Gauge",
-    "lesson_detail": 207,
-    "question": "A measuring tool for wire diameters.",
-    "question_type": 1
+    "topicId": 4,
+    "answer": "Passive Electronic Components",
+    "lesson_detail": 252,
+    "question": "Components that may be outlined as a component that responds to the flow of voltage and either dissipates or store energy.",
+    "question_type": "1"
   },
   {
     "id": 35,
-    "topicId": 3,
-    "answer": "Ammeter",
-    "lesson_detail": 213,
-    "question": "A tool used to check wiring when surges appear to be happening frequently, especially in older homes where older wiring could be faulty.",
-    "question_type": 1
+    "topicId": 4,
+    "answer": "Diode",
+    "lesson_detail": 255,
+    "question": "A component that essentially acts as a one-way switch for current. It allows current to flow easily in one direction, but severely restricts current from flowing in the opposite direction.",
+    "question_type": "1"
   },
   {
     "id": 36,
     "topicId": 4,
-    "answer": "Orthographic Projection",
-    "lesson_detail": 266,
-    "question": "A drawing convention that is producing an accurate working drawing of a 3D object using 3 separate 2D views from 3 different viewpoints.",
-    "question_type": 1
+    "answer": "Capacitor",
+    "lesson_detail": 270,
+    "question": "A component that stores energy in the form of an electrostatic field.",
+    "question_type": "1"
   },
   {
     "id": 37,
     "topicId": 4,
-    "answer": "Isometric Projection",
-    "lesson_detail": 266,
-    "question": "A drawing convention that is producing an accurate drawing of a 3D object using a combination of 30º lines for lines.",
-    "question_type": 1
+    "answer": "Resistor",
+    "lesson_detail": 267,
+    "question": "A component that creates resistance in the flow of electric current. In almost all electrical networks and electronic circuits they can be found.",
+    "question_type": "1"
   },
   {
     "id": 38,
     "topicId": 4,
-    "answer": "British Standard Dimensions",
-    "lesson_detail": 266,
-    "question": "An internationally recognized set of rules for applying dimensions to working drawings.",
-    "question_type": 1
+    "answer": "Switch",
+    "lesson_detail": 282,
+    "question": "A component used to interrupt the flow of electrons in a circuit.",
+    "question_type": "1"
   },
   {
     "id": 39,
     "topicId": 4,
-    "answer": "Styrofoam",
-    "lesson_detail": 269,
-    "question": "An expanded polystyrene foam in block form suitable for modeling.",
-    "question_type": 1
+    "answer": "Electronic Symbol",
+    "lesson_detail": 287,
+    "question": "It iss a pictogram used to represent various and electronic devices or functions such as wires, batteries, resistors and transistors, in a schematic diagram of an electrical or electronic circuit.",
+    "question_type": "1"
   },
   {
     "id": 40,
     "topicId": 4,
-    "answer": "Polymer",
-    "lesson_detail": 269,
-    "question": "A type of plastic composed of long chains of molecules.",
-    "question_type": 1
-  },
-  {
-    "id": 41,
-    "topicId": 4,
-    "answer": "Square",
-    "lesson_detail": 273,
-    "question": "Triangular drawing instrument in two versions – one with 45º angles, the other with 30º/60º angles. Both have one 90º corner. ",
-    "question_type": 1
-  },
-  {
-    "id": 42,
-    "topicId": 4,
-    "answer": "Craft Knife",
-    "lesson_detail": 276,
-    "question": "Extremely sharp modeling knife for cutting card and paper with accuracy. ",
-    "question_type": 1
-  },
-  {
-    "id": 43,
-    "topicId": 4,
-    "answer": "Line Bending",
-    "lesson_detail": 301,
-    "question": "The process of heating a narrow area of a sheet of thermoplastic so that the sheet can be folded to a certain angle.",
-    "question_type": 1
-  },
-  {
-    "id": 44,
-    "topicId": 4,
-    "answer": "Vaccum Forming",
-    "lesson_detail": 291,
-    "question": "The process of heating a sheet of thermoplastic forcing it over a prepared mold and drawing out all of the air under it to creat a hallow shape.",
-    "question_type": 1
-  },
-  {
-    "id": 45,
-    "topicId": 4,
-    "answer": "Injection Molding",
+    "answer": "Electronic Schematic",
     "lesson_detail": 298,
-    "question": "The process of forcing molten plastic into a mold to create solid objects.",
-    "question_type": 1
-  },
-  {
-    "id": 46,
-    "topicId": 4,
-    "answer": "Wire",
-    "lesson_detail": 305,
-    "question": "It is used to connect the components in a circuit.",
-    "question_type": 1
-  },
-  {
-    "id": 47,
-    "topicId": 4,
-    "answer": "Earth",
-    "lesson_detail": 305,
-    "question": "It is a metal plate, water pipe, or other conductor of electricity partially buried in the earth so as to constitute and provide a reliable conductive path to the ground",
-    "question_type": 1
-  },
-  {
-    "id": 48,
-    "topicId": 4,
-    "answer": "Resistor",
-    "lesson_detail": 305,
-    "question": "A device having resistance to the passage of an electric current.\n",
-    "question_type": 1
-  },
-  {
-    "id": 49,
-    "topicId": 4,
-    "answer": "Capacitor",
-    "lesson_detail": 305,
-    "question": "A device used to store an electric charge, consisting of one or more pairs of conductors separated by an insulator.",
-    "question_type": 1
-  },
-  {
-    "id": 50,
-    "topicId": 4,
-    "answer": "Tabular",
-    "lesson_detail": 321,
-    "question": "A system in which size and location dimensions are given from datums or coordinates given in a table identifying features on the drawing",
-    "question_type": 1
-  },
-  {
-    "id": 51,
-    "topicId": 5,
-    "answer": "Act 2004",
-    "lesson_detail": 133,
-    "question": " This Act was varied to include the following health and safety principles",
-    "question_type": 1
-  },
-  {
-    "id": 52,
-    "topicId": 5,
-    "answer": "All Victorian workers ",
-    "lesson_detail": 134,
-    "question": " Who is covered by the Act S5 and S6",
-    "question_type": 1
-  },
-  {
-    "id": 53,
-    "topicId": 5,
-    "answer": "Real Time OS and Multitasking OS",
-    "lesson_detail": 137,
-    "question": " Computer Operating systems are broadly classified into two types, what are those?",
-    "question_type": 1
-  },
-  {
-    "id": 54,
-    "topicId": 5,
-    "answer": "Character User Interface(CUI) OS",
-    "lesson_detail": 139,
-    "question": " It is a text-based operating system, which is used for interacting with the software or files by typing commands to perform specific tasks.",
-    "question_type": 1
-  },
-  {
-    "id": 55,
-    "topicId": 5,
-    "answer": "Graphical User Interface(GUI) OS",
-    "lesson_detail": 139,
-    "question": " It is a mouse-based operating system (Windows Operating System, LINUX), wherein a user performs the tasks or operations without typing the commands from the keyboard.",
-    "question_type": 1
-  },
-  {
-    "id": 56,
-    "topicId": 5,
-    "answer": "Architecture of Operating Systems",
-    "lesson_detail": 139,
-    "question": "  The operating systems control the hardware resources of a computer. The kernel and shell are the parts of the operating system that perform essential operations.",
-    "question_type": 1
-  },
-  {
-    "id": 57,
-    "topicId": 5,
-    "answer": "Memory",
-    "lesson_detail": 153,
-    "question": " It refers to the computer hardware devices involved to store information for immediate use in a computer; it is synonymous with the term ",
-    "question_type": 1
+    "question": "A diagram of a circuit that uses electronic symbols to represent circuit components and lines to show the connections between components.",
+    "question_type": "1"
   },
   {
     "id": 58,
     "topicId": 5,
-    "answer": "Chair; Parallel",
-    "lesson_detail": 173,
-    "question": " Adjust the height of the _____ to achieve proper posture – your legs from the body should be close to _____ to the floor.",
-    "question_type": 1
+    "answer": "Flash Drive",
+    "lesson_detail": 314,
+    "question": "The thumb drive is a portable storage device. You use it store information from a computer and use it on another system.",
+    "question_type": "1"
   },
   {
     "id": 59,
     "topicId": 5,
-    "answer": "System Software",
-    "lesson_detail": 178,
-    "question": " It is computer software designed to provide platform to other software(s).",
-    "question_type": 1
+    "answer": "Volatile Memory",
+    "lesson_detail": 323,
+    "question": "It is a computer memory that requires power to maintain the stored information.",
+    "question_type": "1"
   },
   {
     "id": 60,
     "topicId": 5,
-    "answer": "Boot Program",
-    "lesson_detail": 179,
-    "question": "  Loads the operating system into the computer's main memory or random access memory (RAM).",
-    "question_type": 1
+    "answer": "Non-Volatile Memory",
+    "lesson_detail": 324,
+    "question": "It is computer memory that can retain the stored information even when not powered.",
+    "question_type": "1"
   },
   {
     "id": 61,
     "topicId": 5,
-    "answer": "Character User Interface and Graphical User Interface",
-    "lesson_detail": 138,
-    "question": " Normal operating system is further classified into two types: What are those?",
-    "question_type": 1
+    "answer": "Boot Program",
+    "lesson_detail": 371,
+    "question": "Loads the operating system into the computer's main memory or random access memory (RAM).",
+    "question_type": "1"
   },
   {
     "id": 62,
     "topicId": 5,
-    "answer": "Shell",
-    "lesson_detail": 140,
-    "question": " It is a part of the software which is placed between the user and the kernel, and it provides services of the kernel.",
-    "question_type": 1
+    "answer": "TRUE ",
+    "lesson_detail": 360,
+    "question": "Ensure that your forearms are parallel to the floor or slightly downward when you are typing.",
+    "question_type": "1"
   },
   {
     "id": 63,
     "topicId": 5,
-    "answer": "Command Line shells",
-    "lesson_detail": 140,
-    "question": " It provide a command line interface while graphical line shells provide a graphical user interface.",
-    "question_type": 1
+    "answer": "TRUE ",
+    "lesson_detail": 362,
+    "question": "Avoid long periods of repetitive activity; where possible, alternate computer work with other tasks like filing, phone calls, etc.",
+    "question_type": "1"
   },
   {
     "id": 64,
     "topicId": 5,
-    "answer": "Graphical Line Shells",
-    "lesson_detail": 140,
-    "question": " It provides a graphical user interface.",
-    "question_type": 1
+    "answer": "All of the Above",
+    "lesson_detail": 332,
+    "question": "What will you do if Computer Frozen (HANG)?",
+    "question_type": "1"
   },
   {
     "id": 65,
     "topicId": 5,
-    "answer": "Kernel",
-    "lesson_detail": 140,
-    "question": " It is a part of a software. It is like a bridge between the shell and hardware. It is responsible for running programs and providing secure access to the machine’s hardware.",
-    "question_type": 1
+    "answer": "Printer",
+    "lesson_detail": 308,
+    "question": "It is used to develop a hard copy or paper copy of a document or picture. The printer connects to the computer and requires the use of its own power cord.",
+    "question_type": "1"
   },
   {
     "id": 66,
     "topicId": 5,
-    "answer": "Virtual and Physical",
-    "lesson_detail": 142,
-    "question": " A CPU consists of two types of memory modules: What are those?",
-    "question_type": 1
+    "answer": "Security Measures",
+    "lesson_detail": 391,
+    "question": "It is the protection of computer systems from the theft or damage to their hardware, software or information, as well as from disruption or misdirection of the services they provide.",
+    "question_type": "1"
   },
   {
     "id": 67,
     "topicId": 5,
-    "answer": "Process Management",
-    "lesson_detail": 142,
-    "question": " It  is an instance of a program that is being executed.",
-    "question_type": 1
+    "answer": "BIOS ",
+    "lesson_detail": 368,
+    "question": "Gets the computer system started after you turn it on and manages the data flow between the operating system and attached devices such as the hard disk, video adapter, keyboard, mouse, and printer.",
+    "question_type": "1"
   },
   {
     "id": 68,
-    "topicId": 5,
-    "answer": "Storage Management",
-    "lesson_detail": 142,
-    "question": " It is a function of the operating system that handles memory allocation of the data.",
-    "question_type": 1
+    "topicId": 6,
+    "answer": "Electronic Test Equipment",
+    "lesson_detail": 418,
+    "question": "It is used to create signals and capture responses from electronic devices under test (DUTs). In this way, the proper operation of the DUT can be proven or faults in the device can be traced.",
+    "question_type": "1"
   },
   {
     "id": 69,
-    "topicId": 5,
-    "answer": "Long term scheduler; Short term scheduler; Medium term schedule",
-    "lesson_detail": 142,
-    "question": " The schedulers are mainly of three types:",
-    "question_type": 1
+    "topicId": 6,
+    "answer": "Electrical Testers",
+    "lesson_detail": 422,
+    "question": "These are used to check both AC and DC voltage, continuity, circuit problems, amperage, shorted and open circuit problems, and to make sure the voltages are correct at the electrical panel.",
+    "question_type": "1"
   },
   {
     "id": 70,
-    "topicId": 5,
-    "answer": "Hard Real-Time System",
-    "lesson_detail": 142,
-    "question": " It is a purely time constant system. For a hard real time operating system, finishing the tasks within deadline is very important for an efficient system performance.",
-    "question_type": 1
+    "topicId": 6,
+    "answer": "Continuity Tester",
+    "lesson_detail": 426,
+    "question": "It is a device that is powered by batteries and has a probe at one end and a cord with either an alligator clip or another probe at the other end.",
+    "question_type": "1"
   },
   {
     "id": 71,
     "topicId": 6,
-    "answer": "Always cover sharp pointed tools w/ cork",
-    "lesson_detail": 220,
-    "question": " One of the Proper Care and Maintenance of Tools and Equipment is:",
-    "question_type": 1
+    "answer": "Multimeters",
+    "lesson_detail": 441,
+    "question": "These are the most complex electrical testers because like their name says they perform various functions of testing. With this tester, you can have precise readings of resistance, AC and DC voltage, continuity, capacitance, and frequency if you get the high-dollar tester.",
+    "question_type": "1"
   },
   {
     "id": 72,
     "topicId": 6,
-    "answer": "Safe Use",
-    "lesson_detail": 223,
-    "question": " These risks can vary greatly. Above all, what matters is that whoever has to use any tool or piece of equipment as part of their job does so with care.",
-    "question_type": 1
+    "answer": "TRUE ",
+    "lesson_detail": 480,
+    "question": "Ensuring that the size of the entrance is sufficient for all workers and equipment to pass through safely",
+    "question_type": "1"
   },
   {
     "id": 73,
     "topicId": 6,
-    "answer": "Correct maintenance of Tools and Equipment",
-    "lesson_detail": 224,
-    "question": " A further part of a health and safety strategy is to maintain tools and equipment regularly.",
-    "question_type": 1
+    "answer": "FALSE",
+    "lesson_detail": 475,
+    "question": "Air Pressure can build up in underground work or it can enter via connecting pipework or through leaks in things like pits and trenches.",
+    "question_type": "1"
   },
   {
     "id": 74,
     "topicId": 6,
-    "answer": "Law on Tools and Maintenance",
-    "lesson_detail": 225,
-    "question": "These requirements appear in work equipment law.",
-    "question_type": 1
+    "answer": "None of the Above",
+    "lesson_detail": 455,
+    "question": "To help determine the right PPE, the following questions can help, Which of the following does not belong.",
+    "question_type": "1"
   },
   {
     "id": 75,
     "topicId": 6,
-    "answer": "Standard Operating Procedure(SOP)",
-    "lesson_detail": 249,
-    "question": "It is a set of written instructions that document a\nroutine or repetitive activity followed by an organization.",
-    "question_type": 1
+    "answer": "Personal Protective Equipment",
+    "lesson_detail": 459,
+    "question": "The main piece of legislation that covers the use of protective clothing is ?",
+    "question_type": "1"
   },
   {
     "id": 76,
     "topicId": 6,
-    "answer": "Electrical testers",
-    "lesson_detail": 306,
-    "question": "These are used to check both AC and DC voltage, continuity, circuit problems, amperage, shorted and open circuit problems, and to make sure the voltages are correct at the electrical panel.",
-    "question_type": 1
+    "answer": "Solenoid Voltage Testers",
+    "lesson_detail": 432,
+    "question": "Frequently called wiggies, are multi-function testers. They are capable of testing both voltage and polarity. Electricians use them frequently because they can test bot AC voltage and Dc voltage in a range from 100 to 600 volts.",
+    "question_type": "1"
   },
   {
     "id": 77,
     "topicId": 6,
-    "answer": "Continuity Testers",
-    "lesson_detail": 308,
-    "question": "It is a device that is powered by batteries and has a probe at on end and a cord with either an alligator clip or another probe at the other end.",
-    "question_type": 1
+    "answer": "Plug-in Circuit Analyzer",
+    "lesson_detail": 438,
+    "question": "These are great, quick electrical testers that fit easily in your pocket and test outlets with ease.",
+    "question_type": "1"
   },
   {
     "id": 78,
-    "topicId": 6,
-    "answer": "Solenoid Voltage Testers",
-    "lesson_detail": 312,
-    "question": "It is frequently called wiggies, are multi-function testers. They are capable of testing both voltage and polarity.",
-    "question_type": 1
+    "topicId": 7,
+    "answer": "Cleat Wiring",
+    "lesson_detail": 615,
+    "question": "It is a temporary wiring system therefore it is not suitable for domestic premises.",
+    "question_type": "1"
   },
   {
     "id": 79,
-    "topicId": 6,
-    "answer": "FALSE",
-    "lesson_detail": 312,
-    "question": " Solenoid Voltage Testers is frequently called wiggle tester, are multi-function testers. They are capable of testing both voltage and polarity.",
-    "question_type": 1
+    "topicId": 7,
+    "answer": "Soldering ",
+    "lesson_detail": 579,
+    "question": "It is a process in which two or more metal items are joined together by melting and then flowing a filler metal into the joint—the filler metal having a relatively low melting point.",
+    "question_type": "1"
   },
   {
     "id": 80,
-    "topicId": 6,
-    "answer": "FALSE",
-    "lesson_detail": 308,
-    "question": "Continuity Testers is a device that is powered by solar and has a probe at on end and a cord with either an alligator clip or another probe at the other end.",
-    "question_type": 1
+    "topicId": 7,
+    "answer": "Soldering",
+    "lesson_detail": 579,
+    "question": "It is used to form a permanent connection between electronic components.",
+    "question_type": "1"
   },
   {
     "id": 81,
-    "topicId": 6,
-    "answer": "TRUE",
-    "lesson_detail": 306,
-    "question": "Electrical testers are used to check both AC and DC voltage, continuity, circuit problems, amperage, shorted and open circuit problems, and to make sure the voltages are correct at the electrical panel.",
-    "question_type": 1
+    "topicId": 7,
+    "answer": "Straight fine-point tweezers",
+    "lesson_detail": 516,
+    "question": "It is perfect for picking and placing small electronic components on PCBs.",
+    "question_type": "1"
   },
   {
     "id": 82,
-    "topicId": 6,
-    "answer": "Neon Voltage Testers",
-    "lesson_detail": 314,
-    "question": "They are a handy testing tool, usually measuring only a few inches to a half a foot long with a light at one end of the tester and two wires with probes on the other. ",
-    "question_type": 1
+    "topicId": 7,
+    "answer": "IC Extraction Tool",
+    "lesson_detail": 531,
+    "question": "It is a tool for safely and quickly removing integrated circuits (ICs) from their sockets. The main purpose of using this tool is to avoid bending the socket pins.",
+    "question_type": "1"
   },
   {
     "id": 83,
-    "topicId": 6,
-    "answer": "FALSE",
-    "lesson_detail": 314,
-    "question": "Multimeters are a handy testing tool, usually measuring only a few inches to a half a foot long with a light at one end of the tester and two wires with probes on the other. ",
-    "question_type": 1
+    "topicId": 7,
+    "answer": "Wire Wrap Bits-Sleeves.",
+    "lesson_detail": 555,
+    "question": "It creates gas-tight, corrosion-resistant connections between copper wires and terminals without the use of solder.",
+    "question_type": "1"
   },
   {
     "id": 84,
-    "topicId": 6,
-    "answer": "Plug-in Circuit Analyzers",
-    "lesson_detail": 316,
-    "question": "This tool are great, quick electrical testers that fit easily in your pocket and test outlets with ease.",
-    "question_type": 1
+    "topicId": 7,
+    "answer": "OR Gate",
+    "lesson_detail": 565,
+    "question": "a circuit that produces an output signal only when there are no signals on any of the input connections.",
+    "question_type": "1"
   },
   {
     "id": 85,
-    "topicId": 6,
-    "answer": "Multimeters",
-    "lesson_detail": 318,
-    "question": "These are the most complex electrical testers because like their name says they perform various functions of testing.",
-    "question_type": 1
+    "topicId": 7,
+    "answer": "AND Gate",
+    "lesson_detail": 563,
+    "question": "a circuit that produces an output signal only when signals are received simultaneously through all input connections.",
+    "question_type": "1"
   },
   {
     "id": 86,
-    "topicId": 6,
-    "answer": "Plug-in Circuit Analyzers",
-    "lesson_detail": 316,
-    "question": "These testers are designed to test outlets, but only ones that have three holes, meaning ones that have a hot, neutral and a ground.",
-    "question_type": 1
+    "topicId": 7,
+    "answer": "NOT Gate",
+    "lesson_detail": 569,
+    "question": "a circuit that produces an output signal only when there is not a signal on its input.",
+    "question_type": "1"
   },
   {
     "id": 87,
-    "topicId": 6,
-    "answer": "TRUE",
-    "lesson_detail": 312,
-    "question": "Solenoid testers do not use batteries to power them so they are always ready to check voltage accurately.",
-    "question_type": 1
+    "topicId": 7,
+    "answer": "NAND Gate",
+    "lesson_detail": 571,
+    "question": "a circuit that produces an output signal until there are signals on all of its inputs.",
+    "question_type": "1"
   },
   {
     "id": 88,
-    "topicId": 6,
-    "answer": "Two",
-    "lesson_detail": 312,
-    "question": "Solenoid testers have _____ wires, each with a probe, extending out of the bottom of the tester.",
-    "question_type": 1
+    "topicId": 8,
+    "answer": "4 band resistor",
+    "lesson_detail": 656,
+    "question": " are the common type of lead resistors we usually see and use in different lab experiments and projects.",
+    "question_type": "1"
   },
   {
     "id": 89,
-    "topicId": 6,
-    "answer": "One is red and the other is black",
-    "lesson_detail": 312,
-    "question": "What color of Solenoid testers wire?",
-    "question_type": 1
+    "topicId": 8,
+    "answer": "Cleat wiring",
+    "lesson_detail": 615,
+    "question": "This system of wiring comprise of ordinary VIR or PVC insulated wires (occasionally, sheathed and weather proof cable) braided and compounded held on walls or ceilings by means of porcelain cleats, Plastic or wood.",
+    "question_type": "1"
   },
   {
     "id": 90,
-    "topicId": 6,
-    "answer": "None of the Above",
-    "lesson_detail": 286,
-    "question": "These are Job Performance Standards except for  ",
-    "question_type": 1
+    "topicId": 8,
+    "answer": "TRUE",
+    "lesson_detail": 710,
+    "question": "Passive electronic components are those that do not have gain or directionality. They are also called Electrical elements or electrical components. e.g. resistors, capacitors, diodes, Inductors.true or false?",
+    "question_type": "1"
   },
   {
     "id": 91,
-    "topicId": 7,
-    "answer": "Butane Portable 2 in 1 Soldering Tool",
-    "lesson_detail": 578,
-    "question": "A lightweight, compact cordless butane soldering and hot air tool.",
-    "question_type": 1
+    "topicId": 8,
+    "answer": "Intermodulation distortion",
+    "lesson_detail": 816,
+    "question": " is much more objectionable to the human ear because it generates non-harmonically related \"extra\" signals which were not present in the original",
+    "question_type": "1"
   },
   {
     "id": 92,
-    "topicId": 7,
-    "answer": "Tweezer Style Soldering Iron",
-    "lesson_detail": 581,
-    "question": "Handy tweezers with 48 Watt heating element is great for soldering/desoldering Surface Mount Devices (SMD). ",
-    "question_type": 1
+    "topicId": 8,
+    "answer": "Class B amplifiers",
+    "lesson_detail": 798,
+    "question": "are used in low cost designs or designs where sound quality is not that important. are significantly more efficient than class A amps, however they suffer from bad distortion when the signal level is low.",
+    "question_type": "1"
   },
   {
     "id": 93,
-    "topicId": 7,
-    "answer": "40 Watt Soldering Kit",
-    "lesson_detail": 584,
-    "question": "A soldering Iron Kit features soft grip comfort handle for maximum comfort and reduced slippage.",
-    "question_type": 1
+    "topicId": 8,
+    "answer": "Class AB Amplifiers",
+    "lesson_detail": 800,
+    "question": "probably the most common amplifier class currently used in home stereo and similar amplifiers",
+    "question_type": "1"
   },
   {
     "id": 94,
-    "topicId": 7,
-    "answer": "3-Wire 40 Watt Soldering Iron for 110 Volts",
-    "lesson_detail": 587,
-    "question": "Soldering iron has a three wire grounded cord set and is a portable line voltage iron which means no base station is required.",
-    "question_type": 1
+    "topicId": 8,
+    "answer": "Class C amplifiers",
+    "lesson_detail": 802,
+    "question": "are never used for audio circuits. They are commonly used in RF circuits.",
+    "question_type": "1"
   },
   {
     "id": 95,
-    "topicId": 7,
-    "answer": "Angled, Fine Point Tweezer",
-    "lesson_detail": 590,
-    "question": "The flat edge can be easily angled to run parallel to the skin, to enable you to grab even fine hairs, and to pull them out more easily in the direction of the hair's growth.",
-    "question_type": 1
+    "topicId": 8,
+    "answer": "Class A amplifiers",
+    "lesson_detail": 796,
+    "question": " amplifiers have very low distortion (lowest distortion occurs when the volume is low) however they are very inefficient and are rarely used for high power designs.",
+    "question_type": "1"
   },
   {
     "id": 96,
-    "topicId": 7,
-    "answer": "Straigth, Fine Point Tweezer",
-    "lesson_detail": 593,
-    "question": "Straight fine-point tweezers perfect for picking and placing small electronic components on PCBs. ",
-    "question_type": 1
+    "topicId": 8,
+    "answer": "Output stage",
+    "lesson_detail": 792,
+    "question": "stage of an amplifier is the portion which actually converts the weak input signal into a much more powerful replica which is capable of driving high power to a speaker. ",
+    "question_type": "1"
   },
   {
     "id": 97,
-    "topicId": 7,
-    "answer": "Nibbling Tool",
-    "lesson_detail": 596,
-    "question": "A tool for cutting sheet metal with minimal distortion. ",
-    "question_type": 1
+    "topicId": 8,
+    "answer": "Noise",
+    "lesson_detail": 782,
+    "question": "can be defined as a sound without agreeable musical quality or as an unwanted sound",
+    "question_type": "1"
   },
   {
     "id": 98,
-    "topicId": 7,
-    "answer": "Joint Box or Tee or Jointing System",
-    "lesson_detail": 678,
-    "question": "Connections to appliances are made through joints. These joints are made in joint boxes by means of suitable connectors or joints cutouts.",
-    "question_type": 1
+    "topicId": 8,
+    "answer": "Inductors",
+    "lesson_detail": 749,
+    "question": " is a passive electronic component which stores energy in form of a magnetic field",
+    "question_type": "1"
   },
   {
     "id": 99,
-    "topicId": 7,
-    "answer": "Loop In/Looping System",
-    "lesson_detail": 680,
-    "question": "In this method of wiring, connections to appliances are made through joints. These joints are made in joint boxes by means of suitable connectors or joints cutouts. This method of wiring doesn’t consume too much cables size.",
-    "question_type": 1
+    "topicId": 8,
+    "answer": "Variable capacitors",
+    "lesson_detail": 748,
+    "question": "They offer capacitance which can be varied by varying the distance between the plates.",
+    "question_type": "1"
   },
   {
     "id": 100,
-    "topicId": 7,
-    "answer": "Wiring",
-    "lesson_detail": 677,
-    "question": "A process of connecting various accessories for distribution of electrical energy from supplier’s meter board to home appliances such as lamps, fans and other domestic appliances.",
-    "question_type": 1
+    "topicId": 8,
+    "answer": "Fixed resistors",
+    "lesson_detail": 737,
+    "question": "Resistors whose resistance value is fixed and are used to provide a opposition to the flow of current.",
+    "question_type": "1"
   },
   {
     "id": 101,
-    "topicId": 7,
-    "answer": "NAND Gate",
-    "lesson_detail": 646,
-    "question": "a circuit that produces an output signal until there are signals on all of its inputs.",
-    "question_type": 1
+    "topicId": 8,
+    "answer": "Frequency",
+    "lesson_detail": 685,
+    "question": "One of the most important properties of any regular waveform identifies the number of complete cycles it goes through in a fixed period of time",
+    "question_type": "1"
   },
   {
     "id": 102,
-    "topicId": 7,
-    "answer": "NOT Gate",
-    "lesson_detail": 644,
-    "question": "a circuit that produces an output signal only when there is not a signal on its input.",
-    "question_type": 1
+    "topicId": 8,
+    "answer": "Bridging",
+    "lesson_detail": 826,
+    "question": "a term which many people have probably heard, but may not fully understand. Very simply,",
+    "question_type": "1"
   },
   {
     "id": 103,
-    "topicId": 7,
-    "answer": "NOR Gate",
-    "lesson_detail": 642,
-    "question": "a circuit that produces an output signal only when there are no signals on any of the input connections.",
-    "question_type": 1
+    "topicId": 9,
+    "answer": "Resistor color code",
+    "lesson_detail": 913,
+    "question": " is one of the electronic color code used to know the values of leaded resistors. This type of electronic color code was used from years and even today resistor color codes is considered to be the best and apt method.",
+    "question_type": "1"
   },
   {
     "id": 104,
-    "topicId": 7,
-    "answer": "OR Gate",
-    "lesson_detail": 640,
-    "question": "a circuit that gives an output signal if there is a signal on any of its inputs.",
-    "question_type": 1
+    "topicId": 9,
+    "answer": "Alternating current",
+    "lesson_detail": 946,
+    "question": "is the current which constantly changes in amplitude, and which reverses direction at regular intervals",
+    "question_type": "1"
   },
   {
     "id": 105,
-    "topicId": 7,
-    "answer": "AND Gate",
-    "lesson_detail": 637,
-    "question": "a circuit that produces an output signal only when signals are received simultaneously through all input connections.",
-    "question_type": 1
+    "topicId": 9,
+    "answer": "terminals",
+    "lesson_detail": 974,
+    "question": "Components to make electrical connection.",
+    "question_type": "1"
   },
   {
     "id": 106,
-    "topicId": 8,
-    "answer": "4 band resistor",
-    "lesson_detail": 677,
-    "question": " are the common type of lead resistors we usually see and use in different lab experiments and projects.",
-    "question_type": 1
+    "topicId": 9,
+    "answer": "Capacitors",
+    "lesson_detail": 980,
+    "question": " Components that store electrical charge in an electrical field.",
+    "question_type": "1"
   },
   {
     "id": 107,
-    "topicId": 8,
-    "answer": "Cleat wiring",
-    "lesson_detail": 1038,
-    "question": "This system of wiring comprise of ordinary VIR or PVC insulated wires (occasionally, sheathed and weather proof cable) braided and compounded held on walls or ceilings by means of porcelain cleats, Plastic or wood.",
-    "question_type": 1
+    "topicId": 9,
+    "answer": "Diodes",
+    "lesson_detail": 990,
+    "question": "Components that conduct electricity in only one direction.",
+    "question_type": "1"
   },
   {
     "id": 108,
-    "topicId": 8,
-    "answer": "TRUE",
-    "lesson_detail": 701,
-    "question": "Passive electronic components are those that do not have gain or directionality. They are also called Electrical elements or electrical components. e.g. resistors, capacitors, diodes, Inductors.true or false?",
-    "question_type": 1
+    "topicId": 9,
+    "answer": "Variable resistors",
+    "lesson_detail": 1004,
+    "question": "They provide a variation in their resistance value. They are generally used in voltage division. They can be potentiometers or presets",
+    "question_type": "1"
   },
   {
     "id": 109,
-    "topicId": 8,
-    "answer": "antenna",
-    "lesson_detail": 667,
-    "question": "A device which is designed to receive or transmit radio signals. It is also known as an antenna.",
-    "question_type": 1
+    "topicId": 9,
+    "answer": "zener diode",
+    "lesson_detail": 1018,
+    "question": "It is a diode made up of heavily doped p region compared to the n-region, such that it not only allows current flow in one direction",
+    "question_type": "1"
   },
   {
     "id": 110,
-    "topicId": 8,
-    "answer": "Dynamic noise limiter (DNL)",
-    "lesson_detail": 875,
-    "question": "an audio noise reduction system originally introduced by Philips in 1971 for use on cassette decks.",
-    "question_type": 1
+    "topicId": 9,
+    "answer": "Switch",
+    "lesson_detail": 1026,
+    "question": " are devices which allow the flow of current to the active devices. They are binary devices, which when completely on, allows flow of current and when completely off, block the flow of current",
+    "question_type": "1"
   },
   {
     "id": 111,
-    "topicId": 8,
-    "answer": "Clipping",
-    "lesson_detail": 856,
-    "question": "a term which many people have probably heard, but may not fully understand. Very simply, clipping of an amplifier occurs when one tries to get a larger output signal out of an amplifier than it was designed to provide.",
-    "question_type": 1
+    "topicId": 9,
+    "answer": "Schematic diagram",
+    "lesson_detail": 1029,
+    "question": "is a technical drawing of how to connect electronic components to get a certain function. ",
+    "question_type": "1"
   },
   {
     "id": 112,
-    "topicId": 8,
-    "answer": "Bridging",
-    "lesson_detail": 861,
-    "question": "it  refers to configuring a two channel (stereo) amplifier to drive a single load with more power than the sum of the two original channels combined.",
-    "question_type": 1
+    "topicId": 9,
+    "answer": "LED",
+    "lesson_detail": 1022,
+    "question": "It is a special type of PN junction diode made from semiconductors like Gallium Arsenide, which emits light when a suitable voltage is applied",
+    "question_type": "1"
   },
   {
     "id": 113,
-    "topicId": 8,
-    "answer": "Color vision",
-    "lesson_detail": 882,
-    "question": "it is  the ability of an organism or machine to distinguish objects based on the wavelengths (or frequencies) of the light they reflect, emit, or transmit",
-    "question_type": 1
+    "topicId": 9,
+    "answer": "tunnel diode",
+    "lesson_detail": 1020,
+    "question": "It is a heavily doped pn junction diode where the current decreases with increasing forward voltage.",
+    "question_type": "1"
   },
   {
     "id": 114,
-    "topicId": 8,
-    "answer": "switches",
-    "lesson_detail": 792,
-    "question": "Components that may be made to either conduct (closed) or not (open).",
-    "question_type": 1
+    "topicId": 9,
+    "answer": "diodes",
+    "lesson_detail": 1014,
+    "question": "a device which restricts current flow in only one direction.",
+    "question_type": "1"
   },
   {
     "id": 115,
-    "topicId": 8,
-    "answer": "Diodes",
-    "lesson_detail": 780,
-    "question": "is a device which restricts current flow in only one direction",
-    "question_type": 1
+    "topicId": 9,
+    "answer": "Fixed resistors",
+    "lesson_detail": 999,
+    "question": "Resistors whose resistance value is fixed and are used to provide a opposition to the flow of current.",
+    "question_type": "1"
   },
   {
     "id": 116,
-    "topicId": 8,
-    "answer": "FALSE",
-    "lesson_detail": 885,
-    "question": "luminance describes the frequency of light at a given point on the screen, or in more common terms, the color of the light to be produced at a given point.",
-    "question_type": 1
+    "topicId": 9,
+    "answer": "Intergrated circuit",
+    "lesson_detail": 994,
+    "question": "A microelectronic computer electronic circuit incorporated into a chip or semiconductor; a whole system rather than a single component",
+    "question_type": "1"
   },
   {
     "id": 117,
-    "topicId": 8,
-    "answer": "TRUE",
-    "lesson_detail": 885,
-    "question": "Luminance indicates how bright a given location on the screen is",
-    "question_type": 1
-  },
-  {
-    "id": 118,
-    "topicId": 8,
-    "answer": "TRUE",
-    "lesson_detail": 810,
-    "question": "Echolocation is a complex and highly evolved process that has given bats the ability to exploit an ecological niche closed to all but a few animal groups-the night sky",
-    "question_type": 1
-  },
-  {
-    "id": 119,
-    "topicId": 8,
-    "answer": "acoustic",
-    "lesson_detail": 808,
-    "question": "it  is the science of sound and deals with the origin of sound and its propagation, either in free space or in pipes and channels or closed spaces.",
-    "question_type": 1
-  },
-  {
-    "id": 120,
-    "topicId": 8,
-    "answer": "light emitting diode/LED",
-    "lesson_detail": 788,
-    "question": " It is a special type of PN junction diode made from semiconductors like Gallium Arsenide",
-    "question_type": 1
-  },
-  {
-    "id": 121,
-    "topicId": 9,
-    "answer": "Transistors",
-    "lesson_detail": 1292,
-    "question": "A semiconductor device capable of amplification.",
-    "question_type": 1
-  },
-  {
-    "id": 122,
     "topicId": 9,
     "answer": "Capacitors",
-    "lesson_detail": 1280,
-    "question": "Components that store electrical charge in an electrical field.",
-    "question_type": 1
-  },
-  {
-    "id": 123,
-    "topicId": 9,
-    "answer": "Network Components",
-    "lesson_detail": 1284,
-    "question": "Components that use more than 1 type of Passive Component.",
-    "question_type": 1
-  },
-  {
-    "id": 124,
-    "topicId": 9,
-    "answer": "Resistors",
-    "lesson_detail": 1276,
-    "question": "Components used to resist current.",
-    "question_type": 1
-  },
-  {
-    "id": 125,
-    "topicId": 9,
-    "answer": "TRUE",
-    "lesson_detail": 1311,
-    "question": "A series circuit connects components end to end to provide a single path for current flow. ",
-    "question_type": 1
-  },
-  {
-    "id": 126,
-    "topicId": 9,
-    "answer": "fixed capacitor",
-    "lesson_detail": 1343,
-    "question": "They offer a fixed reactance to the flow of current. They can be Mica capacitor which consists of mica as the insulating material",
-    "question_type": 1
-  },
-  {
-    "id": 127,
-    "topicId": 9,
-    "answer": "Variable Capacitors",
-    "lesson_detail": 1345,
-    "question": "They offer capacitance which can be varied by varying the distance between the plates",
-    "question_type": 1
-  },
-  {
-    "id": 128,
-    "topicId": 9,
-    "answer": "PN Junction Diode",
-    "lesson_detail": 1353,
-    "question": " A simple PN junction diode consists of a p-type semiconductor mounted on an n-type semiconductor such that a junction is formed between the p and n types",
-    "question_type": 1
-  },
-  {
-    "id": 129,
-    "topicId": 9,
-    "answer": "tunnel diode",
-    "lesson_detail": 1357,
-    "question": "It is a heavily doped pn junction diode where the current decreases with increasing forward voltage",
-    "question_type": 1
-  },
-  {
-    "id": 130,
-    "topicId": 9,
-    "answer": "Schematic nets",
-    "lesson_detail": 1478,
-    "question": "it  tell you how components are wired together in a circuit",
-    "question_type": 1
-  },
-  {
-    "id": 131,
-    "topicId": 9,
-    "answer": " Looping System",
-    "lesson_detail": 1520,
-    "question": "This method of wiring is universally used in wiring. Lamps and other appliances are connected in parallel so that each of the appliances can be controlled individually",
-    "question_type": 1
-  },
-  {
-    "id": 132,
-    "topicId": 9,
-    "answer": "Capping wiring",
-    "lesson_detail": 1527,
-    "question": "was famous wiring system in the past but, it is considered obsolete this days because of Conduit and sheathed wiring system. The cables used in this kind of wiring were either VIR or PVC or any other approved insulated cables.",
-    "question_type": 1
-  },
-  {
-    "id": 133,
-    "topicId": 9,
-    "answer": "Lead Sheathed Wiring",
-    "lesson_detail": 1533,
-    "question": "The type of wiring employs conductors that are insulated with VIR and covered with an outer sheath of lead aluminum alloy containing about 95% of lead.",
-    "question_type": 1
-  },
-  {
-    "id": 134,
-    "topicId": 9,
-    "answer": "FALSE",
-    "lesson_detail": 1539,
-    "question": "Metallic cleat are made of steel which are very strong but costly as well.",
-    "question_type": 1
-  },
-  {
-    "id": 135,
-    "topicId": 9,
-    "answer": "TRUE",
-    "lesson_detail": 1539,
-    "question": "a disadvantage of having a conduit wiring is that it is hard to find defects in the wiring true or false?",
-    "question_type": 1
-  },
-  {
-    "id": 136,
-    "topicId": 10,
-    "answer": "Protective clothing",
-    "lesson_detail": 1655,
-    "question": "a type of clothing that covers the user from neck to ankle which prevents is wearer from injuries and skin irritation.",
-    "question_type": 1
-  },
-  {
-    "id": 137,
-    "topicId": 10,
-    "answer": "REPUBLIC ACT NO. 5734",
-    "lesson_detail": 1573,
-    "question": "THE ELECTRONICS ANDCOMMUNICATIONS ENGINEERING ACT OF THEPHILIPPINES",
-    "question_type": 1
-  },
-  {
-    "id": 138,
-    "topicId": 10,
-    "answer": "Allen Wrenches",
-    "lesson_detail": 1596,
-    "question": "Used to drive bolts and screws with hexagonal sockets in their heads",
-    "question_type": 1
-  },
-  {
-    "id": 139,
-    "topicId": 10,
-    "answer": "fuse",
-    "lesson_detail": 1217,
-    "question": "A safety device which will 'blow' (melt) if the current flowing through it exceeds a specified value",
-    "question_type": 1
-  },
-  {
-    "id": 140,
-    "topicId": 10,
-    "answer": "transformer",
-    "lesson_detail": 1930,
-    "question": "A device that is used to either raise or lower voltages and currents in an electrical circuit Never touch the input and output when used to prevent from electrical shocks.",
-    "question_type": 1
-  },
-  {
-    "id": 141,
-    "topicId": 10,
-    "answer": "antenna",
-    "lesson_detail": 1238,
-    "question": "A device which is designed to receive or transmit radio signals.",
-    "question_type": 1
-  },
-  {
-    "id": 142,
-    "topicId": 10,
-    "answer": "TRUE",
-    "lesson_detail": 1973,
-    "question": "Solder Wick is basically just copper braid that soaks up solder when you heat it up true or false?",
-    "question_type": 1
-  },
-  {
-    "id": 143,
-    "topicId": 10,
-    "answer": " Desoldering Machine",
-    "lesson_detail": 1974,
-    "question": "If you repair a lot of boards, you absolutely need a machine like this. It is basically a soldering iron with a hole in the center of the tip that is connected to a vacuum pump.",
-    "question_type": 1
-  },
-  {
-    "id": 144,
-    "topicId": 10,
-    "answer": "TRUE",
-    "lesson_detail": 1522,
-    "question": "an advantage of a loop in wiring system is that it doesn't require any joint boxes true or false",
-    "question_type": 1
-  },
-  {
-    "id": 145,
-    "topicId": 10,
-    "answer": "nets",
-    "lesson_detail": 1478,
-    "question": "It is  represented as lines between component terminals",
-    "question_type": 1
-  },
-  {
-    "id": 146,
-    "topicId": 10,
-    "answer": "silicone grease",
-    "lesson_detail": 1459,
-    "question": "Used as a lubricant in mechanical and other moving parts Always close the tip properly to prevent from leaking.",
-    "question_type": 1
-  },
-  {
-    "id": 147,
-    "topicId": 10,
-    "answer": "Integrated Circuits",
-    "lesson_detail": 1759,
-    "question": "A microelectronic computer electronic circuit incorporated into a chip or semiconductor; a whole system rather than a single component",
-    "question_type": 1
-  },
-  {
-    "id": 148,
-    "topicId": 10,
-    "answer": "parallel circuit",
-    "lesson_detail": 1779,
-    "question": " has two or more paths for current to flow. As Kirchhoff's current law states, the sum of all the currents entering any junction is equal to the sum of all the currents leaving the same junction. ",
-    "question_type": 1
-  },
-  {
-    "id": 149,
-    "topicId": 10,
-    "answer": "Zener Diode",
-    "lesson_detail": 1820,
-    "question": "It is a diode made up of heavily doped p region compared to the n-region, such that it not only allows current flow in one direction",
-    "question_type": 1
-  },
-  {
-    "id": 150,
-    "topicId": 10,
-    "answer": "Photo Diode",
-    "lesson_detail": 1826,
-    "question": "It is a special type of PN junction diode whose resistance decreases when light falls on it. It consists of a pn junction diode placed inside a plastic.",
-    "question_type": 1
+    "lesson_detail": 958,
+    "question": " a linear passive component which is used to store electrical charge. generally provides reactance to the flow of current.",
+    "question_type": "1"
   }
 ]

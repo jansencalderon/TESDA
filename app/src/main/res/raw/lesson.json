@@ -4,21 +4,21 @@
     "topicId": 1,
     "sequence": 1,
     "title": "LESSON 1",
-    "description": "Identify hazards and risks"
+    "description": "Hazards And Risks Identification And Organizational safety And Health Protocol."
   },
   {
     "id": 2,
     "topicId": 1,
     "sequence": 2,
     "title": "LESSON 2",
-    "description": "Evaluate hazards and risks"
+    "description": "Philippine OHS Standards"
   },
   {
     "id": 3,
     "topicId": 1,
     "sequence": 3,
     "title": "LESSON 3",
-    "description": "Control hazards and risks"
+    "description": "Hazards and Risks Regulations"
   },
   {
     "id": 4,
@@ -46,251 +46,202 @@
     "topicId": 2,
     "sequence": 4,
     "title": "LESSON 4",
-    "description": "Maintain hand tools"
+    "description": "Maintaining and Cleaning of hand tools"
+  },
+  {
+    "id": 8,
+    "topicId": 3,
+    "sequence": 1,
+    "title": "LESSON 1",
+    "description": "Identifying Measuring Tools used in Electronics"
   },
   {
     "id": 9,
     "topicId": 3,
     "sequence": 2,
     "title": "LESSON 2",
-    "description": "Carry out measurement and calculation"
+    "description": "Maintain Measuring Instrument"
   },
   {
     "id": 10,
-    "topicId": 3,
-    "sequence": 3,
-    "title": "LESSON 3",
-    "description": "Maintain measuring instrument"
+    "topicId": 4,
+    "sequence": 1,
+    "title": "LESSON 1",
+    "description": "Identifying Electronic Components and Symbols"
   },
   {
     "id": 11,
     "topicId": 4,
-    "sequence": 1,
-    "title": "LESSON 1",
-    "description": "Select measuring instrument"
+    "sequence": 2,
+    "title": "LESSON 2",
+    "description": "Electronic Schematics/Circuit Diagrams"
   },
   {
     "id": 12,
-    "topicId": 4,
-    "sequence": 2,
-    "title": "LESSON 2",
-    "description": "Carry out measurement and calculation"
+    "topicId": 5,
+    "sequence": 1,
+    "title": "LESSON 1",
+    "description": "Main Parts Of A Computer"
   },
   {
     "id": 13,
     "topicId": 5,
-    "sequence": 1,
-    "title": "LESSON 1",
-    "description": "PLAN AND PREPARE FOR TASKS TO BE UNDERTAKEN"
+    "sequence": 2,
+    "title": "LESSON 2",
+    "description": "Computer Troubleshooting"
   },
   {
     "id": 14,
     "topicId": 5,
-    "sequence": 2,
-    "title": "LESSON 2",
-    "description": "INPUT DATA INTO A COMPUTER"
+    "sequence": 3,
+    "title": "LESSON 3",
+    "description": "Basic Ergonomics Of Keyboard And Computer User"
   },
   {
     "id": 15,
     "topicId": 5,
-    "sequence": 3,
-    "title": "LESSON 3",
-    "description": "ACCESS INFORMATION USING COMPUTERS"
+    "sequence": 4,
+    "title": "LESSON 4",
+    "description": "System Softwares"
   },
   {
     "id": 16,
     "topicId": 5,
-    "sequence": 4,
-    "title": "LESSON 4",
-    "description": "USE BASIC FUNCTIONS OF A WEB BROWSER TO LOCATE INFORMATION"
+    "sequence": 5,
+    "title": "LESSON 5",
+    "description": "10 Physical Security Measures Every Organization Should Take"
   },
   {
     "id": 17,
-    "topicId": 5,
-    "sequence": 5,
-    "title": "LESSON 5",
-    "description": "MAINTAIN COMPUTER EQUIPMENT AND SYSTEMS"
+    "topicId": 6,
+    "sequence": 1,
+    "title": "LESSON 1",
+    "description": "Using Of Appropriate Tools In Testing Of The Different Circuits"
   },
   {
     "id": 18,
     "topicId": 6,
-    "sequence": 1,
-    "title": "LESSON 1",
-    "description": "PLAN AND PREPARE FOR TERMINATION/CONNECTION OF ELECTRICAL WIRING/ELECTRONICS CIRCUITS"
+    "sequence": 2,
+    "title": "LESSON 2",
+    "description": "Maintenance Of Tools And Equipment"
   },
   {
     "id": 19,
     "topicId": 6,
-    "sequence": 1,
-    "title": "LESSON 1",
-    "description": "PLAN AND PREPARE FOR TERMINATION/CONNECTION OF ELECTRICAL WIRING/ELECTRONICS CIRCUITS"
+    "sequence": 3,
+    "title": "LESSON 3",
+    "description": "Working Safely In A Confined Space"
   },
   {
     "id": 20,
     "topicId": 6,
-    "sequence": 1,
-    "title": "LESSON 1",
-    "description": "PLAN AND PREPARE FOR TERMINATION/CONNECTION OF ELECTRICAL WIRING/ELECTRONICS CIRCUITS"
+    "sequence": 4,
+    "title": "LESSON 4",
+    "description": "Ensuring The Accuracy And Correctness Of Electrical/Wiring And Electronics Connections To Be Used."
   },
   {
     "id": 21,
-    "topicId": 6,
-    "sequence": 2,
-    "title": "LESSON 2",
-    "description": "TERMINATE/CONNECT WIRING/ELECTRONIC CIRCUITS"
+    "topicId": 7,
+    "sequence": 1,
+    "title": "LESSON 1",
+    "description": "Identify And Explain The Uses/Functions Of Different Types Of Tools, Equipment And Testing Instruments"
   },
   {
     "id": 22,
-    "topicId": 6,
+    "topicId": 7,
     "sequence": 2,
     "title": "LESSON 2",
-    "description": "TERMINATE/CONNECT WIRING/ELECTRONIC CIRCUITS"
+    "description": "Identify Electronic Symbols"
   },
   {
     "id": 23,
-    "topicId": 6,
+    "topicId": 7,
     "sequence": 3,
     "title": "LESSON 3",
-    "description": "TEST TERMINATION/CONNECTIONS OF ELECTRICAL WIRING/ELECTRONICS CIRCUITS"
+    "description": "Fundamentals Of Soldering Irons"
   },
   {
     "id": 24,
     "topicId": 7,
-    "sequence": 1,
-    "title": "LESSON 1",
-    "description": "IDENTIFY AND EXPLAIN THE USES/FUNCTIONS OF DIFFERENT TYPES OF TOOLS, EQUIPMENT AND TESTING INSTRUMENTS"
+    "sequence": 4,
+    "title": "LESSON 4",
+    "description": "Wiring And Cabling Techniques"
   },
   {
     "id": 25,
-    "topicId": 7,
-    "sequence": 2,
-    "title": "LESSON 2",
-    "description": "IDENTIFY ELECTRONIC SYMBOLS"
+    "topicId": 8,
+    "sequence": 1,
+    "title": "LESSON 1",
+    "description": "The Principles Of Operation Of Electronic Symbols And Block Sections Of Schematic Diagram"
   },
   {
     "id": 26,
-    "topicId": 7,
-    "sequence": 3,
-    "title": "LESSON 3",
-    "description": "APPLY PROPER SOLDERING AND DESOLDERING TECHNIQUES"
+    "topicId": 8,
+    "sequence": 2,
+    "title": "LESSON 2",
+    "description": "Classes And Types Of Electronic Parts/Devices"
   },
   {
     "id": 27,
-    "topicId": 7,
-    "sequence": 4,
-    "title": "LESSON 4",
-    "description": "APPLY WIRING AND CABLING TECHNIQUES"
+    "topicId": 8,
+    "sequence": 3,
+    "title": "LESSON 3",
+    "description": "Drawing and Interpreting schematic diagrams"
   },
   {
     "id": 28,
-    "topicId": 7,
-    "sequence": 5,
+    "topicId": 8,
+    "sequence": 4,
     "title": "LESSON 4",
-    "description": "APPLY WIRING AND CABLING TECHNIQUES"
+    "description": "The Principles and Fundamentals Of Sounds And Acoustics And Amplifiers"
   },
   {
     "id": 29,
     "topicId": 8,
-    "sequence": 1,
-    "title": "LESSON 1",
-    "description": "ENUMERATE, EXPLAIN AND APPLY OHS POLICIES AND PROCEDURES IN MAINTAINING AND REPAIRING AUDIO/VIDEO PRODUCTS AND SYSTEMS"
+    "sequence": 5,
+    "title": "LESSON 5",
+    "description": "Apply Symptoms Diagnosis And Systematic Pre-Testing Procedures"
   },
   {
     "id": 30,
     "topicId": 8,
-    "sequence": 2,
-    "title": "LESSON 2",
-    "description": "IDENTIFY AND EXPLAIN THE USES/FUNCTIONS OF DIFFERENT TYPES OF TOOLS AND TESTING INSTRUMENTS FOR MAINTAINING AND REPAIRING AUDIO/VIDEO PRODUCTS AND SYSTEMS"
+    "sequence": 6,
+    "title": "LESSON 6",
+    "description": "Troubleshoot, Repair And Maintain Audio/Video Products And Systems"
   },
   {
     "id": 31,
-    "topicId": 8,
-    "sequence": 3,
-    "title": "LESSON 3",
-    "description": "IDENTIFY AND EXPLAIN OR INTERPRET THE PRINCIPLES OF OPERATION OF ELECTRONIC SYMBOLS AND BLOCK SECTIONS OF SCHEMATIC DIAGRAM"
+    "topicId": 9,
+    "sequence": 1,
+    "title": "LESSON 1",
+    "description": "The Principles Of Operation Of Electronic Symbols And Block Sections Of Schematic Diagram"
   },
   {
     "id": 32,
-    "topicId": 8,
-    "sequence": 4,
-    "title": "LESSON 4",
-    "description": "APPLY SYMPTOMS DIAGNOSIS AND SYSTEMATIC PRE-TESTING PROCEDURES"
+    "topicId": 9,
+    "sequence": 2,
+    "title": "LESSON 2",
+    "description": "Classes And Types Of Electronic Parts/Devices"
   },
   {
     "id": 33,
-    "topicId": 8,
-    "sequence": 5,
-    "title": "LESSON 5",
-    "description": "TROUBLESHOOT, REPAIR AND MAINTAIN AUDIO/VIDEO PRODUCTS AND SYSTEMS"
+    "topicId": 9,
+    "sequence": 3,
+    "title": "LESSON 3",
+    "description": "Drawing and Interpreting schematic diagrams"
   },
   {
     "id": 34,
     "topicId": 9,
-    "sequence": 1,
-    "title": "LESSON 1",
-    "description": "ENUMERATE, EXPLAIN AND APPLY OHS POLICIES AND PROCEDURES IN MAINTAINING AND REPAIRING ELECTRONICALLY CONTROLLED DOMESTIC APPLIANCES"
+    "sequence": 4,
+    "title": "LESSON 4",
+    "description": "Apply Symptoms Diagnosis And Systematic Pre-Testing Procedures"
   },
   {
     "id": 35,
     "topicId": 9,
-    "sequence": 2,
-    "title": "LESSON 2",
-    "description": "IDENTIFY AND EXPLAIN THE USES/FUNCTIONS OF DIFFERENT TYPES OF TOOLS AND TESTING INSTRUMENTS FOR MAINTAINING AND REPAIRING ELECTRONICALLY CONTROLLED DOMESTIC APPLIANCES"
-  },
-  {
-    "id": 36,
-    "topicId": 9,
-    "sequence": 3,
-    "title": "LESSON 3",
-    "description": "IDENTIFY AND EXPLAIN OR INTERPRET THE PRINCIPLES OF OPERATION OF ELECTRONIC SYMBOLS AND BLOCK SECTIONS OF SCHEMATIC DIAGRAM"
-  },
-  {
-    "id": 37,
-    "topicId": 9,
-    "sequence": 4,
-    "title": "LESSON 4",
-    "description": "APPLY SYMPTOMS DIAGNOSIS AND SYSTEMATIC PRE-TESTING PROCEDURES"
-  },
-  {
-    "id": 38,
-    "topicId": 9,
     "sequence": 5,
     "title": "LESSON 5",
-    "description": "TROUBLESHOOT, REPAIR AND MAINTAIN ELECTRONICALLY CONTROLLED DOMESTIC APPLIANCES"
-  },
-  {
-    "id": 39,
-    "topicId": 10,
-    "sequence": 1,
-    "title": "LESSON 1",
-    "description": "ENUMERATE, EXPLAIN AND APPLY OHS POLICIES AND PROCEDURES IN MAINTAINING AND REPAIRING AUDIO/VIDEO PRODUCTS AND SYSTEMS"
-  },
-  {
-    "id": 40,
-    "topicId": 10,
-    "sequence": 2,
-    "title": "LESSON 2",
-    "description": "IDENTIFY AND EXPLAIN THE USES/FUNCTIONS OF DIFFERENT TYPES OF TOOLS AND TESTING INSTRUMENTS FOR MAINTAINING AND REPAIRING CELLULAR PHONES"
-  },
-  {
-    "id": 41,
-    "topicId": 10,
-    "sequence": 3,
-    "title": "LESSON 3",
-    "description": "IDENTIFY AND EXPLAIN OR INTERPRET THE PRINCIPLES OF OPERATION OF ELECTRONIC SYMBOLS AND BLOCK SECTIONS OF SCHEMATIC DIAGRAM"
-  },
-  {
-    "id": 42,
-    "topicId": 10,
-    "sequence": 4,
-    "title": "LESSON 4",
-    "description": "APPLY SYMPTOMS DIAGNOSIS AND SYSTEMATIC PRE-TESTING PROCEDURES"
-  },
-  {
-    "id": 43,
-    "topicId": 10,
-    "sequence": 5,
-    "title": "LESSON 5",
-    "description": "REPAIR, MAINTAIN AND ENHANCE CELLULAR PHONES "
+    "description": "Troubleshoot, Repair And Maintain Cellular Phones"
   }
 ]

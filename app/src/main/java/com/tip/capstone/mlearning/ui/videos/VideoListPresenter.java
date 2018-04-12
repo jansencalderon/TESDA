@@ -27,7 +27,7 @@ public class VideoListPresenter extends MvpNullObjectBasePresenter<VideoListView
             R.raw.v10
     };
     private static final String[] VIDEO_NAME_WITHOUT_EXTENSION = {
-           "v1",
+            "v1",
             "v2",
             "v3",
             "v4",

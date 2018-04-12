@@ -1,3554 +1,2402 @@
 [
   {
     "id": 1,
-    "question": 1,
-    "body": "5's Principle",
+    "questionId": 1,
+    "body": "Waste Management",
     "choice_type": 1
   },
   {
     "id": 2,
-    "question": 1,
-    "body": "Contact Injuries",
+    "questionId": 1,
+    "body": "5S System",
     "choice_type": 1
   },
   {
     "id": 3,
-    "question": 1,
-    "body": "Electrical Shocks",
+    "questionId": 1,
+    "body": "Clean Air Act",
     "choice_type": 1
   },
   {
     "id": 4,
-    "question": 1,
-    "body": "Fire",
+    "questionId": 1,
+    "body": "Philippine OSH Standards",
     "choice_type": 1
   },
   {
     "id": 5,
-    "question": 2,
-    "body": "Slips and trips",
+    "questionId": 2,
+    "body": "Personal Protective Equipment",
     "choice_type": 1
   },
   {
     "id": 6,
-    "question": 2,
-    "body": "Threshold Limit Value",
+    "questionId": 2,
+    "body": "Clean Air Act",
     "choice_type": 1
   },
   {
     "id": 7,
-    "question": 2,
-    "body": "Electrical Shocks",
+    "questionId": 2,
+    "body": "Waste Management",
     "choice_type": 1
   },
   {
     "id": 8,
-    "question": 2,
-    "body": "Fire",
+    "questionId": 2,
+    "body": "Shine",
     "choice_type": 1
   },
   {
     "id": 9,
-    "question": 3,
-    "body": "Slips and trips",
+    "questionId": 3,
+    "body": "Clea",
     "choice_type": 1
   },
   {
     "id": 10,
-    "question": 3,
-    "body": "Contact Injuries",
+    "questionId": 3,
+    "body": "Sort",
     "choice_type": 1
   },
   {
     "id": 11,
-    "question": 3,
-    "body": "Organizational Safety Protocol",
+    "questionId": 3,
+    "body": "Shine",
     "choice_type": 1
   },
   {
     "id": 12,
-    "question": 3,
-    "body": "Fire",
+    "questionId": 3,
+    "body": "5S System",
     "choice_type": 1
   },
   {
     "id": 13,
-    "question": 4,
-    "body": "Slips and trips",
+    "questionId": 4,
+    "body": "Clean Air Act",
     "choice_type": 1
   },
   {
     "id": 14,
-    "question": 4,
-    "body": "Contact Injuries",
+    "questionId": 4,
+    "body": "Standardize",
     "choice_type": 1
   },
   {
     "id": 15,
-    "question": 4,
-    "body": "Electrical Shocks",
+    "questionId": 4,
+    "body": "Employee's Compensation Commission",
     "choice_type": 1
   },
   {
     "id": 16,
-    "question": 4,
-    "body": "Fire",
+    "questionId": 4,
+    "body": "Philippine OSH Standards",
     "choice_type": 1
   },
   {
     "id": 17,
-    "question": 5,
-    "body": "Slips and trips",
+    "questionId": 5,
+    "body": "Clean Air Act",
     "choice_type": 1
   },
   {
     "id": 18,
-    "question": 5,
-    "body": "Contact Injuries",
+    "questionId": 5,
+    "body": "5S System",
     "choice_type": 1
   },
   {
     "id": 19,
-    "question": 5,
-    "body": "Electrical Shocks",
+    "questionId": 5,
+    "body": "Waste Management",
     "choice_type": 1
   },
   {
     "id": 20,
-    "question": 5,
-    "body": "Fire",
+    "questionId": 5,
+    "body": "Sort",
     "choice_type": 1
   },
   {
     "id": 21,
-    "question": 6,
-    "body": "Helmet",
+    "questionId": 6,
+    "body": "Standardize",
     "choice_type": 1
   },
   {
     "id": 22,
-    "question": 6,
-    "body": "Protective Clothing",
+    "questionId": 6,
+    "body": "Philippine OSH Standards",
     "choice_type": 1
   },
   {
     "id": 23,
-    "question": 6,
-    "body": "Eye Protection",
+    "questionId": 6,
+    "body": "Waste Management",
     "choice_type": 1
   },
   {
     "id": 24,
-    "question": 6,
-    "body": "Boots",
+    "questionId": 6,
+    "body": "Personal Protective Equipment",
     "choice_type": 1
   },
   {
     "id": 25,
-    "question": 7,
-    "body": "Ceiling Limit",
+    "questionId": 7,
+    "body": "Standardize",
     "choice_type": 1
   },
   {
     "id": 26,
-    "question": 7,
-    "body": "Average",
+    "questionId": 7,
+    "body": "Sort",
     "choice_type": 1
   },
   {
     "id": 27,
-    "question": 7,
-    "body": "Short - Term Exposure Limit",
+    "questionId": 7,
+    "body": "Sustain",
     "choice_type": 1
   },
   {
     "id": 28,
-    "question": 7,
-    "body": "None of the Above",
+    "questionId": 7,
+    "body": "5S System",
     "choice_type": 1
   },
   {
     "id": 29,
-    "question": 8,
-    "body": "Eye Protection",
+    "questionId": 8,
+    "body": "Waste Management",
     "choice_type": 1
   },
   {
     "id": 30,
-    "question": 8,
-    "body": "Boots",
+    "questionId": 8,
+    "body": "Personal Protective Equipment",
     "choice_type": 1
   },
   {
     "id": 31,
-    "question": 8,
-    "body": " Helmet",
+    "questionId": 8,
+    "body": "Philippine OSH Standards",
     "choice_type": 1
   },
   {
     "id": 32,
-    "question": 8,
-    "body": "Protective Clothing",
+    "questionId": 8,
+    "body": "Waste Management",
     "choice_type": 1
   },
   {
     "id": 33,
-    "question": 9,
-    "body": "Ceiling Limit",
+    "questionId": 9,
+    "body": "Sustain",
     "choice_type": 1
   },
   {
     "id": 34,
-    "question": 9,
-    "body": "Average",
+    "questionId": 9,
+    "body": "Standardize",
     "choice_type": 1
   },
   {
     "id": 35,
-    "question": 9,
-    "body": "Short - Term Exposure Limit",
+    "questionId": 9,
+    "body": "5S System",
     "choice_type": 1
   },
   {
     "id": 36,
-    "question": 9,
-    "body": "None of the Above",
+    "questionId": 9,
+    "body": "Sort",
     "choice_type": 1
   },
   {
     "id": 37,
-    "question": 10,
-    "body": "Ceiling Limit",
+    "questionId": 10,
+    "body": "Waste Management",
     "choice_type": 1
   },
   {
     "id": 38,
-    "question": 10,
-    "body": "Average",
+    "questionId": 10,
+    "body": "Clean Air Act",
     "choice_type": 1
   },
   {
     "id": 39,
-    "question": 10,
-    "body": "Short - Term Exposure Limit",
+    "questionId": 10,
+    "body": "5S System",
     "choice_type": 1
   },
   {
     "id": 40,
-    "question": 10,
-    "body": "None of the Above",
+    "questionId": 10,
+    "body": "Sustain",
     "choice_type": 1
   },
   {
     "id": 41,
-    "question": 11,
-    "body": "Eye Protection",
+    "questionId": 11,
+    "body": "Multimeter",
     "choice_type": 1
   },
   {
     "id": 42,
-    "question": 11,
-    "body": "Eye Protection",
+    "questionId": 11,
+    "body": "Electronic Test Equipment",
     "choice_type": 1
   },
   {
     "id": 43,
-    "question": 11,
-    "body": "Boots",
-    "choice_type": 1
-  },
-  {
-    "id": 123222,
-    "question": 11,
-    "body": " Helmet",
+    "questionId": 11,
+    "body": "Oscilloscope",
     "choice_type": 1
   },
   {
     "id": 44,
-    "question": 12,
-    "body": "5's Principle",
+    "questionId": 11,
+    "body": "Solder",
     "choice_type": 1
   },
   {
     "id": 45,
-    "question": 12,
-    "body": "Threshold Limit Value",
+    "questionId": 12,
+    "body": "Soldering Iron",
     "choice_type": 1
   },
   {
     "id": 46,
-    "question": 12,
-    "body": "Organizational Safety Protocol",
+    "questionId": 12,
+    "body": "Wire Cutter",
     "choice_type": 1
   },
   {
     "id": 47,
-    "question": 12,
-    "body": "OHS Indicators",
+    "questionId": 12,
+    "body": "Multimeter",
     "choice_type": 1
   },
   {
     "id": 48,
-    "question": 13,
-    "body": "Set",
+    "questionId": 12,
+    "body": "Screwdrivers",
     "choice_type": 1
   },
   {
     "id": 49,
-    "question": 13,
-    "body": "Standard",
+    "questionId": 13,
+    "body": "Lab Power Supply",
     "choice_type": 1
   },
   {
     "id": 50,
-    "question": 13,
-    "body": "Sustain",
+    "questionId": 13,
+    "body": "Oscilloscope",
     "choice_type": 1
   },
   {
     "id": 51,
-    "question": 13,
-    "body": "None of the Above",
+    "questionId": 13,
+    "body": "Solder",
     "choice_type": 1
   },
   {
     "id": 52,
-    "question": 14,
-    "body": "Set",
+    "questionId": 13,
+    "body": "Multimeter",
     "choice_type": 1
   },
   {
     "id": 53,
-    "question": 14,
-    "body": "Standard",
+    "questionId": 14,
+    "body": "Solder",
     "choice_type": 1
   },
   {
     "id": 54,
-    "question": 14,
-    "body": "Sustain",
+    "questionId": 14,
+    "body": "Soldering Iron",
     "choice_type": 1
   },
   {
     "id": 55,
-    "question": 14,
-    "body": "None of the Above",
+    "questionId": 14,
+    "body": "Lab Power Supply",
     "choice_type": 1
   },
   {
     "id": 56,
-    "question": 15,
-    "body": "Set",
+    "questionId": 14,
+    "body": "Oscilloscope",
     "choice_type": 1
   },
   {
     "id": 57,
-    "question": 15,
-    "body": "Standard",
+    "questionId": 15,
+    "body": "Wire Cutter",
     "choice_type": 1
   },
   {
     "id": 58,
-    "question": 15,
-    "body": "Sustain",
+    "questionId": 15,
+    "body": "Wire Stripper",
     "choice_type": 1
   },
   {
     "id": 59,
-    "question": 15,
-    "body": "None of the Above",
+    "questionId": 15,
+    "body": "Soldering Iron",
     "choice_type": 1
   },
   {
     "id": 60,
-    "question": 16,
-    "body": " Allen Keys/Wrench",
+    "questionId": 15,
+    "body": "Screwdrivers",
     "choice_type": 1
   },
   {
     "id": 61,
-    "question": 16,
-    "body": " Utility Knife",
+    "questionId": 16,
+    "body": "Soldering Iron",
     "choice_type": 1
   },
   {
     "id": 62,
-    "question": 16,
-    "body": " Soldering Iron",
+    "questionId": 16,
+    "body": "Precision Screwdrivers",
     "choice_type": 1
   },
   {
     "id": 63,
-    "question": 16,
-    "body": " De - Soldering Iron/Pump",
+    "questionId": 16,
+    "body": "Multimeter",
     "choice_type": 1
   },
   {
     "id": 64,
-    "question": 17,
-    "body": " Allen Keys/Wrench",
+    "questionId": 16,
+    "body": "Screwdrivers",
     "choice_type": 1
   },
   {
     "id": 65,
-    "question": 17,
-    "body": " Utility Knife",
+    "questionId": 17,
+    "body": "Wire Stripper",
     "choice_type": 1
   },
   {
     "id": 66,
-    "question": 17,
-    "body": " Soldering Iron",
+    "questionId": 17,
+    "body": "Oscilloscope",
     "choice_type": 1
   },
   {
     "id": 67,
-    "question": 17,
-    "body": " De - Soldering Iron/Pump",
+    "questionId": 17,
+    "body": "Wire Cutter",
     "choice_type": 1
   },
   {
     "id": 68,
-    "question": 18,
-    "body": " Utility Knife",
+    "questionId": 17,
+    "body": "Screwdrivers",
     "choice_type": 1
   },
   {
     "id": 69,
-    "question": 18,
-    "body": " Wrench",
+    "questionId": 18,
+    "body": "Precision Screwdrivers",
     "choice_type": 1
   },
   {
     "id": 70,
-    "question": 18,
-    "body": " Allen Keys/Wrench",
+    "questionId": 18,
+    "body": "Screwdrivers",
     "choice_type": 1
   },
   {
     "id": 71,
-    "question": 18,
-    "body": " Standard Screw Driver",
+    "questionId": 18,
+    "body": "Multimeter",
     "choice_type": 1
   },
   {
     "id": 72,
-    "question": 19,
-    "body": "Utility Knife",
+    "questionId": 18,
+    "body": "Wire Stripper",
     "choice_type": 1
   },
   {
     "id": 73,
-    "question": 19,
-    "body": "Allen Wrenches",
+    "questionId": 19,
+    "body": "Precision Screwdrivers",
     "choice_type": 1
   },
   {
     "id": 74,
-    "question": 19,
-    "body": "Wrench",
+    "questionId": 19,
+    "body": "Solder",
     "choice_type": 1
   },
   {
     "id": 75,
-    "question": 19,
-    "body": " De - Soldering Iron/Pump",
+    "questionId": 19,
+    "body": "Soldering Iron",
     "choice_type": 1
   },
   {
     "id": 76,
-    "question": 20,
-    "body": " Side Cutter",
+    "questionId": 19,
+    "body": "Screwdrivers",
     "choice_type": 1
   },
   {
     "id": 77,
-    "question": 20,
-    "body": " Standard Screw Driver",
+    "questionId": 20,
+    "body": "Lab Power Supply",
     "choice_type": 1
   },
   {
     "id": 78,
-    "question": 20,
-    "body": " Wrench",
+    "questionId": 20,
+    "body": "Precision Screwdrivers",
     "choice_type": 1
   },
   {
     "id": 79,
-    "question": 20,
-    "body": " Allen Keys/Wrench",
+    "questionId": 20,
+    "body": "Wire Cutter",
     "choice_type": 1
   },
   {
     "id": 80,
-    "question": 21,
-    "body": "Utility Knife",
+    "questionId": 20,
+    "body": "Soldering Iron",
     "choice_type": 1
   },
   {
     "id": 81,
-    "question": 21,
-    "body": "Allen Wrenches",
-    "choice_type": 1
-  },
-  {
-    "id": 82,
-    "question": 21,
-    "body": "Wrench",
-    "choice_type": 1
-  },
-  {
-    "id": 83,
-    "question": 21,
-    "body": " De - Soldering Iron/Pump",
-    "choice_type": 1
-  },
-  {
-    "id": 84,
-    "question": 22,
-    "body": " Side Cutter",
-    "choice_type": 1
-  },
-  {
-    "id": 85,
-    "question": 22,
-    "body": " Standard Screw Driver",
-    "choice_type": 1
-  },
-  {
-    "id": 86,
-    "question": 22,
-    "body": " Wrench",
-    "choice_type": 1
-  },
-  {
-    "id": 87,
-    "question": 22,
-    "body": " De - Soldering Iron/Pump",
-    "choice_type": 1
-  },
-  {
-    "id": 88,
-    "question": 23,
-    "body": " Side Cutter",
-    "choice_type": 1
-  },
-  {
-    "id": 89,
-    "question": 23,
-    "body": " Standard Screw Driver",
-    "choice_type": 1
-  },
-  {
-    "id": 90,
-    "question": 23,
-    "body": "Long Nose Pliers",
-    "choice_type": 1
-  },
-  {
-    "id": 91,
-    "question": 23,
-    "body": " De - Soldering Iron/Pump",
-    "choice_type": 1
-  },
-  {
-    "id": 92,
-    "question": 24,
-    "body": "Utility Knife",
-    "choice_type": 1
-  },
-  {
-    "id": 93,
-    "question": 24,
-    "body": "Allen Wrenches",
-    "choice_type": 1
-  },
-  {
-    "id": 94,
-    "question": 24,
-    "body": "Wrench",
-    "choice_type": 1
-  },
-  {
-    "id": 95,
-    "question": 24,
-    "body": " De - Soldering Iron/Pump",
-    "choice_type": 1
-  },
-  {
-    "id": 96,
-    "question": 25,
-    "body": "Poorly Designed Hand Tools",
-    "choice_type": 1
-  },
-  {
-    "id": 97,
-    "question": 25,
-    "body": "Grip",
-    "choice_type": 1
-  },
-  {
-    "id": 98,
-    "question": 25,
-    "body": "Weight",
-    "choice_type": 1
-  },
-  {
-    "id": 99,
-    "question": 25,
-    "body": " None of the Above",
-    "choice_type": 1
-  },
-  {
-    "id": 100,
-    "question": 26,
-    "body": "Poorly Designed Hand Tools",
-    "choice_type": 1
-  },
-  {
-    "id": 101,
-    "question": 26,
-    "body": "Grip",
-    "choice_type": 1
-  },
-  {
-    "id": 102,
-    "question": 26,
-    "body": "Weight",
-    "choice_type": 1
-  },
-  {
-    "id": 103,
-    "question": 26,
-    "body": " None of the Above",
-    "choice_type": 1
-  },
-  {
-    "id": 104,
-    "question": 27,
-    "body": "Poorly Designed Hand Tools",
-    "choice_type": 1
-  },
-  {
-    "id": 105,
-    "question": 27,
-    "body": "Grip",
-    "choice_type": 1
-  },
-  {
-    "id": 106,
-    "question": 27,
-    "body": "Weight",
-    "choice_type": 1
-  },
-  {
-    "id": 107,
-    "question": 27,
-    "body": " None of the Above",
-    "choice_type": 1
-  },
-  {
-    "id": 108,
-    "question": 28,
-    "body": " Micrometer",
-    "choice_type": 1
-  },
-  {
-    "id": 109,
-    "question": 28,
-    "body": " Test Light",
-    "choice_type": 1
-  },
-  {
-    "id": 110,
-    "question": 28,
-    "body": " Volt Meter",
-    "choice_type": 1
-  },
-  {
-    "id": 111,
-    "question": 28,
-    "body": "Watt Meter",
-    "choice_type": 1
-  },
-  {
-    "id": 112,
-    "question": 29,
-    "body": " Micrometer",
-    "choice_type": 1
-  },
-  {
-    "id": 113,
-    "question": 29,
-    "body": " Test Light",
-    "choice_type": 1
-  },
-  {
-    "id": 114,
-    "question": 29,
-    "body": " Wire Gauge",
-    "choice_type": 1
-  },
-  {
-    "id": 115,
-    "question": 29,
-    "body": "Volt Meter",
-    "choice_type": 1
-  },
-  {
-    "id": 116,
-    "question": 30,
-    "body": "Ohm Meter",
-    "choice_type": 1
-  },
-  {
-    "id": 117,
-    "question": 30,
-    "body": " Test Light",
-    "choice_type": 1
-  },
-  {
-    "id": 118,
-    "question": 30,
-    "body": " Wire Gauge",
-    "choice_type": 1
-  },
-  {
-    "id": 119,
-    "question": 30,
-    "body": " Tape Measure",
-    "choice_type": 1
-  },
-  {
-    "id": 120,
-    "question": 31,
-    "body": " Micrometer",
-    "choice_type": 1
-  },
-  {
-    "id": 121,
-    "question": 31,
-    "body": " Test Light",
-    "choice_type": 1
-  },
-  {
-    "id": 122,
-    "question": 31,
-    "body": " Wire Gauge",
-    "choice_type": 1
-  },
-  {
-    "id": 123,
-    "question": 31,
-    "body": " Tape Measure",
-    "choice_type": 1
-  },
-  {
-    "id": 124,
-    "question": 32,
-    "body": " Watt Meter",
-    "choice_type": 1
-  },
-  {
-    "id": 125,
-    "question": 32,
-    "body": " Test Light",
-    "choice_type": 1
-  },
-  {
-    "id": 126,
-    "question": 32,
-    "body": " Volt Meter",
-    "choice_type": 1
-  },
-  {
-    "id": 127,
-    "question": 32,
-    "body": " Tape Measure",
-    "choice_type": 1
-  },
-  {
-    "id": 128,
-    "question": 33,
-    "body": "Micrometer",
-    "choice_type": 1
-  },
-  {
-    "id": 129,
-    "question": 33,
-    "body": " Test Light",
-    "choice_type": 1
-  },
-  {
-    "id": 130,
-    "question": 33,
-    "body": " Volt Meter",
-    "choice_type": 1
-  },
-  {
-    "id": 131,
-    "question": 33,
-    "body": " Ammter",
-    "choice_type": 1
-  },
-  {
-    "id": 132,
-    "question": 34,
-    "body": " Watt Meter",
-    "choice_type": 1
-  },
-  {
-    "id": 133,
-    "question": 34,
+    "questionId": 21,
     "body": "Wire Gauge",
     "choice_type": 1
   },
   {
-    "id": 134,
-    "question": 34,
-    "body": " Volt Meter",
+    "id": 82,
+    "questionId": 21,
+    "body": "Test Light",
     "choice_type": 1
   },
   {
-    "id": 135,
-    "question": 34,
-    "body": " Ammter",
+    "id": 83,
+    "questionId": 21,
+    "body": "Ammeter",
     "choice_type": 1
   },
   {
-    "id": 136,
-    "question": 35,
+    "id": 84,
+    "questionId": 21,
+    "body": "Wattmeter",
+    "choice_type": 1
+  },
+  {
+    "id": 85,
+    "questionId": 22,
+    "body": "Test Light",
+    "choice_type": 1
+  },
+  {
+    "id": 86,
+    "questionId": 22,
+    "body": "Tape Measure",
+    "choice_type": 1
+  },
+  {
+    "id": 87,
+    "questionId": 22,
+    "body": "Wire Gauge",
+    "choice_type": 1
+  },
+  {
+    "id": 88,
+    "questionId": 22,
+    "body": "Wattmeter",
+    "choice_type": 1
+  },
+  {
+    "id": 89,
+    "questionId": 23,
+    "body": "Micrometer",
+    "choice_type": 1
+  },
+  {
+    "id": 90,
+    "questionId": 23,
+    "body": "Tape Measure",
+    "choice_type": 1
+  },
+  {
+    "id": 91,
+    "questionId": 23,
+    "body": "Test Light",
+    "choice_type": 1
+  },
+  {
+    "id": 92,
+    "questionId": 23,
+    "body": "Ammeter",
+    "choice_type": 1
+  },
+  {
+    "id": 93,
+    "questionId": 24,
+    "body": "Wattmeter",
+    "choice_type": 1
+  },
+  {
+    "id": 94,
+    "questionId": 24,
+    "body": "Micrometer",
+    "choice_type": 1
+  },
+  {
+    "id": 95,
+    "questionId": 24,
+    "body": "Ammeter",
+    "choice_type": 1
+  },
+  {
+    "id": 96,
+    "questionId": 24,
+    "body": "Test Light",
+    "choice_type": 1
+  },
+  {
+    "id": 97,
+    "questionId": 25,
+    "body": "Test Light",
+    "choice_type": 1
+  },
+  {
+    "id": 98,
+    "questionId": 25,
+    "body": "Ammeter",
+    "choice_type": 1
+  },
+  {
+    "id": 99,
+    "questionId": 25,
+    "body": "Tape Measure",
+    "choice_type": 1
+  },
+  {
+    "id": 100,
+    "questionId": 25,
+    "body": "Wattmeter",
+    "choice_type": 1
+  },
+  {
+    "id": 101,
+    "questionId": 26,
+    "body": "Tape Measure",
+    "choice_type": 1
+  },
+  {
+    "id": 102,
+    "questionId": 26,
+    "body": " Test Light",
+    "choice_type": 1
+  },
+  {
+    "id": 103,
+    "questionId": 26,
+    "body": "Wattmeter",
+    "choice_type": 1
+  },
+  {
+    "id": 104,
+    "questionId": 26,
+    "body": "Wire Gauge",
+    "choice_type": 1
+  },
+  {
+    "id": 105,
+    "questionId": 27,
     "body": " Watt Meter",
     "choice_type": 1
   },
   {
+    "id": 106,
+    "questionId": 27,
+    "body": "Tape Measure",
+    "choice_type": 1
+  },
+  {
+    "id": 107,
+    "questionId": 27,
+    "body": "Ammeter",
+    "choice_type": 1
+  },
+  {
+    "id": 108,
+    "questionId": 27,
+    "body": "Test Light",
+    "choice_type": 1
+  },
+  {
+    "id": 109,
+    "questionId": 28,
+    "body": " Watt Meter",
+    "choice_type": 1
+  },
+  {
+    "id": 110,
+    "questionId": 28,
+    "body": "Micrometer",
+    "choice_type": 1
+  },
+  {
+    "id": 111,
+    "questionId": 28,
+    "body": "Wire Gauge",
+    "choice_type": 1
+  },
+  {
+    "id": 112,
+    "questionId": 28,
+    "body": "Test Light",
+    "choice_type": 1
+  },
+  {
+    "id": 113,
+    "questionId": 29,
+    "body": "Wattmeter",
+    "choice_type": 1
+  },
+  {
+    "id": 114,
+    "questionId": 29,
+    "body": "Test Light",
+    "choice_type": 1
+  },
+  {
+    "id": 115,
+    "questionId": 29,
+    "body": "Micrometer",
+    "choice_type": 1
+  },
+  {
+    "id": 116,
+    "questionId": 29,
+    "body": "Wire Gauge",
+    "choice_type": 1
+  },
+  {
+    "id": 117,
+    "questionId": 30,
+    "body": "Tape Measure",
+    "choice_type": 1
+  },
+  {
+    "id": 118,
+    "questionId": 30,
+    "body": "Wire Gauge",
+    "choice_type": 1
+  },
+  {
+    "id": 119,
+    "questionId": 30,
+    "body": " Test Light",
+    "choice_type": 1
+  },
+  {
+    "id": 120,
+    "questionId": 30,
+    "body": "Ammeter",
+    "choice_type": 1
+  },
+  {
+    "id": 121,
+    "questionId": 31,
+    "body": "Electronic Symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 122,
+    "questionId": 31,
+    "body": "Electronic Component",
+    "choice_type": 1
+  },
+  {
+    "id": 123,
+    "questionId": 31,
+    "body": "Resistor",
+    "choice_type": 1
+  },
+  {
+    "id": 124,
+    "questionId": 31,
+    "body": "Capacitor",
+    "choice_type": 1
+  },
+  {
+    "id": 125,
+    "questionId": 32,
+    "body": "Active Electronic Component",
+    "choice_type": 1
+  },
+  {
+    "id": 126,
+    "questionId": 32,
+    "body": "Electromechanical Component",
+    "choice_type": 1
+  },
+  {
+    "id": 127,
+    "questionId": 32,
+    "body": "Passive Electronic Component",
+    "choice_type": 1
+  },
+  {
+    "id": 128,
+    "questionId": 32,
+    "body": "Electronic Component",
+    "choice_type": 1
+  },
+  {
+    "id": 129,
+    "questionId": 33,
+    "body": "Passive Electronic Component",
+    "choice_type": 1
+  },
+  {
+    "id": 130,
+    "questionId": 33,
+    "body": "Electromechanical Component",
+    "choice_type": 1
+  },
+  {
+    "id": 131,
+    "questionId": 33,
+    "body": "Active Electronic Component",
+    "choice_type": 1
+  },
+  {
+    "id": 132,
+    "questionId": 33,
+    "body": "Switch",
+    "choice_type": 1
+  },
+  {
+    "id": 133,
+    "questionId": 34,
+    "body": "Diode",
+    "choice_type": 1
+  },
+  {
+    "id": 134,
+    "questionId": 34,
+    "body": "Electronic Symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 135,
+    "questionId": 34,
+    "body": "Passive Electronic Component",
+    "choice_type": 1
+  },
+  {
+    "id": 136,
+    "questionId": 34,
+    "body": "Active Electronic Component",
+    "choice_type": 1
+  },
+  {
     "id": 137,
-    "question": 35,
-    "body": " Ohm Meter",
+    "questionId": 35,
+    "body": "Capacitor",
     "choice_type": 1
   },
   {
     "id": 138,
-    "question": 35,
-    "body": " Volt Meter",
+    "questionId": 35,
+    "body": "Resistor",
     "choice_type": 1
   },
   {
     "id": 139,
-    "question": 35,
-    "body": " Ammter",
+    "questionId": 35,
+    "body": "Diode",
     "choice_type": 1
   },
   {
     "id": 140,
-    "question": 43,
-    "body": " Isometric Projection",
+    "questionId": 35,
+    "body": "Switch",
     "choice_type": 1
   },
   {
-    "id": 169,
-    "question": 43,
-    "body": " British Standard Dimensions",
-    "choice_type": 1
-  },
-  {
-    "id": 170,
-    "question": 43,
-    "body": " Orthographic Projection",
-    "choice_type": 1
-  },
-  {
-    "id": 171,
-    "question": 43,
-    "body": " None of the Above",
-    "choice_type": 1
-  },
-  {
-    "id": 172,
-    "question": 44,
-    "body": " Isometric Projection",
-    "choice_type": 1
-  },
-  {
-    "id": 173,
-    "question": 44,
-    "body": " British Standard Dimensions",
-    "choice_type": 1
-  },
-  {
-    "id": 174,
-    "question": 44,
-    "body": " Orthographic Projection",
-    "choice_type": 1
-  },
-  {
-    "id": 175,
-    "question": 44,
-    "body": " None of the Above",
-    "choice_type": 1
-  },
-  {
-    "id": 176,
-    "question": 45,
-    "body": " Isometric Projection",
-    "choice_type": 1
-  },
-  {
-    "id": 177,
-    "question": 45,
-    "body": " British Standard Dimensions",
-    "choice_type": 1
-  },
-  {
-    "id": 178,
-    "question": 45,
-    "body": " Orthographic Projection",
-    "choice_type": 1
-  },
-  {
-    "id": 179,
-    "question": 45,
-    "body": " None of the Above",
-    "choice_type": 1
-  },
-  {
-    "id": 180,
-    "question": 46,
-    "body": " Composite",
-    "choice_type": 1
-  },
-  {
-    "id": 181,
-    "question": 46,
-    "body": " Polystyrene",
-    "choice_type": 1
-  },
-  {
-    "id": 182,
-    "question": 46,
-    "body": " Thermosetting Plastic",
-    "choice_type": 1
-  },
-  {
-    "id": 183,
-    "question": 46,
-    "body": " Styrofoam",
-    "choice_type": 1
-  },
-  {
-    "id": 184,
-    "question": 47,
-    "body": " Composite",
-    "choice_type": 1
-  },
-  {
-    "id": 185,
-    "question": 47,
-    "body": " Polymer",
-    "choice_type": 1
-  },
-  {
-    "id": 186,
-    "question": 47,
-    "body": " Thermoplastic",
-    "choice_type": 1
-  },
-  {
-    "id": 187,
-    "question": 47,
-    "body": " Acrylic",
-    "choice_type": 1
-  },
-  {
-    "id": 188,
-    "question": 48,
-    "body": "Coping Saw",
-    "choice_type": 1
-  },
-  {
-    "id": 189,
-    "question": 48,
-    "body": "Cutting Mat",
-    "choice_type": 1
-  },
-  {
-    "id": 190,
-    "question": 48,
-    "body": "Square",
-    "choice_type": 1
-  },
-  {
-    "id": 191,
-    "question": 48,
-    "body": "Sandpaper",
-    "choice_type": 1
-  },
-  {
-    "id": 192,
-    "question": 49,
-    "body": "Sandpaper",
-    "choice_type": 1
-  },
-  {
-    "id": 193,
-    "question": 49,
-    "body": " Craft Knife",
-    "choice_type": 1
-  },
-  {
-    "id": 194,
-    "question": 49,
-    "body": " Cutting Mat",
-    "choice_type": 1
-  },
-  {
-    "id": 195,
-    "question": 49,
-    "body": "Coping Saw",
-    "choice_type": 1
-  },
-  {
-    "id": 196,
-    "question": 50,
-    "body": " Vaccum Forming",
-    "choice_type": 1
-  },
-  {
-    "id": 197,
-    "question": 50,
-    "body": " Line Bending",
-    "choice_type": 1
-  },
-  {
-    "id": 198,
-    "question": 50,
-    "body": " Injection Molding",
-    "choice_type": 1
-  },
-  {
-    "id": 199,
-    "question": 50,
-    "body": " None of the Above",
-    "choice_type": 1
-  },
-  {
-    "id": 200,
-    "question": 51,
-    "body": " Vaccum Forming",
-    "choice_type": 1
-  },
-  {
-    "id": 201,
-    "question": 51,
-    "body": " Line Bending",
-    "choice_type": 1
-  },
-  {
-    "id": 202,
-    "question": 51,
-    "body": " Injection Molding",
-    "choice_type": 1
-  },
-  {
-    "id": 203,
-    "question": 51,
-    "body": " None of the Above",
-    "choice_type": 1
-  },
-  {
-    "id": 204,
-    "question": 52,
-    "body": " Vaccum Forming",
-    "choice_type": 1
-  },
-  {
-    "id": 205,
-    "question": 52,
-    "body": " Line Bending",
-    "choice_type": 1
-  },
-  {
-    "id": 206,
-    "question": 52,
-    "body": " Injection Molding",
-    "choice_type": 1
-  },
-  {
-    "id": 207,
-    "question": 52,
-    "body": " None of the Above",
-    "choice_type": 1
-  },
-  {
-    "id": 208,
-    "question": 53,
-    "body": "Capacitor",
-    "choice_type": 1
-  },
-  {
-    "id": 209,
-    "question": 53,
-    "body": "Wire",
-    "choice_type": 1
-  },
-  {
-    "id": 210,
-    "question": 53,
+    "id": 141,
+    "questionId": 36,
     "body": "Resistor",
     "choice_type": 1
   },
   {
-    "id": 211,
-    "question": 53,
-    "body": "Earth",
+    "id": 142,
+    "questionId": 36,
+    "body": "Switch",
     "choice_type": 1
   },
   {
-    "id": 212,
-    "question": 54,
+    "id": 143,
+    "questionId": 36,
+    "body": "Diode",
+    "choice_type": 1
+  },
+  {
+    "id": 144,
+    "questionId": 36,
     "body": "Capacitor",
     "choice_type": 1
   },
   {
-    "id": 213,
-    "question": 54,
-    "body": "Wire",
+    "id": 145,
+    "questionId": 37,
+    "body": "Diode",
     "choice_type": 1
   },
   {
-    "id": 214,
-    "question": 54,
-    "body": "Resistor",
+    "id": 146,
+    "questionId": 37,
+    "body": "Switch",
     "choice_type": 1
   },
   {
-    "id": 215,
-    "question": 54,
-    "body": "Earth",
-    "choice_type": 1
-  },
-  {
-    "id": 216,
-    "question": 55,
+    "id": 147,
+    "questionId": 37,
     "body": "Capacitor",
     "choice_type": 1
   },
   {
-    "id": 217,
-    "question": 55,
-    "body": "Wire",
-    "choice_type": 1
-  },
-  {
-    "id": 218,
-    "question": 55,
+    "id": 148,
+    "questionId": 37,
     "body": "Resistor",
     "choice_type": 1
   },
   {
-    "id": 219,
-    "question": 55,
-    "body": "Earth",
+    "id": 149,
+    "questionId": 38,
+    "body": "Switch",
     "choice_type": 1
   },
   {
-    "id": 220,
-    "question": 56,
+    "id": 150,
+    "questionId": 38,
     "body": "Capacitor",
     "choice_type": 1
   },
   {
-    "id": 221,
-    "question": 56,
-    "body": "Wire",
+    "id": 151,
+    "questionId": 38,
+    "body": "Diode",
     "choice_type": 1
   },
   {
-    "id": 222,
-    "question": 56,
+    "id": 152,
+    "questionId": 38,
     "body": "Resistor",
     "choice_type": 1
   },
   {
-    "id": 223,
-    "question": 56,
-    "body": "Earth",
+    "id": 153,
+    "questionId": 39,
+    "body": "Electronic Symbol",
     "choice_type": 1
   },
   {
-    "id": 224,
-    "question": 57,
-    "body": " Tabular",
+    "id": 154,
+    "questionId": 39,
+    "body": "Electronic Schematic",
     "choice_type": 1
   },
   {
-    "id": 225,
-    "question": 57,
-    "body": " Align",
+    "id": 155,
+    "questionId": 39,
+    "body": "Electronic Component",
     "choice_type": 1
   },
   {
-    "id": 226,
-    "question": 57,
-    "body": " Undirectional",
+    "id": 156,
+    "questionId": 39,
+    "body": " None of the Above",
     "choice_type": 1
   },
   {
-    "id": 227,
-    "question": 57,
+    "id": 157,
+    "questionId": 40,
+    "body": "Electronic Symbol",
+    "choice_type": 1
+  },
+  {
+    "id": 158,
+    "questionId": 40,
+    "body": "Electronic Component",
+    "choice_type": 1
+  },
+  {
+    "id": 159,
+    "questionId": 40,
+    "body": "Electronic Schematic",
+    "choice_type": 1
+  },
+  {
+    "id": 160,
+    "questionId": 40,
     "body": " None of the Above",
     "choice_type": 1
   },
   {
     "id": 228,
-    "question": 58,
-    "body": " Act 2001",
+    "questionId": 58,
+    "body": "Flash Drive",
     "choice_type": 1
   },
   {
     "id": 229,
-    "question": 58,
-    "body": " Act 2004",
+    "questionId": 58,
+    "body": "Hard Disk Drive",
     "choice_type": 1
   },
   {
     "id": 230,
-    "question": 58,
-    "body": " Act 2009",
+    "questionId": 58,
+    "body": "Solid State Drive",
     "choice_type": 1
   },
   {
     "id": 231,
-    "question": 58,
-    "body": " None Of The Above",
+    "questionId": 58,
+    "body": "RAM",
     "choice_type": 1
   },
   {
     "id": 232,
-    "question": 59,
-    "body": " All Victorian workers ",
+    "questionId": 59,
+    "body": "CD",
     "choice_type": 1
   },
   {
     "id": 233,
-    "question": 59,
-    "body": " Government Employees",
+    "questionId": 59,
+    "body": "Non-Volatle Memory",
     "choice_type": 1
   },
   {
     "id": 234,
-    "question": 59,
-    "body": " OFWs",
+    "questionId": 59,
+    "body": "Volatile Memory",
     "choice_type": 1
   },
   {
     "id": 235,
-    "question": 59,
-    "body": " None Of The Above",
+    "questionId": 59,
+    "body": "None Of The Above",
     "choice_type": 1
   },
   {
     "id": 236,
-    "question": 60,
-    "body": " Batch OS and Single OS",
+    "questionId": 60,
+    "body": "Volatile Memory",
     "choice_type": 1
   },
   {
     "id": 237,
-    "question": 60,
-    "body": " Real Time OS and Multitasking OS",
+    "questionId": 60,
+    "body": "CD",
     "choice_type": 1
   },
   {
     "id": 238,
-    "question": 60,
-    "body": " Normal OS and Real Time OS",
+    "questionId": 60,
+    "body": "Non-Volatle Memory",
     "choice_type": 1
   },
   {
     "id": 239,
-    "question": 60,
-    "body": " Fast OS and Slow ",
+    "questionId": 60,
+    "body": "None Of The Above",
     "choice_type": 1
   },
   {
     "id": 240,
-    "question": 61,
-    "body": " Character User Interface(CUI) OS",
+    "questionId": 61,
+    "body": "Boot Program",
     "choice_type": 1
   },
   {
     "id": 241,
-    "question": 61,
-    "body": " Normal Operating System",
+    "questionId": 61,
+    "body": "OS",
     "choice_type": 1
   },
   {
     "id": 242,
-    "question": 61,
-    "body": " Real Time Operating System",
+    "questionId": 61,
+    "body": "Kernel",
     "choice_type": 1
   },
   {
     "id": 243,
-    "question": 61,
-    "body": " Graphical User Interface(GUI) OS",
+    "questionId": 61,
+    "body": "BIOS",
     "choice_type": 1
   },
   {
     "id": 244,
-    "question": 62,
-    "body": " Character User Interface(CUI) OS",
+    "questionId": 62,
+    "body": "TRUE",
     "choice_type": 1
   },
   {
     "id": 245,
-    "question": 62,
-    "body": " Normal Operating System",
+    "questionId": 62,
+    "body": "FALSE",
     "choice_type": 1
   },
   {
     "id": 246,
-    "question": 62,
-    "body": " Real Time Operating System",
+    "questionId": 62,
+    "body": "Maybe",
     "choice_type": 1
   },
   {
     "id": 247,
-    "question": 62,
-    "body": " Graphical User Interface(GUI) OS",
+    "questionId": 62,
+    "body": "None Of The Above",
     "choice_type": 1
   },
   {
     "id": 248,
-    "question": 63,
-    "body": " Operating System Designs",
+    "questionId": 63,
+    "body": "TRUE",
     "choice_type": 1
   },
   {
     "id": 249,
-    "question": 63,
-    "body": " Structures of Operating Systems",
+    "questionId": 63,
+    "body": "FALSE",
     "choice_type": 1
   },
   {
     "id": 250,
-    "question": 63,
-    "body": " Architecture of Operating Systems",
+    "questionId": 63,
+    "body": "Maybe",
     "choice_type": 1
   },
   {
     "id": 251,
-    "question": 63,
-    "body": " Graphical User Interface(GUI)",
+    "questionId": 63,
+    "body": "None Of The Above",
     "choice_type": 1
   },
   {
     "id": 252,
-    "question": 64,
-    "body": " Memory",
+    "questionId": 64,
+    "body": "Windows stops responding to mouse and keyboard input.",
     "choice_type": 1
   },
   {
     "id": 253,
-    "question": 64,
-    "body": " Hard disk drive",
+    "questionId": 64,
+    "body": "Nothing moves on the computer display.",
     "choice_type": 1
   },
   {
     "id": 254,
-    "question": 64,
-    "body": "Solid-state drives",
+    "questionId": 64,
+    "body": "Mouse cursor in constant busy mode.",
     "choice_type": 1
   },
   {
     "id": 255,
-    "question": 64,
-    "body": " Flash drive",
+    "questionId": 64,
+    "body": "All of the Above",
     "choice_type": 1
   },
   {
     "id": 256,
-    "question": 65,
-    "body": " Table; Parallel",
+    "questionId": 65,
+    "body": "Scanner",
     "choice_type": 1
   },
   {
     "id": 257,
-    "question": 65,
-    "body": " Parallel; Table",
+    "questionId": 65,
+    "body": "Printer",
     "choice_type": 1
   },
   {
     "id": 258,
-    "question": 65,
-    "body": " Chair; Parallel",
+    "questionId": 65,
+    "body": "Fax",
     "choice_type": 1
   },
   {
     "id": 259,
-    "question": 65,
-    "body": " Chair; Table",
+    "questionId": 65,
+    "body": "Webcam",
     "choice_type": 1
   },
   {
     "id": 260,
-    "question": 66,
-    "body": " System Software",
+    "questionId": 66,
+    "body": "Information Security",
     "choice_type": 1
   },
   {
     "id": 261,
-    "question": 66,
-    "body": " Operating System",
+    "questionId": 66,
+    "body": "Cybersecurity",
     "choice_type": 1
   },
   {
     "id": 262,
-    "question": 66,
-    "body": " Hardware",
+    "questionId": 66,
+    "body": "Physical Security",
     "choice_type": 1
   },
   {
     "id": 263,
-    "question": 66,
-    "body": " Peripherals",
+    "questionId": 66,
+    "body": "Security Measures",
     "choice_type": 1
   },
   {
     "id": 264,
-    "question": 67,
-    "body": " System Software",
+    "questionId": 67,
+    "body": "Boot Program",
     "choice_type": 1
   },
   {
     "id": 265,
-    "question": 67,
-    "body": " Kernel",
+    "questionId": 67,
+    "body": "OS",
     "choice_type": 1
   },
   {
     "id": 266,
-    "question": 67,
-    "body": " RAM",
+    "questionId": 67,
+    "body": "Kernel",
     "choice_type": 1
   },
   {
     "id": 267,
-    "question": 67,
-    "body": " Boot Program",
+    "questionId": 67,
+    "body": "BIOS",
     "choice_type": 1
   },
   {
     "id": 268,
-    "question": 68,
-    "body": " Character User Interface and Graphical User Interface",
+    "questionId": 68,
+    "body": "Electronic Test Equipment",
     "choice_type": 1
   },
   {
     "id": 269,
-    "question": 68,
-    "body": " Fast and Slow",
+    "questionId": 68,
+    "body": "Electronic Measuring Equipment",
     "choice_type": 1
   },
   {
     "id": 270,
-    "question": 68,
-    "body": " Functional and Operational",
+    "questionId": 68,
+    "body": "Electronic Analyzer",
     "choice_type": 1
   },
   {
     "id": 271,
-    "question": 68,
-    "body": " Real-Time and Batch",
-    "choice_type": 1
-  },
-  {
-    "id": 272,
-    "question": 69,
-    "body": " Kernel",
-    "choice_type": 1
-  },
-  {
-    "id": 273,
-    "question": 69,
-    "body": " Operating System",
-    "choice_type": 1
-  },
-  {
-    "id": 274,
-    "question": 69,
-    "body": " Firmware",
-    "choice_type": 1
-  },
-  {
-    "id": 275,
-    "question": 69,
-    "body": " Shell",
-    "choice_type": 1
-  },
-  {
-    "id": 276,
-    "question": 70,
-    "body": " Command Line shells",
-    "choice_type": 1
-  },
-  {
-    "id": 277,
-    "question": 70,
-    "body": " Command Line Interface",
-    "choice_type": 1
-  },
-  {
-    "id": 278,
-    "question": 70,
-    "body": " Graphical Command Line",
-    "choice_type": 1
-  },
-  {
-    "id": 279,
-    "question": 70,
-    "body": " Graphical Line Shells",
-    "choice_type": 1
-  },
-  {
-    "id": 280,
-    "question": 71,
-    "body": " C Command Line shells",
-    "choice_type": 1
-  },
-  {
-    "id": 281,
-    "question": 71,
-    "body": " Command Line Interface",
-    "choice_type": 1
-  },
-  {
-    "id": 282,
-    "question": 71,
-    "body": " Graphical Command Line",
-    "choice_type": 1
-  },
-  {
-    "id": 283,
-    "question": 71,
-    "body": " Graphical Line Shells",
-    "choice_type": 1
-  },
-  {
-    "id": 284,
-    "question": 72,
-    "body": " Firmware",
-    "choice_type": 1
-  },
-  {
-    "id": 285,
-    "question": 72,
-    "body": " Root",
-    "choice_type": 1
-  },
-  {
-    "id": 286,
-    "question": 72,
-    "body": " Kernel",
-    "choice_type": 1
-  },
-  {
-    "id": 287,
-    "question": 72,
-    "body": " CPU",
-    "choice_type": 1
-  },
-  {
-    "id": 288,
-    "question": 73,
-    "body": " Virtual and Physical",
-    "choice_type": 1
-  },
-  {
-    "id": 289,
-    "question": 73,
-    "body": " RAM and ROM",
-    "choice_type": 1
-  },
-  {
-    "id": 290,
-    "question": 73,
-    "body": " HDD and SDD",
-    "choice_type": 1
-  },
-  {
-    "id": 291,
-    "question": 73,
-    "body": " Flash and RAM",
-    "choice_type": 1
-  },
-  {
-    "id": 292,
-    "question": 74,
-    "body": " Storage Management",
-    "choice_type": 1
-  },
-  {
-    "id": 293,
-    "question": 74,
-    "body": " File Management",
-    "choice_type": 1
-  },
-  {
-    "id": 294,
-    "question": 74,
-    "body": " Process Management",
-    "choice_type": 1
-  },
-  {
-    "id": 295,
-    "question": 74,
-    "body": " Operating Management",
-    "choice_type": 1
-  },
-  {
-    "id": 296,
-    "question": 75,
-    "body": " File Management",
-    "choice_type": 1
-  },
-  {
-    "id": 297,
-    "question": 75,
-    "body": " Storage Management",
-    "choice_type": 1
-  },
-  {
-    "id": 298,
-    "question": 75,
-    "body": " Operating Management",
-    "choice_type": 1
-  },
-  {
-    "id": 299,
-    "question": 75,
-    "body": " Process Management",
-    "choice_type": 1
-  },
-  {
-    "id": 300,
-    "question": 76,
-    "body": " Long term scheduler; Short term scheduler; Medium term schedule",
-    "choice_type": 1
-  },
-  {
-    "id": 301,
-    "question": 76,
-    "body": " Fast scheduler ; Slow Scheduler; Moderate Scheduler",
-    "choice_type": 1
-  },
-  {
-    "id": 302,
-    "question": 76,
-    "body": " Very Fast scheduler; Very Slow scheduler; Slow Scheduler",
-    "choice_type": 1
-  },
-  {
-    "id": 303,
-    "question": 76,
-    "body": " Very Fast scheduler; Very Slow scheduler; Fast Scheduler",
-    "choice_type": 1
-  },
-  {
-    "id": 304,
-    "question": 77,
-    "body": " Hard Real-Time System",
-    "choice_type": 1
-  },
-  {
-    "id": 305,
-    "question": 77,
-    "body": " Soft Real-Time System",
-    "choice_type": 1
-  },
-  {
-    "id": 306,
-    "question": 77,
-    "body": " Fast Real-Time System",
-    "choice_type": 1
-  },
-  {
-    "id": 307,
-    "question": 77,
-    "body": " Automatic System",
-    "choice_type": 1
-  },
-  {
-    "id": 308,
-    "question": 78,
-    "body": " Always cover sharp pointed tools w/ plastic",
-    "choice_type": 1
-  },
-  {
-    "id": 309,
-    "question": 78,
-    "body": " Always cover sharp pointed tools w/ cork",
-    "choice_type": 1
-  },
-  {
-    "id": 310,
-    "question": 78,
-    "body": " Always cover sharp pointed tools w/ rubber",
-    "choice_type": 1
-  },
-  {
-    "id": 311,
-    "question": 78,
+    "questionId": 68,
     "body": " None of the Above",
     "choice_type": 1
   },
   {
+    "id": 272,
+    "questionId": 69,
+    "body": "Electrical Terminator",
+    "choice_type": 1
+  },
+  {
+    "id": 273,
+    "questionId": 69,
+    "body": "Electrical Connector",
+    "choice_type": 1
+  },
+  {
+    "id": 274,
+    "questionId": 69,
+    "body": "Electrical Analyzer",
+    "choice_type": 1
+  },
+  {
+    "id": 275,
+    "questionId": 69,
+    "body": "Electrical Testers",
+    "choice_type": 1
+  },
+  {
+    "id": 276,
+    "questionId": 70,
+    "body": "Ohm Meter",
+    "choice_type": 1
+  },
+  {
+    "id": 277,
+    "questionId": 70,
+    "body": "Multimeters",
+    "choice_type": 1
+  },
+  {
+    "id": 278,
+    "questionId": 70,
+    "body": "Solenoid Voltage Testers",
+    "choice_type": 1
+  },
+  {
+    "id": 279,
+    "questionId": 70,
+    "body": "Continuity Tester",
+    "choice_type": 1
+  },
+  {
+    "id": 280,
+    "questionId": 71,
+    "body": "Multimeters",
+    "choice_type": 1
+  },
+  {
+    "id": 281,
+    "questionId": 71,
+    "body": "Continuity Tester",
+    "choice_type": 1
+  },
+  {
+    "id": 282,
+    "questionId": 71,
+    "body": "Ohm Meter",
+    "choice_type": 1
+  },
+  {
+    "id": 283,
+    "questionId": 71,
+    "body": "Solenoid Voltage Testers",
+    "choice_type": 1
+  },
+  {
+    "id": 284,
+    "questionId": 72,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 285,
+    "questionId": 72,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 286,
+    "questionId": 72,
+    "body": "Maybe",
+    "choice_type": 1
+  },
+  {
+    "id": 287,
+    "questionId": 72,
+    "body": "None of the above",
+    "choice_type": 1
+  },
+  {
+    "id": 288,
+    "questionId": 73,
+    "body": "TRUE",
+    "choice_type": 1
+  },
+  {
+    "id": 289,
+    "questionId": 73,
+    "body": "FALSE",
+    "choice_type": 1
+  },
+  {
+    "id": 290,
+    "questionId": 73,
+    "body": "Maybe",
+    "choice_type": 1
+  },
+  {
+    "id": 291,
+    "questionId": 73,
+    "body": "None Of The Above",
+    "choice_type": 1
+  },
+  {
+    "id": 292,
+    "questionId": 74,
+    "body": "Does the PPE control the risks or does it possibly increase them?",
+    "choice_type": 1
+  },
+  {
+    "id": 293,
+    "questionId": 74,
+    "body": "Does it allow for the conditions of the workplace?",
+    "choice_type": 1
+  },
+  {
+    "id": 294,
+    "questionId": 74,
+    "body": "Is it easy to adjust the PPE for whoever is using it?",
+    "choice_type": 1
+  },
+  {
+    "id": 295,
+    "questionId": 74,
+    "body": "None Of The Above",
+    "choice_type": 1
+  },
+  {
+    "id": 296,
+    "questionId": 75,
+    "body": "Personal  Equipment Protection",
+    "choice_type": 1
+  },
+  {
+    "id": 297,
+    "questionId": 75,
+    "body": "Personal Protective Equipment",
+    "choice_type": 1
+  },
+  {
+    "id": 298,
+    "questionId": 75,
+    "body": "Personal Protective Gear",
+    "choice_type": 1
+  },
+  {
+    "id": 299,
+    "questionId": 75,
+    "body": "Professional Protective Equipment",
+    "choice_type": 1
+  },
+  {
+    "id": 300,
+    "questionId": 76,
+    "body": "Ohm Meter",
+    "choice_type": 1
+  },
+  {
+    "id": 301,
+    "questionId": 76,
+    "body": "Multimeters",
+    "choice_type": 1
+  },
+  {
+    "id": 302,
+    "questionId": 76,
+    "body": "Solenoid Voltage Testers",
+    "choice_type": 1
+  },
+  {
+    "id": 303,
+    "questionId": 76,
+    "body": "Continuity Tester",
+    "choice_type": 1
+  },
+  {
+    "id": 304,
+    "questionId": 77,
+    "body": "Electronic Analyzer",
+    "choice_type": 1
+  },
+  {
+    "id": 305,
+    "questionId": 77,
+    "body": "Voltmeter",
+    "choice_type": 1
+  },
+  {
+    "id": 306,
+    "questionId": 77,
+    "body": "Plug-in Circuit Analyzer",
+    "choice_type": 1
+  },
+  {
+    "id": 307,
+    "questionId": 77,
+    "body": "None of the above",
+    "choice_type": 1
+  },
+  {
+    "id": 308,
+    "questionId": 78,
+    "body": "Cleat Wiring",
+    "choice_type": 1
+  },
+  {
+    "id": 309,
+    "questionId": 78,
+    "body": "Casing and Capping wiring",
+    "choice_type": 1
+  },
+  {
+    "id": 310,
+    "questionId": 78,
+    "body": "Conduit Wiring",
+    "choice_type": 1
+  },
+  {
+    "id": 311,
+    "questionId": 78,
+    "body": "Batten Wiring",
+    "choice_type": 1
+  },
+  {
     "id": 312,
-    "question": 79,
-    "body": "Always cover sharp pointed tools w/ plastic",
+    "questionId": 79,
+    "body": "Packaging",
     "choice_type": 1
   },
   {
     "id": 313,
-    "question": 79,
-    "body": "Always cover sharp pointed tools w/ cork",
+    "questionId": 79,
+    "body": "Soldering ",
     "choice_type": 1
   },
   {
     "id": 314,
-    "question": 79,
-    "body": "Always cover sharp pointed tools w/ rubber",
+    "questionId": 79,
+    "body": "Terminating",
     "choice_type": 1
   },
   {
     "id": 315,
-    "question": 79,
-    "body": "None of the Above",
+    "questionId": 79,
+    "body": "Connecting",
     "choice_type": 1
   },
   {
     "id": 316,
-    "question": 80,
-    "body": "Safe Use",
+    "questionId": 80,
+    "body": "Terminating",
     "choice_type": 1
   },
   {
     "id": 317,
-    "question": 80,
-    "body": "Correct maintenance of Tools and Equipment",
+    "questionId": 80,
+    "body": "Terminating",
     "choice_type": 1
   },
   {
     "id": 318,
-    "question": 80,
-    "body": "Law on Tools and Maintenance",
+    "questionId": 80,
+    "body": "Connecting",
     "choice_type": 1
   },
   {
     "id": 319,
-    "question": 80,
-    "body": "None of the Above",
+    "questionId": 80,
+    "body": "Soldering",
     "choice_type": 1
   },
   {
     "id": 320,
-    "question": 81,
-    "body": "Safe Use",
+    "questionId": 81,
+    "body": "Straight fine-point tweezers",
     "choice_type": 1
   },
   {
     "id": 321,
-    "question": 81,
-    "body": "Correct maintenance of Tools and Equipment",
+    "questionId": 81,
+    "body": "Flat fine-point tweezers",
     "choice_type": 1
   },
   {
     "id": 322,
-    "question": 81,
-    "body": "Law on Tools and Maintenance",
+    "questionId": 81,
+    "body": "Round fine-point tweezers",
     "choice_type": 1
   },
   {
     "id": 323,
-    "question": 81,
+    "questionId": 81,
     "body": "None of the Above",
     "choice_type": 1
   },
   {
     "id": 324,
-    "question": 82,
-    "body": "Standard Rules and Regulations(SRR)",
+    "questionId": 82,
+    "body": "Crimping Tool",
     "choice_type": 1
   },
   {
     "id": 325,
-    "question": 82,
-    "body": "Standard Operating Regulations(SOR)",
+    "questionId": 82,
+    "body": "Soldering Tool",
     "choice_type": 1
   },
   {
     "id": 326,
-    "question": 82,
-    "body": "Standard Operating Procedure(SOP)",
+    "questionId": 82,
+    "body": "IC Extraction Tool",
     "choice_type": 1
   },
   {
     "id": 327,
-    "question": 82,
-    "body": "None of the above",
+    "questionId": 82,
+    "body": "Measuring Tool",
     "choice_type": 1
   },
   {
     "id": 328,
-    "question": 83,
-    "body": "Inductance Testers",
+    "questionId": 83,
+    "body": "Wire Wrap Bits-Sleeves",
     "choice_type": 1
   },
   {
     "id": 329,
-    "question": 83,
-    "body": "Solenoid Voltage Testers",
+    "questionId": 83,
+    "body": "Tape Wire",
     "choice_type": 1
   },
   {
     "id": 330,
-    "question": 83,
-    "body": "Continuity Testers",
+    "questionId": 83,
+    "body": "Electrical Tape",
     "choice_type": 1
   },
   {
     "id": 331,
-    "question": 83,
-    "body": "Electrical testers",
+    "questionId": 83,
+    "body": "None of the Above",
     "choice_type": 1
   },
   {
     "id": 332,
-    "question": 84,
-    "body": "Inductance Testers",
+    "questionId": 84,
+    "body": "NAND Gate",
     "choice_type": 1
   },
   {
     "id": 333,
-    "question": 84,
-    "body": "Solenoid Voltage Testers",
+    "questionId": 84,
+    "body": "AND Gate",
     "choice_type": 1
   },
   {
     "id": 334,
-    "question": 84,
-    "body": "Continuity Testers",
+    "questionId": 84,
+    "body": "NOT Gate",
     "choice_type": 1
   },
   {
     "id": 335,
-    "question": 84,
-    "body": "Electrical testers",
+    "questionId": 84,
+    "body": "OR Gate",
     "choice_type": 1
   },
   {
     "id": 336,
-    "question": 85,
-    "body": "Inductance Testers",
+    "questionId": 85,
+    "body": "NOT Gate",
     "choice_type": 1
   },
   {
     "id": 337,
-    "question": 85,
-    "body": "Solenoid Voltage Testers",
+    "questionId": 85,
+    "body": "OR Gate",
     "choice_type": 1
   },
   {
     "id": 338,
-    "question": 85,
-    "body": "Continuity Testers",
+    "questionId": 85,
+    "body": "AND Gate",
     "choice_type": 1
   },
   {
     "id": 339,
-    "question": 85,
-    "body": "Electrical testers",
+    "questionId": 85,
+    "body": "NAND Gate",
     "choice_type": 1
   },
   {
     "id": 340,
-    "question": 86,
-    "body": "TRUE",
+    "questionId": 86,
+    "body": "NAND Gate",
     "choice_type": 1
   },
   {
     "id": 341,
-    "question": 86,
-    "body": "FALSE",
+    "questionId": 86,
+    "body": "OR Gate",
     "choice_type": 1
   },
   {
     "id": 342,
-    "question": 86,
-    "body": "Sometimes",
+    "questionId": 86,
+    "body": "AND Gate",
     "choice_type": 1
   },
   {
     "id": 343,
-    "question": 86,
-    "body": "Not at all",
+    "questionId": 86,
+    "body": "NOT Gate",
     "choice_type": 1
   },
   {
     "id": 344,
-    "question": 87,
-    "body": "TRUE",
+    "questionId": 87,
+    "body": "AND Gate",
     "choice_type": 1
   },
   {
     "id": 345,
-    "question": 87,
-    "body": "FALSE",
+    "questionId": 87,
+    "body": "NOT Gate",
     "choice_type": 1
   },
   {
     "id": 346,
-    "question": 87,
-    "body": "Sometimes",
+    "questionId": 87,
+    "body": "OR Gate",
     "choice_type": 1
   },
   {
     "id": 347,
-    "question": 87,
-    "body": "Not at all",
+    "questionId": 87,
+    "body": "NAND Gate",
     "choice_type": 1
   },
   {
     "id": 348,
-    "question": 88,
-    "body": "TRUE",
+    "questionId": 88,
+    "body": "6 band resistor",
     "choice_type": 1
   },
   {
     "id": 349,
-    "question": 88,
-    "body": "FALSE",
+    "questionId": 88,
+    "body": "4 band resistor",
     "choice_type": 1
   },
   {
     "id": 350,
-    "question": 88,
-    "body": "Sometimes",
+    "questionId": 88,
+    "body": "5 band resistor",
     "choice_type": 1
   },
   {
     "id": 351,
-    "question": 88,
-    "body": "Not at all",
+    "questionId": 88,
+    "body": "None Of The Above",
     "choice_type": 1
   },
   {
     "id": 352,
-    "question": 89,
-    "body": "Solenoid Voltage Testers",
+    "questionId": 89,
+    "body": "Cleat wiring",
     "choice_type": 1
   },
   {
     "id": 353,
-    "question": 89,
-    "body": "Plug-in Circuit Analyzers",
+    "questionId": 89,
+    "body": "Batten Wiring",
     "choice_type": 1
   },
   {
     "id": 354,
-    "question": 89,
-    "body": "Multimeters",
+    "questionId": 89,
+    "body": "Lead Sheathed Wiring",
     "choice_type": 1
   },
   {
     "id": 355,
-    "question": 89,
-    "body": "Neon Voltage Testers",
+    "questionId": 89,
+    "body": "Conduit Wiring",
     "choice_type": 1
   },
   {
     "id": 356,
-    "question": 90,
+    "questionId": 90,
     "body": "TRUE",
     "choice_type": 1
   },
   {
     "id": 357,
-    "question": 90,
+    "questionId": 90,
     "body": "FALSE",
     "choice_type": 1
   },
   {
     "id": 358,
-    "question": 90,
-    "body": "Maybe",
+    "questionId": 90,
+    "body": "maybe",
     "choice_type": 1
   },
   {
     "id": 359,
-    "question": 90,
-    "body": "Not at all",
+    "questionId": 90,
+    "body": "none of the above",
     "choice_type": 1
   },
   {
     "id": 360,
-    "question": 91,
-    "body": "Solenoid Voltage Testers",
+    "questionId": 91,
+    "body": "Intermodulation distortion",
     "choice_type": 1
   },
   {
     "id": 361,
-    "question": 91,
-    "body": "Plug-in Circuit Analyzers",
-    "choice_type": 1
-  },
-  {
-    "id": 362,
-    "question": 91,
-    "body": "Multimeters",
-    "choice_type": 1
-  },
-  {
-    "id": 363,
-    "question": 91,
-    "body": "Neon Voltage Testers",
-    "choice_type": 1
-  },
-  {
-    "id": 364,
-    "question": 92,
-    "body": "Solenoid Voltage Testers",
-    "choice_type": 1
-  },
-  {
-    "id": 365,
-    "question": 92,
-    "body": "Plug-in Circuit Analyzers",
-    "choice_type": 1
-  },
-  {
-    "id": 366,
-    "question": 92,
-    "body": "Multimeters",
-    "choice_type": 1
-  },
-  {
-    "id": 367,
-    "question": 92,
-    "body": "Neon Voltage Testers",
-    "choice_type": 1
-  },
-  {
-    "id": 368,
-    "question": 93,
-    "body": "Solenoid Voltage Testers",
-    "choice_type": 1
-  },
-  {
-    "id": 369,
-    "question": 93,
-    "body": "Plug-in Circuit Analyzers",
-    "choice_type": 1
-  },
-  {
-    "id": 370,
-    "question": 93,
-    "body": "Multimeters",
-    "choice_type": 1
-  },
-  {
-    "id": 371,
-    "question": 93,
-    "body": "Neon Voltage Testers",
-    "choice_type": 1
-  },
-  {
-    "id": 372,
-    "question": 94,
-    "body": "TRUE",
-    "choice_type": 1
-  },
-  {
-    "id": 373,
-    "question": 94,
-    "body": "FALSE",
-    "choice_type": 1
-  },
-  {
-    "id": 374,
-    "question": 94,
-    "body": "Maybe",
-    "choice_type": 1
-  },
-  {
-    "id": 375,
-    "question": 94,
-    "body": "Not at all",
-    "choice_type": 1
-  },
-  {
-    "id": 376,
-    "question": 95,
-    "body": "Four",
-    "choice_type": 1
-  },
-  {
-    "id": 377,
-    "question": 95,
-    "body": "Eight",
-    "choice_type": 1
-  },
-  {
-    "id": 378,
-    "question": 95,
-    "body": "One",
-    "choice_type": 1
-  },
-  {
-    "id": 379,
-    "question": 95,
-    "body": "Two",
-    "choice_type": 1
-  },
-  {
-    "id": 380,
-    "question": 96,
-    "body": "One is red and the other is black",
-    "choice_type": 1
-  },
-  {
-    "id": 381,
-    "question": 96,
-    "body": "One is blue and the other is red",
-    "choice_type": 1
-  },
-  {
-    "id": 382,
-    "question": 96,
-    "body": "One is green and the other is yellow",
-    "choice_type": 1
-  },
-  {
-    "id": 383,
-    "question": 96,
-    "body": "One is white and the other is black",
-    "choice_type": 1
-  },
-  {
-    "id": 384,
-    "question": 97,
-    "body": "Help employees understand the expected scope, key responsibilities, required knowledge and skills.",
-    "choice_type": 1
-  },
-  {
-    "id": 385,
-    "question": 97,
-    "body": "Support equitable evaluation of all employees doing the same job tasks",
-    "choice_type": 1
-  },
-  {
-    "id": 386,
-    "question": 97,
-    "body": "Facilitate communication between the supervisor and employees regarding job related activities",
-    "choice_type": 1
-  },
-  {
-    "id": 387,
-    "question": 97,
-    "body": "None of the Above",
-    "choice_type": 1
-  },
-  {
-    "id": 388,
-    "question": 98,
-    "body": "Tweezer Style Soldering Iron",
-    "choice_type": 1
-  },
-  {
-    "id": 389,
-    "question": 98,
-    "body": "3 Wire 40 Watt Soldering Iron for\n110 Volts",
-    "choice_type": 1
-  },
-  {
-    "id": 390,
-    "question": 98,
-    "body": "Butane Portable 2 in 1 Soldering\nIron",
-    "choice_type": 1
-  },
-  {
-    "id": 391,
-    "question": 98,
-    "body": "None of the Above",
-    "choice_type": 1
-  },
-  {
-    "id": 392,
-    "question": 99,
-    "body": "Tweezer Style Soldering Iron",
-    "choice_type": 1
-  },
-  {
-    "id": 393,
-    "question": 99,
-    "body": "3 Wire 40 Watt Soldering Iron for\n110 Volts",
-    "choice_type": 1
-  },
-  {
-    "id": 394,
-    "question": 99,
-    "body": "Butane Portable 2 in 1 Soldering\nIron",
-    "choice_type": 1
-  },
-  {
-    "id": 395,
-    "question": 99,
-    "body": "None of the Above",
-    "choice_type": 1
-  },
-  {
-    "id": 396,
-    "question": 100,
-    "body": "Tweezer Style Soldering Iron",
-    "choice_type": 1
-  },
-  {
-    "id": 397,
-    "question": 100,
-    "body": "40 Watt Soldering Kit",
-    "choice_type": 1
-  },
-  {
-    "id": 398,
-    "question": 100,
-    "body": "Butane Portable 2 in 1 Soldering\nIron",
-    "choice_type": 1
-  },
-  {
-    "id": 399,
-    "question": 100,
-    "body": "None of the Above",
-    "choice_type": 1
-  },
-  {
-    "id": 400,
-    "question": 101,
-    "body": "3 Wire 40 Watt Soldering Iron for\n110 Volts",
-    "choice_type": 1
-  },
-  {
-    "id": 401,
-    "question": 101,
-    "body": "40 Watt Soldering Kit",
-    "choice_type": 1
-  },
-  {
-    "id": 402,
-    "question": 101,
-    "body": "Butane Portable 2 in 1 Soldering\nIron",
-    "choice_type": 1
-  },
-  {
-    "id": 403,
-    "question": 101,
-    "body": "None of the Above",
-    "choice_type": 1
-  },
-  {
-    "id": 404,
-    "question": 102,
-    "body": "Tweezer Style Soldering Iron",
-    "choice_type": 1
-  },
-  {
-    "id": 405,
-    "question": 102,
-    "body": "Angled Fine Point Tweezer",
-    "choice_type": 1
-  },
-  {
-    "id": 406,
-    "question": 102,
-    "body": "Straight Fine Point Tweezer",
-    "choice_type": 1
-  },
-  {
-    "id": 407,
-    "question": 102,
-    "body": "None of the Above",
-    "choice_type": 1
-  },
-  {
-    "id": 408,
-    "question": 103,
-    "body": "Nibbling Tool",
-    "choice_type": 1
-  },
-  {
-    "id": 409,
-    "question": 103,
-    "body": "40 Watt Soldering Kit",
-    "choice_type": 1
-  },
-  {
-    "id": 410,
-    "question": 103,
-    "body": "Butane Portable 2 in 1 Soldering\nIron",
-    "choice_type": 1
-  },
-  {
-    "id": 411,
-    "question": 103,
-    "body": "None of the Above",
-    "choice_type": 1
-  },
-  {
-    "id": 412,
-    "question": 104,
-    "body": "Dovetail Jointing System",
-    "choice_type": 1
-  },
-  {
-    "id": 413,
-    "question": 104,
-    "body": "Joint Box or Tree Jointing System",
-    "choice_type": 1
-  },
-  {
-    "id": 414,
-    "question": 104,
-    "body": "Loop In/Looping System",
-    "choice_type": 1
-  },
-  {
-    "id": 415,
-    "question": 104,
-    "body": "None of the Above",
-    "choice_type": 1
-  },
-  {
-    "id": 416,
-    "question": 105,
-    "body": "Loop In/Looping System",
-    "choice_type": 1
-  },
-  {
-    "id": 417,
-    "question": 105,
-    "body": "Joint Box or Tree Jointing System",
-    "choice_type": 1
-  },
-  {
-    "id": 418,
-    "question": 105,
-    "body": "Dovetail Jointing System",
-    "choice_type": 1
-  },
-  {
-    "id": 419,
-    "question": 105,
-    "body": "None of the Above",
-    "choice_type": 1
-  },
-  {
-    "id": 420,
-    "question": 106,
-    "body": "Looping",
-    "choice_type": 1
-  },
-  {
-    "id": 421,
-    "question": 106,
-    "body": "Jointing",
-    "choice_type": 1
-  },
-  {
-    "id": 422,
-    "question": 106,
-    "body": "Wiring",
-    "choice_type": 1
-  },
-  {
-    "id": 423,
-    "question": 106,
-    "body": "None of the Above",
-    "choice_type": 1
-  },
-  {
-    "id": 424,
-    "question": 107,
-    "body": "NOT Gate",
-    "choice_type": 1
-  },
-  {
-    "id": 425,
-    "question": 107,
-    "body": "NAND Gate",
-    "choice_type": 1
-  },
-  {
-    "id": 426,
-    "question": 107,
-    "body": "OR Gate",
-    "choice_type": 1
-  },
-  {
-    "id": 427,
-    "question": 107,
-    "body": "AND Gate",
-    "choice_type": 1
-  },
-  {
-    "id": 428,
-    "question": 108,
-    "body": "NOT Gate",
-    "choice_type": 1
-  },
-  {
-    "id": 429,
-    "question": 108,
-    "body": "NAND Gate",
-    "choice_type": 1
-  },
-  {
-    "id": 430,
-    "question": 108,
-    "body": "OR Gate",
-    "choice_type": 1
-  },
-  {
-    "id": 431,
-    "question": 108,
-    "body": "NOR Gate",
-    "choice_type": 1
-  },
-  {
-    "id": 432,
-    "question": 109,
-    "body": "NOT Gate",
-    "choice_type": 1
-  },
-  {
-    "id": 433,
-    "question": 109,
-    "body": "NAND Gate",
-    "choice_type": 1
-  },
-  {
-    "id": 434,
-    "question": 109,
-    "body": "OR Gate",
-    "choice_type": 1
-  },
-  {
-    "id": 435,
-    "question": 109,
-    "body": "NOR Gate",
-    "choice_type": 1
-  },
-  {
-    "id": 436,
-    "question": 110,
-    "body": "AND Gate",
-    "choice_type": 1
-  },
-  {
-    "id": 437,
-    "question": 110,
-    "body": "NAND Gate",
-    "choice_type": 1
-  },
-  {
-    "id": 438,
-    "question": 110,
-    "body": "OR Gate",
-    "choice_type": 1
-  },
-  {
-    "id": 439,
-    "question": 110,
-    "body": "NOR Gate",
-    "choice_type": 1
-  },
-  {
-    "id": 440,
-    "question": 98,
-    "body": "6 band resistor",
-    "choice_type": 1
-  },
-  {
-    "id": 441,
-    "question": 98,
-    "body": "4 band resistor",
-    "choice_type": 1
-  },
-  {
-    "id": 442,
-    "question": 98,
-    "body": "5 band resistor",
-    "choice_type": 1
-  },
-  {
-    "id": 443,
-    "question": 98,
-    "body": "None Of The Above",
-    "choice_type": 1
-  },
-  {
-    "id": 444,
-    "question": 99,
-    "body": "Cleat wiring",
-    "choice_type": 1
-  },
-  {
-    "id": 445,
-    "question": 99,
-    "body": "Batten Wiring",
-    "choice_type": 1
-  },
-  {
-    "id": 446,
-    "question": 99,
-    "body": "Lead Sheathed Wiring",
-    "choice_type": 1
-  },
-  {
-    "id": 447,
-    "question": 99,
-    "body": "Conduit Wiring",
-    "choice_type": 1
-  },
-  {
-    "id": 448,
-    "question": 100,
-    "body": "TRUE",
-    "choice_type": 1
-  },
-  {
-    "id": 449,
-    "question": 100,
-    "body": "FALSE",
-    "choice_type": 1
-  },
-  {
-    "id": 450,
-    "question": 100,
-    "body": "maybe",
-    "choice_type": 1
-  },
-  {
-    "id": 451,
-    "question": 100,
-    "body": "none of the above",
-    "choice_type": 1
-  },
-  {
-    "id": 452,
-    "question": 101,
-    "body": "speaker",
-    "choice_type": 1
-  },
-  {
-    "id": 453,
-    "question": 101,
-    "body": "amplifier",
-    "choice_type": 1
-  },
-  {
-    "id": 454,
-    "question": 101,
-    "body": "mic",
-    "choice_type": 1
-  },
-  {
-    "id": 455,
-    "question": 101,
-    "body": "antenna",
-    "choice_type": 1
-  },
-  {
-    "id": 456,
-    "question": 102,
-    "body": "Damping",
-    "choice_type": 1
-  },
-  {
-    "id": 457,
-    "question": 102,
+    "questionId": 91,
     "body": "Dynamic noise limiter (DNL)",
     "choice_type": 1
   },
   {
-    "id": 458,
-    "question": 102,
-    "body": "Noise reduction",
-    "choice_type": 1
-  },
-  {
-    "id": 459,
-    "question": 102,
-    "body": "Clipping",
-    "choice_type": 1
-  },
-  {
-    "id": 460,
-    "question": 103,
-    "body": "Clipping",
-    "choice_type": 1
-  },
-  {
-    "id": 461,
-    "question": 103,
-    "body": "Bridging",
-    "choice_type": 1
-  },
-  {
-    "id": 462,
-    "question": 103,
-    "body": "Damping",
-    "choice_type": 1
-  },
-  {
-    "id": 463,
-    "question": 103,
-    "body": "Noise reduction",
-    "choice_type": 1
-  },
-  {
-    "id": 464,
-    "question": 104,
-    "body": "Bridging",
-    "choice_type": 1
-  },
-  {
-    "id": 465,
-    "question": 104,
-    "body": "Clipping",
-    "choice_type": 1
-  },
-  {
-    "id": 466,
-    "question": 104,
-    "body": "Noise reduction",
-    "choice_type": 1
-  },
-  {
-    "id": 467,
-    "question": 104,
-    "body": "Damping",
-    "choice_type": 1
-  },
-  {
-    "id": 468,
-    "question": 105,
-    "body": "Vision",
-    "choice_type": 1
-  },
-  {
-    "id": 469,
-    "question": 105,
-    "body": "Color vision",
-    "choice_type": 1
-  },
-  {
-    "id": 470,
-    "question": 105,
-    "body": "Luminance",
-    "choice_type": 1
-  },
-  {
-    "id": 471,
-    "question": 105,
-    "body": "Chrominance",
-    "choice_type": 1
-  },
-  {
-    "id": 472,
-    "question": 106,
-    "body": "switches",
-    "choice_type": 1
-  },
-  {
-    "id": 473,
-    "question": 106,
-    "body": "capacitor",
-    "choice_type": 1
-  },
-  {
-    "id": 474,
-    "question": 106,
-    "body": "resistor",
-    "choice_type": 1
-  },
-  {
-    "id": 475,
-    "question": 106,
-    "body": "diode",
-    "choice_type": 1
-  },
-  {
-    "id": 476,
-    "question": 107,
-    "body": "amplifier",
-    "choice_type": 1
-  },
-  {
-    "id": 477,
-    "question": 107,
-    "body": "capacitor",
-    "choice_type": 1
-  },
-  {
-    "id": 478,
-    "question": 107,
-    "body": "resistor",
-    "choice_type": 1
-  },
-  {
-    "id": 479,
-    "question": 107,
-    "body": "Diodes",
-    "choice_type": 1
-  },
-  {
-    "id": 480,
-    "question": 108,
-    "body": "TRUE",
-    "choice_type": 1
-  },
-  {
-    "id": 481,
-    "question": 108,
-    "body": "FALSE",
-    "choice_type": 1
-  },
-  {
-    "id": 482,
-    "question": 108,
-    "body": "MAYBE",
-    "choice_type": 1
-  },
-  {
-    "id": 483,
-    "question": 108,
-    "body": "NONE OF THE ABOVE",
-    "choice_type": 1
-  },
-  {
-    "id": 484,
-    "question": 109,
-    "body": "TRUE",
-    "choice_type": 1
-  },
-  {
-    "id": 485,
-    "question": 109,
-    "body": "FALSE",
-    "choice_type": 1
-  },
-  {
-    "id": 486,
-    "question": 109,
-    "body": "MAYBE",
-    "choice_type": 1
-  },
-  {
-    "id": 487,
-    "question": 109,
-    "body": "NONE OF THE ABOVE",
-    "choice_type": 1
-  },
-  {
-    "id": 488,
-    "question": 110,
-    "body": "TRUE",
-    "choice_type": 1
-  },
-  {
-    "id": 489,
-    "question": 110,
-    "body": "FALSE",
-    "choice_type": 1
-  },
-  {
-    "id": 490,
-    "question": 110,
-    "body": "MAYBE",
-    "choice_type": 1
-  },
-  {
-    "id": 491,
-    "question": 110,
-    "body": "NONE OF THE ABOVE",
-    "choice_type": 1
-  },
-  {
-    "id": 492,
-    "question": 111,
-    "body": "echolocation",
-    "choice_type": 1
-  },
-  {
-    "id": 493,
-    "question": 111,
-    "body": "distortion",
-    "choice_type": 1
-  },
-  {
-    "id": 494,
-    "question": 111,
-    "body": "acoustic",
-    "choice_type": 1
-  },
-  {
-    "id": 495,
-    "question": 111,
-    "body": "sound",
-    "choice_type": 1
-  },
-  {
-    "id": 496,
-    "question": 112,
-    "body": "Tunnel Diode",
-    "choice_type": 1
-  },
-  {
-    "id": 497,
-    "question": 112,
-    "body": "light emitting diode/LED",
-    "choice_type": 1
-  },
-  {
-    "id": 498,
-    "question": 112,
-    "body": "Photo Diode",
-    "choice_type": 1
-  },
-  {
-    "id": 499,
-    "question": 112,
-    "body": "Zener Diode",
-    "choice_type": 1
-  },
-  {
-    "id": 500,
-    "question": 113,
-    "body": " Network Components",
-    "choice_type": 1
-  },
-  {
-    "id": 501,
-    "question": 113,
-    "body": "Capacitors",
-    "choice_type": 1
-  },
-  {
-    "id": 502,
-    "question": 113,
-    "body": "Resistors",
-    "choice_type": 1
-  },
-  {
-    "id": 503,
-    "question": 113,
-    "body": "Transistors",
-    "choice_type": 1
-  },
-  {
-    "id": 504,
-    "question": 114,
-    "body": "Resistors",
-    "choice_type": 1
-  },
-  {
-    "id": 505,
-    "question": 114,
-    "body": "Capacitors",
-    "choice_type": 1
-  },
-  {
-    "id": 506,
-    "question": 114,
-    "body": "Transistors",
-    "choice_type": 1
-  },
-  {
-    "id": 507,
-    "question": 114,
-    "body": "Network Components",
-    "choice_type": 1
-  },
-  {
-    "id": 508,
-    "question": 115,
-    "body": "Transistors",
-    "choice_type": 1
-  },
-  {
-    "id": 509,
-    "question": 115,
-    "body": "Resistors",
-    "choice_type": 1
-  },
-  {
-    "id": 510,
-    "question": 115,
-    "body": "Network Components",
-    "choice_type": 1
-  },
-  {
-    "id": 511,
-    "question": 115,
-    "body": "Capacitors",
-    "choice_type": 1
-  },
-  {
-    "id": 512,
-    "question": 116,
-    "body": "Resistors",
-    "choice_type": 1
-  },
-  {
-    "id": 513,
-    "question": 116,
-    "body": "Network Components",
-    "choice_type": 1
-  },
-  {
-    "id": 514,
-    "question": 116,
-    "body": "Transistors",
-    "choice_type": 1
-  },
-  {
-    "id": 515,
-    "question": 116,
-    "body": "Capacitors",
-    "choice_type": 1
-  },
-  {
-    "id": 516,
-    "question": 117,
-    "body": "TRUE",
-    "choice_type": 1
-  },
-  {
-    "id": 517,
-    "question": 117,
-    "body": "FALSE",
-    "choice_type": 1
-  },
-  {
-    "id": 518,
-    "question": 117,
-    "body": "MAYBE",
-    "choice_type": 1
-  },
-  {
-    "id": 519,
-    "question": 117,
-    "body": "NONE OF THE ABOVE",
-    "choice_type": 1
-  },
-  {
-    "id": 520,
-    "question": 118,
-    "body": "resistor",
-    "choice_type": 1
-  },
-  {
-    "id": 521,
-    "question": 118,
-    "body": "fixed capacitor",
-    "choice_type": 1
-  },
-  {
-    "id": 522,
-    "question": 118,
-    "body": "Variable Capacitors",
-    "choice_type": 1
-  },
-  {
-    "id": 523,
-    "question": 118,
-    "body": "none of the above",
-    "choice_type": 1
-  },
-  {
-    "id": 524,
-    "question": 119,
-    "body": "resistor",
-    "choice_type": 1
-  },
-  {
-    "id": 525,
-    "question": 119,
-    "body": "Variable Capacitors",
-    "choice_type": 1
-  },
-  {
-    "id": 526,
-    "question": 119,
-    "body": "fixed capacitor",
-    "choice_type": 1
-  },
-  {
-    "id": 527,
-    "question": 119,
-    "body": "none of the above",
-    "choice_type": 1
-  },
-  {
-    "id": 528,
-    "question": 120,
-    "body": "PN Junction Diode",
-    "choice_type": 1
-  },
-  {
-    "id": 529,
-    "question": 120,
-    "body": "photo diode",
-    "choice_type": 1
-  },
-  {
-    "id": 530,
-    "question": 120,
-    "body": "light emitting diode/LED",
-    "choice_type": 1
-  },
-  {
-    "id": 531,
-    "question": 120,
-    "body": "Zener Diode",
-    "choice_type": 1
-  },
-  {
-    "id": 532,
-    "question": 121,
-    "body": "PN Junction Diode",
-    "choice_type": 1
-  },
-  {
-    "id": 533,
-    "question": 121,
-    "body": "photo diode",
-    "choice_type": 1
-  },
-  {
-    "id": 534,
-    "question": 121,
-    "body": "tunnel diode",
-    "choice_type": 1
-  },
-  {
-    "id": 535,
-    "question": 121,
-    "body": "Zener Diode",
-    "choice_type": 1
-  },
-  {
-    "id": 536,
-    "question": 122,
-    "body": "resistors",
-    "choice_type": 1
-  },
-  {
-    "id": 537,
-    "question": 122,
-    "body": "diode",
-    "choice_type": 1
-  },
-  {
-    "id": 538,
-    "question": 122,
-    "body": "schematic drawing",
-    "choice_type": 1
-  },
-  {
-    "id": 539,
-    "question": 122,
-    "body": "Schematic nets",
-    "choice_type": 1
-  },
-  {
-    "id": 540,
-    "question": 123,
-    "body": "Cleat wiring",
-    "choice_type": 1
-  },
-  {
-    "id": 541,
-    "question": 123,
-    "body": "Looping System",
-    "choice_type": 1
-  },
-  {
-    "id": 542,
-    "question": 123,
-    "body": "Conduit wiring",
-    "choice_type": 1
-  },
-  {
-    "id": 543,
-    "question": 123,
-    "body": "Capping wiring",
-    "choice_type": 1
-  },
-  {
-    "id": 544,
-    "question": 124,
-    "body": "Cleat wiring",
-    "choice_type": 1
-  },
-  {
-    "id": 545,
-    "question": 124,
-    "body": "Looping System",
-    "choice_type": 1
-  },
-  {
-    "id": 546,
-    "question": 124,
-    "body": "Conduit wiring",
-    "choice_type": 1
-  },
-  {
-    "id": 547,
-    "question": 124,
-    "body": "Capping wiring",
-    "choice_type": 1
-  },
-  {
-    "id": 548,
-    "question": 125,
-    "body": "Looping System",
-    "choice_type": 1
-  },
-  {
-    "id": 549,
-    "question": 125,
-    "body": "Lead Sheathed Wiring",
-    "choice_type": 1
-  },
-  {
-    "id": 550,
-    "question": 125,
-    "body": "Conduit wiring",
-    "choice_type": 1
-  },
-  {
-    "id": 551,
-    "question": 125,
-    "body": "Cleat wiring",
-    "choice_type": 1
-  },
-  {
-    "id": 552,
-    "question": 126,
-    "body": "TRUE",
-    "choice_type": 1
-  },
-  {
-    "id": 553,
-    "question": 126,
-    "body": "FALSE",
-    "choice_type": 1
-  },
-  {
-    "id": 554,
-    "question": 126,
-    "body": "MAYBE",
-    "choice_type": 1
-  },
-  {
-    "id": 555,
-    "question": 126,
-    "body": "NONE OF THE ABOVE",
-    "choice_type": 1
-  },
-  {
-    "id": 556,
-    "question": 127,
-    "body": "TRUE",
-    "choice_type": 1
-  },
-  {
-    "id": 557,
-    "question": 127,
-    "body": "FALSE",
-    "choice_type": 1
-  },
-  {
-    "id": 558,
-    "question": 127,
-    "body": "MAYBE",
-    "choice_type": 1
-  },
-  {
-    "id": 559,
-    "question": 127,
-    "body": "NONE OF THE ABOVE",
-    "choice_type": 1
-  },
-  {
-    "id": 560,
-    "question": 128,
-    "body": "Protective clothing",
-    "choice_type": 1
-  },
-  {
-    "id": 561,
-    "question": 128,
-    "body": "boots",
-    "choice_type": 1
-  },
-  {
-    "id": 562,
-    "question": 128,
-    "body": "helmet",
-    "choice_type": 1
-  },
-  {
-    "id": 563,
-    "question": 128,
-    "body": "eye glass",
-    "choice_type": 1
-  },
-  {
-    "id": 564,
-    "question": 129,
-    "body": "REPUBLIC ACT NO. 5734",
-    "choice_type": 1
-  },
-  {
-    "id": 565,
-    "question": 129,
-    "body": "REPUBLIC ACT NO. 5755",
-    "choice_type": 1
-  },
-  {
-    "id": 566,
-    "question": 129,
-    "body": "REPUBLIC ACT NO. 5856",
-    "choice_type": 1
-  },
-  {
-    "id": 567,
-    "question": 129,
-    "body": "REPUBLIC ACT NO. 5485",
-    "choice_type": 1
-  },
-  {
-    "id": 568,
-    "question": 130,
-    "body": "wrench",
-    "choice_type": 1
-  },
-  {
-    "id": 569,
-    "question": 130,
-    "body": "Allen Wrenches",
-    "choice_type": 1
-  },
-  {
-    "id": 570,
-    "question": 130,
-    "body": "brush",
-    "choice_type": 1
-  },
-  {
-    "id": 571,
-    "question": 130,
-    "body": "screw driver",
-    "choice_type": 1
-  },
-  {
-    "id": 572,
-    "question": 131,
-    "body": "transformer",
-    "choice_type": 1
-  },
-  {
-    "id": 573,
-    "question": 131,
-    "body": "power supply",
-    "choice_type": 1
-  },
-  {
-    "id": 574,
-    "question": 131,
-    "body": "capacitor",
-    "choice_type": 1
-  },
-  {
-    "id": 575,
-    "question": 131,
-    "body": "fuse",
-    "choice_type": 1
-  },
-  {
-    "id": 576,
-    "question": 132,
-    "body": "capacitor",
-    "choice_type": 1
-  },
-  {
-    "id": 577,
-    "question": 132,
-    "body": "power supply",
-    "choice_type": 1
-  },
-  {
-    "id": 578,
-    "question": 132,
-    "body": "transformer",
-    "choice_type": 1
-  },
-  {
-    "id": 579,
-    "question": 132,
-    "body": "fuse",
-    "choice_type": 1
-  },
-  {
-    "id": 580,
-    "question": 133,
-    "body": "speaker",
-    "choice_type": 1
-  },
-  {
-    "id": 581,
-    "question": 133,
-    "body": "antenna",
-    "choice_type": 1
-  },
-  {
-    "id": 582,
-    "question": 133,
-    "body": "amplifier",
-    "choice_type": 1
-  },
-  {
-    "id": 583,
-    "question": 133,
+    "id": 362,
+    "questionId": 91,
     "body": "mic",
     "choice_type": 1
   },
   {
-    "id": 584,
-    "question": 134,
-    "body": "TRUE",
+    "id": 363,
+    "questionId": 91,
+    "body": "antenna",
     "choice_type": 1
   },
   {
-    "id": 585,
-    "question": 134,
-    "body": "FALSE",
+    "id": 364,
+    "questionId": 92,
+    "body": "Class B amplifiers",
     "choice_type": 1
   },
   {
-    "id": 586,
-    "question": 134,
-    "body": "maybe",
+    "id": 365,
+    "questionId": 92,
+    "body": "Class AB Amplifiers",
     "choice_type": 1
   },
   {
-    "id": 587,
-    "question": 134,
-    "body": "None Of The Above",
+    "id": 366,
+    "questionId": 92,
+    "body": "Class C amplifiers",
     "choice_type": 1
   },
   {
-    "id": 588,
-    "question": 135,
-    "body": "lead",
+    "id": 367,
+    "questionId": 92,
+    "body": "Class A amplifiers",
     "choice_type": 1
   },
   {
-    "id": 589,
-    "question": 135,
-    "body": "manual solder sucker",
+    "id": 368,
+    "questionId": 93,
+    "body": "Class B amplifiers",
     "choice_type": 1
   },
   {
-    "id": 590,
-    "question": 135,
-    "body": "solder",
+    "id": 369,
+    "questionId": 93,
+    "body": "Class AB Amplifiers",
     "choice_type": 1
   },
   {
-    "id": 591,
-    "question": 135,
-    "body": "Desoldering Machine",
+    "id": 370,
+    "questionId": 93,
+    "body": "Class C amplifiers",
     "choice_type": 1
   },
   {
-    "id": 592,
-    "question": 136,
-    "body": "TRUE",
+    "id": 371,
+    "questionId": 93,
+    "body": "Class A amplifiers",
     "choice_type": 1
   },
   {
-    "id": 593,
-    "question": 136,
-    "body": "FALSE",
+    "id": 372,
+    "questionId": 94,
+    "body": "Class B amplifiers",
     "choice_type": 1
   },
   {
-    "id": 594,
-    "question": 136,
-    "body": "MAYBE",
+    "id": 373,
+    "questionId": 94,
+    "body": "Class AB Amplifiers",
     "choice_type": 1
   },
   {
-    "id": 595,
-    "question": 136,
-    "body": "None Of The Above",
+    "id": 374,
+    "questionId": 94,
+    "body": "Class C amplifiers",
     "choice_type": 1
   },
   {
-    "id": 596,
-    "question": 137,
-    "body": "nodes",
+    "id": 375,
+    "questionId": 94,
+    "body": "Class A amplifiers",
     "choice_type": 1
   },
   {
-    "id": 597,
-    "question": 137,
-    "body": "nets",
+    "id": 376,
+    "questionId": 95,
+    "body": "Class B amplifiers",
     "choice_type": 1
   },
   {
-    "id": 598,
-    "question": 137,
-    "body": "LED",
+    "id": 377,
+    "questionId": 95,
+    "body": "Class AB Amplifiers",
     "choice_type": 1
   },
   {
-    "id": 599,
-    "question": 137,
-    "body": "Diode",
+    "id": 378,
+    "questionId": 95,
+    "body": "Class C amplifiers",
     "choice_type": 1
   },
   {
-    "id": 600,
-    "question": 137,
-    "body": "silicone grease",
+    "id": 379,
+    "questionId": 95,
+    "body": "Class A amplifiers",
     "choice_type": 1
   },
   {
-    "id": 601,
-    "question": 137,
-    "body": "oil",
+    "id": 380,
+    "questionId": 96,
+    "body": "Output stage",
     "choice_type": 1
   },
   {
-    "id": 602,
-    "question": 137,
-    "body": "Gas",
+    "id": 381,
+    "questionId": 96,
+    "body": "Input Stage",
     "choice_type": 1
   },
   {
-    "id": 603,
-    "question": 137,
-    "body": "gel",
+    "id": 382,
+    "questionId": 96,
+    "body": "Noise",
     "choice_type": 1
   },
   {
-    "id": 604,
-    "question": 139,
-    "body": "semicondcutors",
+    "id": 383,
+    "questionId": 96,
+    "body": "Amplifier",
     "choice_type": 1
   },
   {
-    "id": 605,
-    "question": 139,
-    "body": "Resistors",
+    "id": 384,
+    "questionId": 97,
+    "body": "Noise",
     "choice_type": 1
   },
   {
-    "id": 606,
-    "question": 139,
+    "id": 385,
+    "questionId": 97,
+    "body": "Fixed resistors",
+    "choice_type": 1
+  },
+  {
+    "id": 386,
+    "questionId": 97,
     "body": "Capacitors",
     "choice_type": 1
   },
   {
-    "id": 607,
-    "question": 139,
-    "body": "Integrated Circuits",
+    "id": 387,
+    "questionId": 97,
+    "body": "Switch",
     "choice_type": 1
   },
   {
-    "id": 608,
-    "question": 140,
-    "body": "series circuit",
+    "id": 388,
+    "questionId": 98,
+    "body": "Fixed resistors",
     "choice_type": 1
   },
   {
-    "id": 609,
-    "question": 140,
-    "body": "series-parallel circuit",
+    "id": 389,
+    "questionId": 98,
+    "body": "Variable resistors",
     "choice_type": 1
   },
   {
-    "id": 610,
-    "question": 140,
-    "body": "parallel circuit",
+    "id": 390,
+    "questionId": 98,
+    "body": "inductors",
     "choice_type": 1
   },
   {
-    "id": 611,
-    "question": 140,
-    "body": "None of the Above",
+    "id": 391,
+    "questionId": 98,
+    "body": "Intergrated circuit",
     "choice_type": 1
   },
   {
-    "id": 612,
-    "question": 141,
-    "body": "light emitting diode/LED",
+    "id": 392,
+    "questionId": 99,
+    "body": "Intergrated circuit",
     "choice_type": 1
   },
   {
-    "id": 613,
-    "question": 141,
-    "body": "Zener Diode",
+    "id": 393,
+    "questionId": 99,
+    "body": "Variable resistors",
     "choice_type": 1
   },
   {
-    "id": 614,
-    "question": 141,
-    "body": "Photo Diode",
+    "id": 394,
+    "questionId": 99,
+    "body": "Variable capacitors",
     "choice_type": 1
   },
   {
-    "id": 615,
-    "question": 141,
-    "body": "PN Junction Diode",
+    "id": 395,
+    "questionId": 99,
+    "body": "Fixed resistors",
     "choice_type": 1
   },
   {
-    "id": 616,
-    "question": 142,
-    "body": "light emitting diode/LED",
+    "id": 396,
+    "questionId": 100,
+    "body": "Intergrated circuit",
     "choice_type": 1
   },
   {
-    "id": 617,
-    "question": 142,
-    "body": "Zener Diode",
+    "id": 397,
+    "questionId": 100,
+    "body": "Variable resistors",
     "choice_type": 1
   },
   {
-    "id": 618,
-    "question": 142,
-    "body": "Photo Diode",
+    "id": 398,
+    "questionId": 100,
+    "body": "Variable capacitors",
     "choice_type": 1
   },
   {
-    "id": 619,
-    "question": 142,
-    "body": "PN Junction Diode",
+    "id": 399,
+    "questionId": 100,
+    "body": "Fixed resistors",
+    "choice_type": 1
+  },
+  {
+    "id": 400,
+    "questionId": 101,
+    "body": "Noise",
+    "choice_type": 1
+  },
+  {
+    "id": 401,
+    "questionId": 101,
+    "body": "Frequency",
+    "choice_type": 1
+  },
+  {
+    "id": 402,
+    "questionId": 101,
+    "body": "clipping",
+    "choice_type": 1
+  },
+  {
+    "id": 403,
+    "questionId": 101,
+    "body": "Dynamic noise limiter (DNL)",
+    "choice_type": 1
+  },
+  {
+    "id": 404,
+    "questionId": 102,
+    "body": "clipping",
+    "choice_type": 1
+  },
+  {
+    "id": 405,
+    "questionId": 102,
+    "body": "Bridging",
+    "choice_type": 1
+  },
+  {
+    "id": 406,
+    "questionId": 102,
+    "body": "damping",
+    "choice_type": 1
+  },
+  {
+    "id": 407,
+    "questionId": 102,
+    "body": "Frequency",
+    "choice_type": 1
+  },
+  {
+    "id": 408,
+    "questionId": 103,
+    "body": "Resistor color code",
+    "choice_type": 1
+  },
+  {
+    "id": 409,
+    "questionId": 103,
+    "body": "4 band resistor",
+    "choice_type": 1
+  },
+  {
+    "id": 410,
+    "questionId": 103,
+    "body": "5 band resistor",
+    "choice_type": 1
+  },
+  {
+    "id": 411,
+    "questionId": 103,
+    "body": "6 band resistor",
+    "choice_type": 1
+  },
+  {
+    "id": 412,
+    "questionId": 104,
+    "body": "direct current",
+    "choice_type": 1
+  },
+  {
+    "id": 413,
+    "questionId": 104,
+    "body": "Frequency",
+    "choice_type": 1
+  },
+  {
+    "id": 414,
+    "questionId": 104,
+    "body": "Alternating current",
+    "choice_type": 1
+  },
+  {
+    "id": 415,
+    "questionId": 104,
+    "body": "Current",
+    "choice_type": 1
+  },
+  {
+    "id": 416,
+    "questionId": 105,
+    "body": "Switch",
+    "choice_type": 1
+  },
+  {
+    "id": 417,
+    "questionId": 105,
+    "body": "network components",
+    "choice_type": 1
+  },
+  {
+    "id": 418,
+    "questionId": 105,
+    "body": "terminals",
+    "choice_type": 1
+  },
+  {
+    "id": 419,
+    "questionId": 105,
+    "body": "Capacitors",
+    "choice_type": 1
+  },
+  {
+    "id": 420,
+    "questionId": 106,
+    "body": "Capacitors",
+    "choice_type": 1
+  },
+  {
+    "id": 421,
+    "questionId": 106,
+    "body": "Switch",
+    "choice_type": 1
+  },
+  {
+    "id": 422,
+    "questionId": 106,
+    "body": "terminals",
+    "choice_type": 1
+  },
+  {
+    "id": 423,
+    "questionId": 106,
+    "body": "network components",
+    "choice_type": 1
+  },
+  {
+    "id": 424,
+    "questionId": 107,
+    "body": "LED",
+    "choice_type": 1
+  },
+  {
+    "id": 425,
+    "questionId": 107,
+    "body": "Diodes",
+    "choice_type": 1
+  },
+  {
+    "id": 426,
+    "questionId": 107,
+    "body": "zener diode",
+    "choice_type": 1
+  },
+  {
+    "id": 427,
+    "questionId": 107,
+    "body": "tunnel diode",
+    "choice_type": 1
+  },
+  {
+    "id": 428,
+    "questionId": 108,
+    "body": "Fixed resistors",
+    "choice_type": 1
+  },
+  {
+    "id": 429,
+    "questionId": 108,
+    "body": "Variable capacitors",
+    "choice_type": 1
+  },
+  {
+    "id": 430,
+    "questionId": 108,
+    "body": "Variable resistors",
+    "choice_type": 1
+  },
+  {
+    "id": 431,
+    "questionId": 108,
+    "body": "fixed capacitors",
+    "choice_type": 1
+  },
+  {
+    "id": 432,
+    "questionId": 109,
+    "body": "zener diode",
+    "choice_type": 1
+  },
+  {
+    "id": 433,
+    "questionId": 109,
+    "body": "tunnel diode",
+    "choice_type": 1
+  },
+  {
+    "id": 434,
+    "questionId": 109,
+    "body": "diodes",
+    "choice_type": 1
+  },
+  {
+    "id": 435,
+    "questionId": 109,
+    "body": "LED",
+    "choice_type": 1
+  },
+  {
+    "id": 436,
+    "questionId": 110,
+    "body": "Capacitors",
+    "choice_type": 1
+  },
+  {
+    "id": 437,
+    "questionId": 110,
+    "body": "network components",
+    "choice_type": 1
+  },
+  {
+    "id": 438,
+    "questionId": 110,
+    "body": "Switch",
+    "choice_type": 1
+  },
+  {
+    "id": 439,
+    "questionId": 110,
+    "body": "Resistor",
+    "choice_type": 1
+  },
+  {
+    "id": 440,
+    "questionId": 111,
+    "body": "Resistor",
+    "choice_type": 1
+  },
+  {
+    "id": 441,
+    "questionId": 111,
+    "body": "Schematic diagram",
+    "choice_type": 1
+  },
+  {
+    "id": 442,
+    "questionId": 111,
+    "body": "tunnel diode",
+    "choice_type": 1
+  },
+  {
+    "id": 443,
+    "questionId": 111,
+    "body": "Intergrated circuit",
+    "choice_type": 1
+  },
+  {
+    "id": 444,
+    "questionId": 112,
+    "body": "zener diode",
+    "choice_type": 1
+  },
+  {
+    "id": 445,
+    "questionId": 112,
+    "body": "tunnel diode",
+    "choice_type": 1
+  },
+  {
+    "id": 446,
+    "questionId": 112,
+    "body": "diodes",
+    "choice_type": 1
+  },
+  {
+    "id": 447,
+    "questionId": 112,
+    "body": "LED",
+    "choice_type": 1
+  },
+  {
+    "id": 448,
+    "questionId": 113,
+    "body": "tunnel diode",
+    "choice_type": 1
+  },
+  {
+    "id": 449,
+    "questionId": 113,
+    "body": "Diodes",
+    "choice_type": 1
+  },
+  {
+    "id": 450,
+    "questionId": 113,
+    "body": "zener diode",
+    "choice_type": 1
+  },
+  {
+    "id": 451,
+    "questionId": 113,
+    "body": "LED",
+    "choice_type": 1
+  },
+  {
+    "id": 452,
+    "questionId": 114,
+    "body": "diodes",
+    "choice_type": 1
+  },
+  {
+    "id": 453,
+    "questionId": 114,
+    "body": "LED",
+    "choice_type": 1
+  },
+  {
+    "id": 454,
+    "questionId": 114,
+    "body": "tunnel diode",
+    "choice_type": 1
+  },
+  {
+    "id": 455,
+    "questionId": 114,
+    "body": "zener diode",
+    "choice_type": 1
+  },
+  {
+    "id": 456,
+    "questionId": 115,
+    "body": "fixed capacitors",
+    "choice_type": 1
+  },
+  {
+    "id": 457,
+    "questionId": 115,
+    "body": "Fixed resistors",
+    "choice_type": 1
+  },
+  {
+    "id": 458,
+    "questionId": 115,
+    "body": "Variable capacitors",
+    "choice_type": 1
+  },
+  {
+    "id": 459,
+    "questionId": 115,
+    "body": "Variable resistors",
+    "choice_type": 1
+  },
+  {
+    "id": 460,
+    "questionId": 116,
+    "body": "Switch",
+    "choice_type": 1
+  },
+  {
+    "id": 461,
+    "questionId": 116,
+    "body": "Resistor",
+    "choice_type": 1
+  },
+  {
+    "id": 462,
+    "questionId": 116,
+    "body": "Intergrated circuit",
+    "choice_type": 1
+  },
+  {
+    "id": 463,
+    "questionId": 116,
+    "body": "Capacitors",
+    "choice_type": 1
+  },
+  {
+    "id": 464,
+    "questionId": 117,
+    "body": "Resistor",
+    "choice_type": 1
+  },
+  {
+    "id": 465,
+    "questionId": 117,
+    "body": "Capacitors",
+    "choice_type": 1
+  },
+  {
+    "id": 466,
+    "questionId": 117,
+    "body": "Intergrated circuit",
+    "choice_type": 1
+  },
+  {
+    "id": 467,
+    "questionId": 117,
+    "body": "network components",
     "choice_type": 1
   }
 ]

@@ -12,6 +12,8 @@ public class Constant {
     public static final String DETAIL_TYPE_TEXT = "text";
     public static final String DETAIL_TYPE_IMAGE = "image";
     public static final String DETAIL_TYPE_DETAIL_HEADER = "header";
+    public static final String DETAIL_TYPE_LINK = "link";
+    public static final String DETAIL_TYPE_VIDEO = "video";
 
     public static final int Q_TYPE_TEXT = 1;
     public static final int Q_TYPE_IMAGE = 0;

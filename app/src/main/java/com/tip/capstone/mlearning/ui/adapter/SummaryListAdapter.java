@@ -4,6 +4,7 @@ import android.databinding.DataBindingUtil;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
+import android.view.View;
 import android.view.ViewGroup;
 
 import com.tip.capstone.mlearning.R;
@@ -54,6 +55,7 @@ public class SummaryListAdapter extends RecyclerView.Adapter<SummaryListAdapter.
         holder.itemUserAnswerBinding.itemUserAnswer.setBackgroundColor(
                 ContextCompat.getColor(holder.itemView.getContext(),
                         userAnswer.isCorrect() ? R.color.green_light : R.color.red_light));
+        holder.itemUserAnswerBinding.seeReference.setVisibility(userAnswer.isCorrect() ? View.GONE : View.VISIBLE);
         holder.itemUserAnswerBinding.setView(view);
     }
 

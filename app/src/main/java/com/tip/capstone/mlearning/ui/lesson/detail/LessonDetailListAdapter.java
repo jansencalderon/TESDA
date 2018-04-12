@@ -1,7 +1,10 @@
 package com.tip.capstone.mlearning.ui.lesson.detail;
 
+import android.content.ActivityNotFoundException;
+import android.content.Intent;
 import android.databinding.DataBindingUtil;
 import android.graphics.Color;
+import android.net.Uri;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.RecyclerView;
 import android.text.Spannable;
@@ -16,16 +19,22 @@ import android.view.ViewGroup;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.request.target.GlideDrawableImageViewTarget;
+import com.google.android.youtube.player.YouTubeInitializationResult;
+import com.google.android.youtube.player.YouTubeThumbnailLoader;
+import com.google.android.youtube.player.YouTubeThumbnailView;
 import com.tip.capstone.mlearning.R;
 import com.tip.capstone.mlearning.app.Constant;
 import com.tip.capstone.mlearning.databinding.ItemLessonDetailHeaderBinding;
 import com.tip.capstone.mlearning.databinding.ItemLessonDetailImageBinding;
+import com.tip.capstone.mlearning.databinding.ItemLessonDetailLinkBinding;
 import com.tip.capstone.mlearning.databinding.ItemLessonDetailTextBinding;
+import com.tip.capstone.mlearning.databinding.ItemLessonDetailVideoBinding;
 import com.tip.capstone.mlearning.databinding.ItemLessonHeaderBinding;
 import com.tip.capstone.mlearning.databinding.ItemLessonQuizButtonBinding;
 import com.tip.capstone.mlearning.helper.ResourceHelper;
 import com.tip.capstone.mlearning.model.Lesson;
 import com.tip.capstone.mlearning.model.LessonDetail;
+import com.tip.capstone.mlearning.utils.DeveloperKey;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -37,7 +46,9 @@ class LessonDetailListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
     private static final int VIEW_TEXT = 1;
     private static final int VIEW_IMAGE = 2;
     private static final int VIEW_QUIZ = 3;
+    private static final int VIEW_VIDEO = 5;
     private static final int VIEW_DETAIL_HEADER = 4;
+    private static final int VIEW_LINK = 6;
     private static final String TAG = LessonDetailListAdapter.class.getSimpleName();
 
     private final Lesson lesson;
@@ -81,6 +92,11 @@ class LessonDetailListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
                         return VIEW_IMAGE;
                     case Constant.DETAIL_TYPE_DETAIL_HEADER:
                         return VIEW_DETAIL_HEADER;
+                    case Constant.DETAIL_TYPE_VIDEO:
+                        return VIEW_VIDEO;
+                    case Constant.DETAIL_TYPE_LINK:
+                        return VIEW_LINK;
+
                 }
             }
         } catch (NullPointerException e) {
@@ -129,13 +145,27 @@ class LessonDetailListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
                         parent,
                         false);
                 return new LessonDetailHeaderViewHolder(itemLessonDetailHeaderBinding);
+            case VIEW_VIDEO:
+                ItemLessonDetailVideoBinding itemLessonDetailVideoBinding = DataBindingUtil.inflate(
+                        LayoutInflater.from(parent.getContext()),
+                        R.layout.item_lesson_detail_video,
+                        parent,
+                        false);
+                return new LessonDetailVideoViewHolder(itemLessonDetailVideoBinding);
+            case VIEW_LINK:
+                ItemLessonDetailLinkBinding itemLessonDetailLinkBinding = DataBindingUtil.inflate(
+                        LayoutInflater.from(parent.getContext()),
+                        R.layout.item_lesson_detail_link,
+                        parent,
+                        false);
+                return new LessonDetailLinkViewHolder(itemLessonDetailLinkBinding);
             default:
                 return null;
         }
     }
 
     @Override
-    public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
+    public void onBindViewHolder(RecyclerView.ViewHolder holder, final int position) {
         switch (holder.getItemViewType()) {
             case VIEW_HEADER:
                 LessonHeaderViewHolder lessonHeaderViewHolder = (LessonHeaderViewHolder) holder;
@@ -236,8 +266,6 @@ class LessonDetailListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
                             //.error(R.drawable.ic_photo)
                             .into(lessonDetailImageViewHolder.itemLessonDetailImageBinding.imageLessonDetail);
                 }
-
-
                 break;
             case VIEW_QUIZ:
                 LessonQuizButtonHolder lessonQuizButtonHolder = (LessonQuizButtonHolder) holder;
@@ -247,6 +275,54 @@ class LessonDetailListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
                 LessonDetailHeaderViewHolder lessonDetailHeaderViewHolder = (LessonDetailHeaderViewHolder) holder;
                 lessonDetailHeaderViewHolder.itemLessonDetailHeaderBinding.setDetail(lessonDetails.get(lesson != null ? position - 1 : position));
                 break;
+            case VIEW_LINK:
+                final LessonDetailLinkViewHolder lessonDetailLinkViewHolder = (LessonDetailLinkViewHolder) holder;
+                lessonDetailLinkViewHolder.itemLessonDetailLinkBinding.setView(lessonDetailListView);
+                lessonDetailLinkViewHolder.itemLessonDetailLinkBinding.setLessonDetail(lessonDetails.get(lesson != null ? position - 1 : position));
+                break;
+            case VIEW_VIDEO:
+                final LessonDetailVideoViewHolder lessonDetailVideoViewHolder = (LessonDetailVideoViewHolder) holder;
+                lessonDetailVideoViewHolder.itemLessonDetailVideoBinding.setLessonDetail(lessonDetails.get(lesson != null ? position - 1 : position));
+                final YouTubeThumbnailView youTubeThumbnailView = lessonDetailVideoViewHolder.itemLessonDetailVideoBinding.thumbnail;
+                final String videoId = lessonDetails.get(lesson != null ? position - 1 : position).getBody();
+                youTubeThumbnailView.initialize(DeveloperKey.DEVELOPER_KEY, new YouTubeThumbnailView.OnInitializedListener() {
+                    @Override
+                    public void onInitializationSuccess(YouTubeThumbnailView youTubeThumbnailView, final YouTubeThumbnailLoader youTubeThumbnailLoader) {
+                        youTubeThumbnailLoader.setVideo(videoId);
+                        youTubeThumbnailLoader.setOnThumbnailLoadedListener(new YouTubeThumbnailLoader.OnThumbnailLoadedListener() {
+                            @Override
+                            public void onThumbnailLoaded(YouTubeThumbnailView youTubeThumbnailView, String s) {
+                                youTubeThumbnailLoader.release();
+                            }
+
+                            @Override
+                            public void onThumbnailError(YouTubeThumbnailView youTubeThumbnailView, YouTubeThumbnailLoader.ErrorReason errorReason) {
+
+                            }
+                        });
+                    }
+
+                    @Override
+                    public void onInitializationFailure(YouTubeThumbnailView youTubeThumbnailView, YouTubeInitializationResult youTubeInitializationResult) {
+
+                    }
+                });
+
+                lessonDetailVideoViewHolder.itemLessonDetailVideoBinding.layoutLessonDetailText.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent appIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:" + videoId));
+                        Intent webIntent = new Intent(Intent.ACTION_VIEW,
+                                Uri.parse("http://www.youtube.com/watch?v=" + videoId));
+                        try {
+                            lessonDetailVideoViewHolder.itemView.getContext().startActivity(appIntent);
+                        } catch (ActivityNotFoundException ex) {
+                            lessonDetailVideoViewHolder.itemView.getContext().startActivity(webIntent);
+                        }
+                    }
+                });
+                break;
+
         }
     }
 
@@ -312,5 +388,21 @@ class LessonDetailListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
         }
     }
 
+    private class LessonDetailVideoViewHolder extends RecyclerView.ViewHolder {
+        private final ItemLessonDetailVideoBinding itemLessonDetailVideoBinding;
 
+        LessonDetailVideoViewHolder(ItemLessonDetailVideoBinding itemLessonDetailVideoBinding) {
+            super(itemLessonDetailVideoBinding.getRoot());
+            this.itemLessonDetailVideoBinding = itemLessonDetailVideoBinding;
+        }
+    }
+
+    private class LessonDetailLinkViewHolder extends RecyclerView.ViewHolder {
+        private final ItemLessonDetailLinkBinding itemLessonDetailLinkBinding;
+
+        LessonDetailLinkViewHolder(ItemLessonDetailLinkBinding itemLessonDetailLinkBinding) {
+            super(itemLessonDetailLinkBinding.getRoot());
+            this.itemLessonDetailLinkBinding = itemLessonDetailLinkBinding;
+        }
+    }
 }

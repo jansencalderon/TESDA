@@ -163,6 +163,7 @@ public class QuizActivity extends MvpViewStateActivity<QuizView, QuizPresenter> 
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         dialogInterface.dismiss();
+                        finish();
                     }
                 })
                 .setNegativeButton("CANCEL", null)

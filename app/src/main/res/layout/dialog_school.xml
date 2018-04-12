@@ -29,9 +29,13 @@
             android:text="@{item.address}" />
 
         <TextView
+            android:id="@+id/contact"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="6dp"
-            android:text="@{item.contact}" />
+            android:textSize="14sp"
+            android:drawableStart="@drawable/ic_phone_black_24dp"
+            android:text="@{item.contact}"
+            android:textStyle="bold" />
     </LinearLayout>
 </layout>

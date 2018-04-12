@@ -2,7 +2,9 @@ package com.tip.capstone.mlearning.ui.map;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.content.Intent;
 import android.databinding.DataBindingUtil;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -110,12 +112,20 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
 
     @Override
     public boolean onMarkerClick(Marker marker) {
-        DialogSchoolBinding schoolBinding = DataBindingUtil.inflate(
+        final DialogSchoolBinding schoolBinding = DataBindingUtil.inflate(
                 getLayoutInflater(),
                 R.layout.dialog_school,
                 null,
                 false);
         schoolBinding.setItem(realm.where(School.class).equalTo("id", Integer.parseInt(marker.getSnippet())).findFirst());
+        schoolBinding.contact.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent callIntent = new Intent(Intent.ACTION_DIAL);
+                callIntent.setData(Uri.parse("tel:" + schoolBinding.contact.getText().toString()));//change the number
+                startActivity(callIntent);
+            }
+        });
         Dialog dialog = new Dialog(this);
         dialog.setContentView(schoolBinding.getRoot());
         dialog.show();

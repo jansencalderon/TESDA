@@ -70,7 +70,7 @@ public class QuizPresenter extends MvpNullObjectBasePresenter<QuizView> {
      * @return return average using score/items * 50 + 50
      */
     double getAverage(int score, int items) {
-        double ave = (((double) score / (double) items) * 50.0) + 50.0;
+        double ave = (((double) score / (double) items) * 100.0);
         double a = score / items;
         Log.d(TAG, "getAverage: a:" + a);
         double b = a * 50;

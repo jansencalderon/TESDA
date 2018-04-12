@@ -72,7 +72,7 @@ public class QuizGrade extends RealmObject {
      * @return average of the grade score/items * 50 + 50
      */
     public long average() {
-        return Math.round(((double) rawScore / (double) itemCount) * 50.0) + 50;
+        return Math.round(((double) rawScore / (double) itemCount) * 100.0);
     }
 
     public int getCount() {

@@ -1,9 +1,11 @@
 package com.tip.capstone.mlearning.ui.lesson.detail;
 
 
+import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.databinding.DataBindingUtil;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
@@ -21,6 +23,7 @@ import android.widget.Toast;
 import com.hannesdorfmann.mosby.mvp.MvpFragment;
 import com.tip.capstone.mlearning.R;
 import com.tip.capstone.mlearning.app.Constant;
+import com.tip.capstone.mlearning.databinding.DialogTtsBinding;
 import com.tip.capstone.mlearning.databinding.FragmentLessonBinding;
 import com.tip.capstone.mlearning.helper.ResourceHelper;
 import com.tip.capstone.mlearning.model.Lesson;
@@ -135,7 +138,7 @@ public class LessonDetailListFragment
 
         textToSpeech = new TextToSpeech(getContext(), this);
         Log.d(TAG, "onStart: " + firstLessonId);
-        Log.d(TAG, "Lesson: "+lesson.getId()+" " + lesson.getTitle());
+        Log.d(TAG, "Lesson: " + lesson.getId() + " " + lesson.getTitle());
         for (int i = 0; i < lessonDetails.size(); i++) {
             if (lessonDetails.get(i).getId() == firstLessonId) {
                 binding.recyclerView.scrollToPosition(i);
@@ -157,22 +160,46 @@ public class LessonDetailListFragment
 
     @Override
     public void onDetailClick(final LessonDetail lessonDetail) {
-        new AlertDialog.Builder(getContext())
-                .setTitle("Text-to-Speech")
-                .setMessage("Listen to the selected Lesson?")
-                .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialogInterface, int i) {
-                        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                            textToSpeech.speak(lessonDetail.getBody(), TextToSpeech.QUEUE_FLUSH, null, lessonDetail.getId() + "");
-                        } else {
-                            //noinspection deprecation
-                            textToSpeech.speak(lessonDetail.getBody(), TextToSpeech.QUEUE_FLUSH, null);
+        if (lessonDetail.getBody_type().equals(Constant.DETAIL_TYPE_TEXT)) {
+            new AlertDialog.Builder(getContext())
+                    .setTitle("Text-to-Speech")
+                    .setMessage("Listen to the selected Lesson?")
+                    .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialogInterface, int i) {
+                            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                                textToSpeech.speak(lessonDetail.getBody(), TextToSpeech.QUEUE_FLUSH, null, lessonDetail.getId() + "");
+                                final DialogTtsBinding schoolBinding = DataBindingUtil.inflate(
+                                        getActivity().getLayoutInflater(),
+                                        R.layout.dialog_tts,
+                                        null,
+                                        false);
+
+                                final Dialog dialog = new Dialog(getActivity());
+                                dialog.setContentView(schoolBinding.getRoot()); schoolBinding.stop.setOnClickListener(new View.OnClickListener() {
+                                    @Override
+                                    public void onClick(View v) {
+                                        if (textToSpeech != null) {
+                                            textToSpeech.stop();
+                                        }
+                                        dialog.dismiss();
+                                    }
+                                });
+
+                                dialog.show();
+                            } else {
+                                //noinspection deprecation
+                                textToSpeech.speak(lessonDetail.getBody(), TextToSpeech.QUEUE_FLUSH, null);
+                            }
                         }
-                    }
-                })
-                .setNegativeButton("Cancel", null)
-                .show();
+                    })
+                    .setNegativeButton("Cancel", null)
+                    .show();
+        } else if (lessonDetail.getBody_type().equals(Constant.DETAIL_TYPE_LINK)) {
+            Log.d(TAG, "LINK");
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(lessonDetail.getBody()));
+            startActivity(browserIntent);
+        }
     }
 
     @Override
@@ -196,7 +223,7 @@ public class LessonDetailListFragment
 
     @Override
     public void imageZoom(LessonDetail lessonDetail) {
-        startActivity(new Intent(getActivity(), ZoomActivity.class).putExtra("pic",lessonDetail.getBody()));
+        startActivity(new Intent(getActivity(), ZoomActivity.class).putExtra("pic", lessonDetail.getBody()));
 
     }
 
