@@ -17,7 +17,7 @@
         android:orientation="vertical"
         tools:context="com.tip.capstone.mlearning.ui.quiz.QuizActivity">
 
-        <android.support.design.widget.AppBarLayout
+        <com.google.android.material.appbar.AppBarLayout
             android:id="@+id/appBarLayout"
             app:elevation="0dp"
             android:background="@drawable/bg_gradient"
@@ -26,7 +26,7 @@
             android:theme="@style/AppTheme.AppBarOverlay"
             app:popupTheme="@style/AppTheme.PopupOverlay">
 
-            <android.support.v7.widget.Toolbar
+            <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
@@ -38,7 +38,7 @@
                 android:padding="16dp"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead" />
 
-        </android.support.design.widget.AppBarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
 
         <LinearLayout
             android:id="@+id/mainPanel"
@@ -71,19 +71,19 @@
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                     android:textSize="16sp" />
 
-                <android.support.v7.widget.RecyclerView
+                <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/recycler_view_answer"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
 
 
-                <android.support.v7.widget.RecyclerView
+                <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/recycler_view_letter_choices"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
 
                 <!-- Visible if question type is MULTIPLE CHOICE -->
-                <android.support.v7.widget.RecyclerView
+                <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/recycler_view"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" />

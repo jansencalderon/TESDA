@@ -2,10 +2,10 @@ package com.tip.capstone.mlearning.ui.main;
 
 import android.app.Dialog;
 import android.content.Intent;
-import android.databinding.DataBindingUtil;
+import androidx.databinding.DataBindingUtil;
 import android.os.Bundle;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 
 import com.tip.capstone.mlearning.R;

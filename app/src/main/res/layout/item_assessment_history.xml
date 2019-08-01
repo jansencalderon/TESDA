@@ -9,7 +9,7 @@
             type="com.tip.capstone.mlearning.model.AssessmentGrade" />
     </data>
 
-    <android.support.percent.PercentRelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    <androidx.percentlayout.widget.PercentRelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingBottom="6dp"
@@ -36,6 +36,6 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             app:layout_widthPercent="50%" />
 
-    </android.support.percent.PercentRelativeLayout>
+    </androidx.percentlayout.widget.PercentRelativeLayout>
 
 </layout>
